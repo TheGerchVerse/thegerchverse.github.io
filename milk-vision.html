@@ -464,25 +464,35 @@
     }
     
     /* INSTANT KILL: All potential popups start invisible */
-[class*="chaos"],
-[class*="mediocrates"],
-[class*="gpu"],
-[class*="regret"],
-[class*="notification"],
-[class*="tier"],
-[class*="display"],
+[class*="chaos-popup"],
+[class*="chaos-notification"],
+[class*="gpu-regret"],
+[class*="gpu-notification"],
+[class*="tier-display"],
+[class*="quality-display"],
 [class*="popup"]:not(.mv-card):not(.mv-card-overlay):not(.mv-external):not(.ticker-marquee):not([class*="stock-ticker"]),
-[id*="chaos"],
-[id*="mediocrates"],
-[id*="gpu"],
-[id*="regret"],
-[id*="tier"]:not(#stockTicker) {
+[id*="chaos-popup"],
+[id*="gpu-regret"],
+[id*="tier-display"]:not(#stockTicker) {
   opacity: 0 !important;
   visibility: hidden !important;
   display: none !important;
   pointer-events: none !important;
   animation: none !important;
   transition: none !important;
+}
+
+/* EXPLICIT ALLOW: Mediocrates character content (NOT popups) */
+[id="grid-mediocrates"],
+[id="pagination-mediocrates"],
+[id="prev-mediocrates"],
+[id="next-mediocrates"],
+.mv-character-header:has(img[alt="Mediocrates"]),
+.mv-character-header:has(h3:contains("Mediocrates")) {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  pointer-events: auto !important;
 }
 
 /* EXPLICIT ALLOW: Stock ticker must show */
