@@ -463,31 +463,37 @@
       text-align: center;
     }
     
-    /* INSTANT KILL: All potential popups start invisible */
-[class*="chaos-popup"],
-[class*="chaos-notification"],
-[class*="gpu-regret"],
-[class*="gpu-notification"],
-[class*="tier-display"],
-[class*="quality-display"],
-[class*="popup"]:not(.mv-card):not(.mv-card-overlay):not(.mv-external):not(.ticker-marquee):not([class*="stock-ticker"]),
-[id*="chaos-popup"],
-[id*="gpu-regret"],
-[id*="tier-display"]:not(#stockTicker) {
+    /* INSTANT KILL: Only specific elements, not entire characters */
+[class*="mediocrates-badge"],
+[class*="q5-certified"],
+[class*="certified-badge"],
+[id*="mediocrates-badge"],
+[id*="q5-certified"] {
   opacity: 0 !important;
   visibility: hidden !important;
   display: none !important;
   pointer-events: none !important;
-  animation: none !important;
-  transition: none !important;
 }
 
-/* EXPLICIT ALLOW: Mediocrates character content (NOT popups) */
+/* Kill profits counter on top-right */
+.profit,
+[class*="profit-counter"],
+[id*="profit-counter"],
+div[class*="profit"]:not(.mv-card):not(.mv-card-overlay),
+.profit-display,
+#profitDisplay {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* EXPLICIT ALLOW: Mediocrates character section must show */
 [id="grid-mediocrates"],
 [id="pagination-mediocrates"],
 [id="prev-mediocrates"],
 [id="next-mediocrates"],
-.mv-character-header:has(img[alt="Mediocrates"]),
+.mv-character-header img[alt="Mediocrates"],
 .mv-character-header:has(h3:contains("Mediocrates")) {
   opacity: 1 !important;
   visibility: visible !important;
