@@ -558,7 +558,290 @@ div[class*="profit"]:not(.mv-card):not(.mv-card-overlay),
       }
     }
 
-  </style>
+  
+/* ============================================
+   SMART PAGINATION SYSTEM v1.0
+   Auto-detects all .mv-grid elements
+   ============================================ */
+
+/* Smart Pagination Container */
+.mv-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(0,255,255,0.05);
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+/* Prev/Next Buttons */
+.mv-page-btn {
+  background: transparent;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mv-page-btn:hover:not(:disabled) {
+  background: #00FFFF;
+  color: #000;
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+  transform: translateY(-2px);
+}
+
+.mv-page-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: #666;
+  color: #666;
+}
+
+/* Page Number Buttons */
+.mv-page-number {
+  background: transparent;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mv-page-number:hover:not(.active):not(.ellipsis) {
+  background: rgba(0,255,255,0.2);
+  box-shadow: 0 0 15px rgba(0,255,255,0.4);
+  transform: translateY(-2px);
+}
+
+/* Active Page (Magenta) */
+.mv-page-number.active {
+  background: #FF007F;
+  border-color: #FF007F;
+  color: #000;
+  box-shadow: 0 0 20px rgba(255,0,127,0.6);
+  font-weight: 700;
+}
+
+/* Ellipsis Button */
+.mv-page-number.ellipsis {
+  border-color: #666;
+  color: #888;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.mv-page-number.ellipsis:hover {
+  border-color: #00FFFF;
+  color: #00FFFF;
+  background: rgba(0,255,255,0.1);
+}
+
+/* Page Info Display */
+.mv-page-info {
+  color: #E0E0E0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  margin: 0 0.5rem;
+  white-space: nowrap;
+}
+
+/* Jump Dropdown Button */
+.mv-jump-btn {
+  background: transparent;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 40px;
+}
+
+.mv-jump-btn:hover {
+  background: rgba(255,215,0,0.2);
+  box-shadow: 0 0 15px rgba(255,215,0,0.4);
+}
+
+.mv-jump-btn .arrow {
+  font-size: 0.6rem;
+  transition: transform 0.3s ease;
+}
+
+.mv-jump-btn.open .arrow {
+  transform: rotate(180deg);
+}
+
+/* Jump Dropdown Menu */
+.mv-jump-dropdown {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background: rgba(0,0,0,0.95);
+  border: 2px solid #FFD700;
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-width: 80px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+  display: none;
+  box-shadow: 0 -10px 30px rgba(255,215,0,0.3);
+}
+
+.mv-jump-dropdown.open {
+  display: block;
+  animation: slideUp 0.2s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.mv-jump-option {
+  background: transparent;
+  border: none;
+  color: #FFD700;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.mv-jump-option:hover {
+  background: rgba(255,215,0,0.2);
+}
+
+/* Pagination Numbers Container */
+.mv-page-numbers {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .mv-pagination {
+    position: relative;
+    padding: 0.8rem 0.5rem;
+    gap: 0.3rem;
+  }
+  
+  .mv-page-numbers {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    max-width: calc(100vw - 120px);
+    padding-right: 20px;
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+  
+  .mv-page-numbers::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .mv-page-number {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    min-width: 36px;
+    min-height: 36px;
+    flex-shrink: 0;
+  }
+  
+  .mv-page-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+    min-width: 40px;
+    min-height: 40px;
+  }
+  
+  .mv-page-info {
+    font-size: 0.75rem;
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Jump button below on mobile */
+  .mv-jump-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .mv-jump-dropdown {
+    bottom: auto;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0 10px 30px rgba(255,215,0,0.3);
+  }
+}
+
+@media (max-width: 480px) {
+  .mv-page-numbers {
+    max-width: calc(100vw - 100px);
+  }
+  
+  .mv-page-number {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+    min-width: 32px;
+    min-height: 32px;
+  }
+  
+  .mv-page-btn {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+/* Jump wrapper for positioning */
+.mv-jump-wrapper {
+  position: relative;
+}
+
+/* All pages expanded mode (after clicking ellipsis) */
+.mv-page-numbers.expanded .mv-page-number.ellipsis {
+  display: none;
+}
+
+</style>
 </head>
 <body>
 
@@ -5346,6 +5629,392 @@ div[class*="profit"]:not(.mv-card):not(.mv-card-overlay),
 </div>
 
 <script src="./gerchverse.js"></script>
+
+<!-- Smart Pagination System -->
+<script>
+// ============================================
+// SMART PAGINATION SYSTEM v1.0
+// Auto-detects all .mv-grid elements
+// ============================================
+
+// Configuration
+const SMART_PAGE_SIZE = 12; // Videos per page
+
+// Store pagination state for each grid
+const paginationState = {};
+
+/**
+ * Initialize smart pagination for ALL grids on the page
+ * Auto-detects .mv-grid elements without hardcoded list
+ */
+function initSmartPagination() {
+  const allGrids = document.querySelectorAll('.mv-grid');
+  
+  allGrids.forEach(grid => {
+    const gridId = grid.id.replace('grid-', '');
+    if (gridId) {
+      initPaginationForGrid(gridId);
+    }
+  });
+  
+  console.log(`🥛 Smart Pagination: Initialized for ${allGrids.length} grids`);
+}
+
+/**
+ * Initialize pagination for a specific grid
+ */
+function initPaginationForGrid(gridId) {
+  const grid = document.getElementById(`grid-${gridId}`);
+  const paginationContainer = document.getElementById(`pagination-${gridId}`);
+  
+  if (!grid || !paginationContainer) return;
+  
+  const cards = Array.from(grid.querySelectorAll('.mv-card'));
+  const totalPages = Math.ceil(cards.length / SMART_PAGE_SIZE) || 1;
+  
+  // Store state
+  paginationState[gridId] = {
+    currentPage: 1,
+    totalPages: totalPages,
+    expanded: false, // Track if ellipsis was clicked
+    cards: cards
+  };
+  
+  // Assign data-page attributes to cards
+  cards.forEach((card, index) => {
+    const pageNum = Math.floor(index / SMART_PAGE_SIZE) + 1;
+    card.setAttribute('data-page', pageNum);
+  });
+  
+  // Build the pagination UI
+  buildPaginationUI(gridId, paginationContainer);
+  
+  // Show first page
+  showPage(gridId, 1);
+}
+
+/**
+ * Build the complete pagination UI with page numbers
+ */
+function buildPaginationUI(gridId, container) {
+  const state = paginationState[gridId];
+  const totalPages = state.totalPages;
+  
+  // Clear existing content except keep the basic structure
+  const prevBtn = container.querySelector(`#prev-${gridId}`);
+  const nextBtn = container.querySelector(`#next-${gridId}`);
+  const pageInfo = container.querySelector('.mv-page-info');
+  
+  // Create the page numbers container
+  let pageNumbersContainer = container.querySelector('.mv-page-numbers');
+  if (!pageNumbersContainer) {
+    pageNumbersContainer = document.createElement('div');
+    pageNumbersContainer.className = 'mv-page-numbers';
+    pageNumbersContainer.id = `page-numbers-${gridId}`;
+    
+    // Insert between prev and next buttons
+    if (nextBtn) {
+      container.insertBefore(pageNumbersContainer, nextBtn);
+    } else {
+      container.appendChild(pageNumbersContainer);
+    }
+  }
+  
+  // Create jump button wrapper if doesn't exist
+  let jumpWrapper = container.querySelector('.mv-jump-wrapper');
+  if (!jumpWrapper && totalPages > 5) {
+    jumpWrapper = document.createElement('div');
+    jumpWrapper.className = 'mv-jump-wrapper';
+    jumpWrapper.innerHTML = `
+      <button class="mv-jump-btn" id="jump-btn-${gridId}" onclick="toggleJumpDropdown('${gridId}')">
+        Jump <span class="arrow">▼</span>
+      </button>
+      <div class="mv-jump-dropdown" id="jump-dropdown-${gridId}"></div>
+    `;
+    container.appendChild(jumpWrapper);
+    
+    // Populate jump dropdown
+    populateJumpDropdown(gridId);
+  }
+  
+  // Generate page number buttons
+  generatePageButtons(gridId);
+  
+  // Update prev/next button handlers
+  if (prevBtn) {
+    prevBtn.onclick = () => changeSmartPage(gridId, -1);
+  }
+  if (nextBtn) {
+    nextBtn.onclick = () => changeSmartPage(gridId, 1);
+  }
+}
+
+/**
+ * Generate page number buttons with ellipsis logic
+ */
+function generatePageButtons(gridId) {
+  const container = document.getElementById(`page-numbers-${gridId}`);
+  if (!container) return;
+  
+  const state = paginationState[gridId];
+  const totalPages = state.totalPages;
+  const currentPage = state.currentPage;
+  const expanded = state.expanded;
+  
+  let html = '';
+  
+  if (totalPages <= 7 || expanded) {
+    // Show all pages
+    for (let i = 1; i <= totalPages; i++) {
+      html += createPageButton(gridId, i, i === currentPage);
+    }
+  } else {
+    // Smart ellipsis display
+    // Always show: 1, 2, 3 ... current-1, current, current+1 ... last-2, last-1, last
+    
+    const showStart = [1, 2, 3];
+    const showEnd = [totalPages - 2, totalPages - 1, totalPages];
+    
+    // Pages around current
+    const aroundCurrent = [];
+    for (let i = Math.max(1, currentPage - 1); i <= Math.min(totalPages, currentPage + 1); i++) {
+      if (!showStart.includes(i) && !showEnd.includes(i)) {
+        aroundCurrent.push(i);
+      }
+    }
+    
+    // Build the sequence
+    const pages = [];
+    
+    // Start pages
+    showStart.forEach(p => pages.push(p));
+    
+    // Ellipsis before current if needed
+    const needsBeforeEllipsis = aroundCurrent.length > 0 && aroundCurrent[0] > 4;
+    if (needsBeforeEllipsis) {
+      pages.push('...');
+    }
+    
+    // Pages around current
+    aroundCurrent.forEach(p => pages.push(p));
+    
+    // Ellipsis after current if needed
+    const needsAfterEllipsis = aroundCurrent.length > 0 && aroundCurrent[aroundCurrent.length - 1] < totalPages - 3;
+    if (needsAfterEllipsis) {
+      pages.push('...');
+    }
+    
+    // End pages (avoid duplicates)
+    showEnd.forEach(p => {
+      if (!pages.includes(p)) {
+        pages.push(p);
+      }
+    });
+    
+    // Generate buttons
+    pages.forEach(page => {
+      if (page === '...') {
+        html += `<button class="mv-page-number ellipsis" onclick="expandEllipsis('${gridId}')">...</button>`;
+      } else {
+        html += createPageButton(gridId, page, page === currentPage);
+      }
+    });
+  }
+  
+  container.innerHTML = html;
+}
+
+/**
+ * Create a single page number button HTML
+ */
+function createPageButton(gridId, pageNum, isActive) {
+  const activeClass = isActive ? 'active' : '';
+  return `<button class="mv-page-number ${activeClass}" onclick="goToSmartPage('${gridId}', ${pageNum})" data-page="${pageNum}">${pageNum}</button>`;
+}
+
+/**
+ * Expand ellipsis to show all pages
+ */
+function expandEllipsis(gridId) {
+  paginationState[gridId].expanded = true;
+  generatePageButtons(gridId);
+}
+
+/**
+ * Go to a specific page
+ */
+function goToSmartPage(gridId, pageNum) {
+  const state = paginationState[gridId];
+  
+  if (pageNum < 1 || pageNum > state.totalPages) return;
+  
+  state.currentPage = pageNum;
+  
+  // Show the page
+  showPage(gridId, pageNum);
+  
+  // Update UI
+  generatePageButtons(gridId);
+  updateButtonStates(gridId);
+  updatePageInfo(gridId);
+}
+
+/**
+ * Change page by direction (+1 or -1)
+ */
+function changeSmartPage(gridId, direction) {
+  const state = paginationState[gridId];
+  const newPage = state.currentPage + direction;
+  
+  goToSmartPage(gridId, newPage);
+}
+
+/**
+ * Show cards for a specific page
+ */
+function showPage(gridId, pageNum) {
+  const state = paginationState[gridId];
+  const cards = state.cards;
+  
+  // Hide all cards
+  cards.forEach(card => card.style.display = 'none');
+  
+  // Show cards for this page
+  cards.forEach(card => {
+    const cardPage = parseInt(card.getAttribute('data-page'));
+    if (cardPage === pageNum) {
+      card.style.display = 'block';
+    }
+  });
+}
+
+/**
+ * Update prev/next button states
+ */
+function updateButtonStates(gridId) {
+  const state = paginationState[gridId];
+  const prevBtn = document.getElementById(`prev-${gridId}`);
+  const nextBtn = document.getElementById(`next-${gridId}`);
+  
+  if (prevBtn) prevBtn.disabled = state.currentPage === 1;
+  if (nextBtn) nextBtn.disabled = state.currentPage >= state.totalPages;
+}
+
+/**
+ * Update page info display
+ */
+function updatePageInfo(gridId) {
+  const state = paginationState[gridId];
+  const pageNumEl = document.getElementById(`page-num-${gridId}`);
+  const pageTotalEl = document.getElementById(`page-total-${gridId}`);
+  
+  if (pageNumEl) pageNumEl.textContent = state.currentPage;
+  if (pageTotalEl) pageTotalEl.textContent = state.totalPages;
+}
+
+/**
+ * Populate jump dropdown with every 5th page
+ */
+function populateJumpDropdown(gridId) {
+  const dropdown = document.getElementById(`jump-dropdown-${gridId}`);
+  if (!dropdown) return;
+  
+  const state = paginationState[gridId];
+  const totalPages = state.totalPages;
+  
+  let html = '';
+  
+  // Add every 5th page
+  for (let i = 5; i <= totalPages; i += 5) {
+    html += `<button class="mv-jump-option" onclick="goToSmartPage('${gridId}', ${i}); closeJumpDropdown('${gridId}')">${i}</button>`;
+  }
+  
+  // Always add last page if not already included
+  if (totalPages % 5 !== 0) {
+    html += `<button class="mv-jump-option" onclick="goToSmartPage('${gridId}', ${totalPages}); closeJumpDropdown('${gridId}')">${totalPages}</button>`;
+  }
+  
+  dropdown.innerHTML = html;
+}
+
+/**
+ * Toggle jump dropdown
+ */
+function toggleJumpDropdown(gridId) {
+  const dropdown = document.getElementById(`jump-dropdown-${gridId}`);
+  const btn = document.getElementById(`jump-btn-${gridId}`);
+  
+  if (!dropdown) return;
+  
+  const isOpen = dropdown.classList.contains('open');
+  
+  // Close all other dropdowns first
+  document.querySelectorAll('.mv-jump-dropdown').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.mv-jump-btn').forEach(b => b.classList.remove('open'));
+  
+  if (!isOpen) {
+    dropdown.classList.add('open');
+    btn.classList.add('open');
+  }
+}
+
+/**
+ * Close jump dropdown
+ */
+function closeJumpDropdown(gridId) {
+  const dropdown = document.getElementById(`jump-dropdown-${gridId}`);
+  const btn = document.getElementById(`jump-btn-${gridId}`);
+  
+  if (dropdown) dropdown.classList.remove('open');
+  if (btn) btn.classList.remove('open');
+}
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.mv-jump-wrapper')) {
+    document.querySelectorAll('.mv-jump-dropdown').forEach(d => d.classList.remove('open'));
+    document.querySelectorAll('.mv-jump-btn').forEach(b => b.classList.remove('open'));
+  }
+});
+
+// ============================================
+// OVERRIDE EXISTING PAGINATION FUNCTIONS
+// ============================================
+
+// Override the original initPagination to use smart pagination
+const originalInitPagination = window.initPagination;
+window.initPagination = function() {
+  initSmartPagination();
+};
+
+// Override changePage to use smart pagination
+const originalChangePage = window.changePage;
+window.changePage = function(character, direction) {
+  if (paginationState[character]) {
+    changeSmartPage(character, direction);
+  } else {
+    // Fallback to original if not initialized
+    if (originalChangePage) originalChangePage(character, direction);
+  }
+};
+
+// ============================================
+// INITIALIZE ON DOM READY
+// ============================================
+
+// Run when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initSmartPagination);
+} else {
+  // DOM already loaded
+  initSmartPagination();
+}
+
+// Also run after a short delay to ensure gerchverse.js has loaded
+setTimeout(initSmartPagination, 500);
+
+</script>
+
 
 <script>
 // PREEMPTIVE DOM INTERCEPTOR: Block chaos popups, mediocrates, AND GPU regret messages
