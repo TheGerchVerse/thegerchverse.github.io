@@ -8192,5 +8192,53 @@ setTimeout(initSmartPagination, 500);
 })();
 </script>
 
+<!-- FIX: Ensure Music Videos section is visible -->
+<script>
+(function() {
+  function initMusicVideos() {
+    const grid = document.getElementById('grid-arc-musicvideos');
+    if (!grid) {
+      console.error('Music Videos grid not found');
+      return;
+    }
+    
+    const cards = grid.querySelectorAll('.mv-card');
+    const CARDS_PER_PAGE = 12;
+    const totalPages = Math.ceil(cards.length / CARDS_PER_PAGE) || 1;
+    
+    // Assign data-page attributes
+    cards.forEach((card, index) => {
+      const pageNum = Math.floor(index / CARDS_PER_PAGE) + 1;
+      card.setAttribute('data-page', pageNum);
+      // Show page 1 cards, hide others
+      card.style.display = (pageNum === 1) ? 'block' : 'none';
+    });
+    
+    // Update pagination display
+    const pageNumEl = document.getElementById('page-num-arc-musicvideos');
+    const pageTotalEl = document.getElementById('page-total-arc-musicvideos');
+    if (pageNumEl) pageNumEl.textContent = '1';
+    if (pageTotalEl) pageTotalEl.textContent = totalPages;
+    
+    // Update button states
+    const prevBtn = document.getElementById('prev-arc-musicvideos');
+    const nextBtn = document.getElementById('next-arc-musicvideos');
+    if (prevBtn) prevBtn.disabled = true;
+    if (nextBtn) nextBtn.disabled = (totalPages <= 1);
+    
+    console.log('🎵 Music Videos initialized:', cards.length, 'cards,', totalPages, 'pages');
+  }
+  
+  // Run after a delay to ensure other scripts have loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(initMusicVideos, 1000);
+    });
+  } else {
+    setTimeout(initMusicVideos, 1000);
+  }
+})();
+</script>
+
 </body>
 </html>
