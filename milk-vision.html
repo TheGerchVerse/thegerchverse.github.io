@@ -409,44 +409,28 @@
       text-align: center;
     }
     
-    /* ABSOLUTE POPUP KILLER - CSS Layer */
-[class*="mediocrates"],
-[class*="mediocrates-badge"],
-[class*="mediocrates-popup"],
-[id*="mediocrates"],
-[id*="mediocrates-badge"],
-[id*="mediocrates-popup"],
-[class*="q5-certified"],
-[class*="certified-badge"],
-[id*="q5-certified"],
-[id*="certified-badge"],
-[class*="popup"],
-[class*="popup-modal"],
-[id*="popup"],
-[class*="notification"],
-[class*="toast"],
-[class*="alert-box"],
-[class*="banner"],
-[class*="badge"]:not(.mv-card):not(.mv-card-overlay),
-[class*="floating"],
-[class*="tier-display"],
-[class*="gpu-regret"],
-[class*="quality-notice"],
-[class*="compute-warning"],
-[class*="profit-counter"],
-[class*="profit-display"],
-[id*="profit-counter"],
-[id*="profit-display"],
-.profit,
+    /* POPUP BLOCKER - CSS Layer (specific selectors only) */
+.mediocrates-badge,
+.mediocrates-popup,
+.q5-certified,
+.certified-badge,
+.popup-modal,
+.notification-toast,
+.alert-box,
+.tier-display,
+.gpu-regret,
+.quality-notice,
+.compute-warning,
+.profit-counter,
 .profit-display,
 #profitDisplay,
-div[class*="profit"]:not(.mv-card):not(.mv-card-overlay):not(.mv-character-info) {
+#profit-counter,
+#mediocrates-badge,
+#q5-certified {
   opacity: 0 !important;
   visibility: hidden !important;
   display: none !important;
   pointer-events: none !important;
-  position: absolute !important;
-  z-index: -9999 !important;
 }
 
 /* EXPLICIT ALLOW: Mediocrates character section must show */
@@ -7923,67 +7907,67 @@ setTimeout(initSmartPagination, 500);
 
 
 <script>
-// ABSOLUTE POPUP BLOCKER - Kill ALL popups, badges, notifications, overlays
+// POPUP BLOCKER - Targeted blocking of specific popup elements
 (function() {
-  // List of patterns that indicate a popup/notification element
-  const blockedPatterns = [
-    // Class/ID patterns
-    'mediocrates', 'q5-certified', 'certified-badge', 'popup', 'modal', 'overlay',
-    'notification', 'toast', 'alert-box', 'banner', 'badge', 'floating',
-    'tier-display', 'gpu-regret', 'quality-notice', 'compute-warning',
-    'profit-counter', 'profit-display', 'profit-badge',
-    
-    // Text content patterns (partial matches)
-    'this site has accepted', 'you should too', 'gpu', 'quality', 'regret',
-    'compute', 'token', 'exhaustion', 'approved by mediocrates',
-    'q5 certified', 'certified by', 'profit', 'profits: q'
+  // Specific class/ID patterns for known popup elements
+  const blockedClasses = [
+    'mediocrates-badge',
+    'mediocrates-popup', 
+    'q5-certified',
+    'certified-badge',
+    'popup-modal',
+    'notification-toast',
+    'alert-box',
+    'tier-display',
+    'gpu-regret',
+    'quality-notice',
+    'compute-warning',
+    'profit-counter',
+    'profit-display'
   ];
   
-  // Check if element matches any blocked pattern
+  const blockedIds = [
+    'mediocrates-badge',
+    'mediocrates-popup',
+    'q5-certified',
+    'certified-badge',
+    'profitDisplay',
+    'profit-counter'
+  ];
+  
+  // Check if element should be blocked
   function shouldBlock(el) {
-    const className = (el.className || '').toLowerCase();
+    const className = ' ' + (el.className || '').toLowerCase() + ' ';
     const id = (el.id || '').toLowerCase();
     const text = (el.textContent || '').toLowerCase();
-    const tagName = el.tagName.toLowerCase();
     
     // NEVER block these essential elements
-    if (id === 'stockticker' || 
-        className.includes('stock-ticker') ||
-        className.includes('ticker-marquee') ||
+    if (id === 'stockticker' || id === 'stockTicker' ||
+        className.includes(' stock-ticker ') ||
+        className.includes(' ticker-marquee ') ||
         el.closest('#stockTicker')) {
       return false;
     }
     
-    // Check class names
-    for (const pattern of blockedPatterns) {
-      if (className.includes(pattern)) return true;
-      if (id.includes(pattern)) return true;
+    // Check for exact class matches
+    for (const cls of blockedClasses) {
+      if (className.includes(' ' + cls + ' ')) return true;
     }
     
-    // Check text content for specific phrases
+    // Check for exact ID matches
+    for (const blockedId of blockedIds) {
+      if (id === blockedId) return true;
+    }
+    
+    // Check text content for specific popup phrases only
     if (text.includes('this site has accepted') ||
         text.includes('you should too') ||
         text.includes('approved by mediocrates') ||
         text.includes('q5 certified') ||
-        (text.includes('gpu') && text.includes('regret')) ||
-        (text.includes('quality') && text.includes('degraded')) ||
-        (text.includes('token') && text.includes('exhaustion'))) {
+        text.includes('gpu regret') ||
+        text.includes('quality degraded') ||
+        text.includes('token exhaustion')) {
       return true;
-    }
-    
-    // Check for fixed/absolute positioned elements that look like popups
-    const style = window.getComputedStyle(el);
-    const position = style.position;
-    const zIndex = parseInt(style.zIndex) || 0;
-    
-    // Block fixed positioned elements with high z-index (typical popup behavior)
-    if ((position === 'fixed' || position === 'sticky') && zIndex > 100) {
-      // But only if they contain certain keywords
-      const combinedText = (className + ' ' + id + ' ' + text).toLowerCase();
-      const popupKeywords = ['popup', 'modal', 'notification', 'banner', 'toast', 'badge', 'overlay', 'certified', 'approved', 'mediocrates'];
-      for (const kw of popupKeywords) {
-        if (combinedText.includes(kw)) return true;
-      }
     }
     
     return false;
@@ -7996,18 +7980,7 @@ setTimeout(initSmartPagination, 500);
         if (node.nodeType === 1) { // Element node
           if (shouldBlock(node)) {
             node.remove();
-            console.log('🚫 BLOCKED:', node.className || node.id || node.textContent.substring(0, 40));
-          }
-          
-          // Also check children that were added as part of this node
-          if (node.querySelectorAll) {
-            const children = node.querySelectorAll('*');
-            children.forEach(function(child) {
-              if (shouldBlock(child)) {
-                child.remove();
-                console.log('🚫 BLOCKED child:', child.className || child.id);
-              }
-            });
+            console.log('🚫 BLOCKED:', node.className || node.id);
           }
         }
       });
@@ -8021,7 +7994,6 @@ setTimeout(initSmartPagination, 500);
       subtree: true
     });
   } else {
-    // Wait for body to exist
     document.addEventListener('DOMContentLoaded', function() {
       observer.observe(document.body, {
         childList: true,
@@ -8030,21 +8002,7 @@ setTimeout(initSmartPagination, 500);
     });
   }
   
-  // Also nuke any existing popups immediately
-  function nukeExistingPopups() {
-    const allElements = document.querySelectorAll('*');
-    allElements.forEach(function(el) {
-      if (shouldBlock(el)) {
-        el.remove();
-      }
-    });
-  }
-  
-  // Run immediately and periodically
-  nukeExistingPopups();
-  setInterval(nukeExistingPopups, 500);
-  
-  console.log('🚫 ABSOLUTE POPUP BLOCKER: Active - All popups, badges, and notifications will be destroyed');
+  console.log('🚫 Popup blocker active');
 })();
 </script>
 
