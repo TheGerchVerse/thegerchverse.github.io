@@ -131,6 +131,9 @@
   // ==========================================
   
   function initQ5Badge() {
+    // Skip on pages with data-no-popups attribute
+    if (document.body.hasAttribute('data-no-popups')) return;
+    
     if (Math.random() < 0.15) {
       const badge = document.createElement('div');
       badge.innerHTML = '🏆 Q5 CERTIFIED<br><small>Mediocrates Approved</small>';
@@ -185,6 +188,9 @@
   // ==========================================
   
   function initTierDisplay() {
+    // Skip on pages with data-no-popups attribute
+    if (document.body.hasAttribute('data-no-popups')) return;
+    
     tierDisplay = document.createElement('div');
     tierDisplay.className = 'tier-display';
     document.body.appendChild(tierDisplay);
@@ -275,6 +281,9 @@
   // ==========================================
   
   function handleClick(e) {
+    // Skip popups on pages with data-no-popups attribute
+    if (document.body.hasAttribute('data-no-popups')) return;
+    
     if (e.target.closest('.hamburger-btn') || 
         e.target.closest('.mobile-menu') ||
         e.target.closest('.mobile-backdrop') ||
@@ -387,6 +396,9 @@
     }
     
     profit.setAttribute('title', timeMessage);
+    
+    // Skip time badge on pages with data-no-popups attribute
+    if (document.body.hasAttribute('data-no-popups')) return;
     
     const timeBadge = document.createElement('div');
     timeBadge.style.cssText = `
