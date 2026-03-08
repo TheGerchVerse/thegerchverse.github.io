@@ -223,10 +223,3 @@ const CHARACTERS = {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { VIDEO_DB, CHARACTERS };
 }
-
-// Log summary (JavaScript)
-console.log("videos.js structure created");
-console.log(`Total characters defined: ${Object.keys(CHARACTERS).length}`);
-console.log("Amit videos migrated: 36 (first 3 pages)");
-console.log("Multi videos included: 6");
-console.log("Arcs defined: 11");
