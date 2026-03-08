@@ -237,15 +237,31 @@ const VIDEO_DB = {
       { id: "s_69724578df40819186361433556b72e9", thumb: "amit-light-amit-concept-01", oneLiner: "Light Amit Concept Ver 1.", arc: null },
       { id: "s_697245b0e008819199bf20643cdd65fc", thumb: "amit-light-amit-concept-02", oneLiner: "Light Amit Concept Ver 2.", arc: null },
       { id: "s_6972490ebc88819184ba50bb7bb7d583", thumb: "amit-dark-amit-concept-01", oneLiner: "Dark Amit Concept Ver 1.", arc: null },
-      { id: "s_6972492aacd88191a341381cbbc8b0d2", thumb: "amit-dark-amit-concept-02", oneLiner: "Dark Amit Concept Ver 2.", arc: null }
-
-      
-      // Continue through all 18 pages... (truncated for brevity, you get the pattern)
-      // Pages 4-18 would continue here with the same structure
+      { id: "s_6972492aacd88191a341381cbbc8b0d2", thumb: "amit-dark-amit-concept-02", oneLiner: "Dark Amit Concept Ver 2.", arc: null },
     ],
     
     // Other characters (to be migrated)
-    lizzie: [],
+    lizzie: [
+      // Page 1
+      { id: "s_6925d4046970819181ade1af335553cf", thumb: "solo-lizzie-ionix-intro", oneLiner: "This is Ionix.", arc: null },
+      { id: "s_6920a25f0a608191be14559b83244e72", thumb: "solo-lizzie-self-pep-talk", oneLiner: "Lizzie prepares to pitch to investors.", arc: null },
+      { id: "s_691eb06691a88191b48e56069b8601f2", thumb: "solo-lizzie-amit-invests", oneLiner: "First investor secured.", arc: null },
+      { id: "s_691f7f62c0688191868d74d930b4fb60", thumb: "solo-lizzie-progress-optional", oneLiner: "Visibility is optional.", arc: null },
+      { id: "s_691f7c006244819193d9e093c2693719", thumb: "solo-lizzie-technical-difficulties", oneLiner: "Technical difficulties.", arc: null },
+      { id: "s_69209e853a548191b95f3d5f2afce97e", thumb: "solo-lizzie-non-communication", oneLiner: "Lizzie ignores the FTC.", arc: null },
+      { id: "s_691f7c20b4b08191a6703297f387fd2d", thumb: "solo-lizzie-nocturnal-clients", oneLiner: "Lizzie's nocturnal clients.", arc: null },
+      { id: "s_691f505e9d748191aae19d2b73fdec12", thumb: "solo-lizzie-blood-analyzer-toy", oneLiner: "Blood Analyzer for kids.", arc: null },
+      { id: "s_6929fb4571b48191a40d6b9376a7a633", thumb: "solo-lizzie-vegan-cheese", oneLiner: "Lizzie marketing her Vegan Cheese brand.", arc: null },
+      { id: "s_692c6e6809348191894dc82d2301dce1", thumb: "solo-lizzie-anti-age", oneLiner: "Lizzie's secret weapon.", arc: null },
+      { id: "s_693d23e2d0908191987382192c68c34e", thumb: "solo-lizzie-xmas-spirit", oneLiner: "Lizzie and Ionix is here to help. Happy Holidays.", arc: null },
+      { id: "s_6945e67dd9548191b1e6349a8c141971", thumb: "solo-lizzie-market-shenanigans", oneLiner: "Lizzie plans to tank Gerchan Farms.", arc: null },
+      
+      // Page 2
+
+
+
+      
+    ],
     leon: [],
     bigtex: [],
     gadha: [],
