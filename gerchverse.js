@@ -1269,31 +1269,31 @@ function initGerchanFooterCounter() {
     return { status: 'OPEN', message: 'OPEN' };
   }
 
-  function createTickerHTML(prices) {
-    const marketStatus = getMarketStatus();
-    const isMobile = window.innerWidth <= 768;
-    const batchSize = isMobile ? 2 : MARQUEE_HEADLINES.length;
-    const batch = getNextShuffledBatch(batchSize);
-    const tape = batch.join(" &nbsp;&nbsp;&nbsp; 🔹 &nbsp;&nbsp;&nbsp; ");
+  function function createTickerHTML(prices) {
+  const marketStatus = getMarketStatus();
+  const isMobile = window.innerWidth <= 768;
+  const batchSize = isMobile ? 10 : 20;  // Shows 10 headlines on mobile, 20 on desktop
+  const batch = getNextShuffledBatch(batchSize);
+  const tape = batch.join(" &nbsp;&nbsp;&nbsp; 🔹 &nbsp;&nbsp;&nbsp; ");
 
-    const tickerItems = prices.map((stock) => {
-      const change = calculateChange(stock.previousPrice, stock.currentPrice);
-      const changeClass = change >= 0 ? 'ticker-up' : 'ticker-down';
-      const changeSymbol = change >= 0 ? '▲' : '▼';
-      
-      return `
-        <div class="ticker-item" data-symbol="${stock.symbol}">
-          <div class="ticker-price-row">
-            <span class="ticker-symbol">${stock.symbol}</span>
-            <span class="ticker-price">${formatPrice(stock.currentPrice)}</span>
-          </div>
-          <div class="ticker-details-row">
-            <span class="ticker-change ${changeClass}">${changeSymbol} ${Math.abs(change)}%</span>
-            <span class="ticker-volume">${stock.volume}</span>
-          </div>
+  const tickerItems = prices.map((stock) => {
+    const change = calculateChange(stock.previousPrice, stock.currentPrice);
+    const changeClass = change >= 0 ? 'ticker-up' : 'ticker-down';
+    const changeSymbol = change >= 0 ? '▲' : '▼';
+    
+    return `
+      <div class="ticker-item" data-symbol="${stock.symbol}">
+        <div class="ticker-price-row">
+          <span class="ticker-symbol">${stock.symbol}</span>
+          <span class="ticker-price">${formatPrice(stock.currentPrice)}</span>
         </div>
-      `;
-    }).join('');
+        <div class="ticker-details-row">
+          <span class="ticker-change ${changeClass}">${changeSymbol} ${Math.abs(change)}%</span>
+          <span class="ticker-volume">${stock.volume}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
 
     return `
       <div class="ticker-marquee">
