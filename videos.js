@@ -1,8 +1,3 @@
-
-# Create the videos.js data file with Amit's full catalog
-# This will be the single source of truth for all video data
-
-videos_js = '''// ============================================
 // VIDEOS.JS - Gerch-Verse Video Database
 // Single source of truth for all Sora content
 // ============================================
@@ -228,10 +223,10 @@ const CHARACTERS = {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { VIDEO_DB, CHARACTERS };
 }
-'''
 
-print("videos.js structure created")
-print(f"Total characters defined: {len(['amit', 'lizzie', 'leon', 'bigtex', 'gadha', 'raj', 'sterling', 'eelon', 'cole', 'lightamit', 'darkamit', 'evilamit', 'gerchlander', 'moo', 'mediocrates', 'amitjr', 'amitsmother', 'oletex'])}")
-print(f"Amit videos migrated: 36 (first 3 pages)")
-print(f"Multi videos included: 6")
-print(f"Arcs defined: 11")
+// Log summary (JavaScript)
+console.log("videos.js structure created");
+console.log(`Total characters defined: ${Object.keys(CHARACTERS).length}`);
+console.log("Amit videos migrated: 36 (first 3 pages)");
+console.log("Multi videos included: 6");
+console.log("Arcs defined: 11");
