@@ -1087,7 +1087,8 @@ videos: [
     { id: "s_69b2607e9c408191a3f08ded212200d8", thumbnail: "arc-gerchlings-02.jpg", oneLiner: "Science project." },
     { id: "s_69b259fbcf0c8191a0e99d9e3f5967fd", thumbnail: "arc-gerchlings-03.jpg", oneLiner: "Legal origins." },
     { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
-    { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." }
+    { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
+    { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." }
 ]
   },
 
