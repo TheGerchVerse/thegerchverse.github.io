@@ -1728,5 +1728,82 @@ function shuffleChaos() {
   setTimeout(() => btn.textContent = '🔀 SHUFFLE THE DECK', 1000);
 }
 
+// ==========================================
+// GERCHING SOON PLACEHOLDER GENERATOR
+// ==========================================
+
+function generateGerchingSoon(width = 400, height = 300) {
+  const canvas = document.createElement('canvas');
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext('2d');
+  
+  // Cyberpunk gradient background (cyan to magenta)
+  const grad = ctx.createLinearGradient(0, 0, width, height);
+  grad.addColorStop(0, '#00ffff');
+  grad.addColorStop(0.5, '#ff00ff');
+  grad.addColorStop(1, '#00ffff');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, width, height);
+  
+  // Scanline overlay
+  ctx.fillStyle = 'rgba(0,0,0,0.15)';
+  for (let i = 0; i < height; i += 6) {
+    ctx.fillRect(0, i, width, 1);
+  }
+  
+  // Diagonal glitch stripes
+  ctx.save();
+  ctx.translate(width/2, height/2);
+  ctx.rotate(-45 * Math.PI / 180);
+  ctx.fillStyle = 'rgba(255,255,255,0.1)';
+  ctx.fillRect(-300, -20, 600, 8);
+  ctx.fillRect(-250, 40, 500, 4);
+  ctx.restore();
+  
+  // Main text: "GERCHING SOON"
+  ctx.font = 'bold 28px Orbitron, "Courier New", monospace';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  
+  // Glitch shadow layers
+  ctx.fillStyle = 'rgba(255,0,255,0.6)';
+  ctx.fillText('GERCHING SOON', width/2 + 3, height/2 + 3);
+  ctx.fillStyle = 'rgba(0,255,255,0.6)';
+  ctx.fillText('GERCHING SOON', width/2 - 3, height/2 - 3);
+  ctx.fillStyle = '#000';
+  ctx.fillText('GERCHING SOON', width/2, height/2);
+  
+  // White accent lines
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(width/2 - 90, height/2 - 18, 25, 3);
+  ctx.fillRect(width/2 + 65, height/2 + 12, 20, 2);
+  
+  // Subtext
+  ctx.font = '12px Orbitron, monospace';
+  ctx.fillStyle = 'rgba(0,0,0,0.7)';
+  ctx.fillText('RENDERING IN Q6 TIMELINE', width/2, height/2 + 35);
+  
+  // Corner brackets
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  const offset = 15;
+  ctx.beginPath();
+  ctx.moveTo(offset, offset + 20);
+  ctx.lineTo(offset, offset);
+  ctx.lineTo(offset + 20, offset);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(width - offset, height - offset - 20);
+  ctx.lineTo(width - offset, height - offset);
+  ctx.lineTo(width - offset - 20, height - offset);
+  ctx.stroke();
+  
+  return canvas.toDataURL('image/png');
+}
+
+// Generate once for global use
+window.GERCHING_SOON_URL = generateGerchingSoon();
+
 // Initialize on load
 document.addEventListener("DOMContentLoaded", initPagination);
