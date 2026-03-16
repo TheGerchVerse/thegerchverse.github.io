@@ -265,7 +265,7 @@ const VIDEO_DB = {
       { id: "s_69b1e51d7a0c8191b795d3147f913264", thumb: "amit-best-picture.jpg", oneLiner: "Best Picture - Amit Supreme: Dream Gargantuan", arc: null },
       { id: "s_69b1fb1b78f081918a1f8c2ee4745af3", thumb: "amit-saved-by-blazer.jpg", oneLiner: "Saved by a blazer", arc: null },
       { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
-      { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null }
+      { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
       { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition fo Obi-Wan.", arc: null }
       
 
@@ -935,6 +935,7 @@ HANNAH
     { id: "s_69ac959141f48191b0068298e8454419", thumb: "multi-moocoin-dump.jpg", oneLiner: "Moo pumps. Lizzie Dumps.", characters: ["michaelmoo", "lizzie", "darkamit", "amit"], arc: null },
     { id: "s_69acc746643c81918f0fd67ce4aaee97", thumb: "multi-amit-oletex-boar-attack.jpg", oneLiner: "Boar attack.", characters: ["oletex", "amit"], arc: null },
     { id: "s_69b65b715c5081919cd8a6d9ffc2631e", thumb: "multi-colin-cole-defend-ego.jpg", oneLiner: "Defending your ego.", characters: ["cole", "colin"], arc: null },
+    { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null }
     
     
 
