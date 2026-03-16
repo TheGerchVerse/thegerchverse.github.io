@@ -268,7 +268,7 @@ const VIDEO_DB = {
       { id: "s_69b1fb1b78f081918a1f8c2ee4745af3", thumb: "amit-saved-by-blazer.jpg", oneLiner: "Saved by a blazer", arc: null },
       { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
       { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
-      { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition fo Obi-Wan.", arc: null }
+      { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition fo Obi-Wan.", arc: null },
       
 
     ],
@@ -940,9 +940,6 @@ HANNAH
     { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null },
     { id: "s_69b7a23bd40081919ba4fdfe1a15c94d", thumb: "multi-hannah-evilamit-shopping.jpg", oneLiner: "Retail Therapy.", characters: ["hannah", "evilamit"], arc: null }
     
-    
-    
-
 
 
   ],
