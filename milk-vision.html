@@ -1040,9 +1040,11 @@ function renderStoryArcs() {
     let cardsHtml = '';
     if (arc.videos && arc.videos.length > 0) {
       arc.videos.forEach(video => {
+        const thumb = video.thumbnail || '';
+        const thumbSrc = (/^data:|^https?:|^\/|^\.\//i).test(thumb) ? thumb : `./thumbnails/${thumb}`;
         cardsHtml += `
       <a href="https://sora.chatgpt.com/p/${video.id}" target="_blank" rel="noopener" class="mv-card story-arc">
-        <img src="./thumbnails/${video.thumbnail}" class="mv-thumb" alt="${video.oneLiner || 'Arc video'}">
+        <img src="${thumbSrc}" class="mv-thumb" alt="${video.oneLiner || 'Arc video'}">
         <div class="mv-card-overlay"><p class="mv-one-liner">"${video.oneLiner || 'No description'}"</p></div>
         <span class="mv-external">↗ Sora</span>
       </a>`;
