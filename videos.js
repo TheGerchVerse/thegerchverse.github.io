@@ -986,7 +986,7 @@ HANNAH
   arcs: {
     "q5-launch": {
       title: "Where is Gerchan?",
-      description: "Gerchan has not posted in a while. This has been interpreted as evidence. What follows is a growing library of documentaries, multilingual trailers, podcasts, police interviews, and increasingly intense speculation. Big Tex convenes Gen Z analysts to unpack the digital silence. Meanwhile, Michael Moo has been actively investigating, presenting color-coded suspicion charts from his command center and compiling timelines that grow more detailed by the day. He also produced the riveting multilingual investigative documentary Gerchanheit 7-11 – Where Is Gerchan? There are theories. Answers remain pending. Content does not.",
+      description: "Gerchan's silence is evidence. A library grows: documentaries, trailers, podcasts, police interviews, intense speculation. Big Tex convenes Gen Z analysts to unpack the digital void. Michael Moo investigates from his command center, presenting color-coded charts and compiling timelines. He produced 'Gerchanheit 7-11 – Where Is Gerchan?' Theories multiply. Answers pending. Content does not.",
       status: "ONGOING",
     statusColor: "yellow",
       videos: [
@@ -1045,7 +1045,7 @@ videos: [
 },
 "velvet-rope-vampires": {
     title: "Velvet Rope Vampires: The Hannah Delvey Foundation",
-    description: "She borrowed Cole's yacht. Colin wants it back. His calls die in international waters. Meanwhile, at 281 Park Avenue, a platinum phantom in sunglasses systematically befriends the Gerch-Verse elite—Amit gets sold 'Gerch Milk Integration,' Lizzie an 'Ionix Recovery Sanctuary' with mandatory bloodwork, Big Tex the 'Red Rooster Steakhouse Premier' with oil barons and old money guaranteed. Each pitch tailored to their greed. Each signature extracted with minimalist charm and a German-adjacent accent that shifts zip codes mid-sentence. The red velvet rope isn't a barrier. It's a siphon. Money walks in. Their millions stay behind. Multiple LLCs wire eight figures to 'Hannah Delvey Art Residency and Definitely Not a Scam LLC' before lunch. The yacht gets repainted 'European Ultramarine.' Colin considers pharmaceutical solutions.",
+    description: "She borrowed Cole's yacht. Colin wants it back. Cole's calls die in international waters. At 281 Park Avenue, a platinum phantom in sunglasses sells the Gerch-Verse elite their own fantasies: Amit gets 'Gerch Milk Integration,' Lizzie an 'Ionix Sanctuary' with mandatory bloodwork, Big Tex the 'Red Rooster Steakhouse Premier' with oil barons guaranteed. Each pitch tailored. Each signature extracted with an accent that shifts zip codes mid-sentence. The velvet rope is a siphon. Millions wire to 'Definitely Not a Scam LLC' before lunch: Buyer Beware",
     status: "CANONICAL — FOUNDATION FRAUD",
     statusColor: "yellow",
     videos: [
