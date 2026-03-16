@@ -1378,7 +1378,7 @@ videos: [
     },
     "music-videos": {
       title: "Music Videos",
-      description: "FILE UNDER: 'Definitely not a story arc but we ran out of tabs.' Mediocrates raged for forty-five minutes, then track seven changed his mind and he added seventeen more videos. These aren't arcs. These are cries for help. Zero training, fax-machine vocals, temporal-rift Auto-Tune. One track charted in Q5 negatives because nobody could tell if it was music or a hostage recording. We put it in 'Story Arcs' because 'Miscellaneous Sonic War Crimes' felt too on-the-nose. Official: Belongs nowhere. Actual: Needed shelf space. Not art. Pathology with a beat that we organized next to legitimate narrative content because chaos is our love language. Warning: May cause spontaneous choreography, hearing damage, and urges to invest in Q6. You could do this too—and shouldn't. But if you do, put it in the wrong section. It's tradition.",
+      description: "FILE UNDER: 'Not an arc.' Mediocrates raged, then added seventeen videos. These are cries for help. Fax vocals and rift Auto-Tune. One track charted Q5 negatives. We filed it under 'Story Arcs.' It belongs nowhere. Pathology with a beat. Warning: may cause hearing damage and Q6 urges. You could do this. You shouldn't. File it wrong. It's tradition.",
       status: "MEDIOCRATES DISAPPROVES (BUT SECRETLY BOBS HEAD)",
     statusColor: "yellow",
       videos: [
