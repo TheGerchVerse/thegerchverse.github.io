@@ -747,7 +747,9 @@ HANNAH
       { id: "s_69b6202f48908191ae4c1184c8a3624d", thumb: "solo-hannah-payment-method.jpg", oneLiner: "Do you know what money is?", arc: null },
       { id: "s_69b7876c7e148191b4b0b55859a89e48", thumb: "solo-hannah-mirror-practice.jpg", oneLiner: "Authenticity is performance", arc: null },
       { id: "s_69b7926ddd1c8191ad53d34ef1059baf", thumb: "solo-hannah-pidgeon-pitch.jpg", oneLiner: "Take the meeting. Reject the terms.", arc: null },
-      
+      { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-trust-pays.jpg", oneLiner: "Trust pays.", arc: null },
+      { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-good-side.jpg", oneLiner: "Several good sides.", arc: null },
+      { id: "s_69b82e9579048191b06950bef31e9c9f", thumb: "solo-hannah-waste-time.jpg", oneLiner: "No time.", arc: null },
       
       
     ],
