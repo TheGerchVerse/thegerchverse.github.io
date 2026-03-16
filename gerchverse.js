@@ -1762,27 +1762,27 @@ function generateGerchingSoon(width = 400, height = 300) {
   ctx.restore();
   
   // Main text: "GERCHING SOON"
-  ctx.font = 'bold 24px Orbitron, "Courier New", monospace';
+  ctx.font = 'bold 20px Orbitron, "Courier New", monospace';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   
   // Glitch shadow layers
   ctx.fillStyle = 'rgba(255,0,255,0.6)';
-  ctx.fillText('GERCHING SOON', width/2 + 2, height/2 + 2);
+  ctx.fillText('GERCHING SOON', width/2 + 1, height/2 + 1);
   ctx.fillStyle = 'rgba(0,255,255,0.6)';
-  ctx.fillText('GERCHING SOON', width/2 - 2, height/2 - 2);
+  ctx.fillText('GERCHING SOON', width/2 - 1, height/2 - 1);
   ctx.fillStyle = '#000';
   ctx.fillText('GERCHING SOON', width/2, height/2);
   
   // White accent lines
   ctx.fillStyle = '#fff';
-  ctx.fillRect(width/2 - 80, height/2 - 16, 20, 2);
-  ctx.fillRect(width/2 + 60, height/2 + 10, 16, 2);
+  ctx.fillRect(width/2 - 70, height/2 - 14, 18, 2);
+  ctx.fillRect(width/2 + 52, height/2 + 8, 14, 2);
   
   // Subtext
   ctx.font = '11px Orbitron, monospace';
   ctx.fillStyle = 'rgba(0,0,0,0.7)';
-  ctx.fillText('RENDERING IN Q6 TIMELINE', width/2, height/2 + 30);
+  ctx.fillText('RENDERING IN Q6 TIMELINE', width/2, height/2 + 26);
   
   // Corner brackets
   ctx.strokeStyle = '#000';
