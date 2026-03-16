@@ -1762,27 +1762,27 @@ function generateGerchingSoon(width = 400, height = 300) {
   ctx.restore();
   
   // Main text: "GERCHING SOON"
-  ctx.font = 'bold 28px Orbitron, "Courier New", monospace';
+  ctx.font = 'bold 24px Orbitron, "Courier New", monospace';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   
   // Glitch shadow layers
   ctx.fillStyle = 'rgba(255,0,255,0.6)';
-  ctx.fillText('GERCHING SOON', width/2 + 3, height/2 + 3);
+  ctx.fillText('GERCHING SOON', width/2 + 2, height/2 + 2);
   ctx.fillStyle = 'rgba(0,255,255,0.6)';
-  ctx.fillText('GERCHING SOON', width/2 - 3, height/2 - 3);
+  ctx.fillText('GERCHING SOON', width/2 - 2, height/2 - 2);
   ctx.fillStyle = '#000';
   ctx.fillText('GERCHING SOON', width/2, height/2);
   
   // White accent lines
   ctx.fillStyle = '#fff';
-  ctx.fillRect(width/2 - 90, height/2 - 18, 25, 3);
-  ctx.fillRect(width/2 + 65, height/2 + 12, 20, 2);
+  ctx.fillRect(width/2 - 80, height/2 - 16, 20, 2);
+  ctx.fillRect(width/2 + 60, height/2 + 10, 16, 2);
   
   // Subtext
-  ctx.font = '12px Orbitron, monospace';
+  ctx.font = '11px Orbitron, monospace';
   ctx.fillStyle = 'rgba(0,0,0,0.7)';
-  ctx.fillText('RENDERING IN Q6 TIMELINE', width/2, height/2 + 35);
+  ctx.fillText('RENDERING IN Q6 TIMELINE', width/2, height/2 + 30);
   
   // Corner brackets
   ctx.strokeStyle = '#000';
