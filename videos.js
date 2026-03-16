@@ -1011,7 +1011,7 @@ HANNAH
     },
     "gadha-golden-shower": {
       title: "Gadha's Golden Shower: How Milk Made Monsters",
-      description: "Before sense, there was Amit's Mother. Before Q5, there was Gadha. Before responsible parenting, there was roofie ambrosia. This genealogy of terror traces the divine lactation that birthed Dark and Light Amit from celestial udders, the eternal documentary investigation into Amit's Mother (who remains unlocatable, un-interviewable, and extremely promiscuous across timelines), and the absolutely unhinged creation myth of Amit Jr. and Evil Amit via mythological substances that would get CPS called if this weren't already a space gulag operation. Origin stories are supposed to explain things. This one just raises better questions.",
+      description: "Before sense, there was Amit's Mother. Before Q5, there was Gadha. Before parenting, roofie ambrosia. This genealogy traces divine lactation birthing Dark and Light Amit, the eternal investigation into Amit's Mother (unlocatable, promiscuous), and the unhinged creation of Amit Jr. via substances warranting CPS. Origin stories explain. This raises better questions.",
       status: "STATUS: Depends on Amit's Mother",
     statusColor: "yellow",
       videos: [
@@ -1179,7 +1179,7 @@ videos: [
     },
     "gerchfinity-doomsday": {
       title: "Gerchfinity Wars: Doomsday",
-      description: "Continuity is a suggestion, not a promise. We open inside one of Amit's many suspiciously identical space fortresses as certain familiar names are flagged 'hostile,' which feels biased but on-brand. Leadership decisions are made loudly. Very loudly. From there, the timeline clocks out. Scenes overlap. Cause and effect stop returning emails. Portals open at the worst possible moments, and family therapy is replaced with cosmic escalation. Oh — remember Amit Jr. came from Q6? Yes, that's why child Amit was left in the Burger King bathroom in the first place. Let's also not forget Amit did the same to Jr. because that's how we learn best - from our parents. But that will be a tale for another time. Preventative anti–Q6 Profits Apocalypse strategy. So… that clearly didn't work. This arc is simply the next attempt to stop Q6 before it monetizes reality itself. Are these events sequential? Parallel? A quality control error? Officially: cosmic instability. Unofficially: Doomsday runs on vibes and refuses refunds. Oh, and some of the thumbnails were edited to look better than they actually do. But that's just a theory. A Q6 theory.",
+      description: "Continuity is a suggestion. Inside Amit's fortress, names are flagged 'hostile.' Leadership decides loudly. The timeline clocks out. Scenes overlap. Portals open. Therapy becomes escalation. Amit Jr. came from Q6. Child Amit was left in that bathroom. Amit did the same to Jr. That's how we learn. Anti-Q6 strategy failed. This arc stops Q6 before it monetizes reality. Sequential? Parallel? Error? Officially: cosmic instability. Unofficially: Doomsday runs on vibes. Thumbnails were photo-shopped. Just a theory. A Q6 theory.",
       status: "Status: Beats Us 🤷",
     statusColor: "yellow",
       videos: [
