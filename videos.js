@@ -261,7 +261,12 @@ const VIDEO_DB = {
       { id: "s_69afb80fa6dc8191852451b823367dc1", thumb: "amit-gerch-beach-resort.jpg", oneLiner: "Gerchan Farms Beach Resort", arc: null },
       { id: "s_69afb8baac4081918e49b16049555bca", thumb: "amit-pugzley-hearing-goats.jpg", oneLiner: "Hearing goats ft. lofoandpu.pugzley", arc: null },
       { id: "s_69afbfaec6848191af7d2a2132c876b2", thumb: "amit-bird-submission.jpg", oneLiner: "Submission", arc: null },
-      { id: "s_69b08816b3e8819196880d7790b41b6b", thumb: "amit-dj-milk-drop.jpg", oneLiner: "Milk Drop", arc: null }
+      { id: "s_69b08816b3e8819196880d7790b41b6b", thumb: "amit-dj-milk-drop.jpg", oneLiner: "Milk Drop", arc: null },
+      { id: "s_69b1e51d7a0c8191b795d3147f913264", thumb: "amit-best-picture.jpg", oneLiner: "Best Picture - Amit Supreme: Dream Gargantuan", arc: null },
+      { id: "s_69b1fb1b78f081918a1f8c2ee4745af3", thumb: "amit-saved-by-blazer.jpg", oneLiner: "Saved by a blazer", arc: null },
+      { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
+      { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null }
+      { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition fo Obi-Wan.", arc: null }
       
 
     ],
