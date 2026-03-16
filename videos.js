@@ -1,5 +1,7 @@
 
 
+/* eslint-disable */
+
 const VIDEO_DB = {
   // ============================================
   // SOLO CHARACTER VIDEOS - All 18 Characters
@@ -930,21 +932,14 @@ HANNAH
     { id: "s_699c7310f6688191be6f783fdfd288a0", thumb: "multi-amit-evilamit-have-it-your-way.jpg", oneLiner: "Have it your way.", characters: ["amit", "evilamit"], arc: null },
     { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumb: "multi-amit-evilamit-amitsmother-gadha-rub-it-in.jpg", oneLiner: "Rubbing it in.", characters: ["amit", "evilamit", "gadha", "amitsmother"], arc: null },
     { id: "s_699fb81268c481919f4d52b4220cf02a", thumb: "multi-amit-evilamit-supreme-dream-benevolent.jpg", oneLiner: "Evil Amit: Supreme - Dream Benevolent.", characters: ["amit", "evilamit"], arc: null },
-    { id: "s_69b6091e6b288191b67d6bc533861244", thumb: "multi-hannah-leon-catchphrase.jpg", oneLiner: "Not a catchphrase.", characters: ["leon", "hannah"], arc: null },
-    { id: "s_69b64fa3dcfc8191a804b80709f87d04", thumb: "multi-hannah-amit-seed-funding.jpg", oneLiner: "Seed funding.", characters: ["amit", "hannah"], arc: null },
     { id: "s_69a5ea36ff888191b4b1ddb4c86fa83b", thumb: "multi-amit-and-mother-real-reason.jpg", oneLiner: "The real reason.", characters: ["amit", "amitsmother"], arc: null },
     { id: "s_69ab7966b7b48191aba0010d12bab11a", thumb: "multi-amit-mediocrates-growth.jpg", oneLiner: "12% Growth", characters: ["amit", "mediocrates"], arc: null },
     { id: "s_69ac959141f48191b0068298e8454419", thumb: "multi-moocoin-dump.jpg", oneLiner: "Moo pumps. Lizzie Dumps.", characters: ["michaelmoo", "lizzie", "darkamit", "amit"], arc: null },
     { id: "s_69acc746643c81918f0fd67ce4aaee97", thumb: "multi-amit-oletex-boar-attack.jpg", oneLiner: "Boar attack.", characters: ["oletex", "amit"], arc: null },
     { id: "s_69b65b715c5081919cd8a6d9ffc2631e", thumb: "multi-colin-cole-defend-ego.jpg", oneLiner: "Defending your ego.", characters: ["cole", "colin"], arc: null },
     { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null },
-    { id: "s_69b789ffd4088191bbfdb3d164d3f35b", thumb: "multi-warning-from-q6.jpg", oneLiner: "Children are so dramatic", characters: ["hannah", "amitjr"], arc: null },
-    { id: "s_69b78c9874ec81918199daa4946605db", thumb: "multi-hannah-raj-sterling-excess.jpg", oneLiner: "Excess", characters: ["hannah", "raj", "sterling"], arc: null },
-    { id: "s_69b7905f50e4819187e573011376e38c", thumb: "multi-hannah-lizzie-loan.jpg", oneLiner: "Loan", characters: ["hannah", "lizzie"], arc: null },
-    { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-yacht-party.jpg", oneLiner: "Yacht Party", characters: ["hannah", "cole"], arc: null },
-    { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-lizzie-party.jpg", oneLiner: "Messy Nights. Clean Exits", characters: ["hannah", "lizzie"], arc: null },
-    { id: "s_69b79dfa2844819192a160df1c1fa023", thumb: "multi-hannah-bigtex-funding.jpg", oneLiner: "Final-round funding.", characters: ["hannah", "bigtex"], arc: null },
     { id: "s_69b7a23bd40081919ba4fdfe1a15c94d", thumb: "multi-hannah-evilamit-shopping.jpg", oneLiner: "Retail Therapy.", characters: ["hannah", "evilamit"], arc: null }
+    
     
     
 
@@ -1024,10 +1019,31 @@ videos: [
   { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-4b.jpg", oneLiner: "Just rubbing it in." },
   { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-05.jpg", oneLiner: "Funny jokes, but not for Amit." },
   { id: "s_69b204de452081918e5080bb25be9e35", thumbnail: "arc-betrayal-06.jpg", oneLiner: "History repeats itself." }
-  
 ]
-  },
-  "insolence-overload": {
+
+},
+"velvet-rope-vampires": {
+    title: "Velvet Rope Vampires: The Hannah Delvey Foundation",
+    description: "She borrowed Cole's yacht. Colin wants it back. His calls die in international waters. Meanwhile, at 281 Park Avenue, a platinum phantom in sunglasses systematically befriends the Gerch-Verse elite—Amit gets sold 'Gerch Milk Integration,' Lizzie an 'Ionix Recovery Sanctuary' with mandatory bloodwork, Big Tex the 'Red Rooster Steakhouse Premier' with oil barons and old money guaranteed. Each pitch tailored to their greed. Each signature extracted with minimalist charm and a German-adjacent accent that shifts zip codes mid-sentence. The red velvet rope isn't a barrier. It's a siphon. Money walks in. Their millions stay behind. Multiple LLCs wire eight figures to 'Hannah Delvey Art Residency and Definitely Not a Scam LLC' before lunch. The yacht gets repainted 'European Ultramarine.' Colin considers pharmaceutical solutions.",
+    status: "CANONICAL — FOUNDATION FRAUD",
+    statusColor: "yellow",
+    videos: [
+        { id: "s_69b64fa3dcfc8191a804b80709f87d04", thumbnail: "arc-velvet-01.jpg", oneLiner: "Seed funding." },
+        { id: "s_69b789ffd4088191bbfdb3d164d3f35b", thumbnail: "arc-velvet-02.jpg", oneLiner: "Children are so dramatic." },
+        { id: "s_69b6091e6b288191b67d6bc533861244", thumbnail: "arc-velvet-03.jpg", oneLiner: "Not a catchphrase." },
+        { id: "s_69b79a3ba9b48191ac9d56b298e89bed", thumbnail: "arc-velvet-04.jpg", oneLiner: "Messy Nights. Clean Exits." },
+        { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumbnail: "arc-velvet-05.jpg", oneLiner: "Yacht Party" },
+        { id: "s_69b7905f50e4819187e573011376e38c", thumbnail: "arc-velvet-06.jpg", oneLiner: "Loan" },
+        { id: "s_69b78c9874ec81918199daa4946605db", thumbnail: "arc-velvet-07.jpg", oneLiner: "Excess." },
+        { id: "s_69b79dfa2844819192a160df1c1fa023", thumbnail: "arc-velvet-08.jpg", oneLiner: "Final-round funding." },
+        { id: "s_hannah_placeholder_09", thumbnail: "arc-velvet-09.jpg", oneLiner: "281 Park Avenue: LLCs multiply, one platinum phantom." },
+        { id: "s_hannah_placeholder_10", thumbnail: "arc-velvet-10.jpg", oneLiner: "Colin Mercer considers side effects." },
+        { id: "s_hannah_placeholder_11", thumbnail: "arc-velvet-11.jpg", oneLiner: "The yacht repaint: European Ultramarine." },
+        { id: "s_hannah_placeholder_12", thumbnail: "arc-velvet-12.jpg", oneLiner: "Membership has its privileges. The members don't." }
+  ]
+},
+
+"insolence-overload": {
       title: "Insolence Overload",
       description: "Too much insolence takes a potentially deadly toll on Amit.",
       status: "COMPLETE",
