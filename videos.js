@@ -943,7 +943,8 @@ HANNAH
     { id: "s_69b7905f50e4819187e573011376e38c", thumb: "multi-hannah-lizzie-loan.jpg", oneLiner: "Loan", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-yacht-party.jpg", oneLiner: "Yacht Party", characters: ["hannah", "cole"], arc: null },
     { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-lizzie-party.jpg", oneLiner: "Messy Nights. Clean Exits", characters: ["hannah", "lizzie"], arc: null },
-    { id: "s_69b79dfa2844819192a160df1c1fa023", thumb: "multi-hannah-bigtex-funding.jpg", oneLiner: "Final-round funding.", characters: ["hannah", "bigtex"], arc: null }
+    { id: "s_69b79dfa2844819192a160df1c1fa023", thumb: "multi-hannah-bigtex-funding.jpg", oneLiner: "Final-round funding.", characters: ["hannah", "bigtex"], arc: null },
+    { id: "s_69b7a23bd40081919ba4fdfe1a15c94d", thumb: "multi-hannah-evilamit-shopping.jpg", oneLiner: "Retail Therapy.", characters: ["hannah", "evilamit"], arc: null }
     
     
 
