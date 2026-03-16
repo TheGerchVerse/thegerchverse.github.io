@@ -743,6 +743,8 @@ HANNAH
       { id: "s_69b4fd8efeec8191b03ab1b12b87ee71", thumb: "solo-hannah-museum-acquisition.jpg", oneLiner: "Exhibit A - Acquisition.", arc: null },
       { id: "s_69b505325e0881918ff2fea8aba22b60", thumb: "solo-hannah-dinner-check.jpg", oneLiner: "Dinner check ft. @lofoandpu.pugzley.", arc: null },
       { id: "s_69b6202f48908191ae4c1184c8a3624d", thumb: "solo-hannah-payment-method.jpg", oneLiner: "Do you know what money is?", arc: null },
+      { id: "s_69b7876c7e148191b4b0b55859a89e48", thumb: "solo-hannah-mirror-practice.jpg", oneLiner: "Authenticity is performance", arc: null },
+      { id: "s_69b7926ddd1c8191ad53d34ef1059baf", thumb: "solo-hannah-pidgeon-pitch.jpg", oneLiner: "Take the meeting. Reject the terms.", arc: null },
       
       
       
@@ -935,7 +937,13 @@ HANNAH
     { id: "s_69ac959141f48191b0068298e8454419", thumb: "multi-moocoin-dump.jpg", oneLiner: "Moo pumps. Lizzie Dumps.", characters: ["michaelmoo", "lizzie", "darkamit", "amit"], arc: null },
     { id: "s_69acc746643c81918f0fd67ce4aaee97", thumb: "multi-amit-oletex-boar-attack.jpg", oneLiner: "Boar attack.", characters: ["oletex", "amit"], arc: null },
     { id: "s_69b65b715c5081919cd8a6d9ffc2631e", thumb: "multi-colin-cole-defend-ego.jpg", oneLiner: "Defending your ego.", characters: ["cole", "colin"], arc: null },
-    { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null }
+    { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null },
+    { id: "s_69b789ffd4088191bbfdb3d164d3f35b", thumb: "multi-warning-from-q6.jpg", oneLiner: "Children are so dramatic", characters: ["hannah", "amitjr"], arc: null },
+    { id: "s_69b78c9874ec81918199daa4946605db", thumb: "multi-hannah-raj-sterling-excess.jpg", oneLiner: "Excess", characters: ["hannah", "raj", "sterling"], arc: null },
+    { id: "s_69b7905f50e4819187e573011376e38c", thumb: "multi-hannah-lizzie-loan.jpg", oneLiner: "Loan", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-yacht-party.jpg", oneLiner: "Yacht Party", characters: ["hannah", "cole"], arc: null },
+    { id: "s_69b794000a1c8191b96d1d3b53ef64fb", thumb: "multi-hannah-lizzie-party.jpg", oneLiner: "Messy Nights. Clean Exits", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69b79dfa2844819192a160df1c1fa023", thumb: "multi-hannah-bigtex-funding.jpg", oneLiner: "Final-round funding.", characters: ["hannah", "bigtex"], arc: null }
     
     
 
@@ -1370,7 +1378,8 @@ videos: [
         { id: "s_69912b9523488191871daf8ebd35105c", thumbnail: "arc-musicvideos-q5-ballads.jpg", oneLiner: "Q5 Ballads." },
         { id: "s_699211ccb40481919d270cf9a37c84fb", thumbnail: "arc-musicvideos-cows-insolence-farm.jpg", oneLiner: "Insolence." },
         { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },
-        { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." }
+        { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." },
+        { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." }
       ]      
 
 
