@@ -942,6 +942,28 @@ HANNAH
     
 
 
+/* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+{ id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
+*/
+
+
+
+
+
   ],
 /*  
 ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1357,7 +1379,6 @@ videos: [
       status: "MEDIOCRATES DISAPPROVES (BUT SECRETLY BOBS HEAD)",
     statusColor: "yellow",
       videos: [
-        
         { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-musicvideos-timeless-love.jpg", oneLiner: "Timeless Love" },
         { id: "s_69535b3bf7e881919b88d1d06132b124", thumbnail: "solo-leon-riddlers-ballad.jpg", oneLiner: "A Riddler's Ballad" },
         { id: "s_695c02634ba48191a657b5f054b8ad6f", thumbnail: "arc-musicvideos-i-own-the-pulse.jpg", oneLiner: "I Own the Pulse." },
@@ -1401,6 +1422,21 @@ videos: [
 
   }
 };
+
+
+/*  STORY ARC PLACEHOLDERS  NOTE: Replace GERCHING_SOON_URL with "imagename" in quotes
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }
+{ id: "Placeholder", thumbnail: GERCHING_SOON_URL, oneLiner: "Gerching Soon" }   
+*/
+
+
+
+
 
 // ============================================
 // CHARACTER METADATA (for headers, avatars, etc.)
