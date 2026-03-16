@@ -499,7 +499,9 @@ nav a:hover {
   font-size: clamp(2.5rem, 12vw, 7rem);
   background: linear-gradient(45deg, var(--gold), var(--pink));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback for non-WebKit browsers */
   animation: glow 2s ease-in-out infinite alternate;
 }
 
@@ -2282,4 +2284,37 @@ div#stockTicker .market-status[data-status="CLOSED"] {
   .gerchan-footer-counter {
     background: rgba(255, 0, 127, 0.15);
   }
+}
+
+/* ==========================================
+   GERCHING SOON PLACEHOLDER ANIMATIONS
+   ========================================== */
+
+.thumbnail-container img[src*="data:image"] {
+    animation: gerch-pulse 2s ease-in-out infinite;
+}
+
+@keyframes gerch-pulse {
+    0%, 100% { 
+        opacity: 1; 
+        filter: brightness(1) contrast(1);
+    }
+    50% { 
+        opacity: 0.85; 
+        filter: brightness(1.1) contrast(1.1);
+    }
+}
+
+/* Glitch flicker on hover */
+.thumbnail-container:hover img[src*="data:image"] {
+    animation: gerch-flicker 0.3s infinite;
+}
+
+@keyframes gerch-flicker {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-2px, 1px); }
+    40% { transform: translate(2px, -1px); }
+    60% { transform: translate(-1px, 2px); }
+    80% { transform: translate(1px, -2px); }
+    100% { transform: translate(0, 0); }
 }

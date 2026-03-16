@@ -1036,10 +1036,10 @@ videos: [
         { id: "s_69b7905f50e4819187e573011376e38c", thumbnail: "arc-velvet-06.jpg", oneLiner: "Loan" },
         { id: "s_69b78c9874ec81918199daa4946605db", thumbnail: "arc-velvet-07.jpg", oneLiner: "Excess." },
         { id: "s_69b79dfa2844819192a160df1c1fa023", thumbnail: "arc-velvet-08.jpg", oneLiner: "Final-round funding." },
-        { id: "s_hannah_placeholder_09", thumbnail: "arc-velvet-09.jpg", oneLiner: "281 Park Avenue: LLCs multiply, one platinum phantom." },
-        { id: "s_hannah_placeholder_10", thumbnail: "arc-velvet-10.jpg", oneLiner: "Colin Mercer considers side effects." },
-        { id: "s_hannah_placeholder_11", thumbnail: "arc-velvet-11.jpg", oneLiner: "The yacht repaint: European Ultramarine." },
-        { id: "s_hannah_placeholder_12", thumbnail: "arc-velvet-12.jpg", oneLiner: "Membership has its privileges. The members don't." }
+        { id: "s_hannah_placeholder_09", thumbnail: GERCHING_SOON_URL, oneLiner: "281 Park Avenue: LLCs multiply, one platinum phantom." },
+        { id: "s_hannah_placeholder_10", thumbnail: GERCHING_SOON_URL, oneLiner: "Colin Mercer considers side effects." },
+        { id: "s_hannah_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
+        { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
   ]
 },
 
