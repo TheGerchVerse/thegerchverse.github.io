@@ -1046,7 +1046,7 @@ videos: [
 },
 "tex-gadha-quest": {
     title: "The Gadha Crusade: Big Tex Wang's Cosmic Begging Tour",
-    description: "Big Tex Wang wants his own Gadha to make the juicy fine divine brisket. He's begged Amit seven times, offered the entire Red Rooster Ranch—Amit scoffed and raged at his insolence. So Big Tex goes cosmic. Wishbones. Gods. Genies. Every entity: 'That is the only wish I cannot grant. Gadha is my father. My creator.'' The genie's smoke flips him off. Amit's Mother shakes her head once and laughs. Each denial ends the same: Big Tex on his knees, hat tumbling, screaming 'NOOOOOO!' until the mountains echo. The universe has limits. Those limits are named Gadha.",
+    description: "Big Tex Wang wants his very own Gadha to make some mighty fine and juicy divine brisket. He's begged Amit seven times, offered the entire Red Rooster Ranch—Amit scoffed and raged at his insolence. So Big Tex goes cosmic. Wishbones. Gods. Genies. Every entity: 'That is the only wish I cannot grant. Gadha is my father. My creator.'' The genie's smoke flips him off. Amit's Mother shakes her head once and laughs. Each denial ends the same: Big Tex on his knees, hat tumbling, screaming 'NOOOOOO!' until the mountains echo. The universe has limits. Those limits are named Gadha.",
     status: "CANONICAL — CELESTIAL REJECTION",
     statusColor: "orange",
     videos: [
@@ -1056,8 +1056,8 @@ videos: [
         { id: "s_69421f4e4ad8819189b334810c658f4f", thumbnail: "arc-gadha-quest-04.jpg", oneLiner: "Big Tex asks Santa.'" },
         { id: "s_69423fe56f60819197b2d897074ff70e", thumbnail: "arc-gadha-quest-05.jpg", oneLiner: "Big Tex asks the genie of the lamp'" },
         { id: "s_6942bd27c9a881919c63950fd78ff5d8", thumbnail: "arc-gadha-quest-06.jpg", oneLiner: "Big Tex asks the magic wishing well." },
-        { id: "Placeholder", thumbnail: "arc-gadha-quest-07.jpg", oneLiner: "The stars aligned. Then they filed a restraining order." },
-        { id: "Placeholder", thumbnail: "arc-gadha-quest-08.jpg", oneLiner: "He offered his soul. The devil read the terms. Declined." },
+        { id: "s_6942dabb981c8191bb6460c7eb395ccb", thumbnail: "arc-gadha-quest-07.jpg", oneLiner: "Big Tex asks Satan." },
+        { id: "s_6942eb76b86881918df2d37412509a8d", thumbnail: "arc-gadha-quest-08.jpg", oneLiner: "Big Tex asks Santa/Satan?" },
         { id: "Placeholder", thumbnail: "arc-gadha-quest-09.jpg", oneLiner: "Tickle me Texas, they said. Nobody tickled. Nobody cared." },
         { id: "Placeholder", thumbnail: "arc-gadha-quest-10.jpg", oneLiner: "The oracle spoke: 'Gadha created me. I cannot create Gadha.'" },
         { id: "Placeholder", thumbnail: "arc-gadha-quest-11.jpg", oneLiner: "Shooting star. He wished. The star apologized and burned out." },
