@@ -268,7 +268,7 @@ const VIDEO_DB = {
       { id: "s_69b1fb1b78f081918a1f8c2ee4745af3", thumb: "amit-saved-by-blazer.jpg", oneLiner: "Saved by a blazer", arc: null },
       { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
       { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
-      { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition fo Obi-Wan.", arc: null },
+      { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition for Obi-Wan.", arc: null },
       
 
     ],
@@ -329,6 +329,7 @@ const VIDEO_DB = {
       { id: "s_695a0a39c8d481918172982b33047a92", thumb: "solo-leon-riddle-me-this-music-video.jpg", oneLiner: "Dance with Leon: 'Riddle me This'.", arc: null },
       { id: "s_6969e4a525788191b3fe9cfdb4f4b2be", thumb: "solo-leon-riddle-me-this-classroom.jpg", oneLiner: "Riddle me this: Classroom edition.", arc: null },
       { id: "s_6987ad2524b081919723cc25b8336ce5", thumb: "solo-leon-airport-guitar.jpg", oneLiner: "Airport shredding.", arc: null },
+      
     ],
 
 /*
@@ -358,6 +359,19 @@ const VIDEO_DB = {
       { id: "s_693b259b09d481919eefe0c7daf4087f", thumb: "solo-bigtex-redrooster-golf-club.jpg", oneLiner: "Red Rooster Ranch Golf Club.", arc: null },
       { id: "s_693e7f0771a081919dc3a09fa09e5064", thumb: "solo-bigtex-monstertruck.jpg", oneLiner: "Monster truck riding.", arc: null },
       { id: "s_6941fbe04d388191a55b42ad5c7dae87", thumb: "solo-bigtex-supersize.jpg", oneLiner: "Super-Size Me.", arc: null },
+      { id: "s_6945ada406c88191a78fe0ea91398df3", thumb: "solo-bigtex-nimble.jpg", oneLiner: "Tex be nimble, Tex be quick.", arc: null },
+      { id: "s_69472b3edd588191953b05f84cdac84c", thumb: "solo-bigtex-gulag-dogs.jpg", oneLiner: "Tex sneaks aboard the gulag.", arc: null },
+      { id: "s_69483869be3481918728e3201ed7996d", thumb: "solo-bigtex-bbq-cookoff.jpg", oneLiner: "Red Rooster BBQ Cookoff.", arc: null },
+      { id: "s_694e15b57c3c8191982011af4d10b926", thumb: "solo-bigtex-skate.jpg", oneLiner: "Skate or die.", arc: null },
+      { id: "s_695083bfa34881919cb286f11da9e22d", thumb: "solo-bigtex-gadha-beans.jpg", oneLiner: "Magic Gadha Beans.", arc: null },
+      { id: "s_6951cd23305881919569e307334d46c6", thumb: "solo-bigtex-red-rooster-safari.jpg", oneLiner: "Red Rooster Safari Tours", arc: null },
+      { id: "s_695581b14fd4819182bacb9436bfec57", thumb: "solo-bigtex-bandits.jpg", oneLiner: "Bandits beware.", arc: null },
+      { id: "s_6955a2cc75988191b9933d55ba08b101", thumb: "solo-bigtex-red-rooster-float.jpg", oneLiner: "Red Rooster float contest", arc: null },
+      { id: "s_695721db363c8191ac5c0710a0e326b8", thumb: "solo-bigtex-robot-right.jpg", oneLiner: "Brisket-fueld Kung Fu.", arc: null },
+      { id: "s_6959929a9d908191afdb4c3301bee799", thumb: "solo-bigtex-brisket-tv.jpg", oneLiner: "Finest brisket divinity can buy.", arc: null },
+      { id: "s_6965e1c5d05c8191bbdd87e167e55369", thumb: "solo-bigtex-red-rooster-space-station.jpg", oneLiner: "Red Rooster Space Station.", arc: null },
+      { id: "s_6965f759d984819185f751127078032f", thumb: "solo-bigtex-red-rooster-space-tours.jpg", oneLiner: "Red Rooster Space Tours.", arc: null },
+      { id: "s_6967c07c5a94819187d09e9df67b3ee3", thumb: "solo-bigtex-red-rooster-ketchup-steak.jpg", oneLiner: "Baptism via Ketchup.", arc: null },
     ],
 
 /*
@@ -388,6 +402,7 @@ const VIDEO_DB = {
       { id: "s_69754040f6b08191a52f0588e054fc46", thumb: "solo-gadha-blessing.jpg", oneLiner: "Gadha's blessing.", arc: null },
       { id: "s_6962a6216f9c8191aa85ebe5cedbb039", thumb: "solo-gadha-gigantified.jpg", oneLiner: "Gadha gigantified.", arc: null },
       { id: "s_69654bccf474819196c9711b1fedec25", thumb: "solo-gadha-hidden-boss.jpg", oneLiner: "Gadha hidden boss.", arc: null },
+      
     ],
 
 /*
@@ -940,7 +955,20 @@ HANNAH
     { id: "s_69acc746643c81918f0fd67ce4aaee97", thumb: "multi-amit-oletex-boar-attack.jpg", oneLiner: "Boar attack.", characters: ["oletex", "amit"], arc: null },
     { id: "s_69b65b715c5081919cd8a6d9ffc2631e", thumb: "multi-colin-cole-defend-ego.jpg", oneLiner: "Defending your ego.", characters: ["cole", "colin"], arc: null },
     { id: "s_69b47a1007dc8191adbaf98b92d546f3", thumb: "multi-descent-movie-trailer.jpg", oneLiner: "Descent - Pray You Wake Up.", characters: ["amit", "bigtex", "lizzie", "gadha"], arc: null },
-    { id: "s_69b7a23bd40081919ba4fdfe1a15c94d", thumb: "multi-hannah-evilamit-shopping.jpg", oneLiner: "Retail Therapy.", characters: ["hannah", "evilamit"], arc: null }
+    { id: "s_69b7a23bd40081919ba4fdfe1a15c94d", thumb: "multi-hannah-evilamit-shopping.jpg", oneLiner: "Retail Therapy.", characters: ["hannah", "evilamit"], arc: null },
+    { id: "s_6935f4d791688191ad23dee3d8a5e653", thumb: "multi-tex-leon-defense.jpg", oneLiner: "Belief is not law. Documentation is.", characters: ["bigtex", "leon"], arc: null },
+    { id: "s_6939157ae50481919e5dc36ad525a7f3", thumb: "multi-tex-leon-defense02.jpg", oneLiner: "Villains don't floss.", characters: ["bigtex", "leon"], arc: null },
+    { id: "s_6944250ed84081919b74284598ea069a", thumb: "multi-tex-gadha-brisket-volunteer.jpg", oneLiner: "Ulterior motives.", characters: ["bigtex", "gadha"], arc: null },
+    { id: "s_694837ea42c88191b7e47a31bd1c98a5", thumb: "multi-tex-tex-amit-everywhere.jpg", oneLiner: "Tex's shocking revelation.", characters: ["bigtex", "amit"], arc: null },
+    { id: "s_694c2594ca7881918044a1a9c49adc15", thumb: "multi-tex-leon-will-of-amit.jpg", oneLiner: "Amit's will and testament.", characters: ["bigtex", "leon"], arc: null },
+    { id: "s_69520586c2fc8191beb405e71d741580", thumb: "multi-tex-gadha-bean-clones.jpg", oneLiner: "Gadha Beans Miracle.", characters: ["bigtex", "gadha"], arc: null },
+    { id: "s_695b49d1cf28819188dddf44c22a7610", thumb: "multi-tex-lizzie-clones.jpg", oneLiner: "Gotta Git a Gadha.", characters: ["bigtex", "lizzie"], arc: null },
+    { id: "s_695e9c5d358c8191a7149b00d53eceac", thumb: "multi-tex-gadha-beans-warning.jpg", oneLiner: "Ticking time beans.", characters: ["bigtex", "gadha"], arc: null },
+    { id: "s_696281c3a83c8191b4b7c346995cacab", thumb: "multi-tex-slap-lizzie.jpg", oneLiner: "Lizzie's lips are sealed.", characters: ["bigtex", "gadha", "lizzie"], arc: null },
+    { id: "s_6966538018408191a8647b0c4a6684d1", thumb: "multi-gadha-beans-final-warning.jpg", oneLiner: "Gadha Beans - Final Warning.", characters: ["bigtex", "gadha"], arc: null },
+    { id: "s_696b0d8800008191b4a6a2a86c30ee6f", thumb: "multi-tex-eelon-call-meal.jpg", oneLiner: "Just tryin to eat here.", characters: ["bigtex", "eelon"], arc: null },
+    { id: "s_696be33245608191ae2bafcd14c41d57", thumb: "multi-tex-eelon-test-drive.jpg", oneLiner: "Gerchmobile Test Drive.", characters: ["bigtex", "eelon"], arc: null }
+    
     
 
 
@@ -1154,7 +1182,7 @@ videos: [
     },
     "lizzie-the-snitch": {
       title: "Lizzie the Snitch",
-      description: "He steals the milk. Lizzie steals the moment. The arrest steals the ending.",
+      description: "Amit steals the milk. Lizzie steals the moment. The arrest steals the ending.",
       status: "COMPLETE",
     statusColor: "green",
       videos: [
@@ -1321,6 +1349,7 @@ videos: [
         { id: "s_6934fc83913c8191abddfe479d6f066e", thumbnail: "arc-gadhasaga-01.jpg", oneLiner: "Big Tex asks Lizzie about Gadha. Duh, Amit's space gulag." },
         { id: "s_693494240fec8191ad97af4bf4b58ca9", thumbnail: "arc-gadhasaga-02.jpg", oneLiner: "Big Tex begs Leon. Leon can't help." },
         { id: "s_69349827ce4c8191ae2dfa8459543278", thumbnail: "arc-gadhasaga-03.jpg", oneLiner: "Leon lays out the facts to Big Tex." },
+        { id: "s_69359523b38c819196efe675161600f7", thumbnail: "arc-gadhasaga-03a.jpg", oneLiner: "Big Tex builds." },
         { id: "s_693512f2b49481919eb7e1b6303444ef", thumbnail: "arc-gadhasaga-04.jpg", oneLiner: "Big Tex lifts off." },
         { id: "s_693521967fa481918baaa3e6dd27fa88", thumbnail: "arc-gadhasaga-05.jpg", oneLiner: "Amit is alerted." },
         { id: "s_6935293571b88191bd09577674757629", thumbnail: "arc-gadhasaga-06.jpg", oneLiner: "The space chase begins." },
@@ -1464,7 +1493,9 @@ videos: [
         { id: "s_699211ccb40481919d270cf9a37c84fb", thumbnail: "arc-musicvideos-cows-insolence-farm.jpg", oneLiner: "Insolence." },
         { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },
         { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." },
-        { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." }
+        { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." },
+        { id: "s_694c5dde8aac8191a3dc390205feca8a", thumbnail: "arc-musicvideos-tex-tender-prime.jpg", oneLiner: "Tender Prime." },
+        { id: "s_696a5adf3b648191bc9024cb7803a99e", thumbnail: "arc-musicvideos-tex-bbq-of-you.jpg", oneLiner: "BBQ of You." }
       ]      
 
 
