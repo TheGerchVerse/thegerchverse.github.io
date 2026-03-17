@@ -1046,7 +1046,7 @@ videos: [
 },
 "tex-gadha-quest": {
     title: "The Gadha Crusade: Big Tex Wang's Cosmic Begging Tour",
-    description: "Big Tex Wang wants his own Gadha. He's begged Amit seven times, offered the entire Red Rooster Ranch—Amit scoffed and raged at his insolence. So Big Tex goes cosmic. Wishbones. Gods. Genies. Every entity: 'That is the only wish I cannot grant. Gadha is my father. My creator.'' The genie's smoke flips him off. Amit's Mother shakes her head once and laughs. Each denial ends the same: Big Tex on his knees, hat tumbling, screaming 'NOOOOOO!' until the mountains echo. The universe has limits. Those limits are named Gadha.",
+    description: "Big Tex Wang wants his own Gadha to make the juicy fine divine brisket. He's begged Amit seven times, offered the entire Red Rooster Ranch—Amit scoffed and raged at his insolence. So Big Tex goes cosmic. Wishbones. Gods. Genies. Every entity: 'That is the only wish I cannot grant. Gadha is my father. My creator.'' The genie's smoke flips him off. Amit's Mother shakes her head once and laughs. Each denial ends the same: Big Tex on his knees, hat tumbling, screaming 'NOOOOOO!' until the mountains echo. The universe has limits. Those limits are named Gadha.",
     status: "CANONICAL — CELESTIAL REJECTION",
     statusColor: "orange",
     videos: [
