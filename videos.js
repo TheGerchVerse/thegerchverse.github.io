@@ -967,7 +967,10 @@ HANNAH
     { id: "s_696281c3a83c8191b4b7c346995cacab", thumb: "multi-tex-slap-lizzie.jpg", oneLiner: "Lizzie's lips are sealed.", characters: ["bigtex", "gadha", "lizzie"], arc: null },
     { id: "s_6966538018408191a8647b0c4a6684d1", thumb: "multi-gadha-beans-final-warning.jpg", oneLiner: "Gadha Beans - Final Warning.", characters: ["bigtex", "gadha"], arc: null },
     { id: "s_696b0d8800008191b4a6a2a86c30ee6f", thumb: "multi-tex-eelon-call-meal.jpg", oneLiner: "Just tryin to eat here.", characters: ["bigtex", "eelon"], arc: null },
-    { id: "s_696be33245608191ae2bafcd14c41d57", thumb: "multi-tex-eelon-test-drive.jpg", oneLiner: "Gerchmobile Test Drive.", characters: ["bigtex", "eelon"], arc: null }
+    { id: "s_696be33245608191ae2bafcd14c41d57", thumb: "multi-tex-eelon-test-drive.jpg", oneLiner: "Gerchmobile Test Drive.", characters: ["bigtex", "eelon"], arc: null },
+    { id: "s_696d100ddb3c81918087f04cf76704f9", thumb: "multi-tex-eelon-test-drive-rome.jpg", oneLiner: "Gerchmobile Test Drive in Rome.", characters: ["bigtex", "eelon"], arc: null },
+    { id: "s_696ef1aef50c8191aa6f7863c0ea594e", thumb: "multi-tex-cole-lifeline.jpg", oneLiner: "Cole needs a lifeline.", characters: ["bigtex", "cole"], arc: null },
+    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null }
     
     
 
@@ -1109,9 +1112,11 @@ videos: [
         { id: "s_697a5c8448dc819189566ef231909ab9", thumbnail: "arc-gadha-quest-29.jpg", oneLiner: "The Sphinx." },
         { id: "s_697a694c03408191a63cd29e7c0fed08", thumbnail: "arc-gadha-quest-30.jpg", oneLiner: "Gadha's Shadow." },
         { id: "s_697a69d489608191aad96afc7d6f0625", thumbnail: "arc-gadha-quest-31.jpg", oneLiner: "Asking the universe itself." },
+        { id: "s_697a5691a4648191b36e665955cbf81e", thumbnail: "arc-gadha-quest-35.jpg", oneLiner: "Gadha Compliance Office." },
         { id: "s_697b89f4c3d481919ca4fdc2bcc89f40", thumbnail: "arc-gadha-quest-32.jpg", oneLiner: "Gerchlander fails the same errand." },
         { id: "s_698b5e46b7a08191a14f3e0a2178ff4f", thumbnail: "arc-gadha-quest-33.jpg", oneLiner: "On the brink of insanity." },
         { id: "s_69a06e6f8794819198e36c035f152b33", thumbnail: "arc-gadha-quest-34.jpg", oneLiner: "Asking Amit's Mother." }
+        
     ]
 
 
