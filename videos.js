@@ -372,6 +372,8 @@ const VIDEO_DB = {
       { id: "s_6965e1c5d05c8191bbdd87e167e55369", thumb: "solo-bigtex-red-rooster-space-station.jpg", oneLiner: "Red Rooster Space Station.", arc: null },
       { id: "s_6965f759d984819185f751127078032f", thumb: "solo-bigtex-red-rooster-space-tours.jpg", oneLiner: "Red Rooster Space Tours.", arc: null },
       { id: "s_6967c07c5a94819187d09e9df67b3ee3", thumb: "solo-bigtex-red-rooster-ketchup-steak.jpg", oneLiner: "Baptism via Ketchup.", arc: null },
+      { id: "s_697c0735429c8191bb17137a21566c77", thumb: "solo-bigtex-saturday-night-host.jpg", oneLiner: "Hosting Saturday Night.", arc: null },
+      { id: "s_6982f002b5348191b4b480f6739a61ba", thumb: "solo-bigtex-red-rooster-steakhouse.jpg", oneLiner: "Red Rooster Ranch Steakhouse.", arc: null },
     ],
 
 /*
@@ -970,7 +972,8 @@ HANNAH
     { id: "s_696be33245608191ae2bafcd14c41d57", thumb: "multi-tex-eelon-test-drive.jpg", oneLiner: "Gerchmobile Test Drive.", characters: ["bigtex", "eelon"], arc: null },
     { id: "s_696d100ddb3c81918087f04cf76704f9", thumb: "multi-tex-eelon-test-drive-rome.jpg", oneLiner: "Gerchmobile Test Drive in Rome.", characters: ["bigtex", "eelon"], arc: null },
     { id: "s_696ef1aef50c8191aa6f7863c0ea594e", thumb: "multi-tex-cole-lifeline.jpg", oneLiner: "Cole needs a lifeline.", characters: ["bigtex", "cole"], arc: null },
-    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null }
+    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null },
+    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-sterling-golf.jpg", oneLiner: "Makes the birds run faster.", characters: ["bigtex", "sterling"], arc: null }
     
     
 
