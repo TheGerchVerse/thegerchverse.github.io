@@ -1042,6 +1042,49 @@ videos: [
   { id: "s_69b204de452081918e5080bb25be9e35", thumbnail: "arc-betrayal-06.jpg", oneLiner: "History repeats itself." }
 ]
 
+
+},
+"tex-gadha-quest": {
+    title: "The Gadha Crusade: Big Tex Wang's Cosmic Begging Tour",
+    description: "Big Tex Wang wants his own Gadha. He's begged Amit seven times, offered the entire Red Rooster Ranch—Amit scoffed and raged at his insolence. So Big Tex goes cosmic. Wishbones. Gods. Genies. Every entity: 'That is the only wish I cannot grant. Gadha is my father. My creator.'' The genie's smoke flips him off. Amit's Mother shakes her head once and laughs. Each denial ends the same: Big Tex on his knees, hat tumbling, screaming 'NOOOOOO!' until the mountains echo. The universe has limits. Those limits are named Gadha.",
+    status: "CANONICAL — CELESTIAL REJECTION",
+    statusColor: "orange",
+    videos: [
+        { id: "s_texwish_01", thumbnail: "arc-gadha-quest-01.jpg", oneLiner: "The wishbone heard his plea. Then it snapped." },
+        { id: "s_texwish_02", thumbnail: "arc-gadha-quest-02.jpg", oneLiner: "God picked up. Checked caller ID. Sent to voicemail." },
+        { id: "s_texwish_03", thumbnail: "arc-gadha-quest-03.jpg", oneLiner: "Three coins in the well. The well filed Chapter 11." },
+        { id: "s_texwish_04", thumbnail: "arc-gadha-quest-04.jpg", oneLiner: "Genie of the Lamp: 'I can grant infinite wealth. Not that cow.'" },
+        { id: "s_texwish_05", thumbnail: "arc-gadha-quest-05.jpg", oneLiner: "Fairy Godmother's wand: 'Bibbidi-Bobbidi-Blocked.'" },
+        { id: "s_texwish_06", thumbnail: "arc-gadha-quest-06.jpg", oneLiner: "Amit's Mother: [single head shake] [vanishes]" },
+        { id: "s_texwish_07", thumbnail: "arc-gadha-quest-07.jpg", oneLiner: "The stars aligned. Then they filed a restraining order." },
+        { id: "s_texwish_08", thumbnail: "arc-gadha-quest-08.jpg", oneLiner: "He offered his soul. The devil read the terms. Declined." },
+        { id: "s_texwish_09", thumbnail: GERCHING_SOON_URL, oneLiner: "Tickle me Texas, they said. Nobody tickled. Nobody cared." },
+        { id: "s_texwish_10", thumbnail: GERCHING_SOON_URL, oneLiner: "The oracle spoke: 'Gadha created me. I cannot create Gadha.'" },
+        { id: "s_texwish_11", thumbnail: GERCHING_SOON_URL, oneLiner: "Shooting star. He wished. The star apologized and burned out." },
+        { id: "s_texwish_12", thumbnail: GERCHING_SOON_URL, oneLiner: "Dragon's hoard: 'I guard gold, not bovine deities. Leave.'" },
+        { id: "s_texwish_13", thumbnail: GERCHING_SOON_URL, oneLiner: "Magic 8-Ball: 'Outlook not possible. Also, who is Gadha?'" },
+        { id: "s_texwish_14", thumbnail: GERCHING_SOON_URL, oneLiner: "The Monkey's Paw curled. Even it had standards." },
+        { id: "s_texwish_15", thumbnail: GERCHING_SOON_URL, oneLiner: "Cosmic Entity #47: 'I am entropy itself. Still cannot help you.'" },
+        { id: "s_texwish_16", thumbnail: GERCHING_SOON_URL, oneLiner: "He found a unicorn. It laughed. Then it wept for him." },
+        { id: "s_texwish_17", thumbnail: GERCHING_SOON_URL, oneLiner: "The Wishing Tree shed its leaves in shame." },
+        { id: "s_texwish_18", thumbnail: GERCHING_SOON_URL, oneLiner: "Time traveler from future: 'Still no Gadha. Stop asking.'" },
+        { id: "s_texwish_19", thumbnail: GERCHING_SOON_URL, oneLiner: "Leprechaun at rainbow's end: 'Pot of gold, yes. Golden udder, absolutely not.'" },
+        { id: "s_texwish_20", thumbnail: GERCHING_SOON_URL, oneLiner: "Eldritch horror: 'I drive men mad. But you? Already there.'" },
+        { id: "s_texwish_21", thumbnail: GERCHING_SOON_URL, oneLiner: "The Djinn offered three wishes. All three: 'Still no.'" },
+        { id: "s_texwish_22", thumbnail: GERCHING_SOON_URL, oneLiner: "Celestial bureaucracy: Form 27-B/6-GADHA rejected. No appeal." },
+        { id: "s_texwish_23", thumbnail: GERCHING_SOON_URL, oneLiner: "He prayed to Q5 earnings. They reported a loss." },
+        { id: "s_texwish_24", thumbnail: GERCHING_SOON_URL, oneLiner: "The cosmos whispered: 'Gadha is the beginning. You are... not.'" },
+        { id: "s_texwish_25", thumbnail: GERCHING_SOON_URL, oneLiner: "Amit watched from orbit. Didn't even charge admission." },
+        { id: "s_texwish_26", thumbnail: GERCHING_SOON_URL, oneLiner: "Big Tex's knees: developing calluses. His soul: developing cracks." },
+        { id: "s_texwish_27", thumbnail: GERCHING_SOON_URL, oneLiner: "The 'NOOOOO!' echo reached Mars. Elon filed a noise complaint." },
+        { id: "s_texwish_28", thumbnail: GERCHING_SOON_URL, oneLiner: "Even the wind stopped blowing. Respect for the tragedy." },
+        { id: "s_texwish_29", thumbnail: GERCHING_SOON_URL, oneLiner: "Final attempt: mirror. His reflection: 'I am not Gadha either.'" },
+        { id: "s_texwish_30", thumbnail: GERCHING_SOON_URL, oneLiner: "He still has the cowboy hat. The hat has seen too much." }
+    ]
+
+
+
+
 },
 "velvet-rope-vampires": {
     title: "Velvet Rope Vampires: The Hannah Delvey Foundation",
@@ -1062,8 +1105,8 @@ videos: [
         { id: "s_hannah_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
         { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
   ]
-},
 
+},
 "insolence-overload": {
       title: "Insolence Overload",
       description: "Too much insolence takes a potentially deadly toll on Amit.",
