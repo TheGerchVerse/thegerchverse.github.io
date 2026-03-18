@@ -775,10 +775,10 @@ HANNAH
       { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-trust-pays.jpg", oneLiner: "Trust pays.", arc: null },
       { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-good-side.jpg", oneLiner: "Several good sides.", arc: null },
       { id: "s_69b82e9579048191b06950bef31e9c9f", thumb: "solo-hannah-waste-time.jpg", oneLiner: "No time.", arc: null },
-      { id: "s_69b9b2dd184c8191a2aaaf960ed24133", thumb: "solo-hannah-inventing-hannah", oneLiner: "Inventing Hannah.", arc: null },
-      { id: "s_69b9d58ce1488191bbd5f3624bd3fe07", thumb: "solo-hannah-circling", oneLiner: "Circling.", arc: null },
-      { id: "s_69ba50755ac4819189f5e85a579d1429", thumb: "solo-hannah-delays", oneLiner: "Delays.", arc: null },
-      { id: "s_69ba2eb7edcc8191a5144f452b9f868c", thumb: "solo-hannah-fix-the-bill", oneLiner: "Then fix it.", arc: null },
+      { id: "s_69b9b2dd184c8191a2aaaf960ed24133", thumb: "solo-hannah-inventing-hannah.jpg", oneLiner: "Inventing Hannah.", arc: null },
+      { id: "s_69b9d58ce1488191bbd5f3624bd3fe07", thumb: "solo-hannah-circling.jpg", oneLiner: "Circling.", arc: null },
+      { id: "s_69ba50755ac4819189f5e85a579d1429", thumb: "solo-hannah-delays.jpg", oneLiner: "Delays.", arc: null },
+      { id: "s_69ba2eb7edcc8191a5144f452b9f868c", thumb: "solo-hannah-fix-the-bill.jpg", oneLiner: "Then fix it.", arc: null },
       
       
     ],
