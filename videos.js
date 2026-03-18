@@ -1179,7 +1179,7 @@ videos: [
     title: "Gadha's Revenge: The Dream Hunt",
     description: "Big Tex begged the cosmos for a Gadha. The cosmos inverted his prayer. Now when he sleeps, the golden milk source doesn't hide—it hunts. Geometries violate ranch logic: bowling ball bovine terror through Amazonian canopy, eight-legged divinity scaling canyon walls, liquid mercury pooling in motel drains. Big Tex wakes screaming 'Tickle me Texas' into the void. The divine doesn't forgive obsession. It metabolizes it. Sleep is the hunt. Gadha is always faster.",
     status: "CANONICAL — ONEIRIC HORROR",
-    statusColor: "red",
+    statusColor: "yellow",
     videos: [
         { id: "s_69ab3f02172081918627edcac7975e01", thumbnail: "arc-gadhadream-01.jpg", oneLiner: "The bowling ball rolls. The rainforest screams." },
         { id: "s_69ab2fc006bc8191946672787bb63311", thumbnail: "arc-gadhadream-02.jpg", oneLiner: "Eight legs. One creator. Zero escape." },
