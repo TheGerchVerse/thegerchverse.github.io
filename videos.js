@@ -374,6 +374,14 @@ const VIDEO_DB = {
       { id: "s_6967c07c5a94819187d09e9df67b3ee3", thumb: "solo-bigtex-red-rooster-ketchup-steak.jpg", oneLiner: "Baptism via Ketchup.", arc: null },
       { id: "s_697c0735429c8191bb17137a21566c77", thumb: "solo-bigtex-saturday-night-host.jpg", oneLiner: "Hosting Saturday Night.", arc: null },
       { id: "s_6982f002b5348191b4b480f6739a61ba", thumb: "solo-bigtex-red-rooster-steakhouse.jpg", oneLiner: "Red Rooster Ranch Steakhouse.", arc: null },
+      { id: "s_69861e0b2fd481919fa21d28f1e159e8", thumb: "solo-bigtex-red-rooster-energy2.jpg", oneLiner: "Red Rooster Energy.", arc: null },
+      { id: "s_698951a988f481919849641a85ff833b", thumb: "solo-bigtex-halftime.jpg", oneLiner: "Halftime Bonanza.", arc: null },
+      { id: "s_698ba2f3aea481919a983ee88a943b46", thumb: "solo-bigtex-texan-of-the-year.jpg", oneLiner: "Texan of the year.", arc: null },
+      { id: "s_698f7aeb392081918eb78856c23ae111", thumb: "solo-bigtex-thoughts-on-q5.jpg", oneLiner: "More time = More innovation.", arc: null },
+      { id: "s_69950bf8d33c81919faefb2b7ce4e801", thumb: "solo-bigtex-lonestar-ranger.jpg", oneLiner: "Lone Star Ranger.", arc: null },
+      { id: "s_699531a0af2c8191a14295777c1ea9be", thumb: "solo-bigtex-jurassic-wrangler.jpg", oneLiner: "Jurassic Wrangler.", arc: null },
+      { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-safari-wrangler.jpg", oneLiner: "Safarin Wranglin'.", arc: null },
+      { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-prehistoric-rodeo.jpg", oneLiner: "Pre-historic Rodeo.", arc: null },
     ],
 
 /*
@@ -973,7 +981,8 @@ HANNAH
     { id: "s_696d100ddb3c81918087f04cf76704f9", thumb: "multi-tex-eelon-test-drive-rome.jpg", oneLiner: "Gerchmobile Test Drive in Rome.", characters: ["bigtex", "eelon"], arc: null },
     { id: "s_696ef1aef50c8191aa6f7863c0ea594e", thumb: "multi-tex-cole-lifeline.jpg", oneLiner: "Cole needs a lifeline.", characters: ["bigtex", "cole"], arc: null },
     { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null },
-    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-sterling-golf.jpg", oneLiner: "Makes the birds run faster.", characters: ["bigtex", "sterling"], arc: null }
+    { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-sterling-golf.jpg", oneLiner: "Makes the birds run faster.", characters: ["bigtex", "sterling"], arc: null },
+    { id: "s_699cf197fb148191a071d4475d29efb1", thumb: "multi-tex-evilamit-gerch-motors.jpg", oneLiner: "Gerch Motors Partnership.", characters: ["bigtex", "evilamit"], arc: null }
     
     
 
@@ -1503,7 +1512,11 @@ videos: [
         { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." },
         { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." },
         { id: "s_694c5dde8aac8191a3dc390205feca8a", thumbnail: "arc-musicvideos-tex-tender-prime.jpg", oneLiner: "Tender Prime." },
-        { id: "s_696a5adf3b648191bc9024cb7803a99e", thumbnail: "arc-musicvideos-tex-bbq-of-you.jpg", oneLiner: "BBQ of You." }
+        { id: "s_696a5adf3b648191bc9024cb7803a99e", thumbnail: "arc-musicvideos-tex-bbq-of-you.jpg", oneLiner: "BBQ of You." },
+        { id: "s_69936398fda08191bdb8b96cfda5629e", thumbnail: "arc-musicvideos-tex-on-ice-gadha.jpg", oneLiner: "Lonesome Steer." },
+        { id: "s_6993f98466208191bff320688867a9f4", thumbnail: "arc-musicvideos-tex-lone-star-lullaby.jpg", oneLiner: "Lone Star Lullaby." },
+        { id: "s_6993fd50e38881918506374615a00cb4", thumbnail: "arc-musicvideos-tex-lone-star-passion.jpg", oneLiner: "Lone Star Passion." },
+        { id: "s_6994cec68ec8819195ea94ad1ce1d032", thumbnail: "arc-musicvideos-tex-divine-brisket.jpg", oneLiner: "Divine Gadha Brisket." }
       ]      
 
 
