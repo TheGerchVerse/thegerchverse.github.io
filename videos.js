@@ -1177,7 +1177,7 @@ videos: [
 },
 "gadha-dream-hunt": {
     title: "Gadha's Revenge: The Dream Hunt",
-    description: "Big Tex begged the cosmos for a Gadha. The cosmos inverted his prayer. Now when he sleeps, the golden milk source doesn't hide—it hunts. Geometries violate ranch logic: bowling ball bovine terror through Amazonian canopy, eight-legged divinity scaling canyon walls, liquid mercury pooling in motel drains. Big Tex wakes screaming 'Tickle me Texas' into void. The divine doesn't forgive obsession. It metabolizes it. Sleep is the hunt. Gadha is always faster.",
+    description: "Big Tex begged the cosmos for a Gadha. The cosmos inverted his prayer. Now when he sleeps, the golden milk source doesn't hide—it hunts. Geometries violate ranch logic: bowling ball bovine terror through Amazonian canopy, eight-legged divinity scaling canyon walls, liquid mercury pooling in motel drains. Big Tex wakes screaming 'Tickle me Texas' into the void. The divine doesn't forgive obsession. It metabolizes it. Sleep is the hunt. Gadha is always faster.",
     status: "CANONICAL — ONEIRIC HORROR",
     statusColor: "red",
     videos: [
