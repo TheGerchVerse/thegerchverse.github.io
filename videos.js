@@ -780,6 +780,7 @@ HANNAH
       { id: "s_69ba50755ac4819189f5e85a579d1429", thumb: "solo-hannah-delays.jpg", oneLiner: "Delays.", arc: null },
       { id: "s_69ba2eb7edcc8191a5144f452b9f868c", thumb: "solo-hannah-fix-the-bill.jpg", oneLiner: "Then fix it.", arc: null },
       { id: "s_69bae4b935c48191bce84ad142ce0d42", thumb: "solo-hannah-luggage-hold.jpg", oneLiner: "Luggage hold.", arc: null },
+      { id: "s_69baf0be02ac8191b1dec035c68a5b00", thumb: "solo-hannah-provincial.jpg", oneLiner: "Provincial questions.", arc: null },,
       
       
     ],
