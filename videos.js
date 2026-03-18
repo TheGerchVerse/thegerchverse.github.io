@@ -1174,6 +1174,24 @@ videos: [
         { id: "s_69310a48ac288191a465bc70bfb9d57c", thumbnail: "arc-toomuchinsolence-03.jpg", oneLiner: "Leon not fond of reporters." }
       ]
 
+},
+"gadha-dream-hunt": {
+    title: "Gadha's Revenge: The Dream Hunt",
+    description: "Big Tex begged the cosmos for a Gadha. The cosmos inverted his prayer. Now when he sleeps, the golden milk source doesn't hide—it hunts. Geometries violate ranch logic: bowling ball bovine terror through Amazonian canopy, eight-legged divinity scaling canyon walls, liquid mercury pooling in motel drains. Big Tex wakes screaming 'Tickle me Texas' into void. The divine doesn't forgive obsession. It metabolizes it. Sleep is the hunt. Gadha is always faster.",
+    status: "CANONICAL — ONEIRIC HORROR",
+    statusColor: "red",
+    videos: [
+        { id: "s_69ab3f02172081918627edcac7975e01", thumbnail: "arc-gadhadream-01.jpg", oneLiner: "The bowling ball rolls. The rainforest screams." },
+        { id: "s_69ab2fc006bc8191946672787bb63311", thumbnail: "arc-gadhadream-02.jpg", oneLiner: "Eight legs. One creator. Zero escape." },
+        { id: "s_gadha_placeholder_09", thumbnail: GERCHING_SOON_URL, oneLiner: "Motel ice machine: Gadha-shaped." },
+        { id: "s_gadha_placeholder_10", thumbnail: GERCHING_SOON_URL, oneLiner: "The herd dreams in parallel." },
+        { id: "s_gadha_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "REM cycle: Rapidly Escaping Milk." },
+        { id: "s_gadha_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "You wanted ownership. You got pursuit." }
+    ]
+}
+
+
+
 
 },      
 "gerchlings": {
@@ -1528,10 +1546,9 @@ videos: [
       ]      
 
 
-    }
-
   }
-};
+
+}
 
 
 /*  STORY ARC PLACEHOLDERS  NOTE: Replace GERCHING_SOON_URL with "imagename" in quotes
