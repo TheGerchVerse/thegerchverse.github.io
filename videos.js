@@ -775,6 +775,10 @@ HANNAH
       { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-trust-pays.jpg", oneLiner: "Trust pays.", arc: null },
       { id: "s_69b82a6dff788191a9e9770d12beb6b1", thumb: "solo-hannah-good-side.jpg", oneLiner: "Several good sides.", arc: null },
       { id: "s_69b82e9579048191b06950bef31e9c9f", thumb: "solo-hannah-waste-time.jpg", oneLiner: "No time.", arc: null },
+      { id: "s_69b9b2dd184c8191a2aaaf960ed24133", thumb: "solo-hannah-inventing-hannah", oneLiner: "Inventing Hannah.", arc: null },
+      { id: "s_69b9d58ce1488191bbd5f3624bd3fe07", thumb: "solo-hannah-circling", oneLiner: "Circling.", arc: null },
+      { id: "s_69ba50755ac4819189f5e85a579d1429", thumb: "solo-hannah-delays", oneLiner: "Delays.", arc: null },
+      { id: "s_69ba2eb7edcc8191a5144f452b9f868c", thumb: "solo-hannah-fix-the-bill", oneLiner: "Then fix it.", arc: null },
       
       
     ],
@@ -982,10 +986,13 @@ HANNAH
     { id: "s_696ef1aef50c8191aa6f7863c0ea594e", thumb: "multi-tex-cole-lifeline.jpg", oneLiner: "Cole needs a lifeline.", characters: ["bigtex", "cole"], arc: null },
     { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null },
     { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-sterling-golf.jpg", oneLiner: "Makes the birds run faster.", characters: ["bigtex", "sterling"], arc: null },
-    { id: "s_699cf197fb148191a071d4475d29efb1", thumb: "multi-tex-evilamit-gerch-motors.jpg", oneLiner: "Gerch Motors Partnership.", characters: ["bigtex", "evilamit"], arc: null }
-    
-    
-
+    { id: "s_699cf197fb148191a071d4475d29efb1", thumb: "multi-tex-evilamit-gerch-motors.jpg", oneLiner: "Gerch Motors Partnership.", characters: ["bigtex", "evilamit"], arc: null },
+    { id: "s_69b85b7d822c8191b26fff053e5cf42e", thumb: "multi-erecto-rise.jpg", oneLiner: "Stay Firm. Stay Humble.", characters: ["hannah", "lizzie", "cole", "colin", "bigtex", "oletex"], arc: null },
+    { id: "s_69b9b1c3ccb08191b872f2d4b8d59a9e", thumb: "multi-painfully-mediocre.jpg", oneLiner: "Painfully mediocre.", characters: ["hannah", "mediocrates"], arc: null },
+    { id: "s_69ba0df5bec0819181a5a91329c8c485", thumb: "multi-hannah-business.jpg", oneLiner: "It's only business.", characters: ["hannah", "sterling", "raj"], arc: null },
+    { id: "s_69ba40c6f64c819196d687f5ecd3b4a3", thumb: "multi-hannah-poker.jpg", oneLiner: "Winner, Winner.", characters: ["hannah", "raj", "eelon", "sterling"], arc: null },
+    { id: "s_69ba4117289c8191a57e25321df6866e", thumb: "multi-ghost-gallery.jpg", oneLiner: "Ghost Gallery", characters: ["hannah", "raj", "colin"], arc: null },
+    { id: "s_69ba4409a24c8191b55fe61524c434f4", thumb: "multi-hannah-lactose.jpg", oneLiner: "Lactose intolerant.", characters: ["hannah", "gadha"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
@@ -1334,7 +1341,8 @@ videos: [
         { id: "s_6935302aa35881918233d7a98de8de73", thumbnail: "arc-toys-bigtex.jpg", oneLiner: "Big Tex Wang Action Figure." },
         { id: "s_69ab6507421c8191bb1714aa0ee18c18", thumbnail: "arc-toys-raj-sterling.jpg", oneLiner: "Raj & Sterling: Service Command Play Set." },
         { id: "s_69ab73c1886c8191935dbfc06a5b1cbd", thumbnail: "arc-toys-amitmom.jpg", oneLiner: "'Have it Your Way' Play Set." },
-        { id: "s_69ab74e7a4ac8191aacb9f79392191c9", thumbnail: "arc-toys-pharma-bro.jpg", oneLiner: "Pharma Bro Action Figure." }
+        { id: "s_69ab74e7a4ac8191aacb9f79392191c9", thumbnail: "arc-toys-pharma-bro.jpg", oneLiner: "Pharma Bro Action Figure." },
+        { id: "s_69b9b608361c8191a9dddf6526f5796d", thumbnail: "arc-toys-hannah.jpg", oneLiner: "Hannah Delvey Heiress Play Set." }
       ]
 
     },
