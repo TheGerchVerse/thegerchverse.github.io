@@ -380,7 +380,7 @@ const VIDEO_DB = {
       { id: "s_698f7aeb392081918eb78856c23ae111", thumb: "solo-bigtex-thoughts-on-q5.jpg", oneLiner: "More time = More innovation.", arc: null },
       { id: "s_69950bf8d33c81919faefb2b7ce4e801", thumb: "solo-bigtex-lonestar-ranger.jpg", oneLiner: "Lone Star Ranger.", arc: null },
       { id: "s_699531a0af2c8191a14295777c1ea9be", thumb: "solo-bigtex-jurassic-wrangler.jpg", oneLiner: "Jurassic Wrangler.", arc: null },
-      { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-safari-wrangler.jpg", oneLiner: "Safarin Wranglin'.", arc: null },
+      { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-safari-wrangler.jpg", oneLiner: "Safari Wranglin'.", arc: null },
       { id: "s_69ba414831d4819189e14fd0ef9ac6a1", thumb: "solo-bigtex-hypermega-gargantamax-lx.jpg", oneLiner: "Hyper-Mega Gargantamax LX.", arc: null },
     ],
 
