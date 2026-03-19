@@ -1224,9 +1224,7 @@ videos: [
         { id: "s_gadha_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "REM cycle: Rapidly Escaping Milk." },
         { id: "s_gadha_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "You wanted ownership. You got pursuit." }
     ]
-}
-
-
+},
 
 
 },      
@@ -1242,9 +1240,10 @@ videos: [
     { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
     { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
     { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." }
-]
-  },
+    ]
+  
 
+  },
   "executive-flight-assets": {
       title: "Executive Flight Assets",
       description: "Not a story arc, but in our defense, Mediocrates approved (he was having a good day and we took advantage). Our core Gerch-Verse family members have special 'vehicles' and we needed somewhere to put the footage. 'Story Arcs' was closer than 'Random Asset Dump,' so here we are. Continuity is a myth we tell ourselves.",
