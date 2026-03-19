@@ -811,6 +811,8 @@ HANNAH
       { id: "s_69baf0be02ac8191b1dec035c68a5b00", thumb: "solo-hannah-provincial.jpg", oneLiner: "Provincial questions.", arc: null },
       { id: "s_69bb103942848191b0b19bce3aa929c0", thumb: "solo-hannah-tiger-den.jpg", oneLiner: "Tiger's den.", arc: null },
       { id: "s_69bb95de16b08191bdc2174d7afdb0c4", thumb: "solo-hannah-art.jpg", oneLiner: "Hannah and fine art.", arc: null },
+      { id: "s_69bc3f5da6348191b502ecabb867af4b", thumb: "solo-hannah-twin-cubs.jpg", oneLiner: "Twin cubs.", arc: null },
+      { id: "s_69bc4d54f2488191a0be6f13e8e8f4d5", thumb: "solo-hannah-father.jpg", oneLiner: "Daddy.", arc: null },
       
       
     ],
@@ -1028,7 +1030,9 @@ HANNAH
     { id: "s_69bb1ee140c88191bb47327fc800321a", thumb: "multi-hannah-lizzie-volleyball.jpg", oneLiner: "Well played.", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69bb56b85b288191b5275623d1f2ef15", thumb: "multi-hannah-lizzie-victory.jpg", oneLiner: "Victory.", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null },
-    { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-bigtex-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null }
+    { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-hannah-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null },
+    { id: "s_69bc3e6d88d88191af34faa451219ad0", thumb: "multi-hannah-raj-sterling-cake.jpg", oneLiner: "Let them eat cake.", characters: ["hannah", "sterling", "raj"], arc: null },
+    { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
