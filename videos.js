@@ -781,6 +781,8 @@ HANNAH
       { id: "s_69ba2eb7edcc8191a5144f452b9f868c", thumb: "solo-hannah-fix-the-bill.jpg", oneLiner: "Then fix it.", arc: null },
       { id: "s_69bae4b935c48191bce84ad142ce0d42", thumb: "solo-hannah-luggage-hold.jpg", oneLiner: "Luggage hold.", arc: null },
       { id: "s_69baf0be02ac8191b1dec035c68a5b00", thumb: "solo-hannah-provincial.jpg", oneLiner: "Provincial questions.", arc: null },
+      { id: "s_69bb103942848191b0b19bce3aa929c0", thumb: "solo-hannah-tiger-den.jpg", oneLiner: "Tiger's den.", arc: null },
+      { id: "s_69bb95de16b08191bdc2174d7afdb0c4", thumb: "solo-hannah-art.jpg", oneLiner: "Hannah and fine art.", arc: null },
       
       
     ],
@@ -994,7 +996,10 @@ HANNAH
     { id: "s_69ba0df5bec0819181a5a91329c8c485", thumb: "multi-hannah-business.jpg", oneLiner: "It's only business.", characters: ["hannah", "sterling", "raj"], arc: null },
     { id: "s_69ba40c6f64c819196d687f5ecd3b4a3", thumb: "multi-hannah-poker.jpg", oneLiner: "Winner, Winner.", characters: ["hannah", "raj", "eelon", "sterling"], arc: null },
     { id: "s_69ba4117289c8191a57e25321df6866e", thumb: "multi-ghost-gallery.jpg", oneLiner: "Ghost Gallery", characters: ["hannah", "raj", "colin"], arc: null },
-    { id: "s_69ba4409a24c8191b55fe61524c434f4", thumb: "multi-hannah-lactose.jpg", oneLiner: "Lactose intolerant.", characters: ["hannah", "gadha"], arc: null }
+    { id: "s_69ba4409a24c8191b55fe61524c434f4", thumb: "multi-hannah-lactose.jpg", oneLiner: "Lactose intolerant.", characters: ["hannah", "gadha"], arc: null },
+    { id: "s_69bb1ee140c88191bb47327fc800321a", thumb: "multi-hannah-lizzie-volleyball.jpg", oneLiner: "Well played.", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69bb56b85b288191b5275623d1f2ef15", thumb: "multi-hannah-lizzie-victory.jpg", oneLiner: "Victory.", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
