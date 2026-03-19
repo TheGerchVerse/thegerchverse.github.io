@@ -4,7 +4,7 @@
 
 const VIDEO_DB = {
   // ============================================
-  // SOLO CHARACTER VIDEOS - All 18 Characters
+  // SOLO CHARACTER VIDEOS - All Characters
   // ============================================
 /*
 ╔═════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -669,6 +669,34 @@ const VIDEO_DB = {
       { id: "s_69acf8bde7b8819184b54e58a7ce4505", thumb: "solo-lightamit-healing-takes-time.jpg", oneLiner: "Healing takes time.", arc: null },
       { id: "s_69acfa48e84c8191b5b2db9d1df3b466", thumb: "solo-lightamit-meetings-too.jpg", oneLiner: "Meetings, too.", arc: null },
     ],
+    
+/*
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                      ║
+║       ██████╗    ██╗   ██╗   ██████╗    ███████╗       ███████╗                      ║
+║       ██╔══██╗   ██║   ██║   ██╔══██╗   ██╔════╝       ██╔════╝                      ║
+║       ██████╔╝   ██║   ██║   ██║  ██║   █████╗         █████╗                        ║
+║       ██╔══██╗   ██║   ██║   ██║  ██║   ██╔══╝         ██╔══╝                        ║
+║       ██║  ██║   ╚██████╔╝   ██████╔╝   ███████╗       ███████╗    ██╗ \             ║
+║       ╚═╝  ╚═╝    ╚═════╝    ╚═════╝    ╚══════╝       ╚══════╝    ╚═╝               ║
+║══════════════════════════════════════════════════════════════════════════════════════║
+║                                 R U D E      E .                                     ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+*/
+     // RUDE E. FOOLIANI - 8 videos
+    rudefool: [
+      { id: "s_69bc082e2e648191856ed2d46601e705", thumb: "solo-rudefool-intro.jpg", oneLiner: "Let me be clear.", arc: null },
+      { id: "s_rudefool_02", thumb: "rudefool-02.jpg", oneLiner: "Parking lot press conference.", arc: null },
+      { id: "s_rudefool_03", thumb: "rudefool-03.jpg", oneLiner: "The hair dye incident.", arc: null },
+      { id: "s_rudefool_placeholder_07", thumb: GERCHING_SOON_URL, oneLiner: "It's Rude E. Call me 'Rude.'", arc: null },
+      { id: "s_rudefool_placeholder_08", thumb: GERCHING_SOON_URL, oneLiner: "The glory days are behind me.", arc: null },
+    ],
+
+
+
+
+
+
 
 /*
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1678,6 +1706,14 @@ const CHARACTERS = {
     role: "The Manageable Choice",
     avatar: "../images/evilamit.jpg",
     color: "#00FF00"
+  },
+
+  rudefool: {
+    name: "Rude E. Fooliani",
+    handle: "@rudeefooliani",
+    role: "Disgraced Founder, Professional Relauncher",
+    avatar: "../images/rudee.jpg",
+    color: "#C9A227"
   },
 
     oletex: {
