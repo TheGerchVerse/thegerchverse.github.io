@@ -1711,7 +1711,7 @@ const CHARACTERS = {
   rudefool: {
     name: "Rude E. Fooliani",
     handle: "@rudeefooliani",
-    role: "Disgraced Founder, Professional Relauncher",
+    role: "Former Mayor, Decay in a Suit",
     avatar: "../images/rudee.jpg",
     color: "#C9A227"
   },
