@@ -688,8 +688,8 @@ const VIDEO_DB = {
       { id: "s_69bc082e2e648191856ed2d46601e705", thumb: "solo-rudefool-intro.jpg", oneLiner: "Let me be clear.", arc: null },
       { id: "s_rudefool_02", thumb: "rudefool-02.jpg", oneLiner: "Parking lot press conference.", arc: null },
       { id: "s_rudefool_03", thumb: "rudefool-03.jpg", oneLiner: "The hair dye incident.", arc: null },
-      { id: "s_rudefool_placeholder_07", thumb: GERCHING_SOON_URL, oneLiner: "It's Rude E. Call me 'Rude.'", arc: null },
-      { id: "s_rudefool_placeholder_08", thumb: GERCHING_SOON_URL, oneLiner: "The glory days are behind me.", arc: null },
+      { id: "s_rudefool_placeholder_07", thumbnail: GERCHING_SOON_URL, oneLiner: "It's Rude E. Call me 'Rude.'", arc: null },
+      { id: "s_rudefool_placeholder_08", thumbnail: GERCHING_SOON_URL, oneLiner: "The glory days are behind me.", arc: null },
     ],
 
 
