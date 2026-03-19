@@ -1027,7 +1027,8 @@ HANNAH
     { id: "s_69ba4409a24c8191b55fe61524c434f4", thumb: "multi-hannah-lactose.jpg", oneLiner: "Lactose intolerant.", characters: ["hannah", "gadha"], arc: null },
     { id: "s_69bb1ee140c88191bb47327fc800321a", thumb: "multi-hannah-lizzie-volleyball.jpg", oneLiner: "Well played.", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69bb56b85b288191b5275623d1f2ef15", thumb: "multi-hannah-lizzie-victory.jpg", oneLiner: "Victory.", characters: ["hannah", "lizzie"], arc: null },
-    { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null }
+    { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null },
+    { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-bigtex-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
@@ -1357,7 +1358,7 @@ videos: [
         { id: "s_6923e1a515c481919a9f1d5994ca5f47", thumbnail: "arc-f-infinity03.jpg", oneLiner: "Osaka Drift: Legacy vs Destiny." },
         { id: "s_693910d605c88191b62298b26bdaa435", thumbnail: "arc-f-infinity04.jpg", oneLiner: "Legacy on Fire." },
         { id: "s_6954d7894874819186e758aa3ed3ab45", thumbnail: "arc-f-infinity05a.jpg", oneLiner: "Race of Gods." },
-        { id: "s_6954d70ab644819180fdf67c2e3621dd", thumbnail: "arc-f-infinity05b.jpg", oneLiner: "Race of Gods V2." }
+        { id: "s_6954d70ab644819180fdf67c2e3621dd", thumbnail: "arc-f-infinity05b.jpg", oneLiner: "Race of Gods V2." },
       ]
 
     },
@@ -1395,7 +1396,7 @@ videos: [
         { id: "s_69ab6507421c8191bb1714aa0ee18c18", thumbnail: "arc-toys-raj-sterling.jpg", oneLiner: "Raj & Sterling: Service Command Play Set." },
         { id: "s_69ab73c1886c8191935dbfc06a5b1cbd", thumbnail: "arc-toys-amitmom.jpg", oneLiner: "'Have it Your Way' Play Set." },
         { id: "s_69ab74e7a4ac8191aacb9f79392191c9", thumbnail: "arc-toys-pharma-bro.jpg", oneLiner: "Pharma Bro Action Figure." },
-        { id: "s_69b9b608361c8191a9dddf6526f5796d", thumbnail: "arc-toys-hannah.jpg", oneLiner: "Hannah Delvey Heiress Play Set." }
+        { id: "s_69b9b608361c8191a9dddf6526f5796d", thumbnail: "arc-toys-hannah.jpg", oneLiner: "Hannah Delvey Heiress Play Set." },
       ]
 
     },
@@ -1577,7 +1578,8 @@ videos: [
         { id: "s_69936398fda08191bdb8b96cfda5629e", thumbnail: "arc-musicvideos-tex-on-ice-gadha.jpg", oneLiner: "Lonesome Steer." },
         { id: "s_6993f98466208191bff320688867a9f4", thumbnail: "arc-musicvideos-tex-lone-star-lullaby.jpg", oneLiner: "Lone Star Lullaby." },
         { id: "s_6993fd50e38881918506374615a00cb4", thumbnail: "arc-musicvideos-tex-lone-star-passion.jpg", oneLiner: "Lone Star Passion." },
-        { id: "s_6994cec68ec8819195ea94ad1ce1d032", thumbnail: "arc-musicvideos-tex-divine-brisket.jpg", oneLiner: "Divine Gadha Brisket." }
+        { id: "s_6994cec68ec8819195ea94ad1ce1d032", thumbnail: "arc-musicvideos-tex-divine-brisket.jpg", oneLiner: "Divine Gadha Brisket." },
+        { id: "s_69b50c3f7cec8191b96e33db30796172", thumbnail: "arc-musicvideos-tex-galactic-cypher.jpg", oneLiner: "Galactic Cypher." }
       ]      
 
 
