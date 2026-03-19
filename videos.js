@@ -1774,7 +1774,7 @@ const CHARACTERS = {
   amitjr: {
     name: "Amit Jr.",
     handle: "@amitjrq6",
-    role: "Son of Amit, Whistleblower from Q6",
+    role: "Son of Amit Gaur, Accidental EGOT pop star",
     avatar: "../images/amitjrq6.jpg",
     color: "#808080"
   }
