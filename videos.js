@@ -1227,7 +1227,6 @@ videos: [
 },
 
 
-},      
 "gerchlings": {
   title: "Gerchlings: The Before-Times",
   description: "Many insolent children, one shared destiny of corporate trauma. Before Q5, before the profit projections, before the milk-slaps—there was recess. And it was already problematic.",
@@ -1585,6 +1584,7 @@ videos: [
   }
 
 }
+};
 
 
 /*  STORY ARC PLACEHOLDERS  NOTE: Replace GERCHING_SOON_URL with "imagename" in quotes
