@@ -1032,7 +1032,8 @@ HANNAH
     { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null },
     { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-hannah-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null },
     { id: "s_69bc3e6d88d88191af34faa451219ad0", thumb: "multi-hannah-raj-sterling-cake.jpg", oneLiner: "Let them eat cake.", characters: ["hannah", "sterling", "raj"], arc: null },
-    { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null }
+    { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null },
+    { id: "s_69bc5e4b2818819180702eeff942d99b", thumb: "multi-leon-rudefool-insured.jpg", oneLiner: "It's all insured.", characters: ["rudefool", "leon"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
