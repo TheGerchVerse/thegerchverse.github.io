@@ -381,7 +381,7 @@ const VIDEO_DB = {
       { id: "s_69950bf8d33c81919faefb2b7ce4e801", thumb: "solo-bigtex-lonestar-ranger.jpg", oneLiner: "Lone Star Ranger.", arc: null },
       { id: "s_699531a0af2c8191a14295777c1ea9be", thumb: "solo-bigtex-jurassic-wrangler.jpg", oneLiner: "Jurassic Wrangler.", arc: null },
       { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-safari-wrangler.jpg", oneLiner: "Safarin Wranglin'.", arc: null },
-      { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-prehistoric-rodeo.jpg", oneLiner: "Pre-historic Rodeo.", arc: null },
+      { id: "s_69ba414831d4819189e14fd0ef9ac6a1", thumb: "solo-bigtex-hypermega-gargantamax-lx.jpg", oneLiner: "Hyper-Mega Gargantamax LX.", arc: null },
     ],
 
 /*
@@ -1491,7 +1491,9 @@ videos: [
         { id: "s_69accf3866e48191a73678e52ae1be6d", thumbnail: "arc-risingsun20.jpg", oneLiner: "Indubitable Butler Ranger." },
         { id: "s_69adb849d0d88191a5d5ca7b33d39798", thumbnail: "arc-risingsun21.jpg", oneLiner: "Raj Ranger." },
         { id: "s_6993fd0a9f3c8191b1e6469f0a3eb25d", thumbnail: "arc-risingsun22.jpg", oneLiner: "Baba Ganoush." },
-        { id: "s_69a607ecdbc08191b1aaf9c99a5c0bd4", thumbnail: "arc-risingsun23.jpg", oneLiner: "Cereal." }
+        { id: "s_69a607ecdbc08191b1aaf9c99a5c0bd4", thumbnail: "arc-risingsun23.jpg", oneLiner: "Cereal." },
+        { id: "s_69baf099f2dc8191999e15076291b9e8", thumbnail: "arc-risingsun24.jpg", oneLiner: "Hyper Mega Gargantamax LX." },
+        { id: "s_69baf1980e148191943a7149e2653fe6", thumbnail: "arc-risingsun25.jpg", oneLiner: "Hyper Mega Gargantamax LX Ver 2." }
       ]
 
     },
