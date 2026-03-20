@@ -300,6 +300,14 @@ const VIDEO_DB = {
       { id: "s_692c6e6809348191894dc82d2301dce1", thumb: "solo-lizzie-anti-age.jpg", oneLiner: "Lizzie's secret weapon.", arc: null },
       { id: "s_693d23e2d0908191987382192c68c34e", thumb: "solo-lizzie-xmas-spirit.jpg", oneLiner: "Lizzie and Ionix is here to help. Happy Holidays.", arc: null },
       { id: "s_6945e67dd9548191b1e6349a8c141971", thumb: "solo-lizzie-market-shenanigans.jpg", oneLiner: "Lizzie plans to tank Gerchan Farms.", arc: null },
+      { id: "s_6955ea8432b08191a35eb3b7a69dbdeb", thumb: "solo-lizzie-non-urgent.jpg", oneLiner: "Non-urgent existential noise.", arc: null },
+      { id: "s_695a14bfa3c88191b3226408af150517", thumb: "solo-lizzie-underdog.jpg", oneLiner: "Underdog: The Lizzie Holmes Story.", arc: null },
+      { id: "s_6961644aa4f88191a268a15688669041", thumb: "solo-lizzie-control-the-pulse.jpg", oneLiner: "Controlling the pulse", arc: null },
+      { id: "s_696195ace110819194d1eeb5190b9447", thumb: "solo-lizzie-rocket-pocket.jpg", oneLiner: "Whoa there, Lizzie.", arc: null },
+      { id: "s_6965f1a18ffc8191ae6c837f7d6bc551", thumb: "solo-lizzie-ionix-lifestyle.jpg", oneLiner: "Ionix Lifestyle Collection.", arc: null },
+      { id: "s_69710da097648191b036b809c458dcf8", thumb: "solo-lizzie-drink.jpg", oneLiner: "What was in that drink?", arc: null },
+      { id: "s_6987ab6dac0081918d0dfdfd6f8ee457", thumb: "solo-lizzie-saturday-night.jpg", oneLiner: "Saturday Night Host.", arc: null },
+      { id: "s_6987d1258a208191b2d75cd45787f991", thumb: "solo-lizzie-ionix-hearing.jpg", oneLiner: "Ionix Hearing.", arc: null },
     ],
 
 /*
@@ -924,6 +932,7 @@ HANNAH
     { id: "s_694436ad97ec81919e4e1bded61ee59e", thumb: "multi-lizziegadhadestiny.jpg", oneLiner: "Gadha's Destiny.", characters: ["lizzie", "gadha", "amit"], arc: null },
     { id: "s_6945ded9d9908191b65678200276058a", thumb: "multi-amitleonradioactive.jpg", oneLiner: "Radioactive Riddle.", characters: ["leon", "amit"], arc: null },
     { id: "s_6946cc1f589481918a991033874e2871", thumb: "multi-insolentgadhawhip.jpg", oneLiner: "Amit disciplines Gadha.", characters: ["amit", "gadha"], arc: null },
+    { id: "s_69646d381fac8191afc5c6a2fb179677", thumb: "multi-convinced.jpg", oneLiner: "Considered me convinced.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_6946e1eb1ce08191b503fe452850ffca", thumb: "multi-amittexgetgadha.jpg", oneLiner: "Movie trailer: Get Gadha.", characters: ["gadha", "amit", "bigtex"], arc: null },
     { id: "s_694837ea42c88191b7e47a31bd1c98a5", thumb: "multi-amittexshockingdiscovery.jpg", oneLiner: "Amit's secret.", characters: ["bigtex", "amit"], arc: null },
     { id: "s_694c4cc8497481919e77b97d2227fd7c", thumb: "multi-amitgadhavulnerable.jpg", oneLiner: "Q5 vulnerability.", characters: ["amit", "gadha"], arc: null },
@@ -975,6 +984,8 @@ HANNAH
     { id: "s_69b4c7ef5f508191acc71a02b29ab071", thumb: "multi-hannah-cole-swipe-left.jpg", oneLiner: "Swipe left.", characters: ["hannah", "cole"], arc: null },
     { id: "s_69b4cf5d166c8191935419af41ffad0c", thumb: "multi-hannah-tex-stand-there.jpg", oneLiner: "Western Party.", characters: ["hannah", "bigtex"], arc: null },
     { id: "s_69874be1ebe48191afb6e13bbe0f1555", thumb: "multi-amit-raj-moo.jpg", oneLiner: "Moo.", characters: ["amit", "raj"], arc: null },
+    { id: "s_697ec6a4c564819198fe38ad5e081599", thumb: "multi-darkamit-lizzie-diversified-livestock.jpg", oneLiner: "Diversified Livestock.", characters: ["dakamit", "lizzie"], arc: null },
+    { id: "s_697d4f6a5aa88191aaef525e14624853", thumb: "multi-lizzie-leon-bad-math.jpg", oneLiner: "Bad Math.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_69b4fb4aeec08191b6d2322bec884304", thumb: "multi-hannah-lizzie-light-stay-on.jpg", oneLiner: "Whatever lets the light stay on.", characters: ["lizzie", "hannah"], arc: null },
     { id: "s_6989f83933608191b6015ed30c43fb50", thumb: "multi-eelon-amit-gerchmotors-best-sales.jpg", oneLiner: "Gerch Motors: Best Sales.", characters: ["eelon", "amit"], arc: null },
     { id: "s_698a6408f2c48191ab3d24a8c73b8d99", thumb: "multi-amit-darkamit-expendable-zilla.jpg", oneLiner: "Expendable-zilla.", characters: ["darkamit", "amit"], arc: null },
@@ -983,6 +994,8 @@ HANNAH
     { id: "s_699508ce6e4c81918562dbcd2643237e", thumb: "multi-amit-evilamit-quarters-disagreement.jpg", oneLiner: "Profits and Quarters", characters: ["evilamit", "amit"], arc: null },
     { id: "s_699538cd5c188191908d156e93f9d324", thumb: "multi-amit-evilamit-lion-victory.jpg", oneLiner: "Respectful Victory.", characters: ["evilamit", "amit"], arc: null },
     { id: "s_6995f46521b081919badd48c14f37a65", thumb: "multi-amit-evilamit-happy-workers.jpg", oneLiner: "Happy Workers.", characters: ["evilamit", "amit"], arc: null },
+    { id: "s_697826bba81881919e3c501bbcb1335b", thumb: "multi-lizzie-darkamit-vanilla.jpg", oneLiner: "Vanilla Amit is crying.", characters: ["darkamit", "lizzie"], arc: null },
+    { id: "s_69718aed391c8191b5373022551dbbe2", thumb: "multi-lizzie-cole-bailout.jpg", oneLiner: "Happy Workers.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_69961a812bf0819189b4d636d030d20a", thumb: "multi-amit-evilamit-return-of-the-brother.jpg", oneLiner: "Return of the brother.", characters: ["evilamit", "amit"], arc: null },
     { id: "s_699739618e188191893fab6b367e9f99", thumb: "multi-amit-evilamit-gadha-bullet-time.jpg", oneLiner: "I can do it better.", characters: ["evilamit", "amit", "gadha"], arc: null },
     { id: "s_69976ec24d1c81918ebeef4c6c2e190c", thumb: "multi-amit-evilamit-giving-back.jpg", oneLiner: "Giving back.", characters: ["evilamit", "amit"], arc: null },
@@ -1014,9 +1027,12 @@ HANNAH
     { id: "s_696281c3a83c8191b4b7c346995cacab", thumb: "multi-tex-slap-lizzie.jpg", oneLiner: "Lizzie's lips are sealed.", characters: ["bigtex", "gadha", "lizzie"], arc: null },
     { id: "s_6966538018408191a8647b0c4a6684d1", thumb: "multi-gadha-beans-final-warning.jpg", oneLiner: "Gadha Beans - Final Warning.", characters: ["bigtex", "gadha"], arc: null },
     { id: "s_696b0d8800008191b4a6a2a86c30ee6f", thumb: "multi-tex-eelon-call-meal.jpg", oneLiner: "Just tryin to eat here.", characters: ["bigtex", "eelon"], arc: null },
+    { id: "s_6948a5a20e5c8191ad3fc90b6615107c", thumb: "multi-raj-leon-lizzie-interupted.jpg", oneLiner: "Romance interrupted.", characters: ["lizzie", "raj", "leon"], arc: null },
+    { id: "s_694955ec321c8191a70e434b43f2f479", thumb: "multi-raj-leon-lizzie-interupted-2.jpg", oneLiner: "No lies.", characters: ["lizzie", "raj", "leon"], arc: null },
     { id: "s_696be33245608191ae2bafcd14c41d57", thumb: "multi-tex-eelon-test-drive.jpg", oneLiner: "Gerchmobile Test Drive.", characters: ["bigtex", "eelon"], arc: null },
     { id: "s_696d100ddb3c81918087f04cf76704f9", thumb: "multi-tex-eelon-test-drive-rome.jpg", oneLiner: "Gerchmobile Test Drive in Rome.", characters: ["bigtex", "eelon"], arc: null },
-    { id: "s_696ef1aef50c8191aa6f7863c0ea594e", thumb: "multi-tex-cole-lifeline.jpg", oneLiner: "Cole needs a lifeline.", characters: ["bigtex", "cole"], arc: null },
+    { id: "s_696674a4d2cc819196090fb366fc1ab4", thumb: "multi-leon-lizzie-swim.jpg", oneLiner: "Swim break.", characters: ["leon", "lizzie"], arc: null },
+    { id: "s_6966a1c06da08191880a4236a944efea", thumb: "multi-leon-lizzie-dark-chocolate.jpg", oneLiner: "Dark chocolate.", characters: ["leon", "lizzie"], arc: null },
     { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-lightamit-communism.jpg", oneLiner: "Light Amit robs Big Tex", characters: ["bigtex", "lightamit"], arc: null },
     { id: "s_6979b10841588191a170f2d43344d127", thumb: "multi-tex-sterling-golf.jpg", oneLiner: "Makes the birds run faster.", characters: ["bigtex", "sterling"], arc: null },
     { id: "s_699cf197fb148191a071d4475d29efb1", thumb: "multi-tex-evilamit-gerch-motors.jpg", oneLiner: "Gerch Motors Partnership.", characters: ["bigtex", "evilamit"], arc: null },
@@ -1034,7 +1050,26 @@ HANNAH
     { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null },
     { id: "s_69bc5e4b2818819180702eeff942d99b", thumb: "multi-leon-rudefool-insured.jpg", oneLiner: "It's all insured.", characters: ["rudefool", "leon"], arc: null },
     { id: "s_69bc78b2cec0819181565e4091cbe697", thumb: "multi-hannah-rudefool-naming.jpg", oneLiner: "Call me 'Rude'.", characters: ["rudefool", "hannah"], arc: null },
-    { id: "s_69bcc9b1a1cc819192d38565a9760679", thumb: "multi-darkamit-rudefool-hairdye.jpg", oneLiner: "Melting Authority", characters: ["rudefool", "darkamit"], arc: null }
+    { id: "s_69bcc9b1a1cc819192d38565a9760679", thumb: "multi-darkamit-rudefool-hairdye.jpg", oneLiner: "Melting Authority", characters: ["rudefool", "darkamit"], arc: null },
+    { id: "s_69254918f58881919b43641113042d8d", thumb: "multi-pro-bono.jpg", oneLiner: "Strictly Pro bono", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_692be8afaa5481919ebe355f61887852", thumb: "multi-defy-jurisdiction.jpg", oneLiner: "Defy Jurisdiction", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_693e73837534819188cf29dc6a8cf0c7", thumb: "multi-lizzie-leon-riddle-christmas.jpg", oneLiner: "Riddle Me christmas", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_69417573f31481918d1be2cf556f7670", thumb: "multi-lizzie-gadha-salvation.jpg", oneLiner: "No Salvation.", characters: ["lizzie", "gadha"], arc: null },
+    { id: "s_6957e0042e508191a3212323e130941f", thumb: "multi-lizzie-raj-sterling-matched.jpg", oneLiner: "Evenly matched.", characters: ["lizzie", "raj", "sterling"], arc: null },
+    { id: "s_695a24795dac819185e0c06a3669ccea", thumb: "multi-lizzie-sterling-misplaced-items.jpg", oneLiner: "Misplaced items.", characters: ["lizzie", "sterling"], arc: null },
+    { id: "s_697ffd6b7c488191a70933efd65d5067", thumb: "multi-lizzie-cole-innovation.jpg", oneLiner: "Shared innovation.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_697ffdde5cb081918bfa805fe5631e09", thumb: "multi-lizzie-cole-obededience-compliance.jpg", oneLiner: "Obedience = Compliance.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_698039d55dec819199179dbe6d19d6cb", thumb: "multi-lizzie-cole-innovation-access.jpg", oneLiner: "Innovation is access.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_698136f005ac8191ba11eb1ef19c2701", thumb: "multi-lizzie-darkamit-sus-delivery.jpg", oneLiner: "Sus Delivery.", characters: ["lizzie", "darkamit"], arc: null },
+    { id: "s_6989fdf50f108191a0079a37dd1a61d6", thumb: "multi-lizzie-moo-leak-ionix-tech.jpg", oneLiner: "Michael Moo, leaking as usual.", characters: ["lizzie", "michaelmoo"], arc: null },
+    { id: "s_698cf6fe74508191bb398046b78d6faf", thumb: "multi-lizzie-leon-crime-time.jpg", oneLiner: "Crime > Time.", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_698f6cb0a16481919b8f7b665f081241", thumb: "multi-lizzie-leon-slade.jpg", oneLiner: "Slade.", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_6993ff7cab6c8191a6c5d599c91ae2a2", thumb: "multi-lizzie-leon-cole-best-boy.jpg", oneLiner: "Best boy in the room.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null }
+
+
+
+
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
@@ -1380,6 +1415,7 @@ videos: [
         { id: "s_6929a8a85c90819189225b72c7bd1e3d", thumbnail: "arc-milkwars06.jpg", oneLiner: "Zord battle: Dairy Legacy vs Plant-based Destiny." },
         { id: "s_6954d70ab644819180fdf67c2e3621dd", thumbnail: "arc-milkwars07.jpg", oneLiner: "The Aftermath. Time to Rebuild" },
         { id: "s_699a4fa37d108191b816b25a2c3403f0", thumbnail: "arc-milkwars08.jpg", oneLiner: "Rise from the Ashes" },
+        { id: "s_699cf27a0df881919ec875484616722c", thumbnail: "arc-milkwars08a.jpg", oneLiner: "Pugzley: Chief Cheese Officer" },
         { id: "s_69afb8baac4081918e49b16049555bca", thumbnail: "arc-milkwars09.jpg", oneLiner: "Pugzley's new employer." },
         { id: "s_69b0865d0a408191adc81d0a962152fd", thumbnail: "arc-milkwars10.jpg", oneLiner: "Vegan Cheese Earnings." },
         { id: "s_69b05531e82c8191aba19cfe2896c856", thumbnail: "arc-milkwars11.jpg", oneLiner: "15% profit dip due to Vegan Cheese." },
@@ -1590,6 +1626,7 @@ videos: [
         { id: "s_69ace9879b7c819190476e7d86e86bd3", thumbnail: "arc-musicvideos-mommy-hips-dont-lie.jpg", oneLiner: "Mommy's Hips Don't Lie." },
         { id: "s_698f8eb52f6c8191b6302b9faf0ce84c", thumbnail: "arc-musicvideos-q5-on-ice.jpg", oneLiner: "Q5 On Ice." },
         { id: "s_69912b9523488191871daf8ebd35105c", thumbnail: "arc-musicvideos-q5-ballads.jpg", oneLiner: "Q5 Ballads." },
+        { id: "s_6990cd6226588191a11f1dec17a51b8d", thumbnail: "arc-musicvideos-ballads-on-ice.jpg", oneLiner: "Ballads on Ice." },
         { id: "s_699211ccb40481919d270cf9a37c84fb", thumbnail: "arc-musicvideos-cows-insolence-farm.jpg", oneLiner: "Insolence." },
         { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },     
         { id: "s_694c5dde8aac8191a3dc390205feca8a", thumbnail: "arc-musicvideos-tex-tender-prime.jpg", oneLiner: "Tender Prime." },
@@ -1598,7 +1635,8 @@ videos: [
         { id: "s_6993f98466208191bff320688867a9f4", thumbnail: "arc-musicvideos-tex-lone-star-lullaby.jpg", oneLiner: "Lone Star Lullaby." },
         { id: "s_6993fd50e38881918506374615a00cb4", thumbnail: "arc-musicvideos-tex-lone-star-passion.jpg", oneLiner: "Lone Star Passion." },
         { id: "s_6994cec68ec8819195ea94ad1ce1d032", thumbnail: "arc-musicvideos-tex-divine-brisket.jpg", oneLiner: "Divine Gadha Brisket." },
-        { id: "s_69b50c3f7cec8191b96e33db30796172", thumbnail: "arc-musicvideos-tex-galactic-cypher.jpg", oneLiner: "Galactic Cypher." }
+        { id: "s_69b50c3f7cec8191b96e33db30796172", thumbnail: "arc-musicvideos-tex-galactic-cypher.jpg", oneLiner: "Galactic Cypher." },
+        { id: "s_699ca6c10ce08191a7c9815610f61955", thumbnail: "arc-musicvideos-lizzie-crimson-rush.jpg", oneLiner: "Crimson Rush." }
       ]      
 
 
