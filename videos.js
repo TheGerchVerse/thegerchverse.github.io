@@ -1534,7 +1534,7 @@ videos: [
         { id: "s_69b9df0e73ac8191af05ccae1066af9b", thumbnail: "arc-ajp-tried-to-warn.jpg", oneLiner: "I Tried to Warn You (But it charted instead)" },
         { id: "s_69a1a543e390819196ea0c1034c84423", thumbnail: "arc-ajp-bkrescue.jpg", oneLiner: "Music Video: Burger King Rescue." },
         { id: "s_69a8dbe045b881919f8c8ddc3a44d380", thumbnail: "arc-ajp-transcendant-farewell.jpg", oneLiner: "Transcendant Farewell" },
-        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-ajp-rise-from-q6", oneLiner: "Rise from the Q6 Wreckage" },
+        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-ajp-rise-from-q6.jpg", oneLiner: "Rise from the Q6 Wreckage" },
         { id: "s_69b73e4475688191a6233bbe71b58601", thumbnail: "arc-ajp-a-tale-of-sacrifice.jpg", oneLiner: "A Tale of Sacrifice" }
       ]
 
