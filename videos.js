@@ -687,9 +687,7 @@ const VIDEO_DB = {
     rudefool: [
       { id: "s_69bc082e2e648191856ed2d46601e705", thumb: "solo-rudefool-intro.jpg", oneLiner: "Let me be clear.", arc: null },
       { id: "s_69bc37d1ed148191afc2b63478390500", thumb: "solo-rudefool-fraud-insure.jpg", oneLiner: "Fraud Insure.", arc: null },
-      { id: "s_rudefool_03", thumb: "rudefool-03.jpg", oneLiner: "The hair dye incident.", arc: null },
-      { id: "s_rudefool_placeholder_07", thumbnail: GERCHING_SOON_URL, oneLiner: "It's Rude E. Call me 'Rude.'", arc: null },
-      { id: "s_rudefool_placeholder_08", thumbnail: GERCHING_SOON_URL, oneLiner: "The glory days are behind me.", arc: null },
+      
     ],
 
 
