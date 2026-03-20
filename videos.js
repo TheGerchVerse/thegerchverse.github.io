@@ -308,6 +308,7 @@ const VIDEO_DB = {
       { id: "s_69710da097648191b036b809c458dcf8", thumb: "solo-lizzie-drink.jpg", oneLiner: "What was in that drink?", arc: null },
       { id: "s_6987ab6dac0081918d0dfdfd6f8ee457", thumb: "solo-lizzie-saturday-night.jpg", oneLiner: "Saturday Night Host.", arc: null },
       { id: "s_6987d1258a208191b2d75cd45787f991", thumb: "solo-lizzie-ionix-hearing.jpg", oneLiner: "Ionix Hearing.", arc: null },
+      { id: "s_699e551a1e8c81919883a530b26e0d4a", thumb: "solo-lizzie-snake-pit.jpg", oneLiner: "Snake pit.", arc: null },
     ],
 
 /*
@@ -1023,6 +1024,7 @@ HANNAH
     { id: "s_694c2594ca7881918044a1a9c49adc15", thumb: "multi-tex-leon-will-of-amit.jpg", oneLiner: "Amit's will and testament.", characters: ["bigtex", "leon"], arc: null },
     { id: "s_69520586c2fc8191beb405e71d741580", thumb: "multi-tex-gadha-bean-clones.jpg", oneLiner: "Gadha Beans Miracle.", characters: ["bigtex", "gadha"], arc: null },
     { id: "s_695b49d1cf28819188dddf44c22a7610", thumb: "multi-tex-lizzie-clones.jpg", oneLiner: "Gotta Git a Gadha.", characters: ["bigtex", "lizzie"], arc: null },
+    { id: "s_69b3864f4cf88191b6d73561040c02e2", thumb: "multi-lizzie-leon-city-lights.jpg", oneLiner: "City Lights Bleeding.", characters: ["leon", "lizzie"], arc: null },
     { id: "s_695e9c5d358c8191a7149b00d53eceac", thumb: "multi-tex-gadha-beans-warning.jpg", oneLiner: "Ticking time beans.", characters: ["bigtex", "gadha"], arc: null },
     { id: "s_696281c3a83c8191b4b7c346995cacab", thumb: "multi-tex-slap-lizzie.jpg", oneLiner: "Lizzie's lips are sealed.", characters: ["bigtex", "gadha", "lizzie"], arc: null },
     { id: "s_6966538018408191a8647b0c4a6684d1", thumb: "multi-gadha-beans-final-warning.jpg", oneLiner: "Gadha Beans - Final Warning.", characters: ["bigtex", "gadha"], arc: null },
@@ -1053,11 +1055,12 @@ HANNAH
     { id: "s_69bcc9b1a1cc819192d38565a9760679", thumb: "multi-darkamit-rudefool-hairdye.jpg", oneLiner: "Melting Authority", characters: ["rudefool", "darkamit"], arc: null },
     { id: "s_69254918f58881919b43641113042d8d", thumb: "multi-pro-bono.jpg", oneLiner: "Strictly Pro bono", characters: ["lizzie", "leon"], arc: null },
     { id: "s_692be8afaa5481919ebe355f61887852", thumb: "multi-defy-jurisdiction.jpg", oneLiner: "Defy Jurisdiction", characters: ["lizzie", "leon"], arc: null },
-    { id: "s_693e73837534819188cf29dc6a8cf0c7", thumb: "multi-lizzie-leon-riddle-christmas.jpg", oneLiner: "Riddle Me christmas", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_693e73837534819188cf29dc6a8cf0c7", thumb: "multi-lizzie-leon-riddle-christmas.jpg", oneLiner: "Riddle Me Christmas", characters: ["lizzie", "leon"], arc: null },
     { id: "s_69417573f31481918d1be2cf556f7670", thumb: "multi-lizzie-gadha-salvation.jpg", oneLiner: "No Salvation.", characters: ["lizzie", "gadha"], arc: null },
     { id: "s_6957e0042e508191a3212323e130941f", thumb: "multi-lizzie-raj-sterling-matched.jpg", oneLiner: "Evenly matched.", characters: ["lizzie", "raj", "sterling"], arc: null },
     { id: "s_695a24795dac819185e0c06a3669ccea", thumb: "multi-lizzie-sterling-misplaced-items.jpg", oneLiner: "Misplaced items.", characters: ["lizzie", "sterling"], arc: null },
     { id: "s_697ffd6b7c488191a70933efd65d5067", thumb: "multi-lizzie-cole-innovation.jpg", oneLiner: "Shared innovation.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_69ab6d1627648191a21e25fda924fad5", thumb: "multi-lizzie-cole-efficient-compliance-tool.jpg", oneLiner: "Efficient Compliance Tool.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_697ffdde5cb081918bfa805fe5631e09", thumb: "multi-lizzie-cole-obededience-compliance.jpg", oneLiner: "Obedience = Compliance.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_698039d55dec819199179dbe6d19d6cb", thumb: "multi-lizzie-cole-innovation-access.jpg", oneLiner: "Innovation is access.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_698136f005ac8191ba11eb1ef19c2701", thumb: "multi-lizzie-darkamit-sus-delivery.jpg", oneLiner: "Sus Delivery.", characters: ["lizzie", "darkamit"], arc: null },
@@ -1065,7 +1068,8 @@ HANNAH
     { id: "s_698cf6fe74508191bb398046b78d6faf", thumb: "multi-lizzie-leon-crime-time.jpg", oneLiner: "Crime > Time.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_698f6cb0a16481919b8f7b665f081241", thumb: "multi-lizzie-leon-slade.jpg", oneLiner: "Slade.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_6993ff7cab6c8191a6c5d599c91ae2a2", thumb: "multi-lizzie-leon-cole-best-boy.jpg", oneLiner: "Best boy in the room.", characters: ["lizzie", "cole"], arc: null },
-    { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null }
+    { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null },
+    { id: "s_69bb99d838bc8191af076e02b225128b", thumb: "multi-lizzie-cole-pup-cup.jpg", oneLiner: "Pup Cup.", characters: ["lizzie", "cole"], arc: null }
 
 
 
