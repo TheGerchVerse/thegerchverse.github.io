@@ -820,7 +820,8 @@ HANNAH
       { id: "s_69bb95de16b08191bdc2174d7afdb0c4", thumb: "solo-hannah-art.jpg", oneLiner: "Hannah and fine art.", arc: null },
       { id: "s_69bc3f5da6348191b502ecabb867af4b", thumb: "solo-hannah-twin-cubs.jpg", oneLiner: "Twin cubs.", arc: null },
       { id: "s_69bc4d54f2488191a0be6f13e8e8f4d5", thumb: "solo-hannah-father.jpg", oneLiner: "Daddy.", arc: null },
-      { id: "s_69bc7e1ac89881918541773ebbd99352", thumb: "solo-hannah-naptime.jpg", oneLiner: "Interrupting nap time.", arc: null },,
+      { id: "s_69bc7e1ac89881918541773ebbd99352", thumb: "solo-hannah-naptime.jpg", oneLiner: "Interrupting nap time.", arc: null },
+      { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumb: "solo-hannah-investors.jpg", oneLiner: "They're already involved.", arc: null },
       
       
     ],
@@ -1069,7 +1070,8 @@ HANNAH
     { id: "s_698f6cb0a16481919b8f7b665f081241", thumb: "multi-lizzie-leon-slade.jpg", oneLiner: "Slade.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_6993ff7cab6c8191a6c5d599c91ae2a2", thumb: "multi-lizzie-leon-cole-best-boy.jpg", oneLiner: "Best boy in the room.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null },
-    { id: "s_69bb99d838bc8191af076e02b225128b", thumb: "multi-lizzie-cole-pup-cup.jpg", oneLiner: "Pup Cup.", characters: ["lizzie", "cole"], arc: null }
+    { id: "s_69bb99d838bc8191af076e02b225128b", thumb: "multi-lizzie-cole-pup-cup.jpg", oneLiner: "Pup Cup.", characters: ["lizzie", "cole"], arc: null },
+    { id: "s_69bce39e0fe48191916783fd0f09aeed", thumb: "multi-lizzie-hannah-tennis.jpg", oneLiner: "Game, Set, Match.", characters: ["lizzie", "hannah"], arc: null }
 
 
 
@@ -1237,10 +1239,11 @@ videos: [
         { id: "s_69b7905f50e4819187e573011376e38c", thumbnail: "arc-velvet-06.jpg", oneLiner: "Loan" },
         { id: "s_69b78c9874ec81918199daa4946605db", thumbnail: "arc-velvet-07.jpg", oneLiner: "Excess." },
         { id: "s_69b79dfa2844819192a160df1c1fa023", thumbnail: "arc-velvet-08.jpg", oneLiner: "Final-round funding." },
-        { id: "s_hannah_placeholder_09", thumbnail: GERCHING_SOON_URL, oneLiner: "281 Park Avenue: LLCs multiply, one platinum phantom." },
-        { id: "s_hannah_placeholder_10", thumbnail: GERCHING_SOON_URL, oneLiner: "Colin Mercer considers side effects." },
-        { id: "s_hannah_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
-        { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
+        { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumbnail: "arc-velvet-09.jpg", oneLiner: "They're already involved." },
+        { id: "s_69bd920d0b5881918796ee1376b07fe6", thumbnail: "arc-velvet-10.jpg", oneLiner: "Suspicions." },
+        { id: "s_hannah_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "Colin Mercer considers side effects." },
+        { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
+        { id: "s_hannah_placeholder_13", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
   ]
 
 },
@@ -1283,7 +1286,8 @@ videos: [
     { id: "s_69b259fbcf0c8191a0e99d9e3f5967fd", thumbnail: "arc-gerchlings-03.jpg", oneLiner: "Legal origins." },
     { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
     { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
-    { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." }
+    { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." },
+    { id: "s_69bd827a0a7481918a4115ef9b0e234e", thumbnail: "arc-gerchlings-07.jpg", oneLiner: "Administrative fee." }
     ]
   
 
