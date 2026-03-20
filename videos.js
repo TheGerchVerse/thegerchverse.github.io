@@ -813,6 +813,7 @@ HANNAH
       { id: "s_69bb95de16b08191bdc2174d7afdb0c4", thumb: "solo-hannah-art.jpg", oneLiner: "Hannah and fine art.", arc: null },
       { id: "s_69bc3f5da6348191b502ecabb867af4b", thumb: "solo-hannah-twin-cubs.jpg", oneLiner: "Twin cubs.", arc: null },
       { id: "s_69bc4d54f2488191a0be6f13e8e8f4d5", thumb: "solo-hannah-father.jpg", oneLiner: "Daddy.", arc: null },
+      { id: "s_69bc7e1ac89881918541773ebbd99352", thumb: "solo-hannah-naptime.jpg", oneLiner: "Interrupting nap time.", arc: null },,
       
       
     ],
@@ -1033,7 +1034,9 @@ HANNAH
     { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-hannah-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null },
     { id: "s_69bc3e6d88d88191af34faa451219ad0", thumb: "multi-hannah-raj-sterling-cake.jpg", oneLiner: "Let them eat cake.", characters: ["hannah", "sterling", "raj"], arc: null },
     { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null },
-    { id: "s_69bc5e4b2818819180702eeff942d99b", thumb: "multi-leon-rudefool-insured.jpg", oneLiner: "It's all insured.", characters: ["rudefool", "leon"], arc: null }
+    { id: "s_69bc5e4b2818819180702eeff942d99b", thumb: "multi-leon-rudefool-insured.jpg", oneLiner: "It's all insured.", characters: ["rudefool", "leon"], arc: null },
+    { id: "s_69bc78b2cec0819181565e4091cbe697", thumb: "multi-hannah-rudefool-naming.jpg", oneLiner: "Call me 'Rude'.", characters: ["rudefool", "hannah"], arc: null },
+    { id: "s_69bcc9b1a1cc819192d38565a9760679", thumb: "multi-darkamit-rudefool-hairdye.jpg", oneLiner: "Melting Authority", characters: ["rudefool", "darkamit"], arc: null }
 
 /* MULTI FEATURE PLACEHOLDERS Replace GERCHING_SOON_URL witn "imagename" IN QUOTES
 { id: "Placeholder placeholder", thumb: GERCHING_SOON_URL, oneLiner: "Gerching soon", characters: ["blah", "blah"], arc: null }
@@ -1515,9 +1518,25 @@ videos: [
         { id: "s_6985935549f481918d1936cc22594dde", thumbnail: "arc-toon-gulag-cole.jpg", oneLiner: "Denied." }
       ]
 
-
-
-
+    },
+    "amit-jr-productions": {
+      title: "Amit Jr. Productions",
+      description: "The only record label operating from maximum security solitary. While the Gerch-Verse drowns in 10-second attention span sludge, these 2-minute(ish) trauma-epics accidentally built a chart empire. Amit Jr. either stars—screaming his Q6 prophecy through Auto-Tune—or produces for fellow inmates who traded reduced sentences for backing vocals. Nobody listens to the warnings. Everybody streams the pain. The Grammys keep sending statuettes to a padded cell. His manager is a riddle-speaking cockroach with industry connections.",
+      status: "PLATINUM ON LOOP",
+    statusColor: "green",
+      videos: [
+        { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-ajp-timeless-love.jpg", oneLiner: "Timeless Love" },
+        { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-ill-rise.jpg", oneLiner: "I'll Rise" },
+        { id: "s_69a157a85ee48191afa3b90d1f8af0d4", thumbnail: "arc-ajp-strings-on-me.jpg", oneLiner: "Strings on Me" },
+        { id: "s_69bc40f8a4888191b566910cba52159a", thumbnail: "arc-ajp-milkburn-of-q6.jpg", oneLiner: "The Milk Burn of Q6" },
+        { id: "s_69b6ec9a6a2c8191a58bcec441ebacc1", thumbnail: "arc-ajp-pain-that-remains.jpg", oneLiner: "The Pain that Remains." },
+        { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-bkrescue-onice.jpg", oneLiner: "Burger King Rescue: On Ice (Kinda)." },
+        { id: "s_69b9df0e73ac8191af05ccae1066af9b", thumbnail: "arc-ajp-tried-to-warn.jpg", oneLiner: "I Tried to Warn You (But it charted instead)" },
+        { id: "s_69a1a543e390819196ea0c1034c84423", thumbnail: "arc-ajp-bkrescue.jpg", oneLiner: "Music Video: Burger King Rescue." },
+        { id: "s_69a8dbe045b881919f8c8ddc3a44d380", thumbnail: "arc-ajp-transcendant-farewell.jpg", oneLiner: "Transcendant Farewell" },
+        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-ajp-rise-from-q6", oneLiner: "Rise from the Q6 Wreckage" },
+        { id: "s_69b73e4475688191a6233bbe71b58601", thumbnail: "arc-ajp-a-tale-of-sacrifice.jpg", oneLiner: "A Tale of Sacrifice" }
+      ]
 
 
     },
@@ -1533,6 +1552,7 @@ videos: [
         { id: "s_6955ed4b89348191baf59b3b3009d641", thumbnail: "arc-asmr04.jpg", oneLiner: "Sterling." },
         { id: "s_695320d783388191849b42e3d1255093", thumbnail: "arc-asmr05.jpg", oneLiner: "Big Tex." },
         { id: "s_69532681ec7c8191a15944205f83c031", thumbnail: "arc-asmr06.jpg", oneLiner: "Lizzie." }
+        
       ]
 
     },
@@ -1542,7 +1562,6 @@ videos: [
       status: "MEDIOCRATES DISAPPROVES (BUT SECRETLY BOBS HEAD)",
     statusColor: "yellow",
       videos: [
-        { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-musicvideos-timeless-love.jpg", oneLiner: "Timeless Love" },
         { id: "s_69535b3bf7e881919b88d1d06132b124", thumbnail: "solo-leon-riddlers-ballad.jpg", oneLiner: "A Riddler's Ballad" },
         { id: "s_695c02634ba48191a657b5f054b8ad6f", thumbnail: "arc-musicvideos-i-own-the-pulse.jpg", oneLiner: "I Own the Pulse." },
         { id: "s_69647b418bf08191ae096b49de7ae3ed", thumbnail: "arc-sunset-gold.jpg", oneLiner: "Sunset Gold" },
@@ -1550,18 +1569,15 @@ videos: [
         { id: "s_697f87fda9548191852a7c1af29f695a", thumbnail: "arc-musicvideos-dont-grow.jpg", oneLiner: "Don't grow" },
         { id: "s_692be9b9fda08191b1b96da78975b0e9", thumbnail: "arc-musicvideos-rawhide-hearts.jpg", oneLiner: "Rawhide Hearts" },
         { id: "s_6993abc42bcc819181dfc4fec29b603d", thumbnail: "arc-musicvideos-riddle-me-this-love.jpg", oneLiner: "Riddle me this Love" },
-        { id: "s_69a51590e61481918f196d1acae8e742", thumbnail: "arc-musicvideos-move-like-mumbai.jpg", oneLiner: "Move like Mumbai" },
-        { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-musicvideos-ill-rise.jpg", oneLiner: "I'll Rise" },
-        { id: "s_69a8dbe045b881919f8c8ddc3a44d380", thumbnail: "arc-musicvideos-transcendant-farewell.jpg", oneLiner: "Transcendant Farewell" },
+        { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." },
         { id: "s_695a0a39c8d481918172982b33047a92", thumbnail: "solo-leon-riddle-me-this-music-video.jpg", oneLiner: "Riddle me This" },
         { id: "s_696965680b588191b2b34091a528b1ad", thumbnail: "solo-eelon-singing-lonely.jpg", oneLiner: "Somebody to Love Me" },
-        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-musicvideos-rise-from-q6", oneLiner: "Rise from the Q6 Wreckage" },
+        { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." },
         { id: "s_6990cd6226588191a11f1dec17a51b8d", thumbnail: "arc-musicvideos-voices-of-destiny.jpg", oneLiner: "Voices of Destiny" },
         { id: "s_6977f4f780cc8191bc0ae145e229eb10", thumbnail: "arc-musicvideos-engine-in-the-open-sky.jpg", oneLiner: "Engine in the Open Sky" },
         { id: "s_6969e4a525788191b3fe9cfdb4f4b2be", thumbnail: "solo-leon-riddle-me-this-classroom.jpg", oneLiner: "Riddlin' in the classroom" },
         { id: "s_69837fc9b1f08191b018966c235af0f6", thumbnail: "arc-musicvideos-your-eyes-speak.jpg", oneLiner: "Speak With Your Eyes." },
         { id: "s_69a3f6c097cc8191be8c03340f5191c4", thumbnail: "arc-musicvideos-sax-it-to-me.jpg", oneLiner: "Sax it to me." },
-        { id: "s_69a157a85ee48191afa3b90d1f8af0d4", thumbnail: "arc-musicvideos-strings-on-me.jpg", oneLiner: "Strings on Me" },
         { id: "s_69af337c7c6c8191815b05cff16d3675", thumbnail: "arc-musicvideos-want-the-taller-one.jpg", oneLiner: "(I want) the taller one)." },
         { id: "s_69a68a20ff048191a1696b6d60820a01", thumbnail: "arc-music-videos-a-breeze-that-knows-my-name.jpg", oneLiner: "A Breeze that Knows My Name" },
         { id: "s_6997c30c7d248191a936d2340437f3ac", thumbnail: "arc-musicvideos-sunshine-eelon.jpg", oneLiner: "Sunshine" },
@@ -1575,9 +1591,7 @@ videos: [
         { id: "s_698f8eb52f6c8191b6302b9faf0ce84c", thumbnail: "arc-musicvideos-q5-on-ice.jpg", oneLiner: "Q5 On Ice." },
         { id: "s_69912b9523488191871daf8ebd35105c", thumbnail: "arc-musicvideos-q5-ballads.jpg", oneLiner: "Q5 Ballads." },
         { id: "s_699211ccb40481919d270cf9a37c84fb", thumbnail: "arc-musicvideos-cows-insolence-farm.jpg", oneLiner: "Insolence." },
-        { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },
-        { id: "s_69a331c96e288191a1533f19def4f947", thumbnail: "arc-musicvideos-unbreakable.jpg", oneLiner: "Unbreakable Gold." },
-        { id: "s_69b6fde543a081918f6f89cb88d546c4", thumbnail: "arc-musicvideos-hanna-green-friend.jpg", oneLiner: "Hanna's green friend." },
+        { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },     
         { id: "s_694c5dde8aac8191a3dc390205feca8a", thumbnail: "arc-musicvideos-tex-tender-prime.jpg", oneLiner: "Tender Prime." },
         { id: "s_696a5adf3b648191bc9024cb7803a99e", thumbnail: "arc-musicvideos-tex-bbq-of-you.jpg", oneLiner: "BBQ of You." },
         { id: "s_69936398fda08191bdb8b96cfda5629e", thumbnail: "arc-musicvideos-tex-on-ice-gadha.jpg", oneLiner: "Lonesome Steer." },
