@@ -1048,7 +1048,7 @@ HANNAH
     { id: "s_69bb1ee140c88191bb47327fc800321a", thumb: "multi-hannah-lizzie-volleyball.jpg", oneLiner: "Well played.", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69bb56b85b288191b5275623d1f2ef15", thumb: "multi-hannah-lizzie-victory.jpg", oneLiner: "Victory.", characters: ["hannah", "lizzie"], arc: null },
     { id: "s_69bb9bf027148191b9a1c42b0c85a66d", thumb: "multi-hannah-swipe-left-gerchlander.jpg", oneLiner: "Swipe left.", characters: ["hannah", "gerchlander"], arc: null },
-    { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-hannah-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null },
+    { id: "s_69b6040416ec8191a23ff6e071a3266d", thumb: "multi-bigtex-leon-gravitas.jpg", oneLiner: "Gravitas.", characters: ["bigtex", "leon"], arc: null },
     { id: "s_69bc3e6d88d88191af34faa451219ad0", thumb: "multi-hannah-raj-sterling-cake.jpg", oneLiner: "Let them eat cake.", characters: ["hannah", "sterling", "raj"], arc: null },
     { id: "s_69bc4db91cdc8191a651d191b8428e5b", thumb: "multi-bigtex-truck-purchase.jpg", oneLiner: "Hannah & manual transmission", characters: ["bigtex", "hannah"], arc: null },
     { id: "s_69bc5e4b2818819180702eeff942d99b", thumb: "multi-leon-rudefool-insured.jpg", oneLiner: "It's all insured.", characters: ["rudefool", "leon"], arc: null },
