@@ -1557,7 +1557,6 @@ videos: [
         { id: "s_69baf1980e148191943a7149e2653fe6", thumbnail: "arc-risingsun25.jpg", oneLiner: "Hyper Mega Gargantamax LX Ver 2." },
         { id: "s_69bce17ef28481919213a17e8d021ab4", thumbnail: "arc-risingsun26.jpg", oneLiner: "Rude E. Fooliaani Show." }
       ]
-``
     },
     "toon-gulag": {
       title: "The Toon Gulag Escape",
