@@ -624,6 +624,7 @@ const VIDEO_DB = {
       { id: "s_699cf6f041808191b02b40ba3396f4e5", thumb: "solo-evil-amit-powers-awaken.jpg", oneLiner: "Evil Amit's powers awaken.", arc: null },
       { id: "s_699e643826508191acca4fc6f2c7764b", thumb: "solo-evilamit-pto-approved.jpg", oneLiner: "PTO approved.", arc: null },
       { id: "s_699f483e68188191aa86b3b8a3bf7e58", thumb: "solo-evilamit-debtfree.jpg", oneLiner: "Evil Amit frees us from debt.", arc: null },
+      { id: "s_69bc514d8a7c8191a35c28d28b111d9e", thumb: "solo-evilamit-fluffs-of-joy.jpg", oneLiner: "Fluffs of Joy.", arc: null },
     ],
 
 /*
