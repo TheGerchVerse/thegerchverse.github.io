@@ -269,6 +269,7 @@ const VIDEO_DB = {
       { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
       { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
       { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition for Obi-Wan.", arc: null },
+      { id: "s_69bed96f19608191b3dc4feb1e1b1f45", thumb: "amit-audition-pop-star.jpg", oneLiner: "Flop audition.", arc: null },
       
 
     ],
@@ -391,6 +392,9 @@ const VIDEO_DB = {
       { id: "s_699531a0af2c8191a14295777c1ea9be", thumb: "solo-bigtex-jurassic-wrangler.jpg", oneLiner: "Jurassic Wrangler.", arc: null },
       { id: "s_699920dc73a88191a1178710e935966c", thumb: "solo-bigtex-safari-wrangler.jpg", oneLiner: "Safari Wranglin'.", arc: null },
       { id: "s_69ba414831d4819189e14fd0ef9ac6a1", thumb: "solo-bigtex-hypermega-gargantamax-lx.jpg", oneLiner: "Hyper-Mega Gargantamax LX.", arc: null },
+      { id: "s_69bcf01ee6008191809adcad21a7981e", thumb: "solo-bigtex-pew-pew.jpg", oneLiner: "Pew Pew", arc: null },
+      { id: "s_69be3c678cac81918ce20461681122e8", thumb: "solo-bigtex-freefall.jpg", oneLiner: "Freefall", arc: null },
+      { id: "s_69bf0217b1ec81919b69cf60f5de128b", thumb: "solo-bigtex-football-pep-talk.jpg", oneLiner: "Heart, Grit, & Texas Pride.", arc: null },
     ],
 
 /*
@@ -823,6 +827,7 @@ HANNAH
       { id: "s_69bc4d54f2488191a0be6f13e8e8f4d5", thumb: "solo-hannah-father.jpg", oneLiner: "Daddy.", arc: null },
       { id: "s_69bc7e1ac89881918541773ebbd99352", thumb: "solo-hannah-naptime.jpg", oneLiner: "Interrupting nap time.", arc: null },
       { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumb: "solo-hannah-investors.jpg", oneLiner: "They're already involved.", arc: null },
+      { id: "s_69be43518da08191adb973ee64cf0a0b", thumb: "solo-hannah-B2B.jpg", oneLiner: "B2B ft. lofoandpu.pugzley.", arc: null },
       
       
     ],
@@ -1072,7 +1077,11 @@ HANNAH
     { id: "s_6993ff7cab6c8191a6c5d599c91ae2a2", thumb: "multi-lizzie-leon-cole-best-boy.jpg", oneLiner: "Best boy in the room.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_69bb99d838bc8191af076e02b225128b", thumb: "multi-lizzie-cole-pup-cup.jpg", oneLiner: "Pup Cup.", characters: ["lizzie", "cole"], arc: null },
-    { id: "s_69bce39e0fe48191916783fd0f09aeed", thumb: "multi-lizzie-hannah-tennis.jpg", oneLiner: "Game, Set, Match.", characters: ["lizzie", "hannah"], arc: null }
+    { id: "s_69bce39e0fe48191916783fd0f09aeed", thumb: "multi-lizzie-hannah-tennis.jpg", oneLiner: "Game, Set, Match.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69bd8a81b24c8191ba1c2c0ce9026e26", thumb: "multi-amit-and-junior-popstar.jpg", oneLiner: "Popstar Machine.", characters: ["amitjr", "amit"], arc: null },
+    { id: "s_69be3afcd0ec8191ab395a2d533e00d5", thumb: "multi-lizzie-hannah-basketball.jpg", oneLiner: "Street Ball.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69be3f7f18dc8191a041bd8291c60e82", thumb: "multi-lizzie-hannah-rager.jpg", oneLiner: "Rager.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69bef8b80a008191a6cf02349d3ac6ae", thumb: "multi-lizzie-hannah-base-jumping.jpg", oneLiner: "Rager.", characters: ["lizzie", "hannah"], arc: null }
 
 
 
@@ -1288,7 +1297,8 @@ videos: [
     { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
     { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
     { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." },
-    { id: "s_69bd827a0a7481918a4115ef9b0e234e", thumbnail: "arc-gerchlings-07.jpg", oneLiner: "Administrative fee." }
+    { id: "s_69bd827a0a7481918a4115ef9b0e234e", thumbnail: "arc-gerchlings-07.jpg", oneLiner: "Administrative fee." },
+    { id: "s_69be3a27bc2c8191af1f3a116afaa0ee", thumbnail: "arc-gerchlings-08.jpg", oneLiner: "Pop Star Dreams." }
     ]
   
 
@@ -1544,9 +1554,10 @@ videos: [
         { id: "s_6993fd0a9f3c8191b1e6469f0a3eb25d", thumbnail: "arc-risingsun22.jpg", oneLiner: "Baba Ganoush." },
         { id: "s_69a607ecdbc08191b1aaf9c99a5c0bd4", thumbnail: "arc-risingsun23.jpg", oneLiner: "Cereal." },
         { id: "s_69baf099f2dc8191999e15076291b9e8", thumbnail: "arc-risingsun24.jpg", oneLiner: "Hyper Mega Gargantamax LX." },
-        { id: "s_69baf1980e148191943a7149e2653fe6", thumbnail: "arc-risingsun25.jpg", oneLiner: "Hyper Mega Gargantamax LX Ver 2." }
+        { id: "s_69baf1980e148191943a7149e2653fe6", thumbnail: "arc-risingsun25.jpg", oneLiner: "Hyper Mega Gargantamax LX Ver 2." },
+        { id: "s_69bce17ef28481919213a17e8d021ab4", thumbnail: "arc-risingsun26.jpg", oneLiner: "Rude E. Fooliaani Show." }
       ]
-
+``
     },
     "toon-gulag": {
       title: "The Toon Gulag Escape",
