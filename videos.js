@@ -277,6 +277,7 @@ const VIDEO_DB = {
       { id: "s_69bba2099648819181aa406fe8eec1d5", thumb: "amit-buys-earth.jpg", oneLiner: "Acquisition: Earth.", arc: null },
       { id: "s_69bc4ab844508191859c4e4c3728302a", thumb: "amit-dog-wrestle.jpg", oneLiner: "Dominate distribution.", arc: null },
       { id: "s_69c004a2618081919515a40158b578e1", thumb: "amit-motorbike-race.jpg", oneLiner: "0 Modifications.", arc: null },
+      { id: "s_69c0a7dacd908191bb21cfe93093e806", thumb: "amit-cut-weights.jpg", oneLiner: "Cut the weights draggins us.", arc: null },
       
       
 
@@ -341,12 +342,25 @@ const VIDEO_DB = {
       { id: "s_692610bed5a881918710813439b36237", thumb: "solo-leon-immersive-realism.jpg", oneLiner: "Leon cites 'immersive realism'.", arc: null },
       { id: "s_6926690ce67c819187b2b5425ae3f5da", thumb: "solo-leon-golden-ticket.jpg", oneLiner: "Leon's 'fine print' defense.", arc: null },
       { id: "s_6926753df8c48191b005df80669e9398", thumb: "solo-leon-engineered-traps.jpg", oneLiner: "Engineered traps.", arc: null },
+      { id: "s_697fbeab2a4081919606e0ff9454df38", thumb: "solo-leon-zeus-pegasus.jpg", oneLiner: "A bet's a bet.", arc: null },
       { id: "s_692a8474bcd88191b858b59d912d8201", thumb: "solo-leon-iceberg-vindicated.jpg", oneLiner: "The iceberg was not guilty.", arc: null },
       { id: "s_69535b3bf7e881919b88d1d06132b124", thumb: "solo-leon-riddlers-ballad.jpg", oneLiner: "A Riddler's Ballad.", arc: null },
       { id: "s_692e026b7f348191834a694ea16a694e", thumb: "solo-leon-courtroom-playset.jpg", oneLiner: "Leon Cochran Courtroom Playset.", arc: null },
       { id: "s_695a0a39c8d481918172982b33047a92", thumb: "solo-leon-riddle-me-this-music-video.jpg", oneLiner: "Dance with Leon: 'Riddle me This'.", arc: null },
       { id: "s_6969e4a525788191b3fe9cfdb4f4b2be", thumb: "solo-leon-riddle-me-this-classroom.jpg", oneLiner: "Riddle me this: Classroom edition.", arc: null },
       { id: "s_6987ad2524b081919723cc25b8336ce5", thumb: "solo-leon-airport-guitar.jpg", oneLiner: "Airport shredding.", arc: null },
+      { id: "s_698222a848b88191b4526a62b87eca3b", thumb: "solo-leon-drive-thru.jpg", oneLiner: "Udderly insolent.", arc: null },
+      { id: "s_6994d3bb7608819197d9fab56d361aca", thumb: "solo-leon-samurai.jpg", oneLiner: "Night shift samurai.", arc: null },
+      { id: "s_6998c4a6a8b88191a93a1aeac7994912", thumb: "solo-leon-court-defense.jpg", oneLiner: "Riddle me this.", arc: null },
+      { id: "s_699d42c0cf7c8191b3a97bd4e47e60d8", thumb: "solo-leon-lions.jpg", oneLiner: "The Lion's den.", arc: null },
+      { id: "s_69a20ebbbb2081919047a3ab0ede35e4", thumb: "solo-leon-pugzley-consultation.jpg", oneLiner: "Legal consultation ft lofoandpu.pugzley.", arc: null },
+      { id: "s_69a3d6464914819190a064670de26ad3", thumb: "solo-leon-fly-high.jpg", oneLiner: "Fly high.", arc: null },
+      { id: "s_69a6777f1a4481918823501ff9d5291d", thumb: "solo-leon-criminally-late.jpg", oneLiner: "Criminally late.", arc: null },
+      { id: "s_69a7cb68e3b481918a059efa6dea5ef2", thumb: "solo-leon-my-cousin-leon.jpg", oneLiner: "My Cousin Leon.", arc: null },
+      { id: "s_69bb963ad68c81919bd767b1f551fe5a", thumb: "solo-leon-nightmare.jpg", oneLiner: "Riddled.", arc: null },
+      { id: "s_69c01f71f60c81919bbf7cf62e725269", thumb: "solo-leon-galactic-legal-war.jpg", oneLiner: "Galactic Legal War.", arc: null },
+
+
       
     ],
 
@@ -403,6 +417,7 @@ const VIDEO_DB = {
       { id: "s_69bcf01ee6008191809adcad21a7981e", thumb: "solo-bigtex-pew-pew.jpg", oneLiner: "Pew Pew", arc: null },
       { id: "s_69be3c678cac81918ce20461681122e8", thumb: "solo-bigtex-freefall.jpg", oneLiner: "Freefall", arc: null },
       { id: "s_69bf0217b1ec81919b69cf60f5de128b", thumb: "solo-bigtex-football-pep-talk.jpg", oneLiner: "Heart, Grit, & Texas Pride.", arc: null },
+      { id: "s_69c0a25d95508191b52b682f795f956f", thumb: "solo-bigtex-gerchverse-site-ad.jpg", oneLiner: "Gerchverse Site Ad.", arc: null },
     ],
 
 /*
@@ -841,6 +856,7 @@ HANNAH
       
       
       
+      
     ],
 
 /*
@@ -866,11 +882,11 @@ HANNAH
       { id: "s_69a5a97112308191ac18e93b8739164f", thumb: "amitjr-bkrescue-onice.jpg", oneLiner: "Burger King Rescue: On Ice (Kinda).", arc: null },
       { id: "s_69a642e88f048191a4a10493cd4f8099", thumb: "multi-amitjrmother-timelesslove.jpg", oneLiner: "Timeless Love.", arc: null },
       { id: "s_69a45ca66bec81918df17bb6b821f98b", thumb: "amitjr-q6trauma.jpg", oneLiner: "Amit Jr. Q6 recounts his traumatic memories.", arc: null },
+      { id: "s_69c0a64a1c68819184a5e9fcfbec695b", thumb: "amitjr-popstar-adversities.jpg", oneLiner: "Pop Star Adversities.", arc: null },
     ],
 
 /*
 ╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                                                  ║
 ║   █████╗  ███╗   ███╗ ██╗ ████████╗ ██╗ ███████╗     ███╗   ███╗  ██████╗  ████████╗ ██╗  ██╗ ███████╗ ██████╗   ║
 ║  ██╔══██╗ ████╗ ████║ ██║ ╚══██╔══╝ ╚═╝ ██╔════╝     ████╗ ████║ ██╔═══██╗ ╚══██╔══╝ ██║  ██║ ██╔════╝ ██╔══██╗  ║
 ║  ███████║ ██╔████╔██║ ██║    ██║        ███████╗     ██╔████╔██║ ██║   ██║    ██║    ███████║ █████╗   ██████╔╝  ║
@@ -1101,7 +1117,17 @@ HANNAH
     { id: "s_69b63c9e6388819188ae357dc5c4bbbb", thumb: "multi-amit-gadha-knight.jpg", oneLiner: "The Gerch Knight vs. the Bovine Behemoth.", characters: ["amit", "gadha"], arc: null },
     { id: "s_69b96d1adcbc8191aecc45ff85e4df2f", thumb: "multi-amits-all-chibi.jpg", oneLiner: "Classroom Shenanigans.", characters: ["amit", "darkamit", "lightamit", "amitjr", "evilamit"], arc: null },
     { id: "s_69b9b654ccd081918e390800593bc158", thumb: "multi-amit-evilamit-gerchan-plus.jpg", oneLiner: "Gerchan +.", characters: ["amit", "evilamit"], arc: null },
-    { id: "s_69bf9a39167081919428fc2df2799a28", thumb: "multi-amit-sterling-richer.jpg", oneLiner: "Poorest rich man.", characters: ["amit", "sterling"], arc: null }
+    { id: "s_69bf9a39167081919428fc2df2799a28", thumb: "multi-amit-sterling-richer.jpg", oneLiner: "Poorest rich man.", characters: ["amit", "sterling"], arc: null },
+    { id: "s_69449f561bc88191b782fec44da1e38b", thumb: "multi-leon-raj-bailed-out.jpg", oneLiner: "Upset stomach.", characters: ["leon", "raj"], arc: null },
+    { id: "s_69461a84be6481919afb7287b881e1cc", thumb: "multi-leon-sniff-courthouse.jpg", oneLiner: "Sniff my gas.", characters: ["leon", "raj"], arc: null },
+    { id: "s_696ed32d0c488191ba878ba737dbc080", thumb: "multi-leon-cole-denied.jpg", oneLiner: "Legal consultation.", characters: ["leon", "cole"], arc: null },
+    { id: "s_6978023a09748191bea5f449e89f2767", thumb: "multi-leon-eelon-rap-battle.jpg", oneLiner: "Riddled.", characters: ["leon", "eelon"], arc: null },
+    { id: "s_697ba7436a148191831d61a67d48f4ab", thumb: "multi-leon-gerchlander-damage-control.jpg", oneLiner: "Damage Control.", characters: ["leon", "gerchlander"], arc: null },
+    { id: "s_697e2431500c81918db1cf24cc47f150", thumb: "multi-leon-sterling-efficiency.jpg", oneLiner: "Butler Efficiency.", characters: ["leon", "sterling"], arc: null },
+    { id: "s_697ef32d340481918184fb105d6678d5", thumb: "multi-leon-lightamit-accountability.jpg", oneLiner: "An Exception to Accountability.", characters: ["leon", "lightamit"], arc: null },
+    { id: "s_697f78d7fd588191bbd5b671e0d5f8c1", thumb: "multi-leon-darkamit-punishment.jpg", oneLiner: "Punishment is Encouraged.", characters: ["leon", "darkamit"], arc: null },
+    { id: "s_69acc3404578819184c7d827d645c7e9", thumb: "multi-leon-sterling-tardiness.jpg", oneLiner: "Tardiness.", characters: ["leon", "sterling"], arc: null },
+    { id: "s_69c0a41614f4819189a1334b05585946", thumb: "multi-hannah-lizzie-grass-regret.jpg", oneLiner: "Grass & Regret.", characters: ["hannah", "lizzie"], arc: null }
 
 
 
@@ -1271,7 +1297,7 @@ videos: [
         { id: "s_69b79dfa2844819192a160df1c1fa023", thumbnail: "arc-velvet-08.jpg", oneLiner: "Final-round funding." },
         { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumbnail: "arc-velvet-09.jpg", oneLiner: "They're already involved." },
         { id: "s_69bd920d0b5881918796ee1376b07fe6", thumbnail: "arc-velvet-10.jpg", oneLiner: "Suspicions." },
-        { id: "s_hannah_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "Colin Mercer considers side effects." },
+        { id: "s_69c0a9aeb5a08191bf1a3caa2d281945", thumbnail: "arc-velvet-11.jpg", oneLiner: "Riddle me this." },
         { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
         { id: "s_hannah_placeholder_13", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
   ]
@@ -1602,6 +1628,7 @@ videos: [
         { id: "s_69bed96f19608191b3dc4feb1e1b1f45", thumbnail: "arc-ajp-audition-flop.jpg", oneLiner: "Flop." },
         { id: "s_69bd8a81b24c8191ba1c2c0ce9026e26", thumbnail: "arc-ajp-popstar-machine.jpg", oneLiner: "Popstar Machine." },
         { id: "s_69c0212e7b908191b2a563942628753c", thumbnail: "arc-ajp-profit-birthright.jpg", oneLiner: "Profit Making Birthright." },
+        { id: "s_69c0a64a1c68819184a5e9fcfbec695b", thumbnail: "arc-ajp-popstar-adversities.jpg", oneLiner: "Pop Star Adversities." },
         { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-ajp-timeless-love.jpg", oneLiner: "Timeless Love." },
         { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-ill-rise.jpg", oneLiner: "I'll Rise." },
         { id: "s_69a157a85ee48191afa3b90d1f8af0d4", thumbnail: "arc-ajp-strings-on-me.jpg", oneLiner: "Strings on Me." },
@@ -1615,7 +1642,8 @@ videos: [
         { id: "s_69b73e4475688191a6233bbe71b58601", thumbnail: "arc-ajp-a-tale-of-sacrifice.jpg", oneLiner: "A Tale of Sacrifice." },
         { id: "s_69bc4bbc013481918590c0428517c924", thumbnail: "arc-ajp-q6-ballad.jpg", oneLiner: "Q6 Apocalypse Ballad." },
         { id: "s_69bd64e8faa48191aad029335b42f103", thumbnail: "arc-ajp-q6-musical.jpg", oneLiner: "Q6 Apocalypse - The Musical." },
-        { id: "s_69bf8ea6d5b08191902f7362c19c3386", thumbnail: "arc-ajp-my-fawzuh.jpg", oneLiner: "My Fawzahhhh." }
+        { id: "s_69bf8ea6d5b08191902f7362c19c3386", thumbnail: "arc-ajp-my-fawzuh.jpg", oneLiner: "My Fawzahhhh." },
+        { id: "s_69c0457ed0108191bc6369d8b0d178bc", thumbnail: "arc-ajp-q6-profits-burn.jpg", oneLiner: "Q6 Profits Burn." }
       ]
 
 
@@ -1675,6 +1703,7 @@ videos: [
         { id: "s_6994c795c74881919766f6cd30bf8f71", thumbnail: "arc-musicvideos-the-gerch-verse.jpg", oneLiner: "The Gerch-Verse." },     
         { id: "s_694c5dde8aac8191a3dc390205feca8a", thumbnail: "arc-musicvideos-tex-tender-prime.jpg", oneLiner: "Tender Prime." },
         { id: "s_696a5adf3b648191bc9024cb7803a99e", thumbnail: "arc-musicvideos-tex-bbq-of-you.jpg", oneLiner: "BBQ of You." },
+        { id: "s_69a68a20ff048191a1696b6d60820a01", thumbnail: "arc-musicvideos-leon-yacht-rockin.jpg", oneLiner: "Yacht Rockin'." },
         { id: "s_69936398fda08191bdb8b96cfda5629e", thumbnail: "arc-musicvideos-tex-on-ice-gadha.jpg", oneLiner: "Lonesome Steer." },
         { id: "s_6993f98466208191bff320688867a9f4", thumbnail: "arc-musicvideos-tex-lone-star-lullaby.jpg", oneLiner: "Lone Star Lullaby." },
         { id: "s_6993fd50e38881918506374615a00cb4", thumbnail: "arc-musicvideos-tex-lone-star-passion.jpg", oneLiner: "Lone Star Passion." },
