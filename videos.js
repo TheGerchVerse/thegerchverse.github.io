@@ -270,6 +270,13 @@ const VIDEO_DB = {
       { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
       { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition for Obi-Wan.", arc: null },
       { id: "s_69b603834648819181848666d86aed19", thumb: "amit-transformation.jpg", oneLiner: "Transformation.", arc: null },
+      { id: "s_69b9fec6bb148191844f7cd67e5d967e", thumb: "amit-profit-dip.jpg", oneLiner: "Profit Dip.", arc: null },
+      { id: "s_69bb8e2a83108191ab75b45fc914cfee", thumb: "amit-gerch-cakes.jpg", oneLiner: "Flipping Gerch-cakes.", arc: null },
+      { id: "s_69bb8eca70b8819199394b5d8c228bb6", thumb: "amit-gerch-on-a-plane.jpg", oneLiner: "Gerch on a Plane.", arc: null },
+      { id: "s_69bb990b8c0081919dbb6fd4bdae575f", thumb: "amit-cycle-race.jpg", oneLiner: "Je bois votre lait!!!.", arc: null },
+      { id: "s_69bba2099648819181aa406fe8eec1d5", thumb: "amit-buys-earth.jpg", oneLiner: "Acquisition: Earth.", arc: null },
+      { id: "s_69bc4ab844508191859c4e4c3728302a", thumb: "amit-dog-wrestle.jpg", oneLiner: "Dominate distribution.", arc: null },
+      { id: "s_69c004a2618081919515a40158b578e1", thumb: "amit-motorbike-race.jpg", oneLiner: "0 Modifications.", arc: null },
       
       
 
@@ -1091,7 +1098,10 @@ HANNAH
     { id: "s_69bf7c7f9bb4819198cf67b15a6c0110", thumb: "multi-hannah-cole-fetch.jpg", oneLiner: "Fetch.", characters: ["cole", "hannah"], arc: null },
     { id: "s_69bf8137041c8191ba5c867573b815cb", thumb: "multi-hannah-raj-payment.jpg", oneLiner: "Can you cover it?.", characters: ["raj", "hannah"], arc: null },
     { id: "s_69bf80c91d208191b047a4bc70ec8783", thumb: "multi-hannah-sterling-winslow-trust.jpg", oneLiner: "One must have hobbies.", characters: ["sterling", "hannah"], arc: null },
-    { id: "s_69b63c9e6388819188ae357dc5c4bbbb", thumb: "multi-amit-gadha-knight.jpg", oneLiner: "The Gerch Knight vs. the Bovine Behemoth.", characters: ["amit", "gadha"], arc: null }
+    { id: "s_69b63c9e6388819188ae357dc5c4bbbb", thumb: "multi-amit-gadha-knight.jpg", oneLiner: "The Gerch Knight vs. the Bovine Behemoth.", characters: ["amit", "gadha"], arc: null },
+    { id: "s_69b96d1adcbc8191aecc45ff85e4df2f", thumb: "multi-amits-all-chibi.jpg", oneLiner: "Classroom Shenanigans.", characters: ["amit", "darkamit", "lightamit", "amitjr", "evilamit"], arc: null },
+    { id: "s_69b9b654ccd081918e390800593bc158", thumb: "multi-amit-evilamit-gerchan-plus.jpg", oneLiner: "Gerchan +.", characters: ["amit", "evilamit"], arc: null },
+    { id: "s_69bf9a39167081919428fc2df2799a28", thumb: "multi-amit-sterling-richer.jpg", oneLiner: "Poorest rich man.", characters: ["amit", "sterling"], arc: null }
 
 
 
