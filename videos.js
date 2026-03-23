@@ -1112,7 +1112,7 @@ HANNAH
     { id: "s_69bf9211d57881919c0f6a963040f53c", thumb: "multi-lizzie-fencing.jpg", oneLiner: "En Garde.", characters: ["lizzie", "hannah"], arc: null },
     { id: "s_69bf7be621b48191ab1fa40129ee2590", thumb: "multi-hannah-sterling-loan.jpg", oneLiner: "Cute.", characters: ["sterling", "hannah"], arc: null },
     { id: "s_69bf7c7f9bb4819198cf67b15a6c0110", thumb: "multi-hannah-cole-fetch.jpg", oneLiner: "Fetch.", characters: ["cole", "hannah"], arc: null },
-    { id: "s_69bf8137041c8191ba5c867573b815cb", thumb: "multi-hannah-raj-payment.jpg", oneLiner: "Can you cover it?.", characters: ["raj", "hannah"], arc: null },
+    { id: "s_69c157d1c94c8191b4f85c52bd24ea85", thumb: "multi-hannah-raj-payment.jpg", oneLiner: "Can you cover it?.", characters: ["raj", "hannah"], arc: null },
     { id: "s_69bf80c91d208191b047a4bc70ec8783", thumb: "multi-hannah-sterling-winslow-trust.jpg", oneLiner: "One must have hobbies.", characters: ["sterling", "hannah"], arc: null },
     { id: "s_69b63c9e6388819188ae357dc5c4bbbb", thumb: "multi-amit-gadha-knight.jpg", oneLiner: "The Gerch Knight vs. the Bovine Behemoth.", characters: ["amit", "gadha"], arc: null },
     { id: "s_69b96d1adcbc8191aecc45ff85e4df2f", thumb: "multi-amits-all-chibi.jpg", oneLiner: "Classroom Shenanigans.", characters: ["amit", "darkamit", "lightamit", "amitjr", "evilamit"], arc: null },
