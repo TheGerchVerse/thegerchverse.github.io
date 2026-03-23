@@ -269,7 +269,8 @@ const VIDEO_DB = {
       { id: "s_69b33b4b6bc48191bf37ae58b662d9ff", thumb: "amit-gerch-butter.jpg", oneLiner: "Gerch Butter", arc: null },
       { id: "s_69b348822a1c8191bce425b59f8f77f0", thumb: "amit-insolent-karen.jpg", oneLiner: "Insolent Karen", arc: null },
       { id: "s_69b42a8d3f54819197e1b4db149086ba", thumb: "amit-hand-slap-insolence-luke.jpg", oneLiner: "Audition for Obi-Wan.", arc: null },
-      { id: "s_69bed96f19608191b3dc4feb1e1b1f45", thumb: "amit-audition-pop-star.jpg", oneLiner: "Flop audition.", arc: null },
+      { id: "s_69b603834648819181848666d86aed19", thumb: "amit-transformation.jpg", oneLiner: "Transformation.", arc: null },
+      
       
 
     ],
@@ -828,6 +829,9 @@ HANNAH
       { id: "s_69bc7e1ac89881918541773ebbd99352", thumb: "solo-hannah-naptime.jpg", oneLiner: "Interrupting nap time.", arc: null },
       { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumb: "solo-hannah-investors.jpg", oneLiner: "They're already involved.", arc: null },
       { id: "s_69be43518da08191adb973ee64cf0a0b", thumb: "solo-hannah-B2B.jpg", oneLiner: "B2B ft. lofoandpu.pugzley.", arc: null },
+      { id: "s_69bffb25e6dc8191bb7e324d0c214a46", thumb: "solo-hannah-lexi.jpg", oneLiner: "New York Hustling feat @lexi.hertz.", arc: null },
+      { id: "s_69c01fb8bfac8191b962e9a5fb554fd1", thumb: "solo-hannah-ship.jpg", oneLiner: "Space Whip.", arc: null },
+      
       
       
     ],
@@ -1078,10 +1082,16 @@ HANNAH
     { id: "s_6995e99b68788191993ed00b24e4eed6", thumb: "multi-lizzie-leon-wish.jpg", oneLiner: "Make a wish.", characters: ["lizzie", "leon"], arc: null },
     { id: "s_69bb99d838bc8191af076e02b225128b", thumb: "multi-lizzie-cole-pup-cup.jpg", oneLiner: "Pup Cup.", characters: ["lizzie", "cole"], arc: null },
     { id: "s_69bce39e0fe48191916783fd0f09aeed", thumb: "multi-lizzie-hannah-tennis.jpg", oneLiner: "Game, Set, Match.", characters: ["lizzie", "hannah"], arc: null },
-    { id: "s_69bd8a81b24c8191ba1c2c0ce9026e26", thumb: "multi-amit-and-junior-popstar.jpg", oneLiner: "Popstar Machine.", characters: ["amitjr", "amit"], arc: null },
     { id: "s_69be3afcd0ec8191ab395a2d533e00d5", thumb: "multi-lizzie-hannah-basketball.jpg", oneLiner: "Street Ball.", characters: ["lizzie", "hannah"], arc: null },
     { id: "s_69be3f7f18dc8191a041bd8291c60e82", thumb: "multi-lizzie-hannah-rager.jpg", oneLiner: "Rager.", characters: ["lizzie", "hannah"], arc: null },
-    { id: "s_69bef8b80a008191a6cf02349d3ac6ae", thumb: "multi-lizzie-hannah-base-jumping.jpg", oneLiner: "Rager.", characters: ["lizzie", "hannah"], arc: null }
+    { id: "s_69bef8b80a008191a6cf02349d3ac6ae", thumb: "multi-lizzie-hannah-base-jumping.jpg", oneLiner: "Rager.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69c02bef71bc819192372000991d9cb6", thumb: "multi-lizzie-bike-race.jpg", oneLiner: "Tour de Gerch.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69bf9211d57881919c0f6a963040f53c", thumb: "multi-lizzie-fencing.jpg", oneLiner: "En Garde.", characters: ["lizzie", "hannah"], arc: null },
+    { id: "s_69bf7be621b48191ab1fa40129ee2590", thumb: "multi-hannah-sterling-loan.jpg", oneLiner: "Cute.", characters: ["sterling", "hannah"], arc: null },
+    { id: "s_69bf7c7f9bb4819198cf67b15a6c0110", thumb: "multi-hannah-cole-fetch.jpg", oneLiner: "Fetch.", characters: ["cole", "hannah"], arc: null },
+    { id: "s_69bf8137041c8191ba5c867573b815cb", thumb: "multi-hannah-raj-payment.jpg", oneLiner: "Can you cover it?.", characters: ["raj", "hannah"], arc: null },
+    { id: "s_69bf80c91d208191b047a4bc70ec8783", thumb: "multi-hannah-sterling-winslow-trust.jpg", oneLiner: "One must have hobbies.", characters: ["sterling", "hannah"], arc: null },
+    { id: "s_69b63c9e6388819188ae357dc5c4bbbb", thumb: "multi-amit-gadha-knight.jpg", oneLiner: "The Gerch Knight vs. the Bovine Behemoth.", characters: ["amit", "gadha"], arc: null }
 
 
 
@@ -1574,23 +1584,28 @@ videos: [
     },
     "amit-jr-productions": {
       title: "Amit Jr. Productions",
-      description: "The only record label operating from maximum security solitary. While the Gerch-Verse drowns in 10-second attention span sludge, these 2-minute(ish) trauma-epics accidentally built a chart empire. Amit Jr. either stars—screaming his Q6 prophecy through Auto-Tune—or produces for fellow inmates who traded reduced sentences for backing vocals. Nobody listens to the warnings. Everybody streams the pain. The Grammys keep sending statuettes to a padded cell. His manager is a riddle-speaking cockroach with industry connections.",
+      description: "Born from Amit's classroom humiliation and his spectacularly tone-deaf idol audition that history buried, these trauma-epics accidentally built a chart empire. Amit Jr. screams Q6 prophecy through Auto-Tune while his father—who once bombed that same audition—consoles him between trophy deliveries, envy barely concealed. Nobody listens to the warnings. Everybody streams the pain. The Grammys mail statuettes to Amit Jr's padded cell.",
       status: "PLATINUM ON LOOP",
     statusColor: "green",
       videos: [
-        { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-ajp-timeless-love.jpg", oneLiner: "Timeless Love" },
-        { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-ill-rise.jpg", oneLiner: "I'll Rise" },
-        { id: "s_69a157a85ee48191afa3b90d1f8af0d4", thumbnail: "arc-ajp-strings-on-me.jpg", oneLiner: "Strings on Me" },
-        { id: "s_69bc40f8a4888191b566910cba52159a", thumbnail: "arc-ajp-milkburn-of-q6.jpg", oneLiner: "The Milk Burn of Q6" },
+        { id: "s_69be3a27bc2c8191af1f3a116afaa0ee", thumbnail: "arc-ajp-popstar-dreams.jpg", oneLiner: "Popstar Dreams." },
+        { id: "s_69bed96f19608191b3dc4feb1e1b1f45", thumbnail: "arc-ajp-audition-flop.jpg", oneLiner: "Flop." },
+        { id: "s_69bd8a81b24c8191ba1c2c0ce9026e26", thumbnail: "arc-ajp-popstar-machine.jpg", oneLiner: "Popstar Machine." },
+        { id: "s_69c0212e7b908191b2a563942628753c", thumbnail: "arc-ajp-profit-birthright.jpg", oneLiner: "Profit Making Birthright." },
+        { id: "s_69a642e88f048191a4a10493cd4f8099", thumbnail: "arc-ajp-timeless-love.jpg", oneLiner: "Timeless Love." },
+        { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-ill-rise.jpg", oneLiner: "I'll Rise." },
+        { id: "s_69a157a85ee48191afa3b90d1f8af0d4", thumbnail: "arc-ajp-strings-on-me.jpg", oneLiner: "Strings on Me." },
+        { id: "s_69bc40f8a4888191b566910cba52159a", thumbnail: "arc-ajp-milkburn-of-q6.jpg", oneLiner: "The Milk Burn of Q6." },
         { id: "s_69b6ec9a6a2c8191a58bcec441ebacc1", thumbnail: "arc-ajp-pain-that-remains.jpg", oneLiner: "The Pain that Remains." },
         { id: "s_69a5a97112308191ac18e93b8739164f", thumbnail: "arc-ajp-bkrescue-onice.jpg", oneLiner: "Burger King Rescue: On Ice (Kinda)." },
-        { id: "s_69b9df0e73ac8191af05ccae1066af9b", thumbnail: "arc-ajp-tried-to-warn.jpg", oneLiner: "I Tried to Warn You (But it charted instead)" },
+        { id: "s_69b9df0e73ac8191af05ccae1066af9b", thumbnail: "arc-ajp-tried-to-warn.jpg", oneLiner: "I Tried to Warn You (But it charted instead)." },
         { id: "s_69a1a543e390819196ea0c1034c84423", thumbnail: "arc-ajp-bkrescue.jpg", oneLiner: "Burger King Rescue." },
-        { id: "s_69a8dbe045b881919f8c8ddc3a44d380", thumbnail: "arc-ajp-transcendant-farewell.jpg", oneLiner: "Transcendant Farewell" },
-        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-ajp-rise-from-q6.jpg", oneLiner: "Rise from the Q6 Wreckage" },
-        { id: "s_69b73e4475688191a6233bbe71b58601", thumbnail: "arc-ajp-a-tale-of-sacrifice.jpg", oneLiner: "A Tale of Sacrifice" },
+        { id: "s_69a8dbe045b881919f8c8ddc3a44d380", thumbnail: "arc-ajp-transcendant-farewell.jpg", oneLiner: "Transcendant Farewell." },
+        { id: "s_69afac5f08a08191819d672aa580a1b9", thumbnail: "arc-ajp-rise-from-q6.jpg", oneLiner: "Rise from the Q6 Wreckage." },
+        { id: "s_69b73e4475688191a6233bbe71b58601", thumbnail: "arc-ajp-a-tale-of-sacrifice.jpg", oneLiner: "A Tale of Sacrifice." },
         { id: "s_69bc4bbc013481918590c0428517c924", thumbnail: "arc-ajp-q6-ballad.jpg", oneLiner: "Q6 Apocalypse Ballad." },
-        { id: "s_69bd64e8faa48191aad029335b42f103", thumbnail: "arc-ajp-q6-musical.jpg", oneLiner: "Q6 Apocalypse - The Musical." }
+        { id: "s_69bd64e8faa48191aad029335b42f103", thumbnail: "arc-ajp-q6-musical.jpg", oneLiner: "Q6 Apocalypse - The Musical." },
+        { id: "s_69bf8ea6d5b08191902f7362c19c3386", thumbnail: "arc-ajp-my-fawzuh.jpg", oneLiner: "My Fawzahhhh." }
       ]
 
 
@@ -1655,7 +1670,8 @@ videos: [
         { id: "s_6993fd50e38881918506374615a00cb4", thumbnail: "arc-musicvideos-tex-lone-star-passion.jpg", oneLiner: "Lone Star Passion." },
         { id: "s_6994cec68ec8819195ea94ad1ce1d032", thumbnail: "arc-musicvideos-tex-divine-brisket.jpg", oneLiner: "Divine Gadha Brisket." },
         { id: "s_69b50c3f7cec8191b96e33db30796172", thumbnail: "arc-musicvideos-tex-galactic-cypher.jpg", oneLiner: "Galactic Cypher." },
-        { id: "s_699ca6c10ce08191a7c9815610f61955", thumbnail: "arc-musicvideos-lizzie-crimson-rush.jpg", oneLiner: "Crimson Rush." }
+        { id: "s_699ca6c10ce08191a7c9815610f61955", thumbnail: "arc-musicvideos-lizzie-crimson-rush.jpg", oneLiner: "Crimson Rush." },
+        { id: "s_69bffb25e6dc8191bb7e324d0c214a46", thumbnail: "arc-musicvideos-hannah-lexi.jpg", oneLiner: "New York Hustling feat @lexi.hertz." }
       ]      
 
 
