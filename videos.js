@@ -278,6 +278,7 @@ const VIDEO_DB = {
       { id: "s_69bc4ab844508191859c4e4c3728302a", thumb: "amit-dog-wrestle.jpg", oneLiner: "Dominate distribution.", arc: null },
       { id: "s_69c004a2618081919515a40158b578e1", thumb: "amit-motorbike-race.jpg", oneLiner: "0 Modifications.", arc: null },
       { id: "s_69c0a7dacd908191bb21cfe93093e806", thumb: "amit-cut-weights.jpg", oneLiner: "Cut the weights draggins us.", arc: null },
+      { id: "s_69c21bd1ce18819192c4afa37207ba6b", thumb: "amit-gerchbet.jpg", oneLiner: "GerchBet.", arc: null },
       
       
 
@@ -418,6 +419,9 @@ const VIDEO_DB = {
       { id: "s_69be3c678cac81918ce20461681122e8", thumb: "solo-bigtex-freefall.jpg", oneLiner: "Freefall", arc: null },
       { id: "s_69bf0217b1ec81919b69cf60f5de128b", thumb: "solo-bigtex-football-pep-talk.jpg", oneLiner: "Heart, Grit, & Texas Pride.", arc: null },
       { id: "s_69c0a25d95508191b52b682f795f956f", thumb: "solo-bigtex-gerchverse-site-ad.jpg", oneLiner: "Gerchverse Site Ad.", arc: null },
+      { id: "s_69c1aad8dd4c81918066cc8025dbbf99", thumb: "solo-bigtex-gargantamax-LX-01.jpg", oneLiner: "Hyper-Mega Gargantamax LX - Safari Edition #1", arc: null },
+      { id: "s_69c1a198a2488191bd96960bbd0b664f", thumb: "solo-bigtex-gargantamax-LX-02.jpg", oneLiner: "Hyper-Mega Gargantamax LX - Safari Edition #2", arc: null },
+      { id: "s_69c1f1f17aac819186a7fa41b2b7c1fa", thumb: "solo-bigtex-first-rodeo.jpg", oneLiner: "Ain't my first rodeo.", arc: null },
     ],
 
 /*
@@ -1127,7 +1131,8 @@ HANNAH
     { id: "s_697ef32d340481918184fb105d6678d5", thumb: "multi-leon-lightamit-accountability.jpg", oneLiner: "An Exception to Accountability.", characters: ["leon", "lightamit"], arc: null },
     { id: "s_697f78d7fd588191bbd5b671e0d5f8c1", thumb: "multi-leon-darkamit-punishment.jpg", oneLiner: "Punishment is Encouraged.", characters: ["leon", "darkamit"], arc: null },
     { id: "s_69acc3404578819184c7d827d645c7e9", thumb: "multi-leon-sterling-tardiness.jpg", oneLiner: "Tardiness.", characters: ["leon", "sterling"], arc: null },
-    { id: "s_69c0a41614f4819189a1334b05585946", thumb: "multi-hannah-lizzie-grass-regret.jpg", oneLiner: "Grass & Regret.", characters: ["hannah", "lizzie"], arc: null }
+    { id: "s_69c0a41614f4819189a1334b05585946", thumb: "multi-hannah-lizzie-grass-regret.jpg", oneLiner: "Grass & Regret.", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69c196b8e1e48191b65471b1c44d26bb", thumb: "multi-hannah-lizzie-tokyo-rager.jpg", oneLiner: "Tokyo Rager.", characters: ["hannah", "lizzie"], arc: null }
 
 
 
@@ -1201,8 +1206,8 @@ HANNAH
     "gadha-golden-shower": {
       title: "Gadha's Golden Shower: How Milk Made Monsters",
       description: "Before sense, there was Amit's Mother. Before Q5, there was Gadha. Before parenting, roofie ambrosia. This genealogy traces divine lactation birthing Dark and Light Amit, the eternal investigation into Amit's Mother (unlocatable, promiscuous), and the unhinged creation of Amit Jr. via substances warranting CPS. Origin stories explain. This raises better questions.",
-      status: "STATUS: Depends on Amit's Mother",
-    statusColor: "yellow",
+      status: "Depends on Amit's Mother",
+      statusColor: "yellow",
       videos: [
         { id: "s_6982a26ba9688191b2dc43aef71025e5", thumbnail: "arc-gadha-golden-shower-00.jpg", oneLiner: "Family Tree Attempt." },
         { id: "s_6974e9c2a3c08191a77207e7ee7e96fb", thumbnail: "arc-gadha-golden-shower-01.jpg", oneLiner: "Who is Amit's Mother?" },
@@ -1215,21 +1220,21 @@ HANNAH
       
      },
    "have-it-your-betrayal": {
-title: "Have It Your Betrayal: The Amit Origin",
-description: "Boston, 1981. A time-traveling warning ignored. A mother who chose booty calls over bloodlines. The moment a Whopper wrapper became both blanket and birth certificate for a supervillain.",
-status: "CANONICAL — ORIGIN CHRONICLE",
-statusColor: "red",
-videos: [
-  { id: "s_69b19e5550308191bd8f542929c7257d", thumbnail: "arc-betrayal-01.jpg", oneLiner: "The Burger King bathroom abandonment." },
-  { id: "s_6998bfa32d888191969780087a009ed2", thumbnail: "arc-betrayal-02.jpg", oneLiner: "Gadha distracts Amit.'" },
-  { id: "s_6998e57e0eb081919c79f2df0d6d332a", thumbnail: "arc-betrayal-03.jpg", oneLiner: "Amit must remain. Q6 must be avoided." },
-  { id: "s_69b257c0d0248191904fce0a1a1b5ced", thumbnail: "arc-betrayal-03a.jpg", oneLiner: "Evil Amit stays with Mama." },
-  { id: "s_69a4750eb13c8191ad90370680a02542", thumbnail: "arc-betrayal-04.jpg", oneLiner: "Interview room confession." },
-  { id: "s_69a5ea36ff888191b4b1ddb4c86fa83b", thumbnail: "arc-betrayal-04a.jpg", oneLiner: "Amit seeks the truth." },
-  { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-4b.jpg", oneLiner: "Just rubbing it in." },
-  { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-05.jpg", oneLiner: "Funny jokes, but not for Amit." },
-  { id: "s_69b204de452081918e5080bb25be9e35", thumbnail: "arc-betrayal-06.jpg", oneLiner: "History repeats itself." }
-]
+      title: "Have It Your Betrayal: The Amit Origin",
+      description: "Boston, 1981. A time-traveling warning ignored. A mother who chose booty calls over bloodlines. The moment a Whopper wrapper became both blanket and birth certificate for a supervillain.",
+      status: "CANONICAL — ORIGIN CHRONICLE",
+      statusColor: "red",
+      videos: [
+        { id: "s_69b19e5550308191bd8f542929c7257d", thumbnail: "arc-betrayal-01.jpg", oneLiner: "The Burger King bathroom abandonment." },
+        { id: "s_6998bfa32d888191969780087a009ed2", thumbnail: "arc-betrayal-02.jpg", oneLiner: "Gadha distracts Amit.'" },
+        { id: "s_6998e57e0eb081919c79f2df0d6d332a", thumbnail: "arc-betrayal-03.jpg", oneLiner: "Amit must remain. Q6 must be avoided." },
+        { id: "s_69b257c0d0248191904fce0a1a1b5ced", thumbnail: "arc-betrayal-03a.jpg", oneLiner: "Evil Amit stays with Mama." },
+        { id: "s_69a4750eb13c8191ad90370680a02542", thumbnail: "arc-betrayal-04.jpg", oneLiner: "Interview room confession." },
+        { id: "s_69a5ea36ff888191b4b1ddb4c86fa83b", thumbnail: "arc-betrayal-04a.jpg", oneLiner: "Amit seeks the truth." },
+        { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-4b.jpg", oneLiner: "Just rubbing it in." },
+        { id: "s_699f8c318b5c8191ac8c914eb2b9303b", thumbnail: "arc-betrayal-05.jpg", oneLiner: "Funny jokes, but not for Amit." },
+        { id: "s_69b204de452081918e5080bb25be9e35", thumbnail: "arc-betrayal-06.jpg", oneLiner: "History repeats itself." }
+      ]
 
 
 },
@@ -1298,7 +1303,11 @@ videos: [
         { id: "s_69bd734bd8d481918fd92ccfb4e09478", thumbnail: "arc-velvet-09.jpg", oneLiner: "They're already involved." },
         { id: "s_69bd920d0b5881918796ee1376b07fe6", thumbnail: "arc-velvet-10.jpg", oneLiner: "Suspicions." },
         { id: "s_69c0a9aeb5a08191bf1a3caa2d281945", thumbnail: "arc-velvet-11.jpg", oneLiner: "Riddle me this." },
+        { id: "s_69bf7be621b48191ab1fa40129ee2590", thumbnail: "arc-velvet-12.jpg", oneLiner: "Cute." },
+        { id: "s_69c196977f848191bb58aae19ded6cee", thumbnail: "arc-velvet-13.jpg", oneLiner: "Trail found ft lofoandpu.pugzley." },
         { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "The yacht repaint: European Ultramarine." },
+        { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "The money dries." },
+        { id: "s_hannah_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "Scam or cultural revolution?" },
         { id: "s_hannah_placeholder_13", thumbnail: GERCHING_SOON_URL, oneLiner: "Membership has its privileges. The members don't." }
   ]
 
@@ -1312,7 +1321,7 @@ videos: [
         { id: "s_6932288f5a308191be65148153bf1754", thumbnail: "arc-toomuchinsolence-01.jpg", oneLiner: "Amit's Collapse. MNN Reports." },
         { id: "s_693106237f4081919cb6e2bb4f10b6ea", thumbnail: "arc-toomuchinsolence-02.jpg", oneLiner: "Reporters catch Lizzie as she leaves the hospital." },
         { id: "s_69310a48ac288191a465bc70bfb9d57c", thumbnail: "arc-toomuchinsolence-03.jpg", oneLiner: "Leon not fond of reporters." }
-      ]
+  ]
 
 },
 "gadha-dream-hunt": {
@@ -1327,25 +1336,25 @@ videos: [
         { id: "s_gadha_placeholder_10", thumbnail: GERCHING_SOON_URL, oneLiner: "The herd dreams in parallel." },
         { id: "s_gadha_placeholder_11", thumbnail: GERCHING_SOON_URL, oneLiner: "REM cycle: Rapidly Escaping Milk." },
         { id: "s_gadha_placeholder_12", thumbnail: GERCHING_SOON_URL, oneLiner: "You wanted ownership. You got pursuit." }
-    ]
+  ]
 },
 
 
 "gerchlings": {
-  title: "Gerchlings: The Before-Times",
-  description: "Many insolent children, one shared destiny of corporate trauma. Before Q5, before the profit projections, before the milk-slaps—there was recess. And it was already problematic.",
-  status: "COMPLETE",
-  statusColor: "green",
-  videos: [
-    { id: "s_69b2dd17ab888191b7abc3dbc52c85c3", thumbnail: "arc-gerchlings-01.jpg", oneLiner: "Bake sale profits." },
-    { id: "s_69b2607e9c408191a3f08ded212200d8", thumbnail: "arc-gerchlings-02.jpg", oneLiner: "Science project." },
-    { id: "s_69b259fbcf0c8191a0e99d9e3f5967fd", thumbnail: "arc-gerchlings-03.jpg", oneLiner: "Legal origins." },
-    { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
-    { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
-    { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." },
-    { id: "s_69bd827a0a7481918a4115ef9b0e234e", thumbnail: "arc-gerchlings-07.jpg", oneLiner: "Administrative fee." },
-    { id: "s_69be3a27bc2c8191af1f3a116afaa0ee", thumbnail: "arc-gerchlings-08.jpg", oneLiner: "Pop Star Dreams." }
-    ]
+        title: "Gerchlings: The Before-Times",
+        description: "Many insolent children, one shared destiny of corporate trauma. Before Q5, before the profit projections, before the milk-slaps—there was recess. And it was already problematic.",
+        status: "COMPLETE",
+        statusColor: "green",
+        videos: [
+          { id: "s_69b2dd17ab888191b7abc3dbc52c85c3", thumbnail: "arc-gerchlings-01.jpg", oneLiner: "Bake sale profits." },
+          { id: "s_69b2607e9c408191a3f08ded212200d8", thumbnail: "arc-gerchlings-02.jpg", oneLiner: "Science project." },
+          { id: "s_69b259fbcf0c8191a0e99d9e3f5967fd", thumbnail: "arc-gerchlings-03.jpg", oneLiner: "Legal origins." },
+          { id: "s_69b25b88d30c8191940cace3ca8bc997", thumbnail: "arc-gerchlings-04.jpg", oneLiner: "Horsing around." },
+          { id: "s_69b26292299c819196d0b3ee5907dcb2", thumbnail: "arc-gerchlings-05.jpg", oneLiner: "Teacher's pet." },
+          { id: "s_69b71f8b97dc81919d5cfbe7d8216373", thumbnail: "arc-gerchlings-06.jpg", oneLiner: "Philanthropy starts early." },
+          { id: "s_69bd827a0a7481918a4115ef9b0e234e", thumbnail: "arc-gerchlings-07.jpg", oneLiner: "Administrative fee." },
+          { id: "s_69be3a27bc2c8191af1f3a116afaa0ee", thumbnail: "arc-gerchlings-08.jpg", oneLiner: "Pop Star Dreams." }
+      ]
   
 
   },
@@ -1353,7 +1362,7 @@ videos: [
       title: "Executive Flight Assets",
       description: "Not a story arc, but in our defense, Mediocrates approved (he was having a good day and we took advantage). Our core Gerch-Verse family members have special 'vehicles' and we needed somewhere to put the footage. 'Story Arcs' was closer than 'Random Asset Dump,' so here we are. Continuity is a myth we tell ourselves.",
       status: "COMPLETE",
-    statusColor: "green",
+      statusColor: "green",
       videos: [
         { id: "s_69723174fad88191b80179d58e510a9f", thumbnail: "arc-executive-flight-assets-01.jpg", oneLiner: "Amit: Pegasus." },
         { id: "s_69723473fd088191a1afc323fe5bf52a", thumbnail: "arc-executive-flight-assets-02.jpg", oneLiner: "Leon: Black Pegasus" },
@@ -1366,7 +1375,7 @@ videos: [
       title: "Lizzie the Snitch",
       description: "Amit steals the milk. Lizzie steals the moment. The arrest steals the ending.",
       status: "COMPLETE",
-    statusColor: "green",
+      statusColor: "green",
       videos: [
         { id: "s_6923ed35d1cc8191bfec3b78382c5df5", thumbnail: "arc-grandlarceny-00.jpg", oneLiner: "Hacker for hire." },
         { id: "s_691265aa499c81918bad7e7826a6646f", thumbnail: "arc-grandlarceny-01.jpg", oneLiner: "Midnight prototype raid." },
@@ -1380,7 +1389,7 @@ videos: [
       title: "Bloodline Error",
       description: "Ionix Labs: redefining accuracy. Turns out dairy is thicker than blood.",
       status: "ONGOING — 1639+ DAYS",
-    statusColor: "yellow",
+      statusColor: "yellow",
       videos: [
         { id: "s_691e9c1138d88191a35080733b640a1a", thumbnail: "arc-bloodline-01.jpg", oneLiner: "Biological Relation: High." },
         { id: "s_691f699c51f081919d82376dd8469237", thumbnail: "arc-bloodline-02.jpg", oneLiner: "Birth Control." },
@@ -1393,7 +1402,7 @@ videos: [
       title: "Q6 Profits Apocalypse",
       description: "Amit Jr. arrives from the future. Warnings screamed. Warnings ignored. The gulag opens for time-travelers. Amit rushes to the future to investigate.",
       status: "TEMPORAL VIOLATION",
-    statusColor: "red",
+      statusColor: "red",
       videos: [
         { id: "s_699beec67d58819195edfdc366b74e54", thumbnail: "arc-q6warning-00.jpg", oneLiner: "The arrival." },
         { id: "s_6918be0246808191aeb73a7d5ff07d04", thumbnail: "arc-q6warning-01.jpg", oneLiner: "Warning ignored. Express to gulag" },
@@ -1406,7 +1415,7 @@ videos: [
     "ionix-biomarker-scandal": {
       title: "Ionix Biomarker Scandal",
       description: "Ionix Labs deploys the 'Biomarker Generator' — Lizzie's repurposed coffee machine that now fabricates bloodwork test results via RNG—while disclosing liability in bold font on page 47 in Comic Sans bold font. Light Amit weeps. Dark Amit celebrates. Michael Moo leaks it all. Cue the hunt: Gerchlander and Dark Amit rampage through the city while Moo hides in a basement, eating curry with his bare hands, watching civilization burn on stolen cable.",
-      status: "Status: Unresolved. Moo keeps appearing in unrelated footage anyway. Continuity is dead. Long live the chaos. 🤷",
+      status: "Unresolved. Moo keeps appearing in unrelated footage anyway. Continuity is dead. Long live the chaos. 🤷",
     statusColor: "yellow",
       videos: [
         { id: "s_697ec561c6fc8191ab269d5e2b80967a", thumbnail: "arc-biomarker01.jpg", oneLiner: "Reliability is a Legacy Concept." },
@@ -1437,7 +1446,7 @@ videos: [
     "gerchfinity-doomsday": {
       title: "Gerchfinity Wars: Doomsday",
       description: "Continuity is a suggestion. Inside Amit's fortress, names are flagged 'hostile.' Leadership decides loudly. The timeline clocks out. Scenes overlap. Portals open. Therapy becomes escalation. Amit Jr. came from Q6. Child Amit was left in that bathroom. Amit did the same to Jr. That's how we learn. Anti-Q6 strategy failed. This arc stops Q6 before it monetizes reality. Sequential? Parallel? Error? Officially: cosmic instability. Unofficially: Doomsday runs on vibes. Thumbnails were photo-shopped. Just a theory. A Q6 theory.",
-      status: "Status: Beats Us 🤷",
+      status: "Beats Us 🤷",
     statusColor: "yellow",
       videos: [
         { id: "s_699ccdd2597881918d5d35e6d091f40a", thumbnail: "arc-doomsday01.jpg", oneLiner: "Hostiles Flagged" },
@@ -1491,7 +1500,7 @@ videos: [
     "toy-commercials": {
       title: "Toy Commercials",
       description: "We asked for approval. Mediocrates was conflicted. 'Is this... responsible?' he whispered. Amit's Mother materialized: 'Manageable. That's how parents like their kids.' Mediocrates lit up—finally, a moral framework he could disappoint. He signed. Then we asked, 'Should toy commercials be in Story Arcs?' and everyone just shrugged. A generation learned that joy comes in blister packs, narrative cohesion is optional, and 'some assembly required' means you're already working for us, tiny consumer. Also that the Gerch-Verse organizes content like a raccoon organizes trash.",
-      status: "STATUS: Manageable",
+      status: "Manageable",
     statusColor: "red",
       videos: [
         { id: "s_691bbd63e69c819199931f768eea3136", thumbnail: "arc-toys-amit.jpg", oneLiner: "Visionary Executive Action Figure - insolence not included." },
@@ -1601,13 +1610,15 @@ videos: [
         { id: "s_69a607ecdbc08191b1aaf9c99a5c0bd4", thumbnail: "arc-risingsun23.jpg", oneLiner: "Cereal." },
         { id: "s_69baf099f2dc8191999e15076291b9e8", thumbnail: "arc-risingsun24.jpg", oneLiner: "Hyper Mega Gargantamax LX." },
         { id: "s_69baf1980e148191943a7149e2653fe6", thumbnail: "arc-risingsun25.jpg", oneLiner: "Hyper Mega Gargantamax LX Ver 2." },
-        { id: "s_69bce17ef28481919213a17e8d021ab4", thumbnail: "arc-risingsun26.jpg", oneLiner: "Rude E. Fooliaani Show." }
+        { id: "s_69bce17ef28481919213a17e8d021ab4", thumbnail: "arc-risingsun26.jpg", oneLiner: "Rude E. Fooliaani Show." },
+        { id: "s_69c199752ee88191a8d3bd3c7087e86e", thumbnail: "arc-risingsun27.jpg", oneLiner: "HDF Japan Ad." },
+        { id: "s_69c1afb461d08191bc50f982ba850260", thumbnail: "arc-risingsun28.jpg", oneLiner: "Hyper Mega Gargantamax LX Safari Edition." }
       ]
     },
     "toon-gulag": {
       title: "The Toon Gulag Escape",
       description: "A dimensional malfunction maroons the cast as sanitized cartoon avatars in a brightly-colored purgatory where background characters keep pointing at exit signs labeled 'GERCH-VERSE' like that's helpful navigation. The Gerch-Verse cast endures peppy animation physics and fourth-wall commentary from locals who seem aware they're fictional—trapped in a medium that demands optimism while their souls remain in quarterly earnings. They eventually locate portals home through sheer narrative convenience. Whether the cartoon world survives their departure is classified.",
-      status: "STATUS: Resolved (Pending Dimensional Recidivism)",
+      status: "Resolved (Pending Dimensional Recidivism)",
     statusColor: "green",
       videos: [
         { id: "s_6983e886a4408191a18f5765c76d5789", thumbnail: "arc-toon-gulag-amit.jpg", oneLiner: "Gerch-Verse or bust." },
