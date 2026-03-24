@@ -635,6 +635,31 @@ const VIDEO_DB = {
       { id: "placeholder_003", thumb: "solo-colin-patents.jpg", oneLiner: "Patents don't expire, they just get renewed. Forever.", arc: null },
     ],
 
+
+/*
+╔═════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                             ║
+║    ██████╗    ██╗   ██╗    ██╗  ██╗           ██╗        ██████╗     ██╗   ██╗    ██████╗   ║ 
+║    ██╔══██╗   ██║   ██║    ██║ ██╔╝           ██║       ██╔═══██╗    ██║   ██║    ██╔══██╗  ║
+║    ██████╔╝   ██║   ██║    █████╔╝            ██║       ██║   ██║    ██║   ██║    ██║  ██║  ║
+║    ██╔══██╗   ██║   ██║    ██╔═██╗            ██║       ██║   ██║    ██║   ██║    ██║  ██║  ║
+║    ██████╔╝   ╚██████╔╝    ██║  ██╗           ███████╗  ╚██████╔╝    ╚██████╔╝    ██████╔╝  ║
+║    ╚═════╝     ╚═════╝     ╚═╝  ╚═╝           ╚══════╝   ╚═════╝      ╚═════╝      ╚════╝   ║
+║═════════════════════════════════════════════════════════════════════════════════════════════║
+║                                     B U K   L O U D                                         ║
+║                     "Twenty percent or I chase you down the block!"                         ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════╝
+
+*/
+    // BUK LOUD
+    buk: [
+      { id: "s_69c1991ab1448191a942a3e75725e1ca", thumb: "solo-buk-welcome-g-verse.jpg", oneLiner: "Welcome to the Gerch-Verse, Buk.", arc: null },
+      { id: "s_placeholder_002", thumb: "solo-buk-tip-enforcement.jpg", oneLiner: "Military-grade operations against stingy customers. Weaponized nail files and classified acoustic tantrums.", arc: null },
+      
+    ],
+
+
+
 /*
 ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                           ║
@@ -1132,7 +1157,8 @@ HANNAH
     { id: "s_697f78d7fd588191bbd5b671e0d5f8c1", thumb: "multi-leon-darkamit-punishment.jpg", oneLiner: "Punishment is Encouraged.", characters: ["leon", "darkamit"], arc: null },
     { id: "s_69acc3404578819184c7d827d645c7e9", thumb: "multi-leon-sterling-tardiness.jpg", oneLiner: "Tardiness.", characters: ["leon", "sterling"], arc: null },
     { id: "s_69c0a41614f4819189a1334b05585946", thumb: "multi-hannah-lizzie-grass-regret.jpg", oneLiner: "Grass & Regret.", characters: ["hannah", "lizzie"], arc: null },
-    { id: "s_69c196b8e1e48191b65471b1c44d26bb", thumb: "multi-hannah-lizzie-tokyo-rager.jpg", oneLiner: "Tokyo Rager.", characters: ["hannah", "lizzie"], arc: null }
+    { id: "s_69c196b8e1e48191b65471b1c44d26bb", thumb: "multi-hannah-lizzie-tokyo-rager.jpg", oneLiner: "Tokyo Rager.", characters: ["hannah", "lizzie"], arc: null },
+    { id: "s_69c17aa0dce48191a05a22cbf24d2abe", thumb: "multi-hannah-buk-tipping.jpg", oneLiner: "Don't forget the tip.", characters: ["hannah", "buk"], arc: null }
 
 
 
@@ -1764,6 +1790,15 @@ const CHARACTERS = {
     avatar: "../images/lizzie.jpg",
     color: "#FF007F"
   },
+
+  buk: {
+  name: "Buk Loud",
+  handle: "@bukloud",
+  role: "CEO, Gerch Nail Salon Chains. Tip Enforcement Specialist",
+  avatar: "../images/bukloud.jpg",
+  color: "#00FF44"
+  },
+
 
   leon: {
     name: "Leon Cochran",
