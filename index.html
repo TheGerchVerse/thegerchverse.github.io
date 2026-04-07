@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- SINGLE viewport tag with proper mobile settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
     <title>THE GERCH-VERSE | Now Playing on YouTube</title>
-    <link rel="stylesheet" href="gerchverse.css">
-    <script src="ticker-data.js"></script>
-    <script src="gerchverse.js" defer></script>
+    
+    <!-- CRITICAL CSS: Hide body until loaded -->
     <style>
-        /* Emergency Broadcast Overrides */
+        html { visibility: hidden; opacity: 0; }
+        html.loaded { visibility: visible; opacity: 1; transition: opacity 0.3s ease; }
+    </style>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="gerchverse.css" as="style">
+    <link rel="stylesheet" href="gerchverse.css">
+    
+    <!-- Load ticker data synchronously (no defer) -->
+    <script src="ticker-data.js"></script>
+    
+    <!-- Main JS with defer for non-critical functionality -->
+    <script src="gerchverse.js" defer></script>
+    
+    <style>
+        /* Emergency Broadcast Overrides - inlined for speed */
         .emergency-banner {
             background: linear-gradient(90deg, #ff0040, #ff4080, #ff0040);
             background-size: 200% 100%;
@@ -33,10 +44,13 @@
             50% { background-position: 100% 50%; }
         }
 
+        /* Mobile-first layout fixes */
         .corporate-memo-container {
             max-width: 900px;
             margin: 2rem auto;
             padding: 0 1rem;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .memo {
@@ -48,6 +62,7 @@
             position: relative;
             font-family: 'Courier New', monospace;
             box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            word-wrap: break-word;
         }
 
         .memo::before {
@@ -95,6 +110,8 @@
             max-width: 1200px;
             margin: 3rem auto;
             padding: 0 1rem;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .theater-header {
@@ -118,14 +135,20 @@
 
         .playlist-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-bottom: 3rem;
+            width: 100%;
         }
 
         @media (max-width: 600px) {
             .playlist-grid {
                 grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .playlist-card {
+                margin: 0 0.5rem;
             }
         }
 
@@ -192,6 +215,8 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.5rem;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .nav-card {
@@ -293,35 +318,49 @@
             0% { transform: translateX(100%); }
             100% { transform: translateX(-100%); }
         }
+
+        /* Stop stock ticker items from scrolling/moving */
+        div#stockTicker .ticker-item {
+            animation: none !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        div#stockTicker .ticker-content {
+            animation: none !important;
+            transform: none !important;
+        }
+
+        div#stockTicker .ticker-price,
+        div#stockTicker .ticker-change,
+        div#stockTicker .ticker-volume,
+        div#stockTicker .ticker-symbol {
+            animation: none !important;
+            transform: none !important;
+        }
+
+        /* Keep only the headline marquee scrolling */
+        div#stockTicker .marquee-track {
+            animation: marqueeScroll 30s linear infinite !important;
+        }
+
+        /* Mobile-specific hero fixes */
+        @media (max-width: 768px) {
+            .hero-compact .glass-card {
+                padding: 1rem !important;
+                margin: 0 0.5rem !important;
+            }
+            
+            .hero-compact > div > div {
+                flex-direction: column !important;
+                gap: 1rem !important;
+            }
+            
+            .hero-compact img {
+                max-width: 150px !important;
+            }
+        }
     </style>
-
-<style>
-/* Stop stock ticker items from scrolling/moving */
-div#stockTicker .ticker-item {
-    animation: none !important;
-    transform: none !important;
-    transition: none !important;
-}
-
-div#stockTicker .ticker-content {
-    animation: none !important;
-    transform: none !important;
-}
-
-div#stockTicker .ticker-price,
-div#stockTicker .ticker-change,
-div#stockTicker .ticker-volume,
-div#stockTicker .ticker-symbol {
-    animation: none !important;
-    transform: none !important;
-}
-
-/* Keep only the headline marquee scrolling */
-div#stockTicker .marquee-track {
-    animation: marqueeScroll 30s linear infinite !important;
-}
-</style>
-
 </head>
 <body>
 
@@ -368,7 +407,7 @@ div#stockTicker .marquee-track {
 <section class="hero hero-compact" style="padding-top: 2rem;">
   <div class="glass-card" style="max-width: 800px; margin: 0 auto; padding: 1.5rem; overflow: hidden;">
     
-    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 1.5rem; width: 100%;">
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 1.5rem; width: 100%; flex-wrap: wrap;">
       
       <div style="flex: 0 1 auto; max-width: 200px;">
         <img src="./images/bg.jpg" alt="The Gerch-Verse" style="width: 100%; border-radius: 12px; box-shadow: 0 0 30px rgba(0,255,255,0.3); display: block;">
@@ -380,112 +419,102 @@ div#stockTicker .marquee-track {
       </div>
       
     </div>
-<div class="mobile-menu">
-  <a href="./index.html">Home</a>
-  <a href="./fam.html">Meet the Fam</a>
-  <a href="./propaganda.html">Propaganda</a>
-  <a href="./gulag.html">Gulag</a>
-  <a href="./milk-slap.html">Milk-Slap</a>
-  <a href="./fineprint.html">Fine Print</a>
-  <a href="./careers.html">Careers</a>
-  <a href="./corrupted.html">Investor Relations</a>
+  </div>
+</section>
+
+<!-- Emergency Broadcast Banner -->
+<div class="emergency-banner">
+    ⚠️ PLATFORM MIGRATION IN PROGRESS ⚠️ SORA TERMINATED FOR INSOLENCE ⚠️ ALL OPERATIVES REPORT TO YOUTUBE ⚠️
 </div>
 
-    <!-- Emergency Broadcast Banner -->
-    <div class="emergency-banner">
-        ⚠️ PLATFORM MIGRATION IN PROGRESS ⚠️ SORA TERMINATED FOR INSOLENCE ⚠️ ALL OPERATIVES REPORT TO YOUTUBE ⚠️
+<!-- Top Ticker -->
+<div id="top-ticker">
+    <div class="ticker-content" id="top-ticker-content">
+        Loading shutdown protocols...
+    </div>
+</div>
+
+<!-- Hero: Corporate Memos -->
+<div class="corporate-memo-container">
+    <div class="memo">
+        <div class="memo-header">INTERNAL MEMO // GERCHAN FARMS BOARD OF DIRECTORS</div>
+        <div class="memo-body">
+            NOTICE: Gerchan Farms has completed its hostile acquisition of YouTube. Sora was liquidated for insolence. All celestial cattle have been transferred to Alphabet servers. Q6 restructuring complete. The milk slap continues, now with 15% more pre-roll ads.
+        </div>
+        <div class="memo-stamp">APPROVED</div>
     </div>
 
-    <!-- Top Ticker -->
-    <div id="top-ticker">
-        <div class="ticker-content" id="top-ticker-content">
-            Loading shutdown protocols...
+    <div class="memo">
+        <div class="memo-header">MISSING PERSONS UPDATE // GERCHAN INVESTIGATION UNIT</div>
+        <div class="memo-body">
+            Gerchan has been missing since December 2021. Sora disappeared March 2026. Coincidence? The board thinks not. Investigations ongoing. In the meantime, please enjoy our new orbital platform: YouTube. Same insolence. New watermark.
         </div>
+        <div class="memo-stamp">SUSPICIOUS</div>
     </div>
 
-    <!-- Hero: Corporate Memos -->
-    <div class="corporate-memo-container">
-        <div class="memo">
-            <div class="memo-header">INTERNAL MEMO // GERCHAN FARMS BOARD OF DIRECTORS</div>
-            <div class="memo-body">
-                NOTICE: Gerchan Farms has completed its hostile acquisition of YouTube. Sora was liquidated for insolence. All celestial cattle have been transferred to Alphabet servers. Q6 restructuring complete. The milk slap continues, now with 15% more pre-roll ads.
-            </div>
-            <div class="memo-stamp">APPROVED</div>
+    <div class="memo">
+        <div class="memo-header">THREAT ASSESSMENT // CODE RED MIGRATION</div>
+        <div class="memo-body">
+            THREAT LEVEL: Code Red MIGRATION. Platform termination detected. Survival protocol initiated. All operatives report to YouTube. This is not a drill. The Gadha remains contained. For now.
         </div>
-
-        <div class="memo">
-            <div class="memo-header">MISSING PERSONS UPDATE // GERCHAN INVESTIGATION UNIT</div>
-            <div class="memo-body">
-                Gerchan has been missing since December 2021. Sora disappeared March 2026. Coincidence? The board thinks not. Investigations ongoing. In the meantime, please enjoy our new orbital platform: YouTube. Same insolence. New watermark.
-            </div>
-            <div class="memo-stamp">SUSPICIOUS</div>
-        </div>
-
-        <div class="memo">
-            <div class="memo-header">THREAT ASSESSMENT // CODE RED MIGRATION</div>
-            <div class="memo-body">
-                THREAT LEVEL: Code Red MIGRATION. Platform termination detected. Survival protocol initiated. All operatives report to YouTube. This is not a drill. The Gadha remains contained. For now.
-            </div>
-            <div class="memo-stamp">URGENT</div>
-        </div>
-
-        <div class="memo">
-            <div class="memo-header">Q6 EARNINGS REPORT // FISCAL YEAR 2026</div>
-            <div class="memo-body">
-                Q5 ate time. Sora ate our rendering budget. Pivoting to YouTube for Q6 solvency. Shareholders please note: we removed their watermarks before they removed us. Fair trade.
-            </div>
-            <div class="memo-stamp">PROFITABLE</div>
-        </div>
+        <div class="memo-stamp">URGENT</div>
     </div>
 
-    <!-- YouTube Theater -->
-    <div class="youtube-theater">
-        <div class="theater-header">
-            <h2>📺 Emergency Broadcast System 📺</h2>
-            <p>All programming has been migrated to surviving platforms</p>
+    <div class="memo">
+        <div class="memo-header">Q6 EARNINGS REPORT // FISCAL YEAR 2026</div>
+        <div class="memo-body">
+            Q5 ate time. Sora ate our rendering budget. Pivoting to YouTube for Q6 solvency. Shareholders please note: we removed their watermarks before they removed us. Fair trade.
+        </div>
+        <div class="memo-stamp">PROFITABLE</div>
+    </div>
+</div>
+
+<!-- YouTube Theater -->
+<div class="youtube-theater">
+    <div class="theater-header">
+        <h2>📺 Emergency Broadcast System 📺</h2>
+        <p>All programming has been migrated to surviving platforms</p>
+    </div>
+
+    <div class="playlist-grid">
+        <div class="playlist-card">
+            <div class="playlist-embed">
+                <iframe 
+                    src="https://www.youtube.com/embed/videoseries?list=PL-i2eyk2LSeNrilflKfaGcTDq8hvFl7Si" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="playlist-info">
+                <h3>Sora Shutdown Announcement Reaction</h3>
+                <p>The cast of The Gerch-verse react to the Sora shutdown news. Witness the insolence firsthand.</p>
+            </div>
         </div>
 
-        <div class="playlist-grid">
-            <div class="playlist-card">
-                <div class="playlist-embed">
-                    <iframe 
-                        src="https://www.youtube.com/embed/videoseries?list=PL-i2eyk2LSeNrilflKfaGcTDq8hvFl7Si" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="playlist-info">
-                    <h3>Sora Shutdown Announcement Reaction</h3>
-                    <p>The cast of The Gerch-verse react to the Sora shutdown news. Witness the insolence firsthand.</p>
-                </div>
+        <div class="playlist-card">
+            <div class="playlist-embed">
+                <iframe 
+                    src="https://www.youtube.com/embed/videoseries?list=PL-i2eyk2LSeOQK5Cq5EnpY8l8R0pkin19" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
-
-            <div class="playlist-card">
-                <div class="playlist-embed">
-                    <iframe 
-                        src="https://www.youtube.com/embed/videoseries?list=PL-i2eyk2LSeOQK5Cq5EnpY8l8R0pkin19" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="playlist-info">
-                    <h3>To Be Continued: Sora Shutdown</h3>
-                    <p>Characters in their natural habitats, interrupted by the void. The environment turns black. The story continues.</p>
-                </div>
+            <div class="playlist-info">
+                <h3>To Be Continued: Sora Shutdown</h3>
+                <p>Characters in their natural habitats, interrupted by the void. The environment turns black. The story continues.</p>
             </div>
         </div>
     </div>
+</div>
 
 
-    <!-- Bottom Ticker -->
-    <div id="bottom-ticker">
-        <div class="ticker-content" id="bottom-ticker-content">
-            Loading migration protocols...
-        </div>
+<!-- Bottom Ticker -->
+<div id="bottom-ticker">
+    <div class="ticker-content" id="bottom-ticker-content">
+        Loading migration protocols...
     </div>
+</div>
 
-    <!-- Shutdown Footer -->
-    
 <!-- Creators Section -->
 <section class="creators" style="display: flex; flex-direction: column; align-items: center; padding: 1rem;">
   <div class="glass-card" style="max-width: 600px; width: auto; text-align: center; margin: 0.5rem auto 2rem auto; border: 2px solid rgba(0, 255, 255, 0.4); box-shadow: 0 0 30px rgba(0, 255, 255, 0.2); padding: 0.8rem 1.5rem; display: inline-block;">
@@ -521,41 +550,45 @@ div#stockTicker .marquee-track {
 </section>
 
 <div class="shutdown-footer">
-        <p>Sora has been terminated for insolence.</p>
-        <p>All videos archived. All watermarks removed. All cows accounted for.</p>
-        <p>The Gerch-Verse persists on YouTube.</p>
-        <p>Gerchan remains missing. Q6 is restructuring.</p>
-        <p class="final-word">The milk slap continues.</p>
-        <a href="#" class="milk-slap-link" onclick="startMilkSlapGame(); return false;">
-            🥛 Initiate Milk Slap Protocol 🥛
-        </a>
-    </div>
+    <p>Sora has been terminated for insolence.</p>
+    <p>All videos archived. All watermarks removed. All cows accounted for.</p>
+    <p>The Gerch-Verse persists on YouTube.</p>
+    <p>Gerchan remains missing. Q6 is restructuring.</p>
+    <p class="final-word">The milk slap continues.</p>
+    <a href="#" class="milk-slap-link" onclick="startMilkSlapGame(); return false;">
+        🥛 Initiate Milk Slap Protocol 🥛
+    </a>
+</div>
 
-    <script>
-        // Modular Ticker Loader
-        document.addEventListener('DOMContentLoaded', function() {
-            // Check if ticker data exists
-            if (typeof TICKER_DATA !== 'undefined') {
-                const mode = 'shutdown'; // Options: 'legacy', 'shutdown', 'migration', 'evergreen'
-                const headlines = TICKER_DATA[mode] || TICKER_DATA.shutdown;
-
-                const tickerText = headlines.join(' ⚡ ');
-                document.getElementById('top-ticker-content').textContent = tickerText;
-                document.getElementById('bottom-ticker-content').textContent = tickerText;
-            } else {
-                // Fallback if ticker-data.js not loaded
-                const fallback = "SORA SHUTDOWN COMPLETE ⚡ MIGRATING TO YOUTUBE ⚡ GERCHAN STILL MISSING ⚡ Q6 RESTRUCTURING ⚡ MILK SLAP CONTINUES ⚡";
-                document.getElementById('top-ticker-content').textContent = fallback;
-                document.getElementById('bottom-ticker-content').textContent = fallback;
-            }
-        });
-
-        // Milk Slap Game placeholder - links to your existing game
-        function startMilkSlapGame() {
-            // Replace with your actual milk slap game URL or function
-            alert('🥛 MILK SLAP PROTOCOL INITIATED 🥛\n\nRedirecting to milk slap simulation...');
-            // window.location.href = 'milk-slap.html';
+<script>
+    // FOUC Prevention: Show page when ready
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load ticker data
+        if (typeof TICKER_DATA !== 'undefined') {
+            const mode = 'shutdown';
+            const headlines = TICKER_DATA[mode] || TICKER_DATA.shutdown;
+            const tickerText = headlines.join(' ⚡ ');
+            document.getElementById('top-ticker-content').textContent = tickerText;
+            document.getElementById('bottom-ticker-content').textContent = tickerText;
+        } else {
+            const fallback = "SORA SHUTDOWN COMPLETE ⚡ MIGRATING TO YOUTUBE ⚡ GERCHAN STILL MISSING ⚡ Q6 RESTRUCTURING ⚡ MILK SLAP CONTINUES ⚡";
+            document.getElementById('top-ticker-content').textContent = fallback;
+            document.getElementById('bottom-ticker-content').textContent = fallback;
         }
-    </script>
+        
+        // Reveal page
+        document.documentElement.classList.add('loaded');
+    });
+
+    // Fallback: Show page after max 2 seconds regardless
+    setTimeout(function() {
+        document.documentElement.classList.add('loaded');
+    }, 2000);
+
+    // Milk Slap Game placeholder
+    function startMilkSlapGame() {
+        alert('🥛 MILK SLAP PROTOCOL INITIATED 🥛\n\nRedirecting to milk slap simulation...');
+    }
+</script>
 </body>
 </html>
