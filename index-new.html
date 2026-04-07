@@ -290,6 +290,34 @@
             100% { transform: translateX(-100%); }
         }
     </style>
+
+<style>
+/* Stop stock ticker items from scrolling/moving */
+div#stockTicker .ticker-item {
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+div#stockTicker .ticker-content {
+    animation: none !important;
+    transform: none !important;
+}
+
+div#stockTicker .ticker-price,
+div#stockTicker .ticker-change,
+div#stockTicker .ticker-volume,
+div#stockTicker .ticker-symbol {
+    animation: none !important;
+    transform: none !important;
+}
+
+/* Keep only the headline marquee scrolling */
+div#stockTicker .marquee-track {
+    animation: marqueeScroll 30s linear infinite !important;
+}
+</style>
+
 </head>
 <body>
 
