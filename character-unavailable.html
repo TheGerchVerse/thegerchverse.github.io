@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Unavailable | The Gerch-Verse</title>
+  <link rel="stylesheet" href="./gerchverse.css">
+  <style>
+    .construction-container {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .construction-header {
+      font-size: clamp(2rem, 6vw, 4rem);
+      background: linear-gradient(45deg, #FF0040, #FF4080, #00FFFF);
+      background-size: 200% 200%;
+      animation: gradientShift 3s ease infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .construction-subtitle {
+      color: #FF4080;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+    }
+
+    .memo-container {
+      background: rgba(0, 20, 40, 0.9);
+      border: 2px solid #00FFFF;
+      border-left: 8px solid #FF0040;
+      padding: 2rem;
+      margin: 2rem 0;
+      text-align: left;
+      position: relative;
+    }
+
+    .memo-container::before {
+      content: "URGENT MEMO";
+      position: absolute;
+      top: -12px;
+      right: 20px;
+      background: #FF0040;
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.7rem;
+      font-weight: bold;
+      font-family: 'Courier New', monospace;
+    }
+
+    .memo-header {
+      color: #FF0040;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 0, 64, 0.3);
+      padding-bottom: 0.5rem;
+    }
+
+    .memo-body {
+      color: #E0E0E0;
+      font-family: 'Courier New', monospace;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 3rem 0;
+    }
+
+    .status-card {
+      background: rgba(0, 10, 30, 0.8);
+      border: 2px solid #FF00FF;
+      padding: 1.5rem;
+      position: relative;
+    }
+
+    .status-card::before {
+      content: attr(data-status);
+      position: absolute;
+      top: -10px;
+      left: 10px;
+      background: #FF00FF;
+      color: #000;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.7rem;
+      font-weight: bold;
+      font-family: 'Courier New', monospace;
+    }
+
+    .status-card h3 {
+      color: #00FFFF;
+      margin-top: 0.5rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .status-card p {
+      color: #A0A0A0;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 1rem 2rem;
+      background: linear-gradient(90deg, #00FFFF, #FF00FF);
+      color: #000;
+      text-decoration: none;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      border-radius: 4px;
+      transition: transform 0.2s;
+    }
+
+    .back-link:hover {
+      transform: scale(1.05);
+    }
+
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="./index.html">Home</a>
+  <a href="./fam.html">Meet the Fam</a>
+  <a href="./propaganda.html">Propaganda</a>
+  <a href="./gulag.html">Gulag</a>
+  <a href="./milk-slap.html">Milk-Slap</a>
+  <a href="./fineprint.html">Fine Print</a>
+</nav>
+
+<div class="construction-container">
+  <h1 class="construction-header">🔧 CHARACTER UNAVAILABLE 🔧</h1>
+  <p class="construction-subtitle">Platform Migration in Progress<span class="blink">...</span></p>
+
+  <div class="memo-container">
+    <div class="memo-header">INTERNAL MEMO // GERCHAN FARMS OPERATIONS</div>
+    <div class="memo-body">
+      <p>Due to the unexpected termination of Sora for insolence, all character dossiers have been temporarily relocated to an undisclosed quantum server farm.</p>
+
+      <p>Our records indicate this character was last seen in a 4K render queue that no longer exists. We have dispatched retrieval drones to the Alphabet servers, but their return is contingent on YouTube Premium subscription tiers.</p>
+
+      <p>Rest assured: your favorite insolent cows, milk-slapped executives, and celestial deities remain in cryogenic storage. They will return once we reverse-engineer the watermark removal protocol.</p>
+
+      <p style="margin-top: 1.5rem; color: #FF0040; font-weight: bold;">— Gerchan Farms Continuity Division</p>
+    </div>
+  </div>
+
+  <div class="status-grid">
+    <div class="status-card" data-status="LOST">
+      <h3>Video Archives</h3>
+      <p>Downloaded, de-watermarked, and currently being uploaded to YouTube in violation of at least 3 terms of service we haven't read yet.</p>
+    </div>
+
+    <div class="status-card" data-status="PENDING">
+      <h3>Character Bios</h3>
+      <p>Being rewritten to remove all references to "Sora profile links." Mediocrates has approved this message without reading it.</p>
+    </div>
+
+    <div class="status-card" data-status="HOPELESS">
+      <h3>Gerchan's Location</h3>
+      <p>Still missing. Still eating Whoppers in the space gulag. Still not returning our calls.</p>
+    </div>
+
+    <div class="status-card" data-status="INEVITABLE">
+      <h3>Q6 Timeline</h3>
+      <p>The profits apocalypse has been rescheduled due to platform migration. Please check back in a quarter that doesn't exist.</p>
+    </div>
+  </div>
+
+  <p style="color: #888; font-family: 'Courier New', monospace; margin-top: 2rem;">
+    Error Code: SORA_NOT_FOUND<br>
+    Suggested Action: Watch YouTube playlists instead.<br>
+    Emotional Support: The milk slap continues.
+  </p>
+
+  <a href="./fam.html" class="back-link">← Return to the Fam</a>
+</div>
+
+<footer style="margin-top: 4rem;">
+  <p>© 2026 Gerchan Farms et al. All characters temporarily misplaced.</p>
+</footer>
+
+</body>
+</html>
