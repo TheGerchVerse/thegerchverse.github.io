@@ -291,6 +291,78 @@
             transform: scale(1.05);
         }
 
+        /* --- TikTok badge next to creator names --- */
+        .tiktok-badge {
+            font-size: 0.6rem;
+            font-family: 'Courier New', monospace;
+            font-weight: 400;
+            color: #ff69b4;
+            border: 1px solid #ff69b4;
+            border-radius: 4px;
+            padding: 0.15rem 0.4rem;
+            vertical-align: middle;
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+        }
+
+        .tiktok-badge:hover {
+            background: rgba(255, 105, 180, 0.15);
+        }
+
+        /* --- Purgatory memo: pink border + stamp --- */
+        .purgatory-memo {
+            border-left-color: #ff69b4;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.25);
+        }
+
+        .purgatory-header {
+            color: #ff69b4;
+            border-bottom-color: rgba(255, 105, 180, 0.3);
+        }
+
+        .purgatory-highlight {
+            color: #ff69b4;
+        }
+
+        .purgatory-stamp {
+            color: rgba(255, 105, 180, 0.5);
+        }
+
+        /* --- Account rows inside the purgatory memo --- */
+        .purgatory-accounts {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .purgatory-account {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            padding: 0.6rem 0.8rem;
+            border-left: 3px solid #ff69b4;
+            background: rgba(255, 105, 180, 0.05);
+        }
+
+        .purgatory-account-link {
+            color: #ff69b4;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .purgatory-account-link:hover {
+            text-decoration: underline;
+        }
+
+        .purgatory-account-desc {
+            color: #a0a0a0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
         /* Ticker containers */
         #top-ticker, #bottom-ticker {
             width: 100%;
@@ -451,12 +523,38 @@
         <div class="memo-stamp">SUSPICIOUS</div>
     </div>
 
-    <div class="memo" style="border-left-color: #ff69b4; box-shadow: 0 0 20px rgba(255, 105, 180, 0.25);">
-        <div class="memo-header" style="color: #ff69b4; border-bottom-color: rgba(255, 105, 180, 0.3);">PURGATORY STATUS UPDATE // PLATFORM CONTAINMENT DIVISION</div>
+    <div class="memo purgatory-memo">
+        <div class="memo-header purgatory-header">PURGATORY STATUS UPDATE // PLATFORM CONTAINMENT DIVISION</div>
         <div class="memo-body">
-            Sora was terminated. YouTube was not yet fully operational. The Gerch-Verse entered <strong style="color: #ff69b4;">TikTok Purgatory</strong>—a state of limbo between platforms, neither dead nor migrated, producing content at reduced cosmic resolution. Operations continue. The milk slap endures even in liminal space. TikTok is not a permanent solution. TikTok is a waiting room with a For You Page.
+            Sora was terminated. YouTube was not yet fully operational. The Gerch-Verse entered
+            <strong class="purgatory-highlight">TikTok Purgatory</strong> — a state of limbo between platforms,
+            neither dead nor migrated, producing content at reduced cosmic resolution.
+            Operations continue. The milk slap endures even in liminal space.
+            TikTok is not a permanent solution. TikTok is a waiting room with a For You Page.
+
+            <div class="purgatory-accounts">
+                <div class="purgatory-account">
+                    <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener" class="purgatory-account-link">
+                        @memelourde ↗
+                    </a>
+                    <span class="purgatory-account-desc">
+                        Daddy of the Gerch-Verse. Satire, power, myth &amp; capital in one navy Nehru jacket.
+                        Main lore &amp; canon storyline. The original cosmic cattle rustler.
+                    </span>
+                </div>
+                <div class="purgatory-account">
+                    <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener" class="purgatory-account-link">
+                        @thegerchverse ↗
+                    </a>
+                    <span class="purgatory-account-desc">
+                        Main hub. Red pills, profit drills, cosmic thrills.
+                        Off-canon transmissions and side-channel operations.
+                        Side effects: sudden belief that 4 quarters are never enough.
+                    </span>
+                </div>
+            </div>
         </div>
-        <div class="memo-stamp" style="color: rgba(255, 105, 180, 0.5);">PURGATORY</div>
+        <div class="memo-stamp purgatory-stamp">PURGATORY</div>
     </div>
 
     <div class="memo">
@@ -534,12 +632,13 @@
       <div class="card-head">
         <div class="avatar" style="aspect-ratio: 1; flex-shrink: 0;"><img src="./images/memelourde.jpg" alt="memelourde"></div>
         <div class="names">
-          <h3>memelourde <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener" style="font-size: 0.6rem; font-family: 'Courier New', monospace; font-weight: 400; color: #ff69b4; border: 1px solid #ff69b4; border-radius: 4px; padding: 0.15rem 0.4rem; vertical-align: middle; text-decoration: none; letter-spacing: 0.05em; white-space: nowrap;">TikTok ↗</a></h3>
+          <h3>
+            memelourde
+            <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener" class="tiktok-badge">TikTok ↗</a>
+          </h3>
           <p class="handle">Satirical Worlds • Power, Myth & Capital 🏛️</p>
-          <p class="handle" style="margin-top: 0.3rem;">📼 TikTok Purgatory: <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener">@memelourde</a> — Main lore & canon storyline</p>
         </div>
       </div>
-      <p class="desc">Daddy of the Gerch-Verse. Satire, power, myth & capital in one navy Nehru jacket. The original cosmic cattle rustler.</p>
       <div class="catch">"You insolent cow!"</div>
     </div>
 
@@ -547,12 +646,13 @@
       <div class="card-head">
         <div class="avatar" style="aspect-ratio: 1; flex-shrink: 0;"><img src="./images/thegerchverse.jpg" alt="thegerchverse"></div>
         <div class="names">
-          <h3>thegerchverse <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener" style="font-size: 0.6rem; font-family: 'Courier New', monospace; font-weight: 400; color: #ff69b4; border: 1px solid #ff69b4; border-radius: 4px; padding: 0.15rem 0.4rem; vertical-align: middle; text-decoration: none; letter-spacing: 0.05em; white-space: nowrap;">TikTok ↗</a></h3>
+          <h3>
+            thegerchverse
+            <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener" class="tiktok-badge">TikTok ↗</a>
+          </h3>
           <p class="handle">🌍 The Gerch-Verse・Red Pills For Days💊</p>
-          <p class="handle" style="margin-top: 0.3rem;">📡 TikTok Purgatory: <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener">@thegerchverse</a> — Off-canon transmissions</p>
         </div>
       </div>
-      <p class="desc">Main hub. Red pills, profit drills, cosmic thrills. Dispenses reality-altering capsules that taste like quarterly earnings and smell like celestial bovine futures. Side effects: sudden belief that 4 quarters are never enough.</p>
       <div class="catch">"Take the pill, pay the bill."</div>
     </div>
   </div>
