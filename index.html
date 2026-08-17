@@ -330,20 +330,19 @@
         }
 
         /* --- Account rows inside the purgatory memo --- */
-        .purgatory-accounts {
+        .purgatory-links-label {
             margin-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
+            color: #a0a0a0;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
         }
 
-        .purgatory-account {
+        .purgatory-links {
+            margin-top: 0.4rem;
             display: flex;
             flex-direction: column;
-            gap: 0.25rem;
-            padding: 0.6rem 0.8rem;
-            border-left: 3px solid #ff69b4;
-            background: rgba(255, 105, 180, 0.05);
+            gap: 0.3rem;
         }
 
         .purgatory-account-link {
@@ -355,12 +354,6 @@
 
         .purgatory-account-link:hover {
             text-decoration: underline;
-        }
-
-        .purgatory-account-desc {
-            color: #a0a0a0;
-            font-size: 0.85rem;
-            line-height: 1.5;
         }
 
         /* Ticker containers */
@@ -532,26 +525,10 @@
             Operations continue. The milk slap endures even in liminal space.
             TikTok is not a permanent solution. TikTok is a waiting room with a For You Page.
 
-            <div class="purgatory-accounts">
-                <div class="purgatory-account">
-                    <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener" class="purgatory-account-link">
-                        @memelourde ↗
-                    </a>
-                    <span class="purgatory-account-desc">
-                        Daddy of the Gerch-Verse. Satire, power, myth &amp; capital in one navy Nehru jacket.
-                        Main lore &amp; canon storyline. The original cosmic cattle rustler.
-                    </span>
-                </div>
-                <div class="purgatory-account">
-                    <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener" class="purgatory-account-link">
-                        @thegerchverse ↗
-                    </a>
-                    <span class="purgatory-account-desc">
-                        Main hub. Red pills, profit drills, cosmic thrills.
-                        Off-canon transmissions and side-channel operations.
-                        Side effects: sudden belief that 4 quarters are never enough.
-                    </span>
-                </div>
+            <p class="purgatory-links-label">TikTok Purgatory:</p>
+            <div class="purgatory-links">
+                <a href="https://www.tiktok.com/@memelourde" target="_blank" rel="noopener" class="purgatory-account-link">@memelourde ↗</a>
+                <a href="https://www.tiktok.com/@thegerchverse" target="_blank" rel="noopener" class="purgatory-account-link">@thegerchverse ↗</a>
             </div>
         </div>
         <div class="memo-stamp purgatory-stamp">PURGATORY</div>
@@ -639,6 +616,7 @@
           <p class="handle">Satirical Worlds • Power, Myth & Capital 🏛️</p>
         </div>
       </div>
+      <p class="desc">Daddy of the Gerch-Verse. Satire, power, myth & capital in one navy Nehru jacket. The original cosmic cattle rustler.</p>
       <div class="catch">"You insolent cow!"</div>
     </div>
 
@@ -653,6 +631,7 @@
           <p class="handle">🌍 The Gerch-Verse・Red Pills For Days💊</p>
         </div>
       </div>
+      <p class="desc">Main hub. Red pills, profit drills, cosmic thrills. Dispenses reality-altering capsules that taste like quarterly earnings and smell like celestial bovine futures. Side effects: sudden belief that 4 quarters are never enough.</p>
       <div class="catch">"Take the pill, pay the bill."</div>
     </div>
   </div>
