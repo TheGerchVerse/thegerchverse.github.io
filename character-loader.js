@@ -105,6 +105,9 @@ function renderTiktokVideos(videos, charKey) {
   }
   gridEl.innerHTML = html;
 
+  // Fetch thumbnails for the newly rendered cards
+  fetchTiktokThumbnails();
+
   if (paginationEl) {
     if (totalPages > 1) {
       paginationEl.style.display = 'flex';
@@ -123,14 +126,14 @@ function renderTiktokVideos(videos, charKey) {
   }
 }
 
-// TikTok card — links to TikTok, no local thumbnail needed
+// TikTok card — placeholder img gets populated by fetchTiktokThumbnails()
 function renderTiktokCard(video) {
   const url = `https://www.tiktok.com/@thegerchverse/video/${video.id}`;
   return `
     <div class="video-cell">
       <a href="${url}" target="_blank" rel="noopener" class="video-card">
-        <div class="card-media card-placeholder-tiktok">
-          <span>📱 TikTok</span>
+        <div class="card-media card-placeholder-tiktok" data-video-id="${video.id}">
+          <span class="thumb-loading">⏳</span>
         </div>
         <span class="card-badge card-badge-tiktok">↗ TikTok</span>
         <div class="card-caption-overlay">
@@ -140,6 +143,27 @@ function renderTiktokCard(video) {
       <div class="costar-row"></div>
     </div>
   `;
+}
+
+// After cards are rendered, fetch thumbnails for all visible cards
+function fetchTiktokThumbnails() {
+  const cards = document.querySelectorAll('.card-placeholder-tiktok[data-video-id]');
+  cards.forEach(card => {
+    const id = card.dataset.videoId;
+    const apiUrl = `https://www.tiktok.com/oembed?url=https://www.tiktok.com/@thegerchverse/video/${id}`;
+    fetch(apiUrl)
+      .then(r => r.json())
+      .then(data => {
+        if (data.thumbnail_url) {
+          card.innerHTML = `<img src="${data.thumbnail_url}" alt="TikTok preview" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">`;
+        } else {
+          card.innerHTML = `<span>📱</span>`;
+        }
+      })
+      .catch(() => {
+        card.innerHTML = `<span>📱</span>`;
+      });
+  });
 }
 
 function renderSoloVideos(videos, charKey) {
