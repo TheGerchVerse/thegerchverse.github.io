@@ -234,6 +234,43 @@
       z-index: 2;
     }
 
+    /* TikTok purgatory card styles */
+    .card-badge-tiktok {
+      background: #ff69b4;
+      color: #000;
+    }
+
+    .card-placeholder-tiktok {
+      background: linear-gradient(135deg, rgba(255,105,180,0.15), rgba(0,0,0,0.6));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #ff69b4;
+      aspect-ratio: 9/16;
+      width: 100%;
+    }
+
+    .purgatory-section-header {
+      border-left: 4px solid #ff69b4;
+      padding-left: 1rem;
+    }
+
+    .purgatory-label {
+      color: #ff69b4;
+      font-size: 0.8rem;
+      font-family: 'Courier New', monospace;
+      margin: 0.25rem 0 0 0;
+      opacity: 0.8;
+    }
+
+    .caption-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
     .costar-row {
       display: flex;
       justify-content: center;
@@ -805,6 +842,15 @@
   <div id="character-header" class="char-header">
     <div class="loading">Loading character...</div>
   </div>
+
+  <section id="tiktok-videos-section" class="video-section" style="display: none;">
+    <div class="section-header purgatory-section-header">
+      <h2 class="section-title">📱 TikTok Purgatory <span id="tiktok-count">0</span></h2>
+      <p class="purgatory-label">Off-canon. @thegerchverse. The waiting room with a For You Page.</p>
+    </div>
+    <div id="tiktok-videos-grid" class="video-grid"></div>
+    <div id="tiktok-pagination" class="pagination" style="display: none;"></div>
+  </section>
 
   <section class="video-section">
     <div class="section-header">

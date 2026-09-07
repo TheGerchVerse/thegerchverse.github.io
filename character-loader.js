@@ -4,6 +4,7 @@
 const VIDEOS_PER_PAGE = 6;
 let currentSoloPage = 1;
 let currentMultiPage = 1;
+let currentTiktokPage = 1;
 
 function getCharacterKey() {
   const bodyKey = document.body.dataset.character;
@@ -25,16 +26,36 @@ function initCharacterPage() {
   }
   
   const character = CHARACTERS[charKey];
-  const soloVideos = VIDEO_DB.solo[charKey] || [];
-  const multiVideos = getMultiVideosForCharacter(charKey);
-  
-  renderHeader(character);
-  renderSoloVideos(soloVideos, charKey);
-  renderMultiVideos(multiVideos, charKey);
+
+  // Sora videos — preserved in data but hidden from display for now.
+  // Will be re-enabled as Canon (YouTube) section once videos are uploaded.
+  // const soloVideos = VIDEO_DB.solo[charKey] || [];
+  // const multiVideos = getMultiVideosForCharacter(charKey);
+
+  // TikTok purgatory videos for this character
+  const tiktokVideos = getTiktokVideosForCharacter(charKey);
+
+  renderHeader(character, tiktokVideos.length);
+  hideSoraSections();
+  renderTiktokVideos(tiktokVideos, charKey);
   document.title = `${character.name} | Gerch-Verse`;
 }
 
-function renderHeader(character) {
+// Hides the Sora solo/multi sections — data is preserved, just not shown.
+// Remove this call when YouTube upload is ready.
+function hideSoraSections() {
+  const soloSection = document.querySelector('.video-section:not(#tiktok-videos-section)');
+  const multiSection = document.getElementById('multi-videos-section');
+  if (soloSection) soloSection.style.display = 'none';
+  if (multiSection) multiSection.style.display = 'none';
+}
+
+function getTiktokVideosForCharacter(charKey) {
+  if (!VIDEO_DB.tiktok) return [];
+  return VIDEO_DB.tiktok.filter(v => v.characters && v.characters.includes(charKey));
+}
+
+function renderHeader(character, tiktokCount) {
   const headerEl = document.getElementById('character-header');
   if (!headerEl) return;
   
@@ -46,13 +67,79 @@ function renderHeader(character) {
       <p class="char-handle">${character.handle}</p>
       <p class="char-role">${character.role}</p>
       <div class="char-stats">
-        <span class="stat">${(VIDEO_DB.solo[getCharacterKey()] || []).length} Solo Videos</span>
-        <span class="stat">${getMultiVideosForCharacter(getCharacterKey()).length} Multi Videos</span>
+        <span class="stat">${tiktokCount} TikTok Purgatory Videos</span>
       </div>
     </div>
   `;
   
   document.documentElement.style.setProperty('--char-color', character.color);
+}
+
+// ============================================
+// TIKTOK PURGATORY SECTION
+// ============================================
+function renderTiktokVideos(videos, charKey) {
+  const sectionEl = document.getElementById('tiktok-videos-section');
+  const gridEl = document.getElementById('tiktok-videos-grid');
+  const paginationEl = document.getElementById('tiktok-pagination');
+  const countEl = document.getElementById('tiktok-count');
+
+  if (!sectionEl || !gridEl) return;
+  if (countEl) countEl.textContent = videos.length;
+
+  if (videos.length === 0) {
+    sectionEl.style.display = 'none';
+    return;
+  }
+
+  sectionEl.style.display = 'block';
+
+  const totalPages = Math.ceil(videos.length / VIDEOS_PER_PAGE);
+  const startIdx = (currentTiktokPage - 1) * VIDEOS_PER_PAGE;
+  const endIdx = startIdx + VIDEOS_PER_PAGE;
+  const visibleVideos = videos.slice(startIdx, endIdx);
+
+  let html = '';
+  for (const video of visibleVideos) {
+    html += renderTiktokCard(video);
+  }
+  gridEl.innerHTML = html;
+
+  if (paginationEl) {
+    if (totalPages > 1) {
+      paginationEl.style.display = 'flex';
+      window.tiktokPagination = new SmartPagination('tiktok-pagination', {
+        currentPage: currentTiktokPage,
+        totalPages: totalPages,
+        onPageChange: (page) => {
+          currentTiktokPage = page;
+          renderTiktokVideos(videos, charKey);
+          document.getElementById('tiktok-videos-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    } else {
+      paginationEl.style.display = 'none';
+    }
+  }
+}
+
+// TikTok card — links to TikTok, no local thumbnail needed
+function renderTiktokCard(video) {
+  const url = `https://www.tiktok.com/@thegerchverse/video/${video.id}`;
+  return `
+    <div class="video-cell">
+      <a href="${url}" target="_blank" rel="noopener" class="video-card">
+        <div class="card-media card-placeholder-tiktok">
+          <span>📱 TikTok</span>
+        </div>
+        <span class="card-badge card-badge-tiktok">↗ TikTok</span>
+        <div class="card-caption-overlay">
+          <span class="caption-text">${video.oneLiner}</span>
+        </div>
+      </a>
+      <div class="costar-row"></div>
+    </div>
+  `;
 }
 
 function renderSoloVideos(videos, charKey) {
