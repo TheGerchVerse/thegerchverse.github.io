@@ -1974,464 +1974,464 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
-  { id: "7683152755044666637", oneLiner: "The Green Team Part 2", characters: ["amit"] },
-  { id: "7683150203880295693", oneLiner: "Where's the G-Milk?", characters: ["amit"] },
-  { id: "7682899999612620045", oneLiner: "When Gerch Milk takes to the skies…", characters: ["amit"] },
-  { id: "7682821962841820430", oneLiner: "How to win every fight", characters: ["amit"] },
-  { id: "7682617607287098638", oneLiner: "Run Up that Milk Hill", characters: ["amit"] },
-  { id: "7682437287413550349", oneLiner: "Insolent Weather", characters: ["amit"] },
-  { id: "7682424760797498637", oneLiner: "The Gerchbook", characters: ["amit"] },
-  { id: "7682423597935103245", oneLiner: "Gerch for Speed", characters: ["amit"] },
-  { id: "7682281560095132942", oneLiner: "Advertising 101: Always read the fine print", characters: ["amit"] },
-  { id: "7682180241388752141", oneLiner: "Q6 Profits Apocalypse", characters: ["amit"] },
-  { id: "7682058846596123918", oneLiner: "Paid sponsor", characters: ["amit"] },
-  { id: "7682058342331600142", oneLiner: "Nourishment First", characters: ["amit"] },
-  { id: "7681948519455870222", oneLiner: "Q5 is eternal", characters: ["amit"] },
-  { id: "7681906352079244557", oneLiner: "Gerchlander vs Homelander (again)", characters: ["amit", "gerchlander"] },
-  { id: "7681798509909036301", oneLiner: "All Kneel to the Milk Czar", characters: ["amit"] },
-  { id: "7681750917086973197", oneLiner: "Message from the CEO of Gerchan Farms", characters: ["amit"] },
-  { id: "7681731852796726541", oneLiner: "Pilot: The INSOLENTS - Frugality", characters: ["amit"] },
-  { id: "7681696147068505357", oneLiner: "Eternal sibling rivalry", characters: ["amit"] },
-  { id: "7681518756064922894", oneLiner: "Run, run, as fast as you can…", characters: ["amit"] },
-  { id: "7681461474363051278", oneLiner: "Handling customer feedback", characters: ["amit"] },
-  { id: "7681314903751134478", oneLiner: "Eliminating the competition", characters: ["amit"] },
-  { id: "7681151183351745806", oneLiner: "Doom 2: Gerch Milk DLC", characters: ["amit"] },
-  { id: "7681011762363108622", oneLiner: "Cash Only @ Gerch Nail Salon", characters: ["amit"] },
-  { id: "7680929075430558990", oneLiner: "Gerch Milk is Inevitable", characters: ["amit"] },
-  { id: "7680790373349838093", oneLiner: "Refrigeration Acquired", characters: ["amit"] },
-  { id: "7680786234091916558", oneLiner: "A Sorceress, Warrior, and Dairy Evangelist stroll into a bar…", characters: ["amit"] },
-  { id: "7680576267921444110", oneLiner: "The Dairy Evangelist & The Wonderland Waifus", characters: ["amit"] },
-  { id: "7680438240314182925", oneLiner: "Jedi State of Mind", characters: ["amit"] },
-  { id: "7680370611801115917", oneLiner: "Don't mess with Mike or Gerch Milk", characters: ["amit"] },
-  { id: "7680325595254869262", oneLiner: "With the green team", characters: ["amit"] },
-  { id: "7680210640631385357", oneLiner: "Escape from the tower of insolence", characters: ["amit"] },
-  { id: "7679995364404956430", oneLiner: "Insolent Rosie", characters: ["amit"] },
-  { id: "7679871127333637389", oneLiner: "Weekend smacking", characters: ["amit"] },
-  { id: "7679612976848014605", oneLiner: "Cow of Duty: Acquisition", characters: ["amit"] },
-  { id: "7679473852186922253", oneLiner: "Ready to get to work", characters: ["amit"] },
-  { id: "7679318538930195725", oneLiner: "ZOMBIES BEWARE", characters: ["amit"] },
-  { id: "7679318219177479437", oneLiner: "Milkheart - For Freedom", characters: ["amit"] },
-  { id: "7679203669014842637", oneLiner: "Is this Sora shutdown happening all over again", characters: ["amit"] },
-  { id: "7679191518011280654", oneLiner: "Amit & Dark Amit vs Evil Amit & Light Amit", characters: ["amit", "darkamit", "evilamit", "lightamit"] },
-  { id: "7679085779301223694", oneLiner: "Maximize Gains", characters: ["amit"] },
-  { id: "7679072098689584398", oneLiner: "Protect Q5 Profits", characters: ["amit"] },
-  { id: "7678766416035663118", oneLiner: "Playhouse Gaiden", characters: ["amit"] },
-  { id: "7678698344461405454", oneLiner: "Behold the Milk Cannon", characters: ["amit"] },
-  { id: "7678365220388998431", oneLiner: "The Dairy Contraband", characters: ["amit"] },
-  { id: "7678328414947839245", oneLiner: "Catch up, slowpokes!", characters: ["amit"] },
-  { id: "7678054978832862478", oneLiner: "Tuna aisle, here we come!", characters: ["amit"] },
-  { id: "7678007061740801293", oneLiner: "The Tanker Chase: Keepaway", characters: ["amit"] },
-  { id: "7678006736455847181", oneLiner: "Delusional freestyle - should just stick to selling milk", characters: ["amit"] },
-  { id: "7677913086723902734", oneLiner: "Gerchan Ball Z", characters: ["amit"] },
-  { id: "7677802868253986061", oneLiner: "When pollution is deemed insolent", characters: ["amit"] },
-  { id: "7677609134241418509", oneLiner: "Gerchie Darko", characters: ["amit"] },
-  { id: "7677578110258220301", oneLiner: "Breakfast Challenger", characters: ["amit"] },
-  { id: "7677327716110126350", oneLiner: "Intruder Clean-up", characters: ["amit"] },
-  { id: "7677315301934959886", oneLiner: "Gotcha!", characters: ["amit"] },
-  { id: "7677244763766099213", oneLiner: "Milk Knight", characters: ["amit"] },
-  { id: "7676880266786278670", oneLiner: "The Profits Monster", characters: ["amit"] },
-  { id: "7676637300343819533", oneLiner: "Golden Milk Buzzer", characters: ["amit"] },
-  { id: "7676505967298710797", oneLiner: "The Cream Team", characters: ["amit"] },
-  { id: "7676469180165639437", oneLiner: "Family Therapy", characters: ["amit"] },
-  { id: "7676216431721155853", oneLiner: "Udderly Insolent", characters: ["amit"] },
-  { id: "7676116475131792654", oneLiner: "Aggressive Profit Targets", characters: ["amit"] },
-  { id: "7676097660994030862", oneLiner: "Got Gerch?", characters: ["amit"] },
-  { id: "7675868810305424653", oneLiner: "Innovation? Or Scam?", characters: ["amit"] },
-  { id: "7675816913024322829", oneLiner: "Do you see them too?", characters: ["amit"] },
-  { id: "7675754819952430350", oneLiner: "Priorities", characters: ["amit"] },
-  { id: "7675726279299124493", oneLiner: "Dairy is the main character. Never forget", characters: ["amit"] },
-  { id: "7675525933553503502", oneLiner: "Slippery Slippery!", characters: ["amit"] },
-  { id: "7675393009483091214", oneLiner: "Enter: We Drink Your Milk", characters: ["amit"] },
-  { id: "7675357573251370253", oneLiner: "MOM!", characters: ["amit", "amitsmother"] },
-  { id: "7675355390049127694", oneLiner: "Not now", characters: ["amit"] },
-  { id: "7675162307315436813", oneLiner: "Need a doctor?", characters: ["amit"] },
-  { id: "7675152105090338062", oneLiner: "New neighbor, new rules", characters: ["amit"] },
-  { id: "7675053805142084877", oneLiner: "The Gerch Passenger", characters: ["amit"] },
-  { id: "7674983231543905549", oneLiner: "Acquiring it", characters: ["amit"] },
-  { id: "7674641754062146830", oneLiner: "Stop that bike!", characters: ["amit"] },
-  { id: "7674639991091252494", oneLiner: "Business is universal", characters: ["amit"] },
-  { id: "7674504351485840653", oneLiner: "Laundry day (Gerch ver): The Anomaly", characters: ["amit"] },
-  { id: "7674374101204552974", oneLiner: "Calm down, now", characters: ["amit"] },
-  { id: "7674295796275137822", oneLiner: "You called?", characters: ["amit"] },
-  { id: "7673984913426763022", oneLiner: "G2: Judgement Milk", characters: ["amit"] },
-  { id: "7673896938181299469", oneLiner: "Improvements", characters: ["amit"] },
-  { id: "7673877735726517518", oneLiner: "New pool rules", characters: ["amit"] },
-  { id: "7673874249509014797", oneLiner: "The Circle of Milk", characters: ["amit"] },
-  { id: "7673561836314250510", oneLiner: "The Gadha Hunt Continues", characters: ["amit", "gadha"] },
-  { id: "7673517775096122637", oneLiner: "No exceptions", characters: ["amit"] },
-  { id: "7673256502324497678", oneLiner: "They're baaaaaaack", characters: ["amit"] },
-  { id: "7673173231896890637", oneLiner: "Gadha get away", characters: ["amit", "gadha"] },
-  { id: "7673132511521737997", oneLiner: "Swedish meatballs never tasted so good", characters: ["amit"] },
-  { id: "7672881465159339278", oneLiner: "Profits denied", characters: ["amit"] },
-  { id: "7672779758991707405", oneLiner: "Cow clones for sale", characters: ["amit", "bigtex"] },
-  { id: "7672565543425068301", oneLiner: "Spilled milk", characters: ["amit"] },
-  { id: "7672543503179648270", oneLiner: "Love and peace to the coolest cat", characters: ["amit"] },
-  { id: "7672466527148428558", oneLiner: "Welcome to the Gerch Casino - House wins all", characters: ["amit"] },
-  { id: "7672426741503102222", oneLiner: "The Awakening: The Dairy Evangelist - Nehru Suit Gerchazord", characters: ["amit"] },
-  { id: "7672393803143138574", oneLiner: "So close", characters: ["amit"] },
-  { id: "7672392122410044685", oneLiner: "The Gercher Years", characters: ["amit"] },
-  { id: "7672124287616027918", oneLiner: "Let's bust a move", characters: ["amit"] },
-  { id: "7672062524593933582", oneLiner: "The Speeding Ticket", characters: ["amit"] },
-  { id: "7672049169510534414", oneLiner: "Laundry Day Cont. (Gerch Ver)", characters: ["amit"] },
-  { id: "7671758715854310669", oneLiner: "The People's Milk Elbow", characters: ["amit"] },
-  { id: "7671735074412367118", oneLiner: "So much better", characters: ["amit"] },
-  { id: "7671686487666183438", oneLiner: "How CAN she?", characters: ["amit"] },
-  { id: "7671377968714779917", oneLiner: "When the milk rage awakens", characters: ["amit"] },
-  { id: "7671300876308352270", oneLiner: "Gercher: Danger Zone!", characters: ["amit"] },
-  { id: "7671274993367502094", oneLiner: "The Way of the Schwartz: Plain Yogurt", characters: ["amit"] },
-  { id: "7671274505104411917", oneLiner: "Gerch Cream Soda Discount", characters: ["amit"] },
-  { id: "7671134032201010445", oneLiner: "The memo", characters: ["amit"] },
-  { id: "7670926889137048846", oneLiner: "You're fired", characters: ["amit"] },
-  { id: "7670906540047469838", oneLiner: "Milk Stunner", characters: ["amit"] },
-  { id: "7670901989676469518", oneLiner: "Amit Unleashed", characters: ["amit"] },
-  { id: "7670722262001077518", oneLiner: "Initial G", characters: ["amit"] },
-  { id: "7670548163173960973", oneLiner: "Waffle Wednesday Offering", characters: ["amit"] },
-  { id: "7670536263316819213", oneLiner: "Gerch Royale", characters: ["amit"] },
-  { id: "7670373472421383437", oneLiner: "Get back down there", characters: ["amit"] },
-  { id: "7670295235762638093", oneLiner: "Dairy veins", characters: ["amit"] },
-  { id: "7670274493121662222", oneLiner: "The hands of Gerch Milk", characters: ["amit"] },
-  { id: "7670251351372287245", oneLiner: "Eyes on the road", characters: ["amit"] },
-  { id: "7670034757375315214", oneLiner: "The Milk Clan Strikes", characters: ["amit"] },
-  { id: "7669921927766609166", oneLiner: "Coming to Broadway Q7 2026", characters: ["amit"] },
-  { id: "7669915967119461645", oneLiner: "Comin' right up", characters: ["amit"] },
-  { id: "7669871632550317326", oneLiner: "Gerch Fighter - The Power of Mumbai", characters: ["amit"] },
-  { id: "7669815216330263821", oneLiner: "Gerch Rider - No shortcuts", characters: ["amit"] },
-  { id: "7669663669118110989", oneLiner: "Mister Gerchinson", characters: ["amit"] },
-  { id: "7669520905588051213", oneLiner: "Last battle feat.", characters: ["amit"] },
-  { id: "7669510600518634766", oneLiner: "Wtffffff", characters: ["amit"] },
-  { id: "7669485971754208526", oneLiner: "Milkless Waltz", characters: ["amit"] },
-  { id: "7669450021275831566", oneLiner: "That's how we do it", characters: ["amit"] },
-  { id: "7669449051749895437", oneLiner: "GerchWatch", characters: ["amit"] },
-  { id: "7669307897590942990", oneLiner: "Laundry Day nightmare continued (Gerch ver)", characters: ["amit"] },
-  { id: "7669156289024429325", oneLiner: "Get your facts straight, Kevin", characters: ["amit"] },
-  { id: "7669073030202608910", oneLiner: "Gerch milk Takeover: Phase 4", characters: ["amit"] },
-  { id: "7669072947063164174", oneLiner: "Milks on a Plane", characters: ["amit"] },
-  { id: "7668831429878467854", oneLiner: "The Amazing Amitman", characters: ["amit"] },
-  { id: "7668817233967156493", oneLiner: "Grand Theft Amit", characters: ["amit"] },
-  { id: "7668680041366080782", oneLiner: "Insolent Kratos", characters: ["amit"] },
-  { id: "7668679569603448077", oneLiner: "Gerch milk Takeover: Phase 3", characters: ["amit"] },
-  { id: "7668429946926255374", oneLiner: "Something to dance about", characters: ["amit"] },
-  { id: "7668379981835259150", oneLiner: "Chillin'", characters: ["amit"] },
-  { id: "7668309983502830861", oneLiner: "Gerch milk Takeover: Phase 2", characters: ["amit"] },
-  { id: "7668305177761418509", oneLiner: "Gerch milk Takeover: Phase 1", characters: ["amit"] },
-  { id: "7668151225489067277", oneLiner: "Taking Captain Gerchan down to zero", characters: ["amit"] },
-  { id: "7668054673202351373", oneLiner: "Insolent Smash", characters: ["amit"] },
-  { id: "7668019826496949518", oneLiner: "For…?", characters: ["amit"] },
-  { id: "7667982456229743885", oneLiner: "Gerchception", characters: ["amit"] },
-  { id: "7667792462198459662", oneLiner: "Milky sunsets", characters: ["amit"] },
-  { id: "7667721741040438542", oneLiner: "Gerch Cream Soda New product line", characters: ["amit"] },
-  { id: "7667652971018161422", oneLiner: "Milk Hunter", characters: ["amit"] },
-  { id: "7667578679827959053", oneLiner: "Milk Evangelist's Paradise", characters: ["amit"] },
-  { id: "7667329857172327693", oneLiner: "The way", characters: ["amit"] },
-  { id: "7667195104653757710", oneLiner: "Laundry day (Gerch ver) continued: The Mysterious Culprit", characters: ["amit"] },
-  { id: "7666886432945900814", oneLiner: "The Milk Blade of Justice", characters: ["amit"] },
-  { id: "7666461428886392078", oneLiner: "Q5 Profits", characters: ["amit"] },
-  { id: "7666291286952905998", oneLiner: "Maximize Milk Profits. Insolent cow nephew", characters: ["amit"] },
-  { id: "7666141618902207758", oneLiner: "Malice with an M wants the milky milky", characters: ["amit"] },
-  { id: "7666079992937336077", oneLiner: "Mo milk, Mo problems", characters: ["amit"] },
-  { id: "7665822490488245517", oneLiner: "Wash and Supply!?", characters: ["amit"] },
-  { id: "7665763224800873742", oneLiner: "Milk forever lost", characters: ["amit"] },
-  { id: "7665712215256829197", oneLiner: "Some chase clout while others chase Gerch Milk", characters: ["amit"] },
-  { id: "7665430821381098765", oneLiner: "Here we go again", characters: ["amit"] },
-  { id: "7665378456724589838", oneLiner: "Calm down now", characters: ["amit"] },
-  { id: "7665111769962056973", oneLiner: "Chasing profits", characters: ["amit"] },
-  { id: "7665008135421086989", oneLiner: "The Awakening", characters: ["amit"] },
-  { id: "7664723971442576654", oneLiner: "Stop that Milk!", characters: ["amit"] },
-  { id: "7664674639188102414", oneLiner: "Messy Monday", characters: ["amit"] },
-  { id: "7664623620060155149", oneLiner: "Timeless Milk", characters: ["amit"] },
-  { id: "7664599937660833038", oneLiner: "Board meetings at Gerchan Farms", characters: ["amit"] },
-  { id: "7664392273148333325", oneLiner: "Amit Descends", characters: ["amit"] },
-  { id: "7664340569052826894", oneLiner: "More Laundry Day Nightmares (Gerch)", characters: ["amit"] },
-  { id: "7664244309985709325", oneLiner: "Shadow boxing?", characters: ["amit"] },
-  { id: "7664075348534889741", oneLiner: "Need more cream in our chai", characters: ["amit"] },
-  { id: "7664069679094222094", oneLiner: "Destiny calls", characters: ["amit"] },
-  { id: "7663332745627667725", oneLiner: "Gerchverse Origins: The (1st) Abandonment", characters: ["amit", "amitsmother"] },
-  { id: "7662807368538901774", oneLiner: "Midnight Delivery", characters: ["amit"] },
-  { id: "7662599107978054926", oneLiner: "Gerch Blast-Off", characters: ["amit"] },
-  { id: "7662399945822997774", oneLiner: "Down with Benevolence!", characters: ["amit"] },
-  { id: "7662238294071151886", oneLiner: "The Abandoned Factory", characters: ["amit"] },
-  { id: "7662195034241928462", oneLiner: "Insolence collides", characters: ["amit"] },
-  { id: "7662001939651022093", oneLiner: "Gerch Shufflin'", characters: ["amit"] },
-  { id: "7661840715554573581", oneLiner: "Laundry Nightmare Loop", characters: ["amit"] },
-  { id: "7661672696446455053", oneLiner: "So long, Steve", characters: ["amit"] },
-  { id: "7661517611536026893", oneLiner: "Ghostbusting", characters: ["amit"] },
-  { id: "7661399455521967373", oneLiner: "4 Quarters are enough - Battle of Brothers", characters: ["amit"] },
-  { id: "7661009222288624910", oneLiner: "Q5 RISING - The Dairy Evangelist", characters: ["amit"] },
-  { id: "7660616351756668174", oneLiner: "Trying to mediate a father and son squabble", characters: ["amit"] },
-  { id: "7660384109142854926", oneLiner: "Wacky Wednesday", characters: ["amit"] },
-  { id: "7660168572265647373", oneLiner: "Brisket Hunting", characters: ["amit", "bigtex"] },
-  { id: "7659913847175712013", oneLiner: "Excellent Quarter", characters: ["amit"] },
-  { id: "7659490907703512333", oneLiner: "THE ELEVATOR", characters: ["amit"] },
-  { id: "7659404849800367373", oneLiner: "Laundry Day Nightmare", characters: ["amit"] },
-  { id: "7659057344768232718", oneLiner: "THE PACIFIC IPO", characters: ["amit"] },
-  { id: "7658833435234028813", oneLiner: "Captain Gerchan, he's our hero…", characters: ["amit"] },
-  { id: "7658365338387483918", oneLiner: "All gone", characters: ["amit"] },
-  { id: "7658298520675355917", oneLiner: "Captain Gerchan vs Gerchlander", characters: ["amit", "gerchlander"] },
-  { id: "7657574055465258253", oneLiner: "CAPTAIN GERCHAN - Amit Gaur's Nephew", characters: ["amit"] },
-  { id: "7657428150258765070", oneLiner: "Ancient Record: File", characters: ["amit"] },
-  { id: "7657174855023987982", oneLiner: "The Gadha Chronicles", characters: ["amit", "gadha"] },
-  { id: "7656649335861513485", oneLiner: "Mountains", characters: ["amit"] },
-  { id: "7656536254208675085", oneLiner: "Resignation accepted", characters: ["amit"] },
-  { id: "7656145157938613517", oneLiner: "Amit Purchases Hell", characters: ["amit"] },
-  { id: "7655940586024832270", oneLiner: "Double Tex vs Gadha & Amit", characters: ["amit", "bigtex", "gadha"] },
-  { id: "7655826135267265806", oneLiner: "HR", characters: ["amit"] },
-  { id: "7655730404908862734", oneLiner: "The sky is NOT the limit", characters: ["amit"] },
-  { id: "7655519988387695886", oneLiner: "No rest for the Ken clones", characters: ["amit"] },
-  { id: "7655141862252055822", oneLiner: "Insolent cow mother!", characters: ["amit", "amitsmother"] },
-  { id: "7654987196448984333", oneLiner: "MV: THE GERCHVERSE Song: Q6 - The 6th Horizon", characters: ["amit", "amitjr"] },
-  { id: "7654734098077994253", oneLiner: "The Battle at Gadha Bridge", characters: ["amit", "gadha"] },
-  { id: "7653974598031101197", oneLiner: "Laundry Day: The Saga continues", characters: ["amit"] },
-  { id: "7653845713599745293", oneLiner: "MMA Match", characters: ["amit"] },
-  { id: "7653699777103727885", oneLiner: "Gerchlander vs Homelander", characters: ["amit", "gerchlander"] },
-  { id: "7653300009420524814", oneLiner: "Milk Renegades", characters: ["amit"] },
-  { id: "7652349393907010829", oneLiner: "Emotional Compliance Watch", characters: ["amit"] },
-  { id: "7652139305971895565", oneLiner: "Milk Poisoning Denied", characters: ["amit"] },
-  { id: "7651994986258500878", oneLiner: "Send Milk First", characters: ["amit"] },
-  { id: "7651772653895879949", oneLiner: "Retention", characters: ["amit"] },
-  { id: "7651726873503730958", oneLiner: "Omni-Present", characters: ["amit"] },
-  { id: "7651664709510384910", oneLiner: "They Know", characters: ["amit"] },
-  { id: "7651610400886148366", oneLiner: "Laundry Day Pt.2 Grabbing Malice & Tabby's Parents", characters: ["amit"] },
-  { id: "7651264880170863886", oneLiner: "Chernobyl Gerch Milk Factory", characters: ["amit"] },
-  { id: "7650988100826565901", oneLiner: "Our new CCO", characters: ["amit"] },
-  { id: "7650924936302742798", oneLiner: "Official Sponsor of World Cup 2026", characters: ["amit"] },
-  { id: "7650618772105088269", oneLiner: "Increase Production", characters: ["amit"] },
-  { id: "7650549658464308494", oneLiner: "Work-Life Balance at Gerchan Farms", characters: ["amit"] },
-  { id: "7650528650416196878", oneLiner: "Gerch-X IPO", characters: ["amit"] },
-  { id: "7650208333181324558", oneLiner: "Rome & Fiona Emberflame and THE INSOLENTS", characters: ["amit"] },
-  { id: "7650203304592559374", oneLiner: "Fiona Emberflame and THE INSOLENTS", characters: ["amit"] },
-  { id: "7650199067338853645", oneLiner: "The Discovery", characters: ["amit"] },
-  { id: "7650157220247653646", oneLiner: "Going Galactic", characters: ["amit"] },
-  { id: "7650141367410150669", oneLiner: "Gerch Milk Goodness", characters: ["amit"] },
-  { id: "7650005991286770958", oneLiner: "Milk Combat", characters: ["amit"] },
-  { id: "7649993947867073805", oneLiner: "Quarterly Numbers", characters: ["amit"] },
-  { id: "7649773172690078990", oneLiner: "Hostile Takeover", characters: ["amit"] },
-  { id: "7649753888177868045", oneLiner: "Case closed", characters: ["amit"] },
-  { id: "7649645097620901151", oneLiner: "The Promotion", characters: ["amit"] },
-  { id: "7649402044524023054", oneLiner: "The Dark Milk Pact", characters: ["amit"] },
-  { id: "7649385872114175245", oneLiner: "The Milk (Attorney) Generals", characters: ["amit"] },
-  { id: "7649279328626298126", oneLiner: "Consistency is key", characters: ["amit"] },
-  { id: "7649189227246177549", oneLiner: "Customer Loyalty", characters: ["amit"] },
-  { id: "7649057729914391822", oneLiner: "Treasure World", characters: ["amit"] },
-  { id: "7649011231986175245", oneLiner: "Gimme that Gerch Milk", characters: ["amit"] },
-  { id: "7648908785829891341", oneLiner: "Give it up for Emberflame", characters: ["amit"] },
-  { id: "7648860667268566286", oneLiner: "Gerch Vision Pro Max - Executive Elite", characters: ["amit"] },
-  { id: "7648716008840121614", oneLiner: "Bigger isn't always better", characters: ["amit"] },
-  { id: "7648701688878025997", oneLiner: "Dark Amit. Light Amit", characters: ["amit", "darkamit", "lightamit"] },
-  { id: "7648518437681007886", oneLiner: "Profits Above All", characters: ["amit"] },
-  { id: "7648433572314991886", oneLiner: "The Milk Generals", characters: ["amit"] },
-  { id: "7648325849321590029", oneLiner: "Time to Begin", characters: ["amit"] },
-  { id: "7648076820880919822", oneLiner: "The GERCHVERSE: Banner 1 - Milk Money", characters: ["amit"] },
-  { id: "7647960948698893599", oneLiner: "The GERCHVERSE: Banner 3 - The GerchVerse PunkPop", characters: ["amit"] },
-  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 2 - The GerchVerse Trap Mix", characters: ["amit"] },
-  { id: "7647958879250304287", oneLiner: "Milk Blade - The 2% Sword of Destiny", characters: ["amit"] },
-  { id: "7647676503282519310", oneLiner: "Production boost", characters: ["amit"] },
-  { id: "7647645754462342413", oneLiner: "The Audit. Pt 2", characters: ["amit"] },
-  { id: "7647577651774770445", oneLiner: "The Only Direction", characters: ["amit"] },
-  { id: "7647395775634328845", oneLiner: "The Audit", characters: ["amit"] },
-  { id: "7647343804441283854", oneLiner: "Securing our future", characters: ["amit"] },
-  { id: "7647259380517227789", oneLiner: "Expansion plans", characters: ["amit"] },
-  { id: "7647234003635850510", oneLiner: "Insolent Baba Yaga", characters: ["amit"] },
-  { id: "7647181350390336781", oneLiner: "The Taming of Gadha", characters: ["amit", "gadha"] },
-  { id: "7646949784309255437", oneLiner: "Amit Parade", characters: ["amit"] },
-  { id: "7646917759724539149", oneLiner: "Crouching Amit, Hidden Gerch Milk", characters: ["amit"] },
-  { id: "7646907616437783822", oneLiner: "Trouble at Red Rooster Ranch", characters: ["amit", "bigtex"] },
-  { id: "7646859183295450381", oneLiner: "Eliminating unnecessary concepts", characters: ["amit"] },
-  { id: "7646851975883099406", oneLiner: "Fortified with Gerch Milk", characters: ["amit"] },
-  { id: "7646598803709005069", oneLiner: "Gerch MilkBuster V3.2", characters: ["amit"] },
-  { id: "7646496867131395358", oneLiner: "Source of profits", characters: ["amit"] },
-  { id: "7646448699203210509", oneLiner: "Audition for William Wallace's role", characters: ["amit"] },
-  { id: "7646438505119337741", oneLiner: "Short PSA", characters: ["amit"] },
-  { id: "7646278009284037902", oneLiner: "Happily ever after (or……)", characters: ["amit"] },
-  { id: "7646193602175061262", oneLiner: "Employee Appreciation Day", characters: ["amit"] },
-  { id: "7646100838187945230", oneLiner: "Enter Darth Mäl", characters: ["amit"] },
-  { id: "7645934952571227405", oneLiner: "Everyone Receives Ownership", characters: ["amit"] },
-  { id: "7645803475711970573", oneLiner: "The Employee Suggestion Box", characters: ["amit"] },
-  { id: "7645788326091394318", oneLiner: "Let the games begin!", characters: ["amit"] },
-  { id: "7645722132873366798", oneLiner: "Cute JP Ver: You insolent cow, I drink your milk!", characters: ["amit"] },
-  { id: "7645521114956926221", oneLiner: "Bye-bye, Tentacle - The power of Gerch Milk", characters: ["amit"] },
-  { id: "7645427325068152078", oneLiner: "The Gerchverse Shall Return in full force", characters: ["amit"] },
-  { id: "7645393228958665998", oneLiner: "Neverending Gerch Milk Story", characters: ["amit"] },
-  { id: "7645359246023937294", oneLiner: "Marketing is tough work", characters: ["amit"] },
-  { id: "7645358856133938445", oneLiner: "Solar Eclipse - BEGONE, INSOLENT SUN!", characters: ["amit"] },
-  { id: "7645329059005598989", oneLiner: "Welcome to Udderly Insolent", characters: ["amit"] },
-  { id: "7645324461805210893", oneLiner: "She's back!", characters: ["amit"] },
-  { id: "7645163178925493517", oneLiner: "The Never-Ending Rivalry: Big Tex Wang vs Amit Gaur", characters: ["amit", "bigtex"] },
-  { id: "7644966131664555277", oneLiner: "Behold, the power of the Gerch Milk", characters: ["amit"] },
-  { id: "7644950694008474894", oneLiner: "Q5 Ritual", characters: ["amit"] },
-  { id: "7644941874616175885", oneLiner: "The Department of Synergy", characters: ["amit"] },
-  { id: "7644812670436232461", oneLiner: "YOU INSOLENT COW, I DRINK YOUR MILK - Japanese Version", characters: ["amit"] },
-  { id: "7644716812994727182", oneLiner: "Gerch Milk Revolution", characters: ["amit"] },
-  { id: "7644696350726114573", oneLiner: "Executive Insolence Buster", characters: ["amit"] },
-  { id: "7644624142745996557", oneLiner: "Q5 Profits Accelerator", characters: ["amit"] },
-  { id: "7644357772045192461", oneLiner: "Pick your Poison", characters: ["amit"] },
-  { id: "7644297280903744782", oneLiner: "Yes, it's a Gerch Milk hurricane", characters: ["amit"] },
-  { id: "7644268287332715790", oneLiner: "URGENT BULLETIN", characters: ["amit"] },
-  { id: "7644207359002217741", oneLiner: "The Rainmaker", characters: ["amit"] },
-  { id: "7643925893420813582", oneLiner: "Just Another Day at the Gerchan Farms Gerch Milk Factory", characters: ["amit"] },
-  { id: "7643907388545813790", oneLiner: "Gerch Milk - Power in its Purest Form", characters: ["amit"] },
-  { id: "7643890915387378958", oneLiner: "Malice, is that you?", characters: ["amit"] },
-  { id: "7643875272818806029", oneLiner: "The bathroom", characters: ["amit"] },
-  { id: "7643694871684992269", oneLiner: "Gerch Punch-Out", characters: ["amit"] },
-  { id: "7643693622902230286", oneLiner: "Burning Cow", characters: ["amit"] },
-  { id: "7643660603537542413", oneLiner: "The creator's creator", characters: ["amit"] },
-  { id: "7643478552330997006", oneLiner: "Come on and jam", characters: ["amit"] },
-  { id: "7643471556106046733", oneLiner: "Practice makes perfect", characters: ["amit"] },
-  { id: "7643336240313552142", oneLiner: "Buy It", characters: ["amit"] },
-  { id: "7643309927485803790", oneLiner: "Do the Gerch Milk Shuffle", characters: ["amit"] },
-  { id: "7643273232233090318", oneLiner: "Milk Evangelism", characters: ["amit"] },
-  { id: "7643240132656647438", oneLiner: "New Skin", characters: ["amit"] },
-  { id: "7643232500642254093", oneLiner: "New Skin", characters: ["amit"] },
-  { id: "7643148766173728013", oneLiner: "NEW SKIN", characters: ["amit"] },
-  { id: "7643148093877275917", oneLiner: "RAAAAAAAAAAWR!", characters: ["amit"] },
-  { id: "7642979739048643853", oneLiner: "The PTO Problem", characters: ["amit"] },
-  { id: "7642851991030336782", oneLiner: "Gerch Rider - Sons of Dividends", characters: ["amit"] },
-  { id: "7642788733481209101", oneLiner: "Let's get down", characters: ["amit"] },
-  { id: "7642773160017923342", oneLiner: "OBEDIMINT - Obey at Once", characters: ["amit"] },
-  { id: "7642721745195060494", oneLiner: "Quarterly Milk Extraction Targets", characters: ["amit"] },
-  { id: "7642715093892926734", oneLiner: "Mandatory Dairy Compliance", characters: ["amit"] },
-  { id: "7642585514792488206", oneLiner: "The Focus Group", characters: ["amit"] },
-  { id: "7642584211005771021", oneLiner: "Happy Birthday, Gadha", characters: ["amit", "gadha"] },
-  { id: "7642580785496673549", oneLiner: "INSOLENT COW", characters: ["amit"] },
-  { id: "7642560349798927629", oneLiner: "Evil Amit's Birth", characters: ["amit", "evilamit"] },
-  { id: "7642509997695388942", oneLiner: "Leave the Dairy Evangelist alone", characters: ["amit"] },
-  { id: "7642396887177497870", oneLiner: "Amit's Birth", characters: ["amit"] },
-  { id: "7642391709216689422", oneLiner: "Plutonium Gerch Milk", characters: ["amit"] },
-  { id: "7642355800320527630", oneLiner: "Making the world a better place", characters: ["amit"] },
-  { id: "7642344822384217357", oneLiner: "Gaur Family Tree - Critically Misconfigured Kinship", characters: ["amit"] },
-  { id: "7642213396070403342", oneLiner: "Initial G feat. Big Tex Wang", characters: ["amit", "bigtex"] },
-  { id: "7642199884547755278", oneLiner: "Laundry Revisited", characters: ["amit"] },
-  { id: "7642038178962050318", oneLiner: "Impurity Detected", characters: ["amit"] },
-  { id: "7642000017917545741", oneLiner: "Profit Discrepancy", characters: ["amit"] },
-  { id: "7641997596646575373", oneLiner: "Motivation Increase", characters: ["amit"] },
-  { id: "7641995539088739597", oneLiner: "Chasing profits feat. Big Tex Wang", characters: ["amit", "bigtex"] },
-  { id: "7641990448365440269", oneLiner: "When you drink expired milk…", characters: ["amit"] },
-  { id: "7641764980588645645", oneLiner: "WE ALL DIED [ALTERNATE ENDING] The Cyber Saga Finale", characters: ["amit"] },
-  { id: "7641756361042234638", oneLiner: "Maximum Synergy, Not Insolence", characters: ["amit"] },
-  { id: "7641744612163357966", oneLiner: "Gerch Milk - Archival Footage: August 1977", characters: ["amit"] },
-  { id: "7641737831181847821", oneLiner: "Rescuing from Damnation", characters: ["amit"] },
-  { id: "7641692147103632654", oneLiner: "Cyber Arc - Finale: Escape from the Factory", characters: ["amit"] },
-  { id: "7641660524391927053", oneLiner: "Gadha: Nourisher of Planets / Divine Bovine", characters: ["amit", "gadha"] },
-  { id: "7641406926382828813", oneLiner: "Dark Amit vs Light Amit - Cow Hater vs Cow Lover", characters: ["amit", "darkamit", "lightamit"] },
-  { id: "7641125865400716557", oneLiner: "Light Amit shares his wisdom", characters: ["amit", "lightamit"] },
-  { id: "7641008872022347022", oneLiner: "The Secret Factory - Pt.2", characters: ["amit"] },
-  { id: "7640859067291831566", oneLiner: "The Secret Factory", characters: ["amit"] },
-  { id: "7640645070034570510", oneLiner: "Amit's Mother is one mean B", characters: ["amit", "amitsmother"] },
-  { id: "7640634841276501262", oneLiner: "Unmilked Profits", characters: ["amit"] },
-  { id: "7640619053022842126", oneLiner: "Malice with an M - Silver Malice takes on Amit's Mother", characters: ["amit", "amitsmother"] },
-  { id: "7640547759682063629", oneLiner: "The Dairy Evangelist - Protector of Profits", characters: ["amit"] },
-  { id: "7640363886805404941", oneLiner: "The Tornado Slap Dairy Extraction Method", characters: ["amit"] },
-  { id: "7640352862467280141", oneLiner: "Gerch Fighter. The Dairy Evangelist: Nehru Suit Gerchazord", characters: ["amit"] },
-  { id: "7640236880210054414", oneLiner: "Tuna Tiger Cow", characters: ["amit"] },
-  { id: "7640224132931620110", oneLiner: "Milk Money", characters: ["amit"] },
-  { id: "7640146506711878925", oneLiner: "We have a shapeshifter among us", characters: ["amit"] },
-  { id: "7640009890223672589", oneLiner: "Even the robots wanna help", characters: ["amit"] },
-  { id: "7639890613378338061", oneLiner: "New Dairy. New Method", characters: ["amit"] },
-  { id: "7639881594324438285", oneLiner: "Laundry day", characters: ["amit"] },
-  { id: "7639547240293387533", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord - Earth", characters: ["amit"] },
-  { id: "7639016709826825486", oneLiner: "Friends forever", characters: ["amit"] },
-  { id: "7638932708978101518", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord - Human", characters: ["amit"] },
-  { id: "7638928690159701261", oneLiner: "100%", characters: ["amit"] },
-  { id: "7638833981743533325", oneLiner: "Malice gets a raise", characters: ["amit"] },
-  { id: "7638704016825896206", oneLiner: "Sir Amit Gaur: The Dairy Evangelist", characters: ["amit"] },
-  { id: "7638682380496096526", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord, Activated", characters: ["amit"] },
-  { id: "7638499104766692622", oneLiner: "Laundry day", characters: ["amit"] },
-  { id: "7638427871261904141", oneLiner: "Fun at the Far", characters: ["amit"] },
-  { id: "7638403905096781069", oneLiner: "Terror in the big city", characters: ["amit"] },
-  { id: "7638376263769492750", oneLiner: "I DRINK YOUR MILK - PROFIT RULES ALL", characters: ["amit"] },
-  { id: "7638322492955725069", oneLiner: "Unhappy Mother's Day", characters: ["amit", "amitsmother"] },
-  { id: "7638200546435829006", oneLiner: "Gerch Milk or No Milk", characters: ["amit"] },
-  { id: "7638140768875465998", oneLiner: "Witness the power", characters: ["amit"] },
-  { id: "7638092843684269325", oneLiner: "Coup de grace", characters: ["amit"] },
-  { id: "7638073266728340749", oneLiner: "Nobody's slipping on you today", characters: ["amit"] },
-  { id: "7637812280725425422", oneLiner: "Amit's Mother: FAFO", characters: ["amit", "amitsmother"] },
-  { id: "7637649988633382158", oneLiner: "Don't Say I Didn't Warn You", characters: ["amit"] },
-  { id: "7637424660724026638", oneLiner: "Dark Amit never cared", characters: ["amit", "darkamit"] },
-  { id: "7637376690871684365", oneLiner: "Gerch saves the day", characters: ["amit"] },
-  { id: "7637349041633905934", oneLiner: "Light Amit bringing the love", characters: ["amit", "lightamit"] },
-  { id: "7637218965260946701", oneLiner: "Q6: Profits Turn to Ashes", characters: ["amit", "amitjr"] },
-  { id: "7637214937324047629", oneLiner: "Light Amit shows us there is still light after Sora", characters: ["amit", "lightamit"] },
-  { id: "7637209127378373901", oneLiner: "When Q5 profits fail to meet expectations…", characters: ["amit"] },
-  { id: "7637049927457066253", oneLiner: "The power of friendship", characters: ["amit"] },
-  { id: "7636997808452635917", oneLiner: "Stuck again", characters: ["amit"] },
-  { id: "7636971299104902413", oneLiner: "Leave Tabby Alone", characters: ["amit"] },
-  { id: "7636819076894952718", oneLiner: "Evil Amit is here to lend a hand", characters: ["amit", "evilamit"] },
-  { id: "7636801696957598989", oneLiner: "Dark Amit rises from the ashes of Sora", characters: ["amit", "darkamit"] },
-  { id: "7636792310725872909", oneLiner: "Gadha is still angry", characters: ["amit", "gadha"] },
-  { id: "7636656080575073549", oneLiner: "Insolent cheat cow!!!", characters: ["amit"] },
-  { id: "7636633461331201294", oneLiner: "Umm look behind you", characters: ["amit"] },
-  { id: "7636553358756597005", oneLiner: "That's not your friend!", characters: ["amit"] },
-  { id: "7636489834185477390", oneLiner: "Uh-oh", characters: ["amit"] },
-  { id: "7636436650779888909", oneLiner: "Malice with an M. Cyber Tabby Takedown", characters: ["amit"] },
-  { id: "7636424008480738574", oneLiner: "Can't outrun profit", characters: ["amit"] },
-  { id: "7636176091085835533", oneLiner: "Dark Amit & Light Amit Concept Clips", characters: ["amit", "darkamit", "lightamit"] },
-  { id: "7636165646501416206", oneLiner: "Remember when work used to be fun?", characters: ["amit"] },
-  { id: "7636138882333019406", oneLiner: "Cyber Tabby is on a mission", characters: ["amit"] },
-  { id: "7636137919970905357", oneLiner: "Cyber Bullying. Oh, and you grew a tail, Malice", characters: ["amit"] },
-  { id: "7636136325720149262", oneLiner: "I hear danger", characters: ["amit"] },
-  { id: "7636075425399098638", oneLiner: "Mr. Anderson!", characters: ["amit"] },
-  { id: "7635718635188768014", oneLiner: "Carbon emissions", characters: ["amit"] },
-  { id: "7635700505175411981", oneLiner: "WHAT THE", characters: ["amit"] },
-  { id: "7635338592994282766", oneLiner: "Lord Amit", characters: ["amit"] },
-  { id: "7635327015301729549", oneLiner: "Tuna care package", characters: ["amit"] },
-  { id: "7635076782433029389", oneLiner: "Look behind you", characters: ["amit"] },
-  { id: "7635069415255477518", oneLiner: "Get outta here! (Remix)", characters: ["amit"] },
-  { id: "7634670448457813261", oneLiner: "Profits or bust", characters: ["amit"] },
-  { id: "7634650461924068621", oneLiner: "Sibling rivalry", characters: ["amit"] },
-  { id: "7634581105407970574", oneLiner: "The Nourisher of planets made it out", characters: ["amit", "gadha"] },
-  { id: "7634398457981111565", oneLiner: "The Q6 (& Sora) Collapse", characters: ["amit", "amitjr"] },
-  { id: "7634254293951876365", oneLiner: "Insolent cow barista", characters: ["amit"] },
-  { id: "7634216776707902734", oneLiner: "Aaaaand Q6 Profits are tanking again", characters: ["amit"] },
-  { id: "7633966517629095182", oneLiner: "Q6 is printing again", characters: ["amit"] },
-  { id: "7633929983626398989", oneLiner: "Oh mother, wherefore art thou so cruel?", characters: ["amit", "amitsmother"] },
-  { id: "7633914957184126222", oneLiner: "Still here", characters: ["amit"] },
-  { id: "7633574563019836685", oneLiner: "Cloud gaming service? TikTok purgatory", characters: ["amit"] },
-  { id: "7633470331881049358", oneLiner: "Ok now I feel bad for Ken", characters: ["amit"] },
-  { id: "7633320731236961549", oneLiner: "Better!", characters: ["amit"] },
-  { id: "7633204093925821709", oneLiner: "Farewell, Sora. The Champion shall return", characters: ["amit"] },
-  { id: "7633174606819413262", oneLiner: "Let's party!", characters: ["amit"] },
-  { id: "7632912299283582221", oneLiner: "The End is Nigh", characters: ["amit"] },
-  { id: "7632856157295496461", oneLiner: "Amit's fury", characters: ["amit"] },
-  { id: "7632747121099279630", oneLiner: "I Want the Taller One", characters: ["amit"] },
-  { id: "7632736901862001934", oneLiner: "Too late", characters: ["amit"] },
-  { id: "7632544491165076750", oneLiner: "Not the ice cream machine", characters: ["amit"] },
-  { id: "7625392325530766605", oneLiner: "For the thirsty", characters: ["amit"] },
-  { id: "7625323242399583501", oneLiner: "Get Gadha or bring shame upon the family", characters: ["amit", "gadha"] },
-  { id: "7625322322404183310", oneLiner: "Remember to tip! Sora-Shutdown bonus content", characters: ["amit"] },
-  { id: "7625299947788832014", oneLiner: "The origins of Gadha", characters: ["amit", "gadha"] },
-  { id: "7625299633257909518", oneLiner: "Get rekt, Gadha", characters: ["amit", "gadha"] },
-  { id: "7625138941972253966", oneLiner: "Welcome…", characters: ["amit"] },
-  { id: "7625138105670061325", oneLiner: "The one and only divine bovine, Gadha", characters: ["amit", "gadha"] },
-  { id: "7624740935301090574", oneLiner: "Amit Jr Q6. The pop star we didn't deserve", characters: ["amit", "amitjr"] },
-  { id: "7624687255717825805", oneLiner: "Kneel to the golden milk", characters: ["amit"] },
-  { id: "7624559454310108430", oneLiner: "Rooster Reds", characters: ["amit", "bigtex"] },
-  { id: "7624056505234492685", oneLiner: "The Gadha Wars", characters: ["amit", "gadha"] },
+  { id: "7683152755044666637", oneLiner: "The Green Team Part 2", characters: ["amit"] }, // The Green Team Part 2
+  { id: "7683150203880295693", oneLiner: "Where's the G-Milk?", characters: ["amit"] }, // Where’s the G-Milk?
+  { id: "7682899999612620045", oneLiner: "When Gerch Milk takes to the skies…", characters: ["amit"] }, // When Gerch Milk takes to the skies…
+  { id: "7682821962841820430", oneLiner: "How to win every fight", characters: ["amit"] }, // How to win every fight
+  { id: "7682617607287098638", oneLiner: "Run Up that Milk Hill", characters: ["amit"] }, // Run Up that Milk Hill
+  { id: "7682437287413550349", oneLiner: "Insolent Weather", characters: ["amit"] }, // Insolent Weather
+  { id: "7682424760797498637", oneLiner: "The Gerchbook", characters: ["amit"] }, // The Gerchbook
+  { id: "7682423597935103245", oneLiner: "Gerch for Speed", characters: ["amit"] }, // Gerch for Speed
+  { id: "7682281560095132942", oneLiner: "Advertising 101: Always read the fine print", characters: ["amit"] }, // Advertising 101: Always read the fine print
+  { id: "7682180241388752141", oneLiner: "Q6 Profits Apocalypse", characters: ["amit"] }, // Q6 Profits Apocalypse
+  { id: "7682058846596123918", oneLiner: "Paid sponsor", characters: ["amit"] }, // Paid sponsor
+  { id: "7682058342331600142", oneLiner: "Nourishment First", characters: ["amit"] }, // Nourishment First
+  { id: "7681948519455870222", oneLiner: "Q5 is eternal", characters: ["amit"] }, // Q5 is eternal
+  { id: "7681906352079244557", oneLiner: "Gerchlander vs Homelander (again)", characters: ["amit", "gerchlander"] }, // Gerchlander vs Homelander (again)
+  { id: "7681798509909036301", oneLiner: "All Kneel to the Milk Czar", characters: ["amit"] }, // All Kneel to the Milk Czar
+  { id: "7681750917086973197", oneLiner: "Message from the CEO of Gerchan Farms", characters: ["amit"] }, // Message from the CEO of Gerchan Farms
+  { id: "7681731852796726541", oneLiner: "Pilot: The INSOLENTS - Frugality", characters: ["amit"] }, // Pilot: “The INSOLENTS” - Frugality
+  { id: "7681696147068505357", oneLiner: "Eternal sibling rivalry", characters: ["amit"] }, // Eternal sibling rivalry
+  { id: "7681518756064922894", oneLiner: "Run, run, as fast as you can…", characters: ["amit"] }, // Run, run, as fast as you can…
+  { id: "7681461474363051278", oneLiner: "Handling customer feedback", characters: ["amit"] }, // Handling customer “feedback”
+  { id: "7681314903751134478", oneLiner: "Eliminating the competition", characters: ["amit"] }, // Eliminating the competition
+  { id: "7681151183351745806", oneLiner: "Doom 2: Gerch Milk DLC", characters: ["amit"] }, // Doom 2: Gerch Milk DLC
+  { id: "7681011762363108622", oneLiner: "Cash Only @ Gerch Nail Salon", characters: ["amit"] }, // Cash Only @ Gerch Nail Salon
+  { id: "7680929075430558990", oneLiner: "Gerch Milk is Inevitable", characters: ["amit"] }, // Gerch Milk is Inevitable
+  { id: "7680790373349838093", oneLiner: "Refrigeration Acquired", characters: ["amit"] }, // Refrigeration Acquired
+  { id: "7680786234091916558", oneLiner: "A Sorceress, Warrior, and Dairy Evangelist stroll into a bar…", characters: ["amit"] }, // A Sorceress, Warrior, and Dairy Evangelist stroll into a bar…
+  { id: "7680576267921444110", oneLiner: "The Dairy Evangelist & The Wonderland Waifus", characters: ["amit"] }, // The Dairy Evangelist & The Wonderland Waifus
+  { id: "7680438240314182925", oneLiner: "Jedi State of Mind", characters: ["amit"] }, // Jedi State of Mind
+  { id: "7680370611801115917", oneLiner: "Don't mess with Mike or Gerch Milk", characters: ["amit"] }, // Don’t mess with Mike or Gerch Milk
+  { id: "7680325595254869262", oneLiner: "With the green team", characters: ["amit"] }, // With the green team💚
+  { id: "7680210640631385357", oneLiner: "Escape from the tower of insolence", characters: ["amit"] }, // Escape from the tower of insolence
+  { id: "7679995364404956430", oneLiner: "Insolent Rosie", characters: ["amit"] }, // Insolent Rosie
+  { id: "7679871127333637389", oneLiner: "Weekend smacking", characters: ["amit"] }, // Weekend smacking
+  { id: "7679612976848014605", oneLiner: "Cow of Duty: Acquisition", characters: ["amit"] }, // Cow of Duty: Acquisition
+  { id: "7679473852186922253", oneLiner: "Ready to get to work", characters: ["amit"] }, // Ready to get to work
+  { id: "7679318538930195725", oneLiner: "ZOMBIES BEWARE", characters: ["amit"] }, // ZOMBIES BEWARE
+  { id: "7679318219177479437", oneLiner: "Milkheart - For Freedom", characters: ["amit"] }, // Milkheart - For Freedom💪
+  { id: "7679203669014842637", oneLiner: "Is this Sora shutdown happening all over again", characters: ["amit"] }, // Is this Sora shutdown happening all over again
+  { id: "7679191518011280654", oneLiner: "Amit & Dark Amit vs Evil Amit & Light Amit", characters: ["amit", "darkamit", "evilamit", "lightamit"] }, // Amit & Dark Amit vs Evil Amit & Light Amit
+  { id: "7679085779301223694", oneLiner: "Maximize Gains", characters: ["amit"] }, // Maximize Gains
+  { id: "7679072098689584398", oneLiner: "Protect Q5 Profits", characters: ["amit"] }, // Protect Q5 Profits
+  { id: "7678766416035663118", oneLiner: "Playhouse Gaiden", characters: ["amit"] }, // Playhouse Gaiden
+  { id: "7678698344461405454", oneLiner: "Behold the Milk Cannon", characters: ["amit"] }, // Behold the Milk Cannon
+  { id: "7678365220388998431", oneLiner: "The Dairy Contraband", characters: ["amit"] }, // The Dairy Contraband
+  { id: "7678328414947839245", oneLiner: "Catch up, slowpokes!", characters: ["amit"] }, // Catch up, slowpokes!
+  { id: "7678054978832862478", oneLiner: "Tuna aisle, here we come!", characters: ["amit"] }, // Tuna aisle, here we come! @Hexa Reyes  @Tabby
+  { id: "7678007061740801293", oneLiner: "The Tanker Chase: Keepaway", characters: ["amit"] }, // The Tanker Chase: Keepaway
+  { id: "7678006736455847181", oneLiner: "Delusional freestyle - should just stick to selling milk", characters: ["amit"] }, // Delusional freestyle - should just stick to selling milk
+  { id: "7677913086723902734", oneLiner: "Gerchan Ball Z", characters: ["amit"] }, // Gerchan Ball Z
+  { id: "7677802868253986061", oneLiner: "When pollution is deemed insolent", characters: ["amit"] }, // When pollution is deemed insolent
+  { id: "7677609134241418509", oneLiner: "Gerchie Darko", characters: ["amit"] }, // Gerchie Darko
+  { id: "7677578110258220301", oneLiner: "Breakfast Challenger", characters: ["amit"] }, // Breakfast Challenger
+  { id: "7677327716110126350", oneLiner: "Intruder Clean-up", characters: ["amit"] }, // Intruder Clean-up
+  { id: "7677315301934959886", oneLiner: "Gotcha!", characters: ["amit"] }, // Gotcha!😎
+  { id: "7677244763766099213", oneLiner: "Milk Knight", characters: ["amit"] }, // Milk Knight
+  { id: "7676880266786278670", oneLiner: "The Profits Monster", characters: ["amit"] }, // The Profits Monster
+  { id: "7676637300343819533", oneLiner: "Golden Milk Buzzer", characters: ["amit"] }, // Golden Milk Buzzer
+  { id: "7676505967298710797", oneLiner: "The Cream Team", characters: ["amit"] }, // The Cream Team
+  { id: "7676469180165639437", oneLiner: "Family Therapy", characters: ["amit"] }, // Family Therapy
+  { id: "7676216431721155853", oneLiner: "Udderly Insolent", characters: ["amit"] }, // Udderly Insolent
+  { id: "7676116475131792654", oneLiner: "Aggressive Profit Targets", characters: ["amit"] }, // Aggressive Profit Targets💰🎯
+  { id: "7676097660994030862", oneLiner: "Got Gerch?", characters: ["amit"] }, // Got Gerch?
+  { id: "7675868810305424653", oneLiner: "Innovation? Or Scam?", characters: ["amit"] }, // Innovation? Or Scam?
+  { id: "7675816913024322829", oneLiner: "Do you see them too?", characters: ["amit"] }, // Do you see them too?🐮
+  { id: "7675754819952430350", oneLiner: "Priorities", characters: ["amit"] }, // Priorities
+  { id: "7675726279299124493", oneLiner: "Dairy is the main character. Never forget", characters: ["amit"] }, // Dairy is the main character. Never forget
+  { id: "7675525933553503502", oneLiner: "Slippery Slippery!", characters: ["amit"] }, // Slippery Slippery!
+  { id: "7675393009483091214", oneLiner: "Enter: We Drink Your Milk", characters: ["amit"] }, // Enter: @🍀The Green One🍀: We Drink Your Milk
+  { id: "7675357573251370253", oneLiner: "MOM!", characters: ["amit", "amitsmother"] }, // MOM!
+  { id: "7675355390049127694", oneLiner: "Not now", characters: ["amit"] }, // Not now
+  { id: "7675162307315436813", oneLiner: "Need a doctor?", characters: ["amit"] }, // Need a doctor? Video idea courtesy of @Fiona Emberflame / @Tabby
+  { id: "7675152105090338062", oneLiner: "New neighbor, new rules", characters: ["amit"] }, // New neighbor, new rules
+  { id: "7675053805142084877", oneLiner: "The Gerch Passenger", characters: ["amit"] }, // The Gerch Passenger
+  { id: "7674983231543905549", oneLiner: "Acquiring it", characters: ["amit"] }, // Acquiring it
+  { id: "7674641754062146830", oneLiner: "Stop that bike!", characters: ["amit"] }, // Stop that bike!
+  { id: "7674639991091252494", oneLiner: "Business is universal", characters: ["amit"] }, // Business is universal
+  { id: "7674504351485840653", oneLiner: "Laundry day (Gerch ver): The Anomaly", characters: ["amit"] }, // Laundry day (Gerch ver): The Anomaly
+  { id: "7674374101204552974", oneLiner: "Calm down, now", characters: ["amit"] }, // Calm down, now
+  { id: "7674295796275137822", oneLiner: "You called?", characters: ["amit"] }, // You called?
+  { id: "7673984913426763022", oneLiner: "G2: Judgement Milk", characters: ["amit"] }, // G2: Judgement Milk
+  { id: "7673896938181299469", oneLiner: "Improvements", characters: ["amit"] }, // Improvements🐮
+  { id: "7673877735726517518", oneLiner: "New pool rules", characters: ["amit"] }, // New pool rules
+  { id: "7673874249509014797", oneLiner: "The Circle of Milk", characters: ["amit"] }, // The Circle of Milk
+  { id: "7673561836314250510", oneLiner: "The Gadha Hunt Continues", characters: ["amit", "gadha"] }, // The Gadha Hunt Continues
+  { id: "7673517775096122637", oneLiner: "No exceptions", characters: ["amit"] }, // No exceptions
+  { id: "7673256502324497678", oneLiner: "They're baaaaaaack", characters: ["amit"] }, // They’re baaaaaaack😱
+  { id: "7673173231896890637", oneLiner: "Gadha get away", characters: ["amit", "gadha"] }, // “Gadha” get away
+  { id: "7673132511521737997", oneLiner: "Swedish meatballs never tasted so good", characters: ["amit"] }, // Swedish meatballs never tasted so good
+  { id: "7672881465159339278", oneLiner: "Profits denied", characters: ["amit"] }, // Profits denied
+  { id: "7672779758991707405", oneLiner: "Cow clones for sale", characters: ["amit", "bigtex"] }, // Cow clones for sale🐮 Just don’t tell @Big Tex Wang
+  { id: "7672565543425068301", oneLiner: "Spilled milk", characters: ["amit"] }, // Spilled milk
+  { id: "7672543503179648270", oneLiner: "Love and peace to the coolest cat", characters: ["amit"] }, // Remix of@RomeyRome  Love and peace to the coolest cat, @Fiona Emberflame
+  { id: "7672466527148428558", oneLiner: "Welcome to the Gerch Casino - House wins all", characters: ["amit"] }, // Welcome to the Gerch Casino - House wins all
+  { id: "7672426741503102222", oneLiner: "The Awakening: The Dairy Evangelist - Nehru Suit Gerchazord", characters: ["amit"] }, // The Awakening: The Dairy Evangelist - Nehru Suit Gerchazord
+  { id: "7672393803143138574", oneLiner: "So close", characters: ["amit"] }, // So close
+  { id: "7672392122410044685", oneLiner: "The Gercher Years", characters: ["amit"] }, // The Gercher Years
+  { id: "7672124287616027918", oneLiner: "Let's bust a move", characters: ["amit"] }, // Let’s bust a move🐮
+  { id: "7672062524593933582", oneLiner: "The Speeding Ticket", characters: ["amit"] }, // The Speeding Ticket
+  { id: "7672049169510534414", oneLiner: "Laundry Day Cont. (Gerch Ver)", characters: ["amit"] }, // Laundry Day Cont. (Gerch Ver)
+  { id: "7671758715854310669", oneLiner: "The People's Milk Elbow", characters: ["amit"] }, // The People’s Milk Elbow
+  { id: "7671735074412367118", oneLiner: "So much better", characters: ["amit"] }, // So much better
+  { id: "7671686487666183438", oneLiner: "How CAN she?", characters: ["amit"] }, // How CAN she?🤜🥊
+  { id: "7671377968714779917", oneLiner: "When the milk rage awakens", characters: ["amit"] }, // When the milk rage awakens
+  { id: "7671300876308352270", oneLiner: "Gercher: Danger Zone!", characters: ["amit"] }, // Gercher: Danger Zone!
+  { id: "7671274993367502094", oneLiner: "The Way of the Schwartz: Plain Yogurt", characters: ["amit"] }, // The Way of the Schwartz: Plain Yogurt
+  { id: "7671274505104411917", oneLiner: "Gerch Cream Soda Discount", characters: ["amit"] }, // Gerch Cream Soda Discount
+  { id: "7671134032201010445", oneLiner: "The memo", characters: ["amit"] }, // The memo
+  { id: "7670926889137048846", oneLiner: "You're fired", characters: ["amit"] }, // You’re fired
+  { id: "7670906540047469838", oneLiner: "Milk Stunner", characters: ["amit"] }, // Milk Stunner - Gerch Milk can cause opponents to glitch
+  { id: "7670901989676469518", oneLiner: "Amit Unleashed", characters: ["amit"] }, // Amit Unleashed
+  { id: "7670722262001077518", oneLiner: "Initial G", characters: ["amit"] }, // Initial G
+  { id: "7670548163173960973", oneLiner: "Waffle Wednesday Offering", characters: ["amit"] }, // Waffle Wednesday Offering
+  { id: "7670536263316819213", oneLiner: "Gerch Royale", characters: ["amit"] }, // Gerch Royale
+  { id: "7670373472421383437", oneLiner: "Get back down there", characters: ["amit"] }, // Get back down there
+  { id: "7670295235762638093", oneLiner: "Dairy veins", characters: ["amit"] }, // Dairy veins
+  { id: "7670274493121662222", oneLiner: "The hands of Gerch Milk", characters: ["amit"] }, // The hands of Gerch Milk
+  { id: "7670251351372287245", oneLiner: "Eyes on the road", characters: ["amit"] }, // Eyes on the road😭 @Fiona Emberflame
+  { id: "7670034757375315214", oneLiner: "The Milk Clan Strikes", characters: ["amit"] }, // The Milk Clan Strikes
+  { id: "7669921927766609166", oneLiner: "Coming to Broadway Q7 2026", characters: ["amit"] }, // Coming to Broadway Q7 2026
+  { id: "7669915967119461645", oneLiner: "Comin' right up", characters: ["amit"] }, // Comin’ right up
+  { id: "7669871632550317326", oneLiner: "Gerch Fighter - The Power of Mumbai", characters: ["amit"] }, // Gerch Fighter - The Power of Mumbai
+  { id: "7669815216330263821", oneLiner: "Gerch Rider - No shortcuts", characters: ["amit"] }, // Gerch Rider - No shortcuts
+  { id: "7669663669118110989", oneLiner: "Mister Gerchinson", characters: ["amit"] }, // Mister Gerchinson
+  { id: "7669520905588051213", oneLiner: "Last battle feat.", characters: ["amit"] }, // 最後の戦（いくさ） feat @Tabby
+  { id: "7669510600518634766", oneLiner: "Wtffffff", characters: ["amit"] }, // Wtffffff
+  { id: "7669485971754208526", oneLiner: "Milkless Waltz", characters: ["amit"] }, // Milkless Waltz
+  { id: "7669450021275831566", oneLiner: "That's how we do it", characters: ["amit"] }, // That’s how we do it
+  { id: "7669449051749895437", oneLiner: "GerchWatch", characters: ["amit"] }, // GerchWatch
+  { id: "7669307897590942990", oneLiner: "Laundry Day nightmare continued (Gerch ver)", characters: ["amit"] }, // Laundry Day nightmare continued (Gerch ver)
+  { id: "7669156289024429325", oneLiner: "Get your facts straight, Kevin", characters: ["amit"] }, // Get your facts straight, Kevin😱
+  { id: "7669073030202608910", oneLiner: "Gerch milk Takeover: Phase 4", characters: ["amit"] }, // Gerch milk Takeover: Phase 4
+  { id: "7669072947063164174", oneLiner: "Milks on a Plane", characters: ["amit"] }, // Milks on a Plane🐮
+  { id: "7668831429878467854", oneLiner: "The Amazing Amitman", characters: ["amit"] }, // The Amazing Amitman
+  { id: "7668817233967156493", oneLiner: "Grand Theft Amit", characters: ["amit"] }, // Grand Theft Amit
+  { id: "7668680041366080782", oneLiner: "Insolent Kratos", characters: ["amit"] }, // Insolent Kratos
+  { id: "7668679569603448077", oneLiner: "Gerch milk Takeover: Phase 3", characters: ["amit"] }, // Gerch milk Takeover: Phase 3
+  { id: "7668429946926255374", oneLiner: "Something to dance about", characters: ["amit"] }, // Something to dance about
+  { id: "7668379981835259150", oneLiner: "Chillin'", characters: ["amit"] }, // @Amit Gaur (Gerch) (wears navy nehru jacket, navy long pants, aged late 50s, white and gray beard and hair, speaks english in an exaggerated thick mumbai accent) and @🍣⚔️🧇 Hexa Reyes 🧇⚔️🍣 run through a deadly maze of traps and fire to rescue @Maliceindahouse from the bad robot AI monster. They drink gerch milks from the reference image to stay strong#aicast
+  { id: "7668309983502830861", oneLiner: "Gerch milk Takeover: Phase 2", characters: ["amit"] }, // Chillin’😎😎😎
+  { id: "7668305177761418509", oneLiner: "Gerch milk Takeover: Phase 1", characters: ["amit"] }, // Gerch milk Takeover: Phase 2
+  { id: "7668151225489067277", oneLiner: "Taking Captain Gerchan down to zero", characters: ["amit"] }, // Gerch milk Takeover: Phase 1
+  { id: "7668054673202351373", oneLiner: "Insolent Smash", characters: ["amit"] }, // Taking Captain Gerchan down to zero
+  { id: "7668019826496949518", oneLiner: "For…?", characters: ["amit"] }, // Insolent Smash
+  { id: "7667982456229743885", oneLiner: "Gerchception", characters: ["amit"] }, // For…?
+  { id: "7667792462198459662", oneLiner: "Milky sunsets", characters: ["amit"] }, // Gerchception
+  { id: "7667721741040438542", oneLiner: "Gerch Cream Soda New product line", characters: ["amit"] }, // Milky sunsets
+  { id: "7667652971018161422", oneLiner: "Milk Hunter", characters: ["amit"] }, // Gerch Cream Soda New product line courtesy of @Hinata.Mi  Featuring Pizza Ice Cream from @Pizza Ice Cream
+  { id: "7667578679827959053", oneLiner: "Milk Evangelist's Paradise", characters: ["amit"] }, // Milk Hunter
+  { id: "7667329857172327693", oneLiner: "The way", characters: ["amit"] }, // Milk Evangelist’s Paradise
+  { id: "7667195104653757710", oneLiner: "Laundry day (Gerch ver) continued: The Mysterious Culprit", characters: ["amit"] }, // The way
+  { id: "7666886432945900814", oneLiner: "The Milk Blade of Justice", characters: ["amit"] }, // Laundry day (Gerch ver) continued: The Mysterious Lullaby Playlist: Part 1:@Amit Gaur (Gerch)  Part 2:@Amit Gaur (Gerch)  Part 3:@Amit Gaur (Gerch)  Part 4 and Part 5 in bio @Nimue  @Maliceindahouse  @Tabby  @🍣⚔️🧇 Hexa Reyes 🧇⚔️🍣  @logan Reed  @Draven Blackbird  @Fiona Emberflame  @RomeyRome  @Beatriz the Witch
+  { id: "7666461428886392078", oneLiner: "Q5 Profits", characters: ["amit"] }, // The Milk Blade of Justice
+  { id: "7666291286952905998", oneLiner: "Maximize Milk Profits. Insolent cow nephew", characters: ["amit"] }, // Q5 Profits
+  { id: "7666141618902207758", oneLiner: "Malice with an M wants the milky milky", characters: ["amit"] }, // Maximize Milk Profits. Insolent cow nephew🐮🤪
+  { id: "7666079992937336077", oneLiner: "Mo milk, Mo problems", characters: ["amit"] }, // Malice with an ‘M’ wants the milky milkyyyyy🐮🐮🐮🐮
+  { id: "7665822490488245517", oneLiner: "Wash and Supply!?", characters: ["amit"] }, // Mo milk, Mo problems
+  { id: "7665763224800873742", oneLiner: "Milk forever lost", characters: ["amit"] }, // Wash and Supply!?🤪
+  { id: "7665712215256829197", oneLiner: "Some chase clout while others chase Gerch Milk", characters: ["amit"] }, // Milk forever lost
+  { id: "7665430821381098765", oneLiner: "Here we go again", characters: ["amit"] }, // Some chase clout while other chase Gerch Milk
+  { id: "7665378456724589838", oneLiner: "Calm down now", characters: ["amit"] }, // Here we go again
+  { id: "7665111769962056973", oneLiner: "Chasing profits", characters: ["amit"] }, // Calm down now
+  { id: "7665008135421086989", oneLiner: "The Awakening", characters: ["amit"] }, // Chasing profits
+  { id: "7664723971442576654", oneLiner: "Stop that Milk!", characters: ["amit"] }, // The Awakening
+  { id: "7664674639188102414", oneLiner: "Messy Monday", characters: ["amit"] }, // Stop that Milk!!!!
+  { id: "7664623620060155149", oneLiner: "Timeless Milk", characters: ["amit"] }, // Messy Monday🤪
+  { id: "7664599937660833038", oneLiner: "Board meetings at Gerchan Farms", characters: ["amit"] }, // Timeless Milk
+  { id: "7664392273148333325", oneLiner: "Amit Descends", characters: ["amit"] }, // Board meetings at Gerchan Farms
+  { id: "7664340569052826894", oneLiner: "More Laundry Day Nightmares (Gerch)", characters: ["amit"] }, // Amit Descends
+  { id: "7664244309985709325", oneLiner: "Shadow boxing?", characters: ["amit"] }, // More Laundry Day Nightmares (Gerch) Playlist: Pt 1@Amit Gaur (Gerch)  Pt 2@Amit Gaur (Gerch)  Pt 3@Amit Gaur (Gerch)  Pt 4 and more here: https://www.tiktok.com/t/ZT9r2TQtuekyj-8zRSw/ and on profile
+  { id: "7664075348534889741", oneLiner: "Need more cream in our chai", characters: ["amit"] }, // Shadow boxing?
+  { id: "7664069679094222094", oneLiner: "Destiny calls", characters: ["amit"] }, // Need more cream in our chai
+  { id: "7663332745627667725", oneLiner: "Gerchverse Origins: The (1st) Abandonment", characters: ["amit", "amitsmother"] }, // Destiny calls
+  { id: "7662807368538901774", oneLiner: "Midnight Delivery", characters: ["amit"] }, // Gerchverse Origins: The (1st) Abandonment
+  { id: "7662599107978054926", oneLiner: "Gerch Blast-Off", characters: ["amit"] }, // Midnight Delivery
+  { id: "7662399945822997774", oneLiner: "Down with Benevolence!", characters: ["amit"] }, // Gerch Blast-Off
+  { id: "7662238294071151886", oneLiner: "The Abandoned Factory", characters: ["amit"] }, // Down with Benevolence!👎
+  { id: "7662195034241928462", oneLiner: "Insolence collides", characters: ["amit"] }, // The Abandoned Factory
+  { id: "7662001939651022093", oneLiner: "Gerch Shufflin'", characters: ["amit"] }, // Insolence collides
+  { id: "7661840715554573581", oneLiner: "Laundry Nightmare Loop", characters: ["amit"] }, // Gerch Shufflin’
+  { id: "7661672696446455053", oneLiner: "So long, Steve", characters: ["amit"] }, // Laundry Nightmare Loop - Will it ever end? Check out  @🍣⚔️🧇 Hexa Reyes 🧇⚔️🍣 for more!
+  { id: "7661517611536026893", oneLiner: "Ghostbusting", characters: ["amit"] }, // So long, Steve 🤪💪🤛🥊🤜
+  { id: "7661399455521967373", oneLiner: "4 Quarters are enough - Battle of Brothers", characters: ["amit"] }, // Ghostbusting
+  { id: "7661009222288624910", oneLiner: "Q5 RISING - The Dairy Evangelist", characters: ["amit"] }, // 4 Quarters are enough - Battle of Brothers
+  { id: "7660616351756668174", oneLiner: "Trying to mediate a father and son squabble", characters: ["amit"] }, // Q5 RISING - The Dairy Evangelist
+  { id: "7660384109142854926", oneLiner: "Wacky Wednesday", characters: ["amit"] }, // Trying to mediate a father and son squabble
+  { id: "7660168572265647373", oneLiner: "Brisket Hunting", characters: ["amit", "bigtex"] }, // Wacky Wednesday 🤪
+  { id: "7659913847175712013", oneLiner: "Excellent Quarter", characters: ["amit"] }, // Brisket Hunting
+  { id: "7659490907703512333", oneLiner: "THE ELEVATOR", characters: ["amit"] }, // Excellent Quarter
+  { id: "7659404849800367373", oneLiner: "Laundry Day Nightmare", characters: ["amit"] }, // THE ELEVATOR
+  { id: "7659057344768232718", oneLiner: "THE PACIFIC IPO", characters: ["amit"] }, // Laundry Day Nightmare Check for more👇 @🍣⚔️🧇 Hexa Reyes 🧇⚔️🍣
+  { id: "7658833435234028813", oneLiner: "Captain Gerchan, he's our hero…", characters: ["amit"] }, // THE PACIFIC IPO
+  { id: "7658365338387483918", oneLiner: "All gone", characters: ["amit"] }, // Captain Gerchan, he’s our hero…
+  { id: "7658298520675355917", oneLiner: "Captain Gerchan vs Gerchlander", characters: ["amit", "gerchlander"] }, // All gone
+  { id: "7657574055465258253", oneLiner: "CAPTAIN GERCHAN - Amit Gaur's Nephew", characters: ["amit"] }, // Captain Gerchan vs Gerchlander
+  { id: "7657428150258765070", oneLiner: "Ancient Record: File", characters: ["amit"] }, // CAPTAIN GERCHAN - Amit Gaur’s Nephew
+  { id: "7657174855023987982", oneLiner: "The Gadha Chronicles", characters: ["amit", "gadha"] }, // Ancient Record: File
+  { id: "7656649335861513485", oneLiner: "Mountains", characters: ["amit"] }, // The Gadha Chronicles. Long before humans came along, Gadhas roamed the universe, wreaking havoc and destruction everywhere they went
+  { id: "7656536254208675085", oneLiner: "Resignation accepted", characters: ["amit"] }, // Mountains
+  { id: "7656145157938613517", oneLiner: "Amit Purchases Hell", characters: ["amit"] }, // Resignation accepted
+  { id: "7655940586024832270", oneLiner: "Double Tex vs Gadha & Amit", characters: ["amit", "bigtex", "gadha"] }, // Amit Purchases Hell
+  { id: "7655826135267265806", oneLiner: "HR", characters: ["amit"] }, // Double Tex vs Gadha & Amit
+  { id: "7655730404908862734", oneLiner: "The sky is NOT the limit", characters: ["amit"] }, // HR
+  { id: "7655519988387695886", oneLiner: "No rest for the Ken clones", characters: ["amit"] }, // The sky is NOT the limit
+  { id: "7655141862252055822", oneLiner: "Insolent cow mother!", characters: ["amit", "amitsmother"] }, // No rest for the Ken clones
+  { id: "7654987196448984333", oneLiner: "MV: THE GERCHVERSE Song: Q6 - The 6th Horizon", characters: ["amit", "amitjr"] }, // Insolent cow mother!
+  { id: "7654734098077994253", oneLiner: "The Battle at Gadha Bridge", characters: ["amit", "gadha"] }, // MV: “THE GERCHVERSE” Song: “Q6 - The 6th Horizon”
+  { id: "7653974598031101197", oneLiner: "Laundry Day: The Saga continues", characters: ["amit"] }, // The Battle at Gadha Bridge
+  { id: "7653845713599745293", oneLiner: "MMA Match", characters: ["amit"] }, // Laundry Day: The Saga continues @Hexa Reyes  @loganf-u  @Beatriz the Witch  @Maliceindahouse  @Tabby  @kenzie.tx
+  { id: "7653699777103727885", oneLiner: "Gerchlander vs Homelander", characters: ["amit", "gerchlander"] }, // MMA Match
+  { id: "7653300009420524814", oneLiner: "Milk Renegades", characters: ["amit"] }, // Gerchlander vs Homelander
+  { id: "7652349393907010829", oneLiner: "Emotional Compliance Watch", characters: ["amit"] }, // Milk Renegades
+  { id: "7652139305971895565", oneLiner: "Milk Poisoning Denied", characters: ["amit"] }, // Emotional Compliance Watch 👇@Maliceindahouse’s👇video first! @Maliceindahouse
+  { id: "7651994986258500878", oneLiner: "Send Milk First", characters: ["amit"] }, // Milk Poisoning Denied
+  { id: "7651772653895879949", oneLiner: "Retention", characters: ["amit"] }, // Send Milk First
+  { id: "7651726873503730958", oneLiner: "Omni-Present", characters: ["amit"] }, // Retention
+  { id: "7651664709510384910", oneLiner: "They Know", characters: ["amit"] }, // Omni-Present
+  { id: "7651610400886148366", oneLiner: "Laundry Day Pt.2 Grabbing Malice & Tabby's Parents", characters: ["amit"] }, // They Know
+  { id: "7651264880170863886", oneLiner: "Chernobyl Gerch Milk Factory", characters: ["amit"] }, // Laundry Day Pt.2 Grabbing Malice & Tabby’s Parents: @Hexa Reyes @kenzie.tx  @Maliceindahouse  @RomeyRome  @Tabby  @Fiona Emberflame @loganf-u
+  { id: "7650988100826565901", oneLiner: "Our new CCO", characters: ["amit"] }, // Chernobyl Gerch Milk Factory
+  { id: "7650924936302742798", oneLiner: "Official Sponsor of World Cup 2026", characters: ["amit"] }, // Our new CCO
+  { id: "7650618772105088269", oneLiner: "Increase Production", characters: ["amit"] }, // Official Sponsor of World Cup 2026
+  { id: "7650549658464308494", oneLiner: "Work-Life Balance at Gerchan Farms", characters: ["amit"] }, // Increase Production
+  { id: "7650528650416196878", oneLiner: "Gerch-X IPO", characters: ["amit"] }, // Work-Life Balance at Gerchan Farms
+  { id: "7650208333181324558", oneLiner: "Rome & Fiona Emberflame and THE INSOLENTS", characters: ["amit"] }, // Gerch-X IPO: I even dyed my hair and got Botox for the launch event
+  { id: "7650203304592559374", oneLiner: "Fiona Emberflame and THE INSOLENTS", characters: ["amit"] }, // Rome & Fiona Emberflame and THE INSOLENTS  @Fiona Emberflame  @RomeyRome
+  { id: "7650199067338853645", oneLiner: "The Discovery", characters: ["amit"] }, // Fiona Emberflame and THE INSOLENTS @Fiona Emberflame  @RomeyRome
+  { id: "7650157220247653646", oneLiner: "Going Galactic", characters: ["amit"] }, // The Discovery
+  { id: "7650141367410150669", oneLiner: "Gerch Milk Goodness", characters: ["amit"] }, // Going Galactic
+  { id: "7650005991286770958", oneLiner: "Milk Combat", characters: ["amit"] }, // Gerch Milk Goodness
+  { id: "7649993947867073805", oneLiner: "Quarterly Numbers", characters: ["amit"] }, // Milk Combat
+  { id: "7649773172690078990", oneLiner: "Hostile Takeover", characters: ["amit"] }, // Quarterly Numbers
+  { id: "7649753888177868045", oneLiner: "Case closed", characters: ["amit"] }, // Hostile Takeover
+  { id: "7649645097620901151", oneLiner: "The Promotion", characters: ["amit"] }, // Case closed
+  { id: "7649402044524023054", oneLiner: "The Dark Milk Pact", characters: ["amit"] }, // The Promotion
+  { id: "7649385872114175245", oneLiner: "The Milk (Attorney) Generals", characters: ["amit"] }, // The Dark Milk Pact
+  { id: "7649279328626298126", oneLiner: "Consistency is key", characters: ["amit"] }, // The Milk (Attorney) Generals
+  { id: "7649189227246177549", oneLiner: "Customer Loyalty", characters: ["amit"] }, // Consistency is key
+  { id: "7649057729914391822", oneLiner: "Treasure World", characters: ["amit"] }, // Customer Loyalty
+  { id: "7649011231986175245", oneLiner: "Gimme that Gerch Milk", characters: ["amit"] }, // Treasure World
+  { id: "7648908785829891341", oneLiner: "Give it up for Emberflame", characters: ["amit"] }, // Gimme that Gerch Milk
+  { id: "7648860667268566286", oneLiner: "Gerch Vision Pro Max - Executive Elite", characters: ["amit"] }, // Give it up for Emberflame🔥🤘 Check out Emberflame on YouTube: https://youtube.com/@fionaemberflame?si=-3fXz9LMa5lybZHE
+  { id: "7648716008840121614", oneLiner: "Bigger isn't always better", characters: ["amit"] }, // Gerch Vision Pro Max - Executive Elite
+  { id: "7648701688878025997", oneLiner: "Dark Amit. Light Amit", characters: ["amit", "darkamit", "lightamit"] }, // Bigger isn’t always better😈
+  { id: "7648518437681007886", oneLiner: "Profits Above All", characters: ["amit"] }, // Dark Amit. Light Amit
+  { id: "7648433572314991886", oneLiner: "The Milk Generals", characters: ["amit"] }, // Profits Above All
+  { id: "7648325849321590029", oneLiner: "Time to Begin", characters: ["amit"] }, // The Milk Generals
+  { id: "7648076820880919822", oneLiner: "The GERCHVERSE: Banner 1 - Milk Money", characters: ["amit"] }, // Time to Begin
+  { id: "7647960948698893599", oneLiner: "The GERCHVERSE: Banner 3 - The GerchVerse PunkPop", characters: ["amit"] }, // The GERCHVERSE: Banner 1 “Milk Money”
+  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 2 - The GerchVerse Trap Mix", characters: ["amit"] }, // The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"
+  { id: "7647958879250304287", oneLiner: "Milk Blade - The 2% Sword of Destiny", characters: ["amit"] }, // The GERCHVERSE: Banner 2 “The GerchVerse - Trap Mix”
+  { id: "7647676503282519310", oneLiner: "Production boost", characters: ["amit"] }, // Milk Blade - The 2% Sword of Destiny
+  { id: "7647645754462342413", oneLiner: "The Audit. Pt 2", characters: ["amit"] }, // Production boost
+  { id: "7647577651774770445", oneLiner: "The Only Direction", characters: ["amit"] }, // The Audit. Pt 2
+  { id: "7647395775634328845", oneLiner: "The Audit", characters: ["amit"] }, // The Only Direction
+  { id: "7647343804441283854", oneLiner: "Securing our future", characters: ["amit"] }, // The Audit
+  { id: "7647259380517227789", oneLiner: "Expansion plans", characters: ["amit"] }, // Securing our future
+  { id: "7647234003635850510", oneLiner: "Insolent Baba Yaga", characters: ["amit"] }, // Expansion plans
+  { id: "7647181350390336781", oneLiner: "The Taming of Gadha", characters: ["amit", "gadha"] }, // Insolent Baba Yaga
+  { id: "7646949784309255437", oneLiner: "Amit Parade", characters: ["amit"] }, // The Taming of Gadha
+  { id: "7646917759724539149", oneLiner: "Crouching Amit, Hidden Gerch Milk", characters: ["amit"] }, // Amit Parade
+  { id: "7646907616437783822", oneLiner: "Trouble at Red Rooster Ranch", characters: ["amit", "bigtex"] }, // Crouching Amit, Hidden Gerch Milk
+  { id: "7646859183295450381", oneLiner: "Eliminating unnecessary concepts", characters: ["amit"] }, // Trouble at Red Rooster Ranch @Big Tex Wang
+  { id: "7646851975883099406", oneLiner: "Fortified with Gerch Milk", characters: ["amit"] }, // Eliminating unnecessary concepts feat. board members @Pale and @Ken the Manager
+  { id: "7646598803709005069", oneLiner: "Gerch MilkBuster V3.2", characters: ["amit"] }, // Fortified with Gerch Milk
+  { id: "7646496867131395358", oneLiner: "Source of profits", characters: ["amit"] }, // Gerch MilkBuster V3.2
+  { id: "7646448699203210509", oneLiner: "Audition for William Wallace's role", characters: ["amit"] }, // Source of profits
+  { id: "7646438505119337741", oneLiner: "Short PSA", characters: ["amit"] }, // Audition for William Wallace’s role
+  { id: "7646278009284037902", oneLiner: "Happily ever after (or……)", characters: ["amit"] }, // Short PSA
+  { id: "7646193602175061262", oneLiner: "Employee Appreciation Day", characters: ["amit"] }, // Happily ever after (or……) @Hexa Reyes @Tabby
+  { id: "7646100838187945230", oneLiner: "Enter Darth Mäl", characters: ["amit"] }, // Employee Appreciation Day
+  { id: "7645934952571227405", oneLiner: "Everyone Receives Ownership", characters: ["amit"] }, // Enter Darth Mäl @Maliceindahouse @RomeyRome
+  { id: "7645803475711970573", oneLiner: "The Employee Suggestion Box", characters: ["amit"] }, // Everyone Receives Ownership
+  { id: "7645788326091394318", oneLiner: "Let the games begin!", characters: ["amit"] }, // The Employee Suggestion Box
+  { id: "7645722132873366798", oneLiner: "Cute JP Ver: You insolent cow, I drink your milk!", characters: ["amit"] }, // Let the games begin! ⚽️
+  { id: "7645521114956926221", oneLiner: "Bye-bye, Tentacle - The power of Gerch Milk", characters: ["amit"] }, // Cute JP Ver: “You insolent cow, I drink your milk! @可愛いバージョン - 『この無礼な牛め、あなたのミルク飲んでやるぅ！』Ref image from @Soencer
+  { id: "7645427325068152078", oneLiner: "The Gerchverse Shall Return in full force", characters: ["amit"] }, // Bye-bye, Tentacle - The power of Gerch Milk - @Hexa Reyes @Draven Blackbird
+  { id: "7645393228958665998", oneLiner: "Neverending Gerch Milk Story", characters: ["amit"] }, // The Gerchverse Shall Return in full force
+  { id: "7645359246023937294", oneLiner: "Marketing is tough work", characters: ["amit"] }, // Neverending Gerch Milk Story
+  { id: "7645358856133938445", oneLiner: "Solar Eclipse - BEGONE, INSOLENT SUN!", characters: ["amit"] }, // Marketing is tough work
+  { id: "7645329059005598989", oneLiner: "Welcome to Udderly Insolent", characters: ["amit"] }, // Solar Eclipse - “BEGONE, INSOLENT SUN!”
+  { id: "7645324461805210893", oneLiner: "She's back!", characters: ["amit"] }, // Welcome to ‘Udderly Insolent’ Try our signature Gerch Mayo Wieners today! @Hexa Reyes @Hinata.Mi
+  { id: "7645163178925493517", oneLiner: "The Never-Ending Rivalry: Big Tex Wang vs Amit Gaur", characters: ["amit", "bigtex"] }, // She’s back! @Maliceindahouse @RomeyRome Malice with an ‘M’
+  { id: "7644966131664555277", oneLiner: "Behold, the power of the Gerch Milk", characters: ["amit"] }, // The Never-Ending Rivalry: @Big Tex Wang vs Amit Gaur - Showdown through time and space
+  { id: "7644950694008474894", oneLiner: "Q5 Ritual", characters: ["amit"] }, // Behold, the power of the Gerch Milk
+  { id: "7644941874616175885", oneLiner: "The Department of Synergy", characters: ["amit"] }, // Q5 Ritual
+  { id: "7644812670436232461", oneLiner: "YOU INSOLENT COW, I DRINK YOUR MILK - Japanese Version", characters: ["amit"] }, // The Department of Synergy
+  { id: "7644716812994727182", oneLiner: "Gerch Milk Revolution", characters: ["amit"] }, // “YOU INSOLENT COW, I DRINK YOUR MILK” - Japanese Version
+  { id: "7644696350726114573", oneLiner: "Executive Insolence Buster", characters: ["amit"] }, // ミルキーはガーチの味
+  { id: "7644624142745996557", oneLiner: "Q5 Profits Accelerator", characters: ["amit"] }, // Gerch Milk Revolution
+  { id: "7644357772045192461", oneLiner: "Pick your Poison", characters: ["amit"] }, // Executive Insolence Buster. Close enough
+  { id: "7644297280903744782", oneLiner: "Yes, it's a Gerch Milk hurricane", characters: ["amit"] }, // Q5 Profits Accelerator. @Maliceindahouse @Tabby
+  { id: "7644268287332715790", oneLiner: "URGENT BULLETIN", characters: ["amit"] }, // Pick your Poison
+  { id: "7644207359002217741", oneLiner: "The Rainmaker", characters: ["amit"] }, // Yes, it’s a Gerch Milk hurricane. No, TikTok can’t spell. @Lapika this is for you. ガーチ・ミルク・ハリケーン🌀
+  { id: "7643925893420813582", oneLiner: "Just Another Day at the Gerchan Farms Gerch Milk Factory", characters: ["amit"] }, // URGENT BULLETIN
+  { id: "7643907388545813790", oneLiner: "Gerch Milk - Power in its Purest Form", characters: ["amit"] }, // The Rainmaker
+  { id: "7643890915387378958", oneLiner: "Malice, is that you?", characters: ["amit"] }, // Just Another Day at the Gerchan Farms Gerch Milk Factory
+  { id: "7643875272818806029", oneLiner: "The bathroom", characters: ["amit"] }, // Gerch Milk - Power in its Purest Form  @Draven Blackbird @Mike
+  { id: "7643694871684992269", oneLiner: "Gerch Punch-Out", characters: ["amit"] }, // Malice, is that you? @Maliceindahouse @Tabby @Ashiroz.619
+  { id: "7643693622902230286", oneLiner: "Burning Cow", characters: ["amit"] }, // The bathroom
+  { id: "7643660603537542413", oneLiner: "The creator's creator", characters: ["amit"] }, // Gerch Punch-Out
+  { id: "7643478552330997006", oneLiner: "Come on and jam", characters: ["amit"] }, // Burning Cow - It’s not something you attend. It’s something you do
+  { id: "7643471556106046733", oneLiner: "Practice makes perfect", characters: ["amit"] }, // The creator’s creator
+  { id: "7643336240313552142", oneLiner: "Buy It", characters: ["amit"] }, // Come on and jam
+  { id: "7643309927485803790", oneLiner: "Do the Gerch Milk Shuffle", characters: ["amit"] }, // Practice makes perfect 🐟🍣 @Maliceindahouse @Tabby
+  { id: "7643273232233090318", oneLiner: "Milk Evangelism", characters: ["amit"] }, // Buy It
+  { id: "7643240132656647438", oneLiner: "New Skin", characters: ["amit"] }, // Do the Gerch Milk Shuffle
+  { id: "7643232500642254093", oneLiner: "New Skin", characters: ["amit"] }, // Milk Evangelism @Crush Love TikTok Ai Cast @Tabby
+  { id: "7643148766173728013", oneLiner: "NEW SKIN", characters: ["amit"] }, // New Skin
+  { id: "7643148093877275917", oneLiner: "RAAAAAAAAAAWR!", characters: ["amit"] }, // New Skin
+  { id: "7642979739048643853", oneLiner: "The PTO Problem", characters: ["amit"] }, // NEW SKIN
+  { id: "7642851991030336782", oneLiner: "Gerch Rider - Sons of Dividends", characters: ["amit"] }, // RAAAAAAAAAAWR!😡
+  { id: "7642788733481209101", oneLiner: "Let's get down", characters: ["amit"] }, // The PTO Problem
+  { id: "7642773160017923342", oneLiner: "OBEDIMINT - Obey at Once", characters: ["amit"] }, // Gerch Rider - Sons of Dividends
+  { id: "7642721745195060494", oneLiner: "Quarterly Milk Extraction Targets", characters: ["amit"] }, // Let’s get down 🤘
+  { id: "7642715093892926734", oneLiner: "Mandatory Dairy Compliance", characters: ["amit"] }, // OBEDIMINT - Obey at Once
+  { id: "7642585514792488206", oneLiner: "The Focus Group", characters: ["amit"] }, // Quarterly Milk Extraction Targets
+  { id: "7642584211005771021", oneLiner: "Happy Birthday, Gadha", characters: ["amit", "gadha"] }, // Mandatory Dairy Compliance
+  { id: "7642580785496673549", oneLiner: "INSOLENT COW", characters: ["amit"] }, // The Focus Group
+  { id: "7642560349798927629", oneLiner: "Evil Amit's Birth", characters: ["amit", "evilamit"] }, // Happy Birthday, you Insolent Jealous Cow God, Gadha  @Maliceindahouse @Tabby
+  { id: "7642509997695388942", oneLiner: "Leave the Dairy Evangelist alone", characters: ["amit"] }, // INSOLENT COW
+  { id: "7642396887177497870", oneLiner: "Amit's Birth", characters: ["amit"] }, // Evil Amit’s Birth
+  { id: "7642391709216689422", oneLiner: "Plutonium Gerch Milk", characters: ["amit"] }, // Leave @JonMiler4002 alone. The Dairy Evangelist, to the rescue!
+  { id: "7642355800320527630", oneLiner: "Making the world a better place", characters: ["amit"] }, // Amit’s Birth
+  { id: "7642344822384217357", oneLiner: "Gaur Family Tree - Critically Misconfigured Kinship", characters: ["amit"] }, // Plutonium Gerch Milk
+  { id: "7642213396070403342", oneLiner: "Initial G feat. Big Tex Wang", characters: ["amit", "bigtex"] }, // Making the world a better place
+  { id: "7642199884547755278", oneLiner: "Laundry Revisited", characters: ["amit"] }, // Gaur Family Tree - Critically Misconfigured Kinship
+  { id: "7642038178962050318", oneLiner: "Impurity Detected", characters: ["amit"] }, // Initial G  @Big Tex Wang
+  { id: "7642000017917545741", oneLiner: "Profit Discrepancy", characters: ["amit"] }, // Laundry Revisited @Hexa Reyes @loganf-u @Maliceindahouse @Kenzie.TX
+  { id: "7641997596646575373", oneLiner: "Motivation Increase", characters: ["amit"] }, // Impurity Detected
+  { id: "7641995539088739597", oneLiner: "Chasing profits feat. Big Tex Wang", characters: ["amit", "bigtex"] }, // Profit Discrepancy
+  { id: "7641990448365440269", oneLiner: "When you drink expired milk…", characters: ["amit"] }, // Motivation Increase
+  { id: "7641764980588645645", oneLiner: "WE ALL DIED [ALTERNATE ENDING] The Cyber Saga Finale", characters: ["amit"] }, // Chasing profits @Big Tex Wang
+  { id: "7641756361042234638", oneLiner: "Maximum Synergy, Not Insolence", characters: ["amit"] }, // When you drink expired milk…
+  { id: "7641744612163357966", oneLiner: "Gerch Milk - Archival Footage: August 1977", characters: ["amit"] }, // ‘WE ALL DIED’ [ALTERNATE ENDING] The Cyber Saga Finale: The Secret Basement @Maliceindahouse @Tabby
+  { id: "7641737831181847821", oneLiner: "Rescuing from Damnation", characters: ["amit"] }, // Maximum Synergy, Not Insolence
+  { id: "7641692147103632654", oneLiner: "Cyber Arc - Finale: Escape from the Factory", characters: ["amit"] }, // Gerch Milk - Archival Footage: August 1977 - Flavor Testing Group 7 Specimen, Siberian Control Lab
+  { id: "7641660524391927053", oneLiner: "Gadha: Nourisher of Planets / Divine Bovine", characters: ["amit", "gadha"] }, // Rescuing @jonmiller4002 from Damnation
+  { id: "7641406926382828813", oneLiner: "Dark Amit vs Light Amit - Cow Hater vs Cow Lover", characters: ["amit", "darkamit", "lightamit"] }, // Cyber Arc - Finale: Escape from the Factory (V1 & V2) —WHO’S SAYING ‘OH SHIT’ NOW? 🔥💪@Romeindahouse @Tabby
+  { id: "7641125865400716557", oneLiner: "Light Amit shares his wisdom", characters: ["amit", "lightamit"] }, // Gadha: Nourisher of Planets / Divine Bovine  @Big Tex Wang
+  { id: "7641008872022347022", oneLiner: "The Secret Factory - Pt.2", characters: ["amit"] }, // Dark Amit vs Light Amit  Cow Hater vs Cow Lover
+  { id: "7640859067291831566", oneLiner: "The Secret Factory", characters: ["amit"] }, // Light Amit shares his wisdom
+  { id: "7640645070034570510", oneLiner: "Amit's Mother is one mean B", characters: ["amit", "amitsmother"] }, // The Secret Factory - Pt.2  @Tabby @Romeindahouse
+  { id: "7640634841276501262", oneLiner: "Unmilked Profits", characters: ["amit"] }, // The Secret Factory @Tabby @Romeindahouse
+  { id: "7640619053022842126", oneLiner: "Malice with an M - Silver Malice takes on Amit's Mother", characters: ["amit", "amitsmother"] }, // Amit’s Mother is one mean B
+  { id: "7640547759682063629", oneLiner: "The Dairy Evangelist - Protector of Profits", characters: ["amit"] }, // Unmilked Profits @Tabby
+  { id: "7640363886805404941", oneLiner: "The Tornado Slap Dairy Extraction Method", characters: ["amit"] }, // Malice with an ‘M’ - Silver Malice takes on Amit’s Mother @Romeindahouse @Tabby
+  { id: "7640352862467280141", oneLiner: "Gerch Fighter. The Dairy Evangelist: Nehru Suit Gerchazord", characters: ["amit"] }, // The Dairy Evangelist - Protector of Profits  @Tabby
+  { id: "7640236880210054414", oneLiner: "Tuna Tiger Cow", characters: ["amit"] }, // The Tornado Slap Dairy Extraction Method
+  { id: "7640224132931620110", oneLiner: "Milk Money", characters: ["amit"] }, // Gerch Fighter. The Dairy Evangelist: Nehru Suit Gerchazord
+  { id: "7640146506711878925", oneLiner: "We have a shapeshifter among us", characters: ["amit"] }, // Tuna Tiger Cow @Tabby @Romeindahouse
+  { id: "7640009890223672589", oneLiner: "Even the robots wanna help", characters: ["amit"] }, // Milk Money
+  { id: "7639890613378338061", oneLiner: "New Dairy. New Method", characters: ["amit"] }, // We have a shapeshifter among us. @Pale @Tabby @Romeindahouse
+  { id: "7639881594324438285", oneLiner: "Laundry day", characters: ["amit"] }, // Even the robots wanna help @Hexa Reyes @Sora’s Playhouse @Romeindahouse @Tabby
+  { id: "7639547240293387533", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord - Earth", characters: ["amit"] }, // New Dairy. New Method @Pale @Tabby
+  { id: "7639016709826825486", oneLiner: "Friends forever", characters: ["amit"] }, // Laundry day for @Hexa Reyes 🤪 @Ken the Manager @Mike
+  { id: "7638932708978101518", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord - Human", characters: ["amit"] }, // The Dairy Evangelist: Nehru Suit Gerchazord - Earth’s Mightiest Defender @Tabby
+  { id: "7638928690159701261", oneLiner: "100%", characters: ["amit"] }, // Friends forever💕  @Sheranos @Tabby @Romeindahouse
+  { id: "7638833981743533325", oneLiner: "Malice gets a raise", characters: ["amit"] }, // The Dairy Evangelist: Nehru Suit Gerchazord - Humanity’s Only Hope  @Tabby
+  { id: "7638704016825896206", oneLiner: "Sir Amit Gaur: The Dairy Evangelist", characters: ["amit"] }, // 100% 🤠
+  { id: "7638682380496096526", oneLiner: "The Dairy Evangelist: Nehru Suit Gerchazord, Activated", characters: ["amit"] }, // Malice gets a raise @Romeindahouse @Tabby @gerch
+  { id: "7638499104766692622", oneLiner: "Laundry day", characters: ["amit"] }, // Sir Amit Gaur: The Dairy Evangelist @Sora’s Playhouse @Romeindahouse @Tabby
+  { id: "7638427871261904141", oneLiner: "Fun at the Far", characters: ["amit"] }, // The Dairy Evangelist: Nehru Suit Gerchazord, Activate! @Sora’s Playhouse @Romeindahouse @Tabby
+  { id: "7638403905096781069", oneLiner: "Terror in the big city", characters: ["amit"] }, // Laundry day. @Hexa Reyes they’re waiting for you and stepbrother. 😜😜😜 @Sora’s Playhouse @Romeindahouse @Tabby
+  { id: "7638376263769492750", oneLiner: "I DRINK YOUR MILK - PROFIT RULES ALL", characters: ["amit"] }, // Fun at the Far
+  { id: "7638322492955725069", oneLiner: "Unhappy Mother's Day", characters: ["amit", "amitsmother"] }, // Terror in the big city. @Tabby @Romeindahouse @Sora’s Playhouse
+  { id: "7638200546435829006", oneLiner: "Gerch Milk or No Milk", characters: ["amit"] }, // “I DRINK YOUR MILK - PROFIT RULES ALL”
+  { id: "7638140768875465998", oneLiner: "Witness the power", characters: ["amit"] }, // Unhappy Mother’s Day
+  { id: "7638092843684269325", oneLiner: "Coup de grace", characters: ["amit"] }, // Gerch Milk or No Milk. @Gerch
+  { id: "7638073266728340749", oneLiner: "Nobody's slipping on you today", characters: ["amit"] }, // Witness the power. @Gerch
+  { id: "7637812280725425422", oneLiner: "Amit's Mother: FAFO", characters: ["amit", "amitsmother"] }, // Coup de grace @gerch @Bubbley
+  { id: "7637649988633382158", oneLiner: "Don't Say I Didn't Warn You", characters: ["amit"] }, // Nobody’s slipping on you today. @gerch @Romeindahouse @Tabby @Mike
+  { id: "7637424660724026638", oneLiner: "Dark Amit never cared", characters: ["amit", "darkamit"] }, // Amit’s Mother: FAFO
+  { id: "7637376690871684365", oneLiner: "Gerch saves the day", characters: ["amit"] }, // Don’t Say I Didn’t Warn You (It’s your fault)
+  { id: "7637349041633905934", oneLiner: "Light Amit bringing the love", characters: ["amit", "lightamit"] }, // Dark Amit never cared. Sora or no Sora, destroy everything!
+  { id: "7637218965260946701", oneLiner: "Q6: Profits Turn to Ashes", characters: ["amit", "amitjr"] }, // Gerch saves the day. @Romeindahouse @Tabby @gerch
+  { id: "7637214937324047629", oneLiner: "Light Amit shows us there is still light after Sora", characters: ["amit", "lightamit"] }, // Light Amit bringing the love
+  { id: "7637209127378373901", oneLiner: "When Q5 profits fail to meet expectations…", characters: ["amit"] }, // Q6: Profits Turn to Ashes @Gerch @Tabby @Romeindahouse
+  { id: "7637049927457066253", oneLiner: "The power of friendship", characters: ["amit"] }, // Light Amit shows us there is still light after Sora
+  { id: "7636997808452635917", oneLiner: "Stuck again", characters: ["amit"] }, // When Q5 profits fail to meet expectations… @gerch
+  { id: "7636971299104902413", oneLiner: "Leave Tabby Alone", characters: ["amit"] }, // The power of friendship. @gerch @Hinata.Mi @Ken_the_Manager
+  { id: "7636819076894952718", oneLiner: "Evil Amit is here to lend a hand", characters: ["amit", "evilamit"] }, // Stuck again. @gerch @Hexa Reyes @Tabby @Romeindahouse
+  { id: "7636801696957598989", oneLiner: "Dark Amit rises from the ashes of Sora", characters: ["amit", "darkamit"] }, // Leave Tabby Alone   @gerch @Hinata.Mi @Tabby
+  { id: "7636792310725872909", oneLiner: "Gadha is still angry", characters: ["amit", "gadha"] }, // Evil Amit is here to lend a hand
+  { id: "7636656080575073549", oneLiner: "Insolent cheat cow!!!", characters: ["amit"] }, // Dark Amit rises from the ashes of Sora
+  { id: "7636633461331201294", oneLiner: "Umm look behind you", characters: ["amit"] }, // Gadha is still angry
+  { id: "7636553358756597005", oneLiner: "That's not your friend!", characters: ["amit"] }, // Insolent cheat cow!!!
+  { id: "7636489834185477390", oneLiner: "Uh-oh", characters: ["amit"] }, // Umm look behind you. Also, that’s @Romeindahouse’s cyber doppelgänger. @Tabby, where’s your sense of danger? Ft @Sora’s Playhouse
+  { id: "7636436650779888909", oneLiner: "Malice with an M. Cyber Tabby Takedown", characters: ["amit"] }, // @Tabby !😱 That’s not your friend!   @Romeindahouse @gerch
+  { id: "7636424008480738574", oneLiner: "Can't outrun profit", characters: ["amit"] }, // Uh-oh. @gerch @Romeindahouse @Tabby
+  { id: "7636176091085835533", oneLiner: "Dark Amit & Light Amit Concept Clips", characters: ["amit", "darkamit", "lightamit"] }, // Malice with an ‘M’. Cyber Tabby Takedown. @Romeindahouse @gerch
+  { id: "7636165646501416206", oneLiner: "Remember when work used to be fun?", characters: ["amit"] }, // Can’t outrun profit. @gerch @Tabby @Romeindahouse
+  { id: "7636138882333019406", oneLiner: "Cyber Tabby is on a mission", characters: ["amit"] }, // Dark Amit & Light Amit Concept Clips…Back when I thought I wanted to create more serious-looking content 😱
+  { id: "7636137919970905357", oneLiner: "Cyber Bullying. Oh, and you grew a tail, Malice", characters: ["amit"] }, // Remember when work used to be fun? @gerch
+  { id: "7636136325720149262", oneLiner: "I hear danger", characters: ["amit"] }, // Cyber Tabby is on a mission. @Tabby
+  { id: "7636075425399098638", oneLiner: "Mr. Anderson!", characters: ["amit"] }, // Cyber(Tabby) Bullying. Oh, and you grew a tail, Malice. @Tabby @Romeindahouse
+  { id: "7635718635188768014", oneLiner: "Carbon emissions", characters: ["amit"] }, // I hear danger
+  { id: "7635700505175411981", oneLiner: "WHAT THE", characters: ["amit"] }, // Mr. Anderson!
+  { id: "7635338592994282766", oneLiner: "Lord Amit", characters: ["amit"] }, // Carbon emissions
+  { id: "7635327015301729549", oneLiner: "Tuna care package", characters: ["amit"] }, // WHAT THE
+  { id: "7635076782433029389", oneLiner: "Look behind you", characters: ["amit"] }, // Lord Amit
+  { id: "7635069415255477518", oneLiner: "Get outta here! (Remix)", characters: ["amit"] }, // Tuna care package
+  { id: "7634670448457813261", oneLiner: "Profits or bust", characters: ["amit"] }, // Look behind you
+  { id: "7634650461924068621", oneLiner: "Sibling rivalry", characters: ["amit"] }, // Get outta here! (Remix)  @Tabby @ocsora.aros  @Sheranos
+  { id: "7634581105407970574", oneLiner: "The Nourisher of planets made it out", characters: ["amit", "gadha"] }, // Profits or bust
+  { id: "7634398457981111565", oneLiner: "The Q6 (& Sora) Collapse", characters: ["amit", "amitjr"] }, // Sibling rivalry
+  { id: "7634254293951876365", oneLiner: "Insolent cow barista", characters: ["amit"] }, // Oh hey, look. The Nourisher of planets made it out of Sora
+  { id: "7634216776707902734", oneLiner: "Aaaaand Q6 Profits are tanking again", characters: ["amit"] }, // The Q6 (& Sora) Collapse
+  { id: "7633966517629095182", oneLiner: "Q6 is printing again", characters: ["amit"] }, // Insolent cow barista
+  { id: "7633929983626398989", oneLiner: "Oh mother, wherefore art thou so cruel?", characters: ["amit", "amitsmother"] }, // Aaaaand Q6 Profits are tanking again
+  { id: "7633914957184126222", oneLiner: "Still here", characters: ["amit"] }, // Q6 is printing again
+  { id: "7633574563019836685", oneLiner: "Cloud gaming service? TikTok purgatory", characters: ["amit"] }, // Oh mother, wherefore art thou so cruel?
+  { id: "7633470331881049358", oneLiner: "Ok now I feel bad for Ken", characters: ["amit"] }, // Still here
+  { id: "7633320731236961549", oneLiner: "Better!", characters: ["amit"] }, // Cloud gaming service? I guess that’s how TikTok pronounces “Sora” 😂🤷
+  { id: "7633204093925821709", oneLiner: "Farewell, Sora. The Champion shall return", characters: ["amit"] }, // Ok now I feel bad fo Ken
+  { id: "7633174606819413262", oneLiner: "Let's party!", characters: ["amit"] }, // Better! 😜
+  { id: "7632912299283582221", oneLiner: "The End is Nigh", characters: ["amit"] }, // Farewell, Sora. The Champion shall return
+  { id: "7632856157295496461", oneLiner: "Amit's fury", characters: ["amit"] }, // @Hinata.Mi and @Ken_the_Manager drinking coffee. I dunno what I’m doing and these are he first 2 cool people that came to mind
+  { id: "7632747121099279630", oneLiner: "I Want the Taller One", characters: ["amit"] }, // Let’s party!
+  { id: "7632736901862001934", oneLiner: "Too late", characters: ["amit"] }, // The End is Nigh
+  { id: "7632544491165076750", oneLiner: "Not the ice cream machine", characters: ["amit"] }, // Amit’s fury
+  { id: "7625392325530766605", oneLiner: "For the thirsty", characters: ["amit"] }, // I Want the Taller One. Remix of @crushd_pop
+  { id: "7625323242399583501", oneLiner: "Get Gadha or bring shame upon the family", characters: ["amit", "gadha"] }, // Too late
+  { id: "7625322322404183310", oneLiner: "Remember to tip! Sora-Shutdown bonus content", characters: ["amit"] }, // Not the ice cream machine
+  { id: "7625299947788832014", oneLiner: "The origins of Gadha", characters: ["amit", "gadha"] }, // For the thirsty 😂
+  { id: "7625299633257909518", oneLiner: "Get rekt, Gadha", characters: ["amit", "gadha"] }, // Get Gadha or bring shame upon the family
+  { id: "7625138941972253966", oneLiner: "Welcome…", characters: ["amit"] }, // Remember to tip! These 2 chars are Sora-Shutdown babies
+  { id: "7625138105670061325", oneLiner: "The one and only divine bovine, Gadha", characters: ["amit", "gadha"] }, // The origins of Gadha
+  { id: "7624740935301090574", oneLiner: "Amit Jr Q6. The pop star we didn't deserve", characters: ["amit", "amitjr"] }, // Get rekt, Gadha
+  { id: "7624687255717825805", oneLiner: "Kneel to the golden milk", characters: ["amit"] }, // Welcome…
+  { id: "7624559454310108430", oneLiner: "Rooster Reds", characters: ["amit", "bigtex"] }, // The one and only divine bovine, Gadha. Remix of @crushd_pop
+  { id: "7624056505234492685", oneLiner: "The Gadha Wars", characters: ["amit", "gadha"] }, // Amit Jr Q6. The pop star we didn’t deserve. Music: “Ashes in my Throat by @Fiona
   { id: "7624041628981890318", oneLiner: "Lexi Hertz and Hannah Delvey", characters: ["amit", "hannah"] },
-  { id: "7623449384587480334", oneLiner: "Riddles at Midnight", characters: ["amit", "leon"] },
-  { id: "7623448681441692941", oneLiner: "Riddle me this Love", characters: ["amit", "leon"] },
-  { id: "7623438969061100814", oneLiner: "Don't ever count Amit out", characters: ["amit"] },
-  { id: "7623200827775175950", oneLiner: "Gadha's Wrath", characters: ["amit", "gadha"] },
-  { id: "7623061063713443086", oneLiner: "Amit Jr. Q6 - Burger King: Confronting the Past", characters: ["amit", "amitjr"] },
-  { id: "7623058071899622670", oneLiner: "Amit Jr. Q6: I tried to warn you (but it charted)", characters: ["amitjr"] },
-  { id: "7622763942573591821", oneLiner: "Amit Jr. Q6 - Q6 Tour", characters: ["amitjr"] },
-  { id: "7622547471792753934", oneLiner: "Amit Jr. Q6: Insolent Farewell", characters: ["amitjr"] },
-  { id: "7622458422461549837", oneLiner: "Amit Jr. Q6. Getting up and moving on", characters: ["amitjr"] },
-  { id: "7622385627065011470", oneLiner: "Amit Jr. Q6: This is his story", characters: ["amitjr"] },
-  { id: "7622384486910627085", oneLiner: "Amit Jr. Q6: A story of loneliness and redemption", characters: ["amitjr"] },
-  { id: "7622384163680767245", oneLiner: "Stay down", characters: ["amit"] },
-  { id: "7622383944905821453", oneLiner: "Timeless Love ft. Amit Jr. Q6 & Amit's Mother", characters: ["amit", "amitjr", "amitsmother"] },
-  { id: "7622383611035077901", oneLiner: "Amit Jr. will not stop", characters: ["amitjr"] },
-  { id: "7622383462397267214", oneLiner: "Descent: Pray you wake up. Gadha is inevitable", characters: ["amit", "gadha"] },
-  { id: "7622350433478135053", oneLiner: "The Hannah Delvey Foundation. Hannah will return", characters: ["amit", "hannah"] },
-  { id: "7622092538635226381", oneLiner: "Dark Amit. Light Amit. The Gerch-verse will not stop", characters: ["amit", "darkamit", "lightamit"] },
-  { id: "7622091956973292814", oneLiner: "Nothing can catch Gerchlander", characters: ["amit", "gerchlander"] },
-  { id: "7622091255996108046", oneLiner: "HAVE IT YOUR WAY", characters: ["amit", "amitsmother"] },
-  { id: "7622089371344227598", oneLiner: "The divine bovine Gadha is going nowhere", characters: ["amit", "gadha"] },
-  { id: "7622087745351027981", oneLiner: "The Gerch-verse is just getting started", characters: ["amit"] },
-  { id: "7622081550791888141", oneLiner: "Bet ya'll thought it was gonna be a cute video", characters: ["amit"] },
-  { id: "7622012591317077262", oneLiner: "The Gerch-verse will not stop. Sora was only the beginning", characters: ["amit"] },
-  { id: "7622010802177936654", oneLiner: "Dark Amit never stopped", characters: ["amit", "darkamit"] },
-  { id: "7622010190279249166", oneLiner: "Gadha descends", characters: ["amit", "gadha"] },
-  { id: "7622009269415709965", oneLiner: "The Milk Slap Heard Round the Galaxy", characters: ["amit"] },
+  { id: "7623449384587480334", oneLiner: "Riddles at Midnight", characters: ["amit", "leon"] }, // Kneel to the golden milk
+  { id: "7623448681441692941", oneLiner: "Riddle me this Love", characters: ["amit", "leon"] }, // Rooster Reds
+  { id: "7623438969061100814", oneLiner: "Don't ever count Amit out", characters: ["amit"] }, // The Gadha Wars
+  { id: "7623200827775175950", oneLiner: "Gadha's Wrath", characters: ["amit", "gadha"] }, // Lexi Hertz and Hannah Delvey @sfriends this is for you
+  { id: "7623061063713443086", oneLiner: "Amit Jr. Q6 - Burger King: Confronting the Past", characters: ["amit", "amitjr"] }, // “Riddles at Midnight” Remix of @edmund.black0
+  { id: "7623058071899622670", oneLiner: "Amit Jr. Q6: I tried to warn you (but it charted)", characters: ["amitjr"] }, // “Riddle me this Love”  Remix of @edmundblack.0
+  { id: "7622763942573591821", oneLiner: "Amit Jr. Q6 - Q6 Tour", characters: ["amitjr"] }, // Don’t ever count Amit out
+  { id: "7622547471792753934", oneLiner: "Amit Jr. Q6: Insolent Farewell", characters: ["amitjr"] }, // Gadha’s Wrath
+  { id: "7622458422461549837", oneLiner: "Amit Jr. Q6. Getting up and moving on", characters: ["amitjr"] }, // Amit Jr. Q6 - Burger King: Confronting the Past
+  { id: "7622385627065011470", oneLiner: "Amit Jr. Q6: This is his story", characters: ["amitjr"] }, // Amit Jr. Q6: “I tried to warn you (but it charted instead)”
+  { id: "7622384486910627085", oneLiner: "Amit Jr. Q6: A story of loneliness and redemption", characters: ["amitjr"] }, // Amit Jr. Q6. “Q6 Tour”
+  { id: "7622384163680767245", oneLiner: "Stay down", characters: ["amit"] }, // Amit Jr. Q6: “Insolent Farewell”
+  { id: "7622383944905821453", oneLiner: "Timeless Love ft. Amit Jr. Q6 & Amit's Mother", characters: ["amit", "amitjr", "amitsmother"] }, // Amit Jr. Q6. Getting up and moving on
+  { id: "7622383611035077901", oneLiner: "Amit Jr. will not stop", characters: ["amitjr"] }, // Amit Jr. Q6: This is his story
+  { id: "7622383462397267214", oneLiner: "Descent: Pray you wake up. Gadha is inevitable", characters: ["amit", "gadha"] }, // Amit Jr. Q6: A story of loneliness and redemption
+  { id: "7622350433478135053", oneLiner: "The Hannah Delvey Foundation. Hannah will return", characters: ["amit", "hannah"] }, // Stay down
+  { id: "7622092538635226381", oneLiner: "Dark Amit. Light Amit. The Gerch-verse will not stop", characters: ["amit", "darkamit", "lightamit"] }, // Timeless Love ft. Amit Jr. Q6 & Amit’s Mother. Remix of @crushd_pop
+  { id: "7622091956973292814", oneLiner: "Nothing can catch Gerchlander", characters: ["amit", "gerchlander"] }, // Amit Jr (Profits Apocalypse Variant Pop Star) will return. His pain still remains
+  { id: "7622091255996108046", oneLiner: "HAVE IT YOUR WAY", characters: ["amit", "amitsmother"] }, // Descent: Pray you wake up. Gadha is inevitable
+  { id: "7622089371344227598", oneLiner: "The divine bovine Gadha is going nowhere", characters: ["amit", "gadha"] }, // The Hannah Delvey Foundation. Hannah will return. Sora’s death is just the catalyst for her next grift
+  { id: "7622087745351027981", oneLiner: "The Gerch-verse is just getting started", characters: ["amit"] }, // Dark Amit. Light Amit. The Gerch-verse will not stop
+  { id: "7622081550791888141", oneLiner: "Bet ya'll thought it was gonna be a cute video", characters: ["amit"] }, // Nothing can catch Gerchlander
+  { id: "7622012591317077262", oneLiner: "The Gerch-verse will not stop. Sora was only the beginning", characters: ["amit"] }, // HAVE IT YOUR WAY WAAAAAAY
+  { id: "7622010802177936654", oneLiner: "Dark Amit never stopped", characters: ["amit", "darkamit"] }, // The divine bovine Gadha Is going nowhere. GERCH-VERSE FOREVER🔥🐮 Remix of @guntolga
+  { id: "7622010190279249166", oneLiner: "Gadha descends", characters: ["amit", "gadha"] }, // The Gerch-verse is just getting started. Sora was the beginning. Now, we go harder than ever. Remix of @guntolga
+  { id: "7622009269415709965", oneLiner: "The Milk Slap Heard Round the Galaxy", characters: ["amit"] }, // Bet ya’ll thought it was gonna be a cute video of Green Fuzzy, didn’t ya? 🤣 GOTCHA! @guntolga
 ];
 
 // Export for use in other scripts
