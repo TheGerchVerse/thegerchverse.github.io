@@ -1962,18 +1962,25 @@ const CHARACTERS = {
 // ============================================
 
 /*
-╔═══════════════════════════════════════════╗
+╔═══════════════════════════════════════════════════════╗
 ║  ████████╗ ██╗ ██╗  ██╗ ████████╗  ██████╗  ██╗  ██╗  ║
 ║     ██║    ██║ ██║ ██╔╝    ██║    ██╔═══██╗ ██║ ██╔╝  ║
 ║     ██║    ██║ █████╔╝     ██║    ██║   ██║ █████╔╝   ║
 ║     ██║    ██║ ██╔═██╗     ██║    ██║   ██║ ██╔═██╗   ║
 ║     ██║    ██║ ██║  ██╗    ██║    ╚██████╔╝ ██║  ██╗  ║
 ║     ╚═╝    ╚═╝ ╚═╝  ╚═╝    ╚═╝     ╚═════╝  ╚═╝  ╚═╝  ║
-║                   P U R G A T O R Y                    ║
-╚═══════════════════════════════════════════╝
+║                   P U R G A T O R Y                   ║
+╚═══════════════════════════════════════════════════════╝
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7683191768375987470", oneLiner: "Maximize Gains", characters: ["amit"] }, // Maximize Gains
+  { id: "7683521868225105166", oneLiner: "Insolent Cow🐮", characters: ["amit"] }, // Insolent Cow🐮
+  { id: "7683555230956506382", oneLiner: "Run, Forrest, Run", characters: ["amit"] }, // Run, Forrest, Run
+  { id: "7683582799349091597", oneLiner: "Gerchan Farms x Ionix: Bloody Milk", characters: ["amit"] }, // Gerchan Farms x Ionix: Bloody Milk
+
+  { id: "7683642831520402701", oneLiner: "Maximize Gains", characters: ["amit"] }, // Maximize Gains
+
   { id: "7683152755044666637", oneLiner: "The Green Team Part 2", characters: ["amit"] }, // The Green Team Part 2
   { id: "7683150203880295693", oneLiner: "Where's the G-Milk?", characters: ["amit"] }, // Where’s the G-Milk?
   { id: "7682899999612620045", oneLiner: "When Gerch Milk takes to the skies…", characters: ["amit"] }, // When Gerch Milk takes to the skies…
