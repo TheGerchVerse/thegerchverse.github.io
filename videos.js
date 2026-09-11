@@ -1974,6 +1974,15 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7684252332212751646", oneLiner: "Transcendant Milk", characters: ["amit"] }, // Transcendant Milk
+  { id: "7684265501832400141", oneLiner: "Going Galactic", characters: ["amit"] }, // Going Galactic
+  { id: "7684304921209916685", oneLiner: "Maximize those Shadow Coin Gains for Q5 Profits", characters: ["amit"] }, // Maximize those Shadow Coin Gains for Q5 Profits
+  { id: "7684359092596460814", oneLiner: "Ghost of Mumbai", characters: ["amit"] }, // Ghost of Mumbai
+
+  { id: "7683763630000704782", oneLiner: "Stay down, Insolent Baba Yaga🐮", characters: ["amit"] }, // Stay down, Insolent Baba Yaga🐮
+  { id: "7683917590208482574", oneLiner: "Always dream bigger", characters: ["amit"] }, // Always dream bigger
+  { id: "7683975039988813069", oneLiner: "Beauty Has a New Attitude: “INSOLENCE” by Gerch Milk", characters: ["amit"] }, // Beauty Has a New Attitude: “INSOLENCE” by Gerch Milk
+
   { id: "7683191768375987470", oneLiner: "Maximize Gains", characters: ["amit"] }, // Maximize Gains
   { id: "7683521868225105166", oneLiner: "Insolent Cow🐮", characters: ["amit"] }, // Insolent Cow🐮
   { id: "7683555230956506382", oneLiner: "Run, Forrest, Run", characters: ["amit"] }, // Run, Forrest, Run
