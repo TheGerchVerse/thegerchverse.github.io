@@ -14,9 +14,10 @@ import urllib.request, json, time, re, sys, os
 
 # ── PASTE NEW URLS HERE ──────────────────────
 NEW_URLS = [
-    "https://www.tiktok.com/@thegerchverse/video/7683763630000704782",
-    "https://www.tiktok.com/@thegerchverse/video/7683917590208482574",
-    "https://www.tiktok.com/@thegerchverse/video/7683975039988813069",
+    "https://www.tiktok.com/@thegerchverse/video/7684252332212751646",
+    "https://www.tiktok.com/@thegerchverse/video/7684265501832400141",
+    "https://www.tiktok.com/@thegerchverse/video/7684304921209916685",
+    "https://www.tiktok.com/@thegerchverse/video/7684359092596460814",
 ]
 # ─────────────────────────────────────────────
 
