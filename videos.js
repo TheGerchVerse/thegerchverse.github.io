@@ -1974,6 +1974,33 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7687764040659111182", oneLiner: "The history of Amit's Mother", characters: ["amit", "amitsmother"] }, // The history of Amit's Mother
+  { id: "7687684220910603533", oneLiner: "The Milk Czar & The Wonderland Waifus", characters: ["amit"] }, // The Milk Czar & The Wonderland Waifus
+  { id: "7687632617008581902", oneLiner: "The CEO", characters: ["amit"] }, // The CEO
+  { id: "7687351691359882509", oneLiner: "Exceptional Performance", characters: ["amit"] }, // Exceptional Performance
+  { id: "7687267576501538062", oneLiner: "Milk Delivery", characters: ["amit"] }, // Milk Delivery
+  { id: "7686910096856648973", oneLiner: "No competition", characters: ["amit"] }, // No competition
+  { id: "7686866174335782157", oneLiner: "Messing with time itself", characters: ["amit"] }, // Messing with time itself
+  { id: "7686666744680762637", oneLiner: "Galactic Sabotage", characters: ["amit"] }, // Galactic Sabotage
+  { id: "7686588897333136653", oneLiner: "Breach the Milk Gate", characters: ["amit"] }, // Breach the Milk Gate
+  { id: "7686516827878477069", oneLiner: "Gerch Wars", characters: ["amit"] }, // Gerch Wars
+  { id: "7686493343273979166", oneLiner: "Family free for all", characters: ["amit"] }, // Family free for all
+  { id: "7686493196179770654", oneLiner: "Always be profitable", characters: ["amit"] }, // Always be profitable
+  { id: "7686361343066230029", oneLiner: "Mo' Quarters, Mo' Profits", characters: ["amit"] }, // Mo' Quarters, Mo' Profits
+  { id: "7686180733467102478", oneLiner: "The MAD COW", characters: ["amit"] }, // The "MAD COW"
+  { id: "7686104810977791245", oneLiner: "Q5 Profits Sinking", characters: ["amit"] }, // Q5 Profits Sinking
+  { id: "7685863650984283406", oneLiner: "Chasing profits", characters: ["amit"] }, // Chasing profits
+  { id: "7685766565375036685", oneLiner: "Burton challenge", characters: ["amit"] }, // Burton challenge
+  { id: "7685509745674915086", oneLiner: "Gratitude", characters: ["amit"] }, // Gratitude
+  { id: "7685380996702801166", oneLiner: "Here's Amit!", characters: ["amit"] }, // Here's Amit!
+  { id: "7685070802768776461", oneLiner: "Gerch Milk never drizzles", characters: ["amit"] }, // Gerch Milk never drizzles
+  { id: "7685030215340330253", oneLiner: "How to Attain Success", characters: ["amit"] }, // How to Attain Success
+  { id: "7684883858164141325", oneLiner: "Udder Canyon", characters: ["amit"] }, // Udder Canyon
+  { id: "7684788735673699598", oneLiner: "Eternal Returns", characters: ["amit"] }, // Eternal Returns
+  { id: "7684757976380361998", oneLiner: "Profits thief", characters: ["amit"] }, // Profits thief
+  { id: "7684680379864812814", oneLiner: "口寂しい Part 2", characters: ["amit"] }, // 口寂しい Part 2
+  { id: "7684662219962895630", oneLiner: "Can you!?", characters: ["amit"] }, // Can you!?
+  { id: "7684437869930286366", oneLiner: "MIIIIIIIIIIIIIIIIILKKKK", characters: ["amit"] }, // MIIIIIIIIIIIIIIIIILKKKK
   { id: "7684252332212751646", oneLiner: "Transcendant Milk", characters: ["amit"] }, // Transcendant Milk
   { id: "7684265501832400141", oneLiner: "Going Galactic", characters: ["amit"] }, // Going Galactic
   { id: "7684304921209916685", oneLiner: "Maximize those Shadow Coin Gains for Q5 Profits", characters: ["amit"] }, // Maximize those Shadow Coin Gains for Q5 Profits
