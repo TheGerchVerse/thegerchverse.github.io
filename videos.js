@@ -1974,6 +1974,9 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7688007365995580685", oneLiner: "Milk Shredder", characters: ["amit"] }, // Milk Shredder
+  { id: "7687978367206853902", oneLiner: "Work harder or else", characters: ["amit"] }, // Work harder or else
+  { id: "7687829005336153358", oneLiner: "You Can't Bottle Soul", characters: ["amit", "amitjr"] }, // @Prince Kaleo x Amit Jr. Q6: You Can't Bottle Soul
   { id: "7687764040659111182", oneLiner: "The history of Amit's Mother", characters: ["amit", "amitsmother"] }, // The history of Amit's Mother
   { id: "7687684220910603533", oneLiner: "The Milk Czar & The Wonderland Waifus", characters: ["amit"] }, // The Milk Czar & The Wonderland Waifus
   { id: "7687632617008581902", oneLiner: "The CEO", characters: ["amit"] }, // The CEO
