@@ -1974,6 +1974,19 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7689853800433093901", oneLiner: "Wrong way", characters: ["amit"] }, // Wrong way
+  { id: "7689599893178043662", oneLiner: "Recycling insolence", characters: ["amit"] }, // Recycling insolence
+  { id: "7689470249900494093", oneLiner: "True Value", characters: ["amit"] }, // True Value
+  { id: "7689461736365165837", oneLiner: "No end in sight", characters: ["amit"] }, // No end in sight
+  { id: "7689460874280488205", oneLiner: "Premium Pit Stop", characters: ["amit"] }, // Premium Pit Stop
+  { id: "7689129311558847757", oneLiner: "Break time is over", characters: ["amit"] }, // Break time is over
+  { id: "7688578222644088078", oneLiner: "Insolent COW!", characters: ["amit"] }, // Insolent COW!
+  { id: "7688502680200695053", oneLiner: "Blood, Bullets, Milk", characters: ["amit"] }, // Blood, Bullets, Milk
+  { id: "7688421657160994062", oneLiner: "Bigger profits are better tho", characters: ["amit"] }, // Bigger profits are better tho
+  { id: "7688347178992995615", oneLiner: "Milk Mission", characters: ["amit"] }, // Milk Mission
+  { id: "7688340704195628301", oneLiner: "LEMON!", characters: ["amit"] }, // LEMON!
+  { id: "7688173162911091982", oneLiner: "Mending broken wings", characters: ["amit"] }, // Mending broken wings
+  { id: "7688094226445389070", oneLiner: "Q5 Milk Money", characters: ["amit"] }, // Q5 Milk Money
   { id: "7688007365995580685", oneLiner: "Milk Shredder", characters: ["amit"] }, // Milk Shredder
   { id: "7687978367206853902", oneLiner: "Work harder or else", characters: ["amit"] }, // Work harder or else
   { id: "7687829005336153358", oneLiner: "You Can't Bottle Soul", characters: ["amit", "amitjr"] }, // @Prince Kaleo x Amit Jr. Q6: You Can't Bottle Soul
