@@ -1974,6 +1974,9 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7690244743829261582", oneLiner: "Ok, Halloween challenge accepted", characters: ["amit"] }, // Ok, Halloween challenge accepted
+  { id: "7689858324375817502", oneLiner: "Goodbye Sora", characters: ["amit"] }, // Goodbye Sora
+  { id: "7689854466446707981", oneLiner: "Retirement", characters: ["amit"] }, // Retirement
   { id: "7689853800433093901", oneLiner: "Wrong way", characters: ["amit"] }, // Wrong way
   { id: "7689599893178043662", oneLiner: "Recycling insolence", characters: ["amit"] }, // Recycling insolence
   { id: "7689470249900494093", oneLiner: "True Value", characters: ["amit"] }, // True Value
