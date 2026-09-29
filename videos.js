@@ -1974,6 +1974,15 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7690988415797579022", oneLiner: "Broken Gerchmobile", characters: ["amit"] }, // Broken Gerchmobile
+  { id: "7690976805561388319", oneLiner: "Profits won't wait", characters: ["amit"] }, // Profits won't wait
+  { id: "7690945431890709774", oneLiner: "Let there be milk", characters: ["amit"] }, // Let there be milk
+  { id: "7690940965267262734", oneLiner: "Stay down", characters: ["amit"] }, // Stay down
+  { id: "7690805979318848781", oneLiner: "Amits Unite", characters: ["amit", "darkamit", "lightamit", "evilamit"] }, // Amits Unite
+  { id: "7690620968078691597", oneLiner: "Spoiled milk", characters: ["amit"] }, // Spoiled milk
+  { id: "7690575772515405069", oneLiner: "Behold the milk dragon", characters: ["amit"] }, // Behold the milk dragon
+  { id: "7690567825873702158", oneLiner: "Gerchanium", characters: ["amit"] }, // Gerchanium
+  { id: "7690358068177095949", oneLiner: "Serious Work", characters: ["amit"] }, // Serious Work
   { id: "7690244743829261582", oneLiner: "Ok, Halloween challenge accepted", characters: ["amit"] }, // Ok, Halloween challenge accepted
   { id: "7689858324375817502", oneLiner: "Goodbye Sora", characters: ["amit"] }, // Goodbye Sora
   { id: "7689854466446707981", oneLiner: "Retirement", characters: ["amit"] }, // Retirement
