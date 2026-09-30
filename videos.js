@@ -1974,6 +1974,7 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7691317253622582542", oneLiner: "Lifetime Employment", characters: ["amit"] }, // Lifetime Employment
   { id: "7690988415797579022", oneLiner: "Broken Gerchmobile", characters: ["amit"] }, // Broken Gerchmobile
   { id: "7690976805561388319", oneLiner: "Profits won't wait", characters: ["amit"] }, // Profits won't wait
   { id: "7690945431890709774", oneLiner: "Let there be milk", characters: ["amit"] }, // Let there be milk
