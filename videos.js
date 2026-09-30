@@ -1974,6 +1974,9 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7691480944343141646", oneLiner: "Drink drink drink", characters: ["amit"] }, // Drink drink drink
+  { id: "7691419640228056333", oneLiner: "Typical Gerchan Farms board meeting", characters: ["amit"] }, // Typical Gerchan Farms board meeting
+  { id: "7691357817780948238", oneLiner: "Hexen, Hexa, Hex Hex HEX PROTOCOL!?", characters: ["amit"] }, // Hexen, Hexa, Hex Hex HEX PROTOCOL!?
   { id: "7691317253622582542", oneLiner: "Lifetime Employment", characters: ["amit"] }, // Lifetime Employment
   { id: "7690988415797579022", oneLiner: "Broken Gerchmobile", characters: ["amit"] }, // Broken Gerchmobile
   { id: "7690976805561388319", oneLiner: "Profits won't wait", characters: ["amit"] }, // Profits won't wait
