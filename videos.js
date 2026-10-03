@@ -1974,6 +1974,14 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7692301043706711309", oneLiner: "Possess some overtime", characters: ["amit"] }, // Possess some overtime
+  { id: "7692196622024854797", oneLiner: "Dear Creatorverse: Give us back our manager", characters: ["amit"] }, // Dear Creatorverse: Give us back our manager
+  { id: "7692139144264404238", oneLiner: "Gerchan Farms CMO hard at work", characters: ["amit"] }, // Gerchan Farms CMO hard at work
+  { id: "7692067709344877838", oneLiner: "Don't be an insolent cow", characters: ["amit"] }, // Don't be an insolent cow
+  { id: "7692051965919956238", oneLiner: "In the face of temptation", characters: ["amit"] }, // In the face of temptation
+  { id: "7691913400670096654", oneLiner: "GERCH! GERCH! GERCH!", characters: ["amit"] }, // GERCH! GERCH! GERCH!
+  { id: "7691729083071352078", oneLiner: "Q5 Profits over Beauty", characters: ["amit"] }, // Q5 Profits over Beauty
+  { id: "7691690170503974157", oneLiner: "EZ PZ", characters: ["amit"] }, // EZ PZ
   { id: "7691480944343141646", oneLiner: "Drink drink drink", characters: ["amit"] }, // Drink drink drink
   { id: "7691419640228056333", oneLiner: "Typical Gerchan Farms board meeting", characters: ["amit"] }, // Typical Gerchan Farms board meeting
   { id: "7691357817780948238", oneLiner: "Hexen, Hexa, Hex Hex HEX PROTOCOL!?", characters: ["amit"] }, // Hexen, Hexa, Hex Hex HEX PROTOCOL!?
