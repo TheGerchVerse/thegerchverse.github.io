@@ -1974,6 +1974,16 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7693561918321069325", oneLiner: "Therapy Dairy", characters: ["amit"] }, // Therapy Dairy
+  { id: "7693540832229510414", oneLiner: "Heat Stroke", characters: ["amit"] }, // Heat Stroke
+  { id: "7693290957982289166", oneLiner: "Mukbang with the cleanest, sanitary, respected legend", characters: ["amit"] }, // Mukbang
+  { id: "7693225177647156494", oneLiner: "Buzz off", characters: ["amit"] }, // Buzz off
+  { id: "7693161014988147981", oneLiner: "COW-abunga dude", characters: ["amit"] }, // COW-abunga dude
+  { id: "7692862105267031310", oneLiner: "The Milk Voyage w/ Rubel", characters: ["amit"] }, // The Milk Voyage w/ Rubel
+  { id: "7692835939021819150", oneLiner: "Gerch Reserve", characters: ["amit"] }, // Gerch Reserve
+  { id: "7692519972592979214", oneLiner: "Opening a bottle of Gerch Milk", characters: ["amit"] }, // Opening a bottle of Gerch Milk
+  { id: "7692515617907264798", oneLiner: "The Night Shift", characters: ["amit"] }, // The Night Shift
+  { id: "7692467633257598221", oneLiner: "Honoring the fallen", characters: ["amit"] }, // Honoring the fallen
   { id: "7692301043706711309", oneLiner: "Possess some overtime", characters: ["amit"] }, // Possess some overtime
   { id: "7692196622024854797", oneLiner: "Dear Creatorverse: Give us back our manager", characters: ["amit"] }, // Dear Creatorverse: Give us back our manager
   { id: "7692139144264404238", oneLiner: "Gerchan Farms CMO hard at work", characters: ["amit"] }, // Gerchan Farms CMO hard at work
