@@ -1974,6 +1974,21 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7695798012106312974", oneLiner: "No discounts", characters: ["amit"] }, // No discounts
+  { id: "7695642636765367566", oneLiner: "Subscribe to breathe", characters: ["amit"] }, // Subscribe to breathe
+  { id: "7695431944124894495", oneLiner: "Profits Parade", characters: ["amit"] }, // Profits Parade
+  { id: "7695419758958677261", oneLiner: "Finish Him!", characters: ["amit"] }, // Finish Him!
+  { id: "7695071831845326111", oneLiner: "Gerch Set Radio", characters: ["amit"] }, // Gerch Set Radio - cel-shaded Gerchverse series by @memelourde & @Amit Gaur
+  { id: "7695058815464656141", oneLiner: "Amit x Blackout", characters: ["amit"] }, // Amit x Blackout
+  { id: "7694801741526650125", oneLiner: "In it to win it", characters: ["amit"] }, // In it to win it
+  { id: "7694675729535044878", oneLiner: "Speedy Milk", characters: ["amit"] }, // Speedy Milk
+  { id: "7694456053135609102", oneLiner: "Accept no Imitations", characters: ["amit"] }, // Accept no Imitations
+  { id: "7694358275021606157", oneLiner: "The Gerchverse: Meet the Gaur Family", characters: ["amit", "amitjr", "amitsmother"] }, // The Gerchverse: Meet the Gaur Family
+  { id: "7694284498619403534", oneLiner: "Maximize your profits", characters: ["amit"] }, // Maximize your profits
+  { id: "7694022702620839182", oneLiner: "Favorite, shmavorite", characters: ["amit"] }, // Favorite, shmavorite
+  { id: "7693926955766336782", oneLiner: "Wrong door?", characters: ["amit"] }, // Wrong door?
+  { id: "7693899424983944462", oneLiner: "Delegated", characters: ["amit"] }, // Delegated
+  { id: "7693701782744157454", oneLiner: "Five percent", characters: ["amit"] }, // Five percent
   { id: "7693561918321069325", oneLiner: "Therapy Dairy", characters: ["amit"] }, // Therapy Dairy
   { id: "7693540832229510414", oneLiner: "Heat Stroke", characters: ["amit"] }, // Heat Stroke
   { id: "7693290957982289166", oneLiner: "Mukbang with the cleanest, sanitary, respected legend", characters: ["amit"] }, // Mukbang
