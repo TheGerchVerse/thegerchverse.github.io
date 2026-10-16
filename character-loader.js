@@ -127,15 +127,35 @@ function renderTiktokVideos(videos, charKey) {
 }
 
 // TikTok card — placeholder img gets populated by fetchTiktokThumbnails()
+// For photo posts (type: "photo"), uses local thumb if available, skips oEmbed fetch.
 function renderTiktokCard(video) {
-  const url = `https://www.tiktok.com/@thegerchverse/video/${video.id}`;
+  const isPhoto = video.type === "photo";
+  const account = video.characters && video.characters.includes("amitjr") ? "thegerchverse" : "thegerchverse";
+  const url = isPhoto
+    ? `https://www.tiktok.com/@thegerchverse/photo/${video.id}`
+    : `https://www.tiktok.com/@thegerchverse/video/${video.id}`;
+
+  const badge = isPhoto
+    ? `<span class="card-badge card-badge-tiktok">📸 Photo</span>`
+    : `<span class="card-badge card-badge-tiktok">↗ TikTok</span>`;
+
+  let mediaHtml;
+  if (video.thumb) {
+    // Local thumbnail available — use it directly
+    mediaHtml = `<div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`;
+  } else if (isPhoto) {
+    // Photo post, no thumb — show static icon
+    mediaHtml = `<div class="card-media card-placeholder-tiktok"><span>📸</span></div>`;
+  } else {
+    // Video — placeholder that gets filled by fetchTiktokThumbnails()
+    mediaHtml = `<div class="card-media card-placeholder-tiktok" data-video-id="${video.id}"><span class="thumb-loading">⏳</span></div>`;
+  }
+
   return `
     <div class="video-cell">
       <a href="${url}" target="_blank" rel="noopener" class="video-card">
-        <div class="card-media card-placeholder-tiktok" data-video-id="${video.id}">
-          <span class="thumb-loading">⏳</span>
-        </div>
-        <span class="card-badge card-badge-tiktok">↗ TikTok</span>
+        ${mediaHtml}
+        ${badge}
         <div class="card-caption-overlay">
           <span class="caption-text">${video.oneLiner}</span>
         </div>

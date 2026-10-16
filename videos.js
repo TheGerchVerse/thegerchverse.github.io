@@ -1974,6 +1974,7 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7696007086890634509", oneLiner: "GAMest Cover — Gerchverse Arcade Edition", characters: ["amit"], type: "photo", thumb: "amit-gamest-cover.jpg" }, // TikTok photo slideshow
   { id: "7697229504699190541", oneLiner: "Where there's a Gerch Milk, there's a way", characters: ["amit"] }, // Where there's a Gerch Milk, there's a way
   { id: "7697009145089690893", oneLiner: "Insolent final boss", characters: ["amit"] }, // Insolent final boss
   { id: "7696879123465063693", oneLiner: "License to Milk", characters: ["amit"] }, // License to Milk
