@@ -1974,6 +1974,14 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7697229504699190541", oneLiner: "Where there's a Gerch Milk, there's a way", characters: ["amit"] }, // Where there's a Gerch Milk, there's a way
+  { id: "7697009145089690893", oneLiner: "Insolent final boss", characters: ["amit"] }, // Insolent final boss
+  { id: "7696879123465063693", oneLiner: "License to Milk", characters: ["amit"] }, // License to Milk
+  { id: "7696650421049347341", oneLiner: "Why even bother trying?", characters: ["amit"] }, // Why even bother trying?
+  { id: "7696531405009849614", oneLiner: "The Acquisition", characters: ["amit"] }, // The Acquisition
+  { id: "7696298951951125774", oneLiner: "Tuna challenge", characters: ["amit"] }, // Tuna challenge
+  { id: "7696247974715772174", oneLiner: "Feudal Feud", characters: ["amit"] }, // Feudal Feud
+  { id: "7696140542626893069", oneLiner: "MORE MILK", characters: ["amit"] }, // MORE MILK
   { id: "7695798012106312974", oneLiner: "No discounts", characters: ["amit"] }, // No discounts
   { id: "7695642636765367566", oneLiner: "Subscribe to breathe", characters: ["amit"] }, // Subscribe to breathe
   { id: "7695431944124894495", oneLiner: "Profits Parade", characters: ["amit"] }, // Profits Parade
