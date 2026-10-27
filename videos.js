@@ -1974,21 +1974,21 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
-  { id: "7701335926936538382", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7701073694336093454", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7700965420379016462", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7700628417665879310", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7700294281566653710", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7699847763877481741", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7699480665024122126", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7699104869365320974", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7698724964798647565", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7698477763359034637", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7698397483143138573", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7698186380651924750", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7698035948977671437", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7697651722671361293", oneLiner: "[title pending]", characters: ["amit"] },
-  { id: "7697278843509411086", oneLiner: "[title pending]", characters: ["amit"] },
+  { id: "7701335926936538382", oneLiner: "Life's Greatest Purpose", characters: ["amit"] },
+  { id: "7701073694336093454", oneLiner: "Economies of scale", characters: ["amit"] },
+  { id: "7700965420379016462", oneLiner: "Mandatory pairing", characters: ["amit"] },
+  { id: "7700628417665879310", oneLiner: "Highest profits of all", characters: ["amit"] },
+  { id: "7700294281566653710", oneLiner: "Safety Ejection", characters: ["amit"] },
+  { id: "7699847763877481741", oneLiner: "Excuse me", characters: ["amit"] },
+  { id: "7699480665024122126", oneLiner: "Quiet Time", characters: ["amit"] },
+  { id: "7699104869365320974", oneLiner: "Q5 Ninja", characters: ["amit"] },
+  { id: "7698724964798647565", oneLiner: "Q5 is Everything", characters: ["amit"] },
+  { id: "7698477763359034637", oneLiner: "Milk Profits & Thunder", characters: ["amit"] },
+  { id: "7698397483143138573", oneLiner: "When the butler is richer than you", characters: ["amit", "sterling"] },
+  { id: "7698186380651924750", oneLiner: "Predator Fail", characters: ["amit"] },
+  { id: "7698035948977671437", oneLiner: "Continental Losses", characters: ["amit"] },
+  { id: "7697651722671361293", oneLiner: "Q5 Profits Come First", characters: ["amit"] },
+  { id: "7697278843509411086", oneLiner: "No free milk", characters: ["amit"] },
   { id: "7696007086890634509", oneLiner: "GAMest Cover — Gerchverse Arcade Edition", characters: ["amit"], type: "photo", thumb: "amit-gamest-cover.jpg" }, // TikTok photo slideshow
   { id: "7697229504699190541", oneLiner: "Where there's a Gerch Milk, there's a way", characters: ["amit"] }, // Where there's a Gerch Milk, there's a way
   { id: "7697009145089690893", oneLiner: "Insolent final boss", characters: ["amit"] }, // Insolent final boss
