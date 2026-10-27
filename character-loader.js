@@ -126,11 +126,9 @@ function renderTiktokVideos(videos, charKey) {
   }
 }
 
-// TikTok card — placeholder img gets populated by fetchTiktokThumbnails()
-// For photo posts (type: "photo"), uses local thumb if available, skips oEmbed fetch.
+// TikTok card — photo posts use local thumb; video posts fetch via oEmbed
 function renderTiktokCard(video) {
   const isPhoto = video.type === "photo";
-  const account = video.characters && video.characters.includes("amitjr") ? "thegerchverse" : "thegerchverse";
   const url = isPhoto
     ? `https://www.tiktok.com/@thegerchverse/photo/${video.id}`
     : `https://www.tiktok.com/@thegerchverse/video/${video.id}`;
@@ -141,13 +139,10 @@ function renderTiktokCard(video) {
 
   let mediaHtml;
   if (video.thumb) {
-    // Local thumbnail available — use it directly
     mediaHtml = `<div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`;
   } else if (isPhoto) {
-    // Photo post, no thumb — show static icon
     mediaHtml = `<div class="card-media card-placeholder-tiktok"><span>📸</span></div>`;
   } else {
-    // Video — placeholder that gets filled by fetchTiktokThumbnails()
     mediaHtml = `<div class="card-media card-placeholder-tiktok" data-video-id="${video.id}"><span class="thumb-loading">⏳</span></div>`;
   }
 
