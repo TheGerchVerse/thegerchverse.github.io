@@ -1950,6 +1950,22 @@ const CHARACTERS = {
     role: "Son of Amit Gaur, Accidental EGOT pop star",
     avatar: "../images/amitjrq6.jpg",
     color: "#808080"
+  },
+
+  gerchan: {
+    name: "Gerchan",
+    handle: "@gerchan",
+    role: "Missing. Last seen December 2021.",
+    avatar: "../images/default-avatar.jpg",
+    color: "#00ffff"
+  },
+
+  captgerch: {
+    name: "Captain Gerchan",
+    handle: "@captgerch",
+    role: "Amit's Nephew, Hero of the Milk Seas",
+    avatar: "../images/default-avatar.jpg",
+    color: "#ff0040"
   }
 
 };
@@ -1974,6 +1990,7 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
+  { id: "7701476789897530637", oneLiner: "The Full Roster", characters: ["amit", "gadha", "bigtex", "amitjr", "amitsmother", "darkamit", "lightamit", "evilamit", "gerchlander", "mediocrates", "hannah", "leon", "sterling", "eelon", "michaelmoo", "cole", "lizzie", "raj", "colin", "bukloud", "rudefool", "gerchan", "captgerch"], type: "photo" }, // Full cast photo gallery
   { id: "7701335926936538382", oneLiner: "Life's Greatest Purpose", characters: ["amit"] },
   { id: "7701073694336093454", oneLiner: "Economies of scale", characters: ["amit"] },
   { id: "7700965420379016462", oneLiner: "Mandatory pairing", characters: ["amit"] },
