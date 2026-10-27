@@ -139,16 +139,26 @@ function renderTiktokCard(video) {
 
   let mediaHtml;
   if (video.thumb) {
+    // Local thumbnail (photo posts with a saved image)
     mediaHtml = `<div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`;
   } else if (isPhoto) {
+    // Photo post with no local thumb
     mediaHtml = `<div class="card-media card-placeholder-tiktok"><span>📸</span></div>`;
   } else {
-    mediaHtml = `<div class="card-media card-placeholder-tiktok" data-video-id="${video.id}"><span class="thumb-loading">⏳</span></div>`;
+    // Video — use TikTok's embed player (thumbnail_url no longer reliable from oEmbed)
+    mediaHtml = `<div class="card-media" style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;">
+      <iframe
+        src="https://www.tiktok.com/player/v1/${video.id}?embed_from=oembed&music_info=0&description=0&autoplay=0&muted=1"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture"
+        allowfullscreen loading="lazy">
+      </iframe>
+    </div>`;
   }
 
   return `
     <div class="video-cell">
-      <a href="${url}" target="_blank" rel="noopener" class="video-card">
+      <a href="${url}" target="_blank" rel="noopener" class="video-card-link" style="text-decoration:none;display:block;position:relative;">
         ${mediaHtml}
         ${badge}
         <div class="card-caption-overlay">
