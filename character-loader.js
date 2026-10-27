@@ -142,13 +142,18 @@ function renderTiktokCard(video) {
     // Local thumbnail (photo posts with a saved image)
     mediaHtml = `<div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`;
   } else if (isPhoto) {
-    // Photo post with no local thumb
-    mediaHtml = `<div class="card-media card-placeholder-tiktok"><span>📸</span></div>`;
+    // Photo post with no local thumb — styled placeholder matching iframe height
+    mediaHtml = `<div class="card-media" style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;background:linear-gradient(135deg,rgba(255,105,180,0.2),rgba(0,0,0,0.8));display:flex;">
+      <div style="position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.5rem;">
+        <span style="font-size:2.5rem;">📸</span>
+        <span style="color:#ff69b4;font-family:'Courier New',monospace;font-size:0.75rem;text-align:center;padding:0 0.5rem;">Photo Gallery<br>Click to view</span>
+      </div>
+    </div>`;
   } else {
-    // Video — use TikTok's embed player (thumbnail_url no longer reliable from oEmbed)
+    // Video — use TikTok's embed player with UI chrome hidden
     mediaHtml = `<div class="card-media" style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;">
       <iframe
-        src="https://www.tiktok.com/player/v1/${video.id}?embed_from=oembed&music_info=0&description=0&autoplay=0&muted=1"
+        src="https://www.tiktok.com/player/v1/${video.id}?embed_from=oembed&music_info=0&description=0&autoplay=0&muted=1&rel=0&native_context_menu=0&closed_caption=0"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture"
         allowfullscreen loading="lazy">
