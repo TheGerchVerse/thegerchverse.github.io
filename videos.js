@@ -1990,7 +1990,11 @@ const CHARACTERS = {
 */
 
 VIDEO_DB.tiktok = [
-  { id: "7701476789897530637", oneLiner: "The Full Roster", characters: ["amit", "gadha", "bigtex", "amitjr", "amitsmother", "darkamit", "lightamit", "evilamit", "gerchlander", "mediocrates", "hannah", "leon", "sterling", "eelon", "michaelmoo", "cole", "lizzie", "raj", "colin", "bukloud", "rudefool", "gerchan", "captgerch"], type: "photo" }, // Full cast photo gallery
+  { id: "7702841424030518542", oneLiner: "[title pending]", characters: ["amit"], thumb: "tt-7702841424030518542.jpg" },
+  { id: "7702446538634611981", oneLiner: "[title pending]", characters: ["amit"], thumb: "tt-7702446538634611981.jpg" },
+  { id: "7702079611215023374", oneLiner: "[title pending]", characters: ["amit"], thumb: "tt-7702079611215023374.jpg" },
+  { id: "7701704814870269197", oneLiner: "[title pending]", characters: ["amit"], thumb: "tt-7701704814870269197.jpg" },
+  { id: "7701476789897530637", oneLiner: "Gerch Genesis: The Dawn of Insolence", characters: ["amit", "gadha", "bigtex", "amitjr", "amitsmother", "darkamit", "lightamit", "evilamit", "gerchlander", "mediocrates", "hannah", "leon", "sterling", "eelon", "michaelmoo", "cole", "lizzie", "raj", "colin", "bukloud", "rudefool", "gerchan", "captgerch"], type: "photo", thumb: "amit-gerchgenesis.png" }, // Gerch Genesis: The Dawn of Insolence
   { id: "7701335926936538382", oneLiner: "Life's Greatest Purpose", characters: ["amit"], thumb: "tt-7701335926936538382.jpg" },
   { id: "7701073694336093454", oneLiner: "Economies of scale", characters: ["amit"], thumb: "tt-7701073694336093454.jpg" },
   { id: "7700965420379016462", oneLiner: "Mandatory pairing", characters: ["amit"], thumb: "tt-7700965420379016462.jpg" },
