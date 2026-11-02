@@ -139,8 +139,10 @@ function renderTiktokCard(video) {
 
   let mediaHtml;
   if (video.thumb) {
-    // Local thumbnail (photo posts with a saved image)
-    mediaHtml = `<div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>`;
+    // Local thumbnail — wrap in aspect-ratio container matching other cards
+    mediaHtml = `<div style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;">
+      <div class="card-media"><img src="../thumbnails/${video.thumb}" alt="${video.oneLiner}" loading="lazy"></div>
+    </div>`;
   } else if (isPhoto) {
     // Photo post with no local thumb — styled placeholder matching iframe height
     mediaHtml = `<div class="card-media" style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;background:linear-gradient(135deg,rgba(255,105,180,0.2),rgba(0,0,0,0.8));display:flex;">
