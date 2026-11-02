@@ -2375,7 +2375,7 @@ VIDEO_DB.tiktok = [
   { id: "7648325849321590029", oneLiner: "The Milk Generals", characters: ["amit"], thumb: "tt-7648325849321590029.jpg" }, // The Milk Generals
   { id: "7648076820880919822", oneLiner: "Time to Begin", characters: ["amit"], thumb: "tt-7648076820880919822.jpg" }, // Time to Begin
   { id: "7647960948698893599", oneLiner: "The GERCHVERSE: Banner 1 'Milk Money'", characters: ["amit"], thumb: "tt-7647960948698893599.jpg" }, // The GERCHVERSE: Banner 1 “Milk Money”
-  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 3 'The GerchVerse PunkPop"", characters: ["amit"], thumb: "tt-7647960684105436446.jpg" }, // The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"
+  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 3 'The GerchVerse PunkPop'", characters: ["amit"], thumb: "tt-7647960684105436446.jpg" }, // The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"
   { id: "7647958879250304287", oneLiner: "The GERCHVERSE: Banner 2 'The GerchVerse - Trap Mix'", characters: ["amit"], thumb: "tt-7647958879250304287.jpg" }, // The GERCHVERSE: Banner 2 “The GerchVerse - Trap Mix”
   { id: "7647676503282519310", oneLiner: "Milk Blade - The 2% Sword of Destiny", characters: ["amit"], thumb: "tt-7647676503282519310.jpg" }, // Milk Blade - The 2% Sword of Destiny
   { id: "7647645754462342413", oneLiner: "Production boost", characters: ["amit"], thumb: "tt-7647645754462342413.jpg" }, // Production boost
