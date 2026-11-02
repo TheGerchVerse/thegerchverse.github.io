@@ -150,15 +150,8 @@ function renderTiktokCard(video) {
       </div>
     </div>`;
   } else {
-    // Video — use TikTok's embed player with UI chrome hidden
-    mediaHtml = `<div class="card-media" style="position:relative;padding-bottom:177.8%;height:0;overflow:hidden;">
-      <iframe
-        src="https://www.tiktok.com/player/v1/${video.id}?embed_from=oembed&music_info=0&description=0&autoplay=0&muted=1&rel=0&native_context_menu=0&closed_caption=0"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture"
-        allowfullscreen loading="lazy">
-      </iframe>
-    </div>`;
+    // Video — use local thumbnail downloaded via yt-dlp
+    mediaHtml = `<div class="card-media card-placeholder-tiktok" data-video-id="${video.id}"><span class="thumb-loading">⏳</span></div>`;
   }
 
   return `
@@ -175,24 +168,20 @@ function renderTiktokCard(video) {
   `;
 }
 
-// After cards are rendered, fetch thumbnails for all visible cards
+// After cards render, swap in local thumbnails
 function fetchTiktokThumbnails() {
   const cards = document.querySelectorAll('.card-placeholder-tiktok[data-video-id]');
   cards.forEach(card => {
     const id = card.dataset.videoId;
-    const apiUrl = `https://www.tiktok.com/oembed?url=https://www.tiktok.com/@thegerchverse/video/${id}`;
-    fetch(apiUrl)
-      .then(r => r.json())
-      .then(data => {
-        if (data.thumbnail_url) {
-          card.innerHTML = `<img src="${data.thumbnail_url}" alt="TikTok preview" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">`;
-        } else {
-          card.innerHTML = `<span>📱</span>`;
-        }
-      })
-      .catch(() => {
-        card.innerHTML = `<span>📱</span>`;
-      });
+    const img = new Image();
+    img.onload = () => {
+      card.innerHTML = '';
+      card.appendChild(img);
+    };
+    img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    img.loading = 'lazy';
+    img.alt = 'TikTok preview';
+    img.src = `../thumbnails/tt-${id}.jpg`;
   });
 }
 
