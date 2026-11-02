@@ -2118,7 +2118,7 @@ VIDEO_DB.tiktok = [
 
   { id: "7683763630000704782", oneLiner: "Stay down, Insolent Baba Yaga🐮", characters: ["amit"], thumb: "tt-7683763630000704782.jpg" }, // Stay down, Insolent Baba Yaga🐮
   { id: "7683917590208482574", oneLiner: "Always dream bigger", characters: ["amit"], thumb: "tt-7683917590208482574.jpg" }, // Always dream bigger
-  { id: "7683975039988813069", oneLiner: "Beauty Has a New Attitude: “INSOLENCE” by Gerch Milk", characters: ["amit"], thumb: "tt-7683975039988813069.jpg" }, // Beauty Has a New Attitude: “INSOLENCE” by Gerch Milk
+  { id: "7683975039988813069", oneLiner: "Beauty Has a New Attitude: 'INSOLENCE' by Gerch Milk", characters: ["amit"], thumb: "tt-7683975039988813069.jpg" }, // Beauty Has a New Attitude: “INSOLENCE” by Gerch Milk
 
   { id: "7683191768375987470", oneLiner: "Maximize Gains", characters: ["amit"], thumb: "tt-7683191768375987470.jpg" }, // Maximize Gains
   { id: "7683521868225105166", oneLiner: "Insolent Cow🐮", characters: ["amit"], thumb: "tt-7683521868225105166.jpg" }, // Insolent Cow🐮
@@ -2143,10 +2143,10 @@ VIDEO_DB.tiktok = [
   { id: "7681906352079244557", oneLiner: "Gerchlander vs Homelander (again)", characters: ["amit", "gerchlander"], thumb: "tt-7681906352079244557.jpg" }, // Gerchlander vs Homelander (again)
   { id: "7681798509909036301", oneLiner: "All Kneel to the Milk Czar", characters: ["amit"], thumb: "tt-7681798509909036301.jpg" }, // All Kneel to the Milk Czar
   { id: "7681750917086973197", oneLiner: "Message from the CEO of Gerchan Farms", characters: ["amit"], thumb: "tt-7681750917086973197.jpg" }, // Message from the CEO of Gerchan Farms
-  { id: "7681731852796726541", oneLiner: "Pilot: “The INSOLENTS” - Frugality", characters: ["amit"], thumb: "tt-7681731852796726541.jpg" }, // Pilot: “The INSOLENTS” - Frugality
+  { id: "7681731852796726541", oneLiner: "Pilot: 'The INSOLENTS' - Frugality", characters: ["amit"], thumb: "tt-7681731852796726541.jpg" }, // Pilot: “The INSOLENTS” - Frugality
   { id: "7681696147068505357", oneLiner: "Eternal sibling rivalry", characters: ["amit"], thumb: "tt-7681696147068505357.jpg" }, // Eternal sibling rivalry
   { id: "7681518756064922894", oneLiner: "Run, run, as fast as you can…", characters: ["amit"], thumb: "tt-7681518756064922894.jpg" }, // Run, run, as fast as you can…
-  { id: "7681461474363051278", oneLiner: "Handling customer “feedback”", characters: ["amit"], thumb: "tt-7681461474363051278.jpg" }, // Handling customer “feedback”
+  { id: "7681461474363051278", oneLiner: "Handling customer 'feedback'", characters: ["amit"], thumb: "tt-7681461474363051278.jpg" }, // Handling customer “feedback”
   { id: "7681314903751134478", oneLiner: "Eliminating the competition", characters: ["amit"], thumb: "tt-7681314903751134478.jpg" }, // Eliminating the competition
   { id: "7681151183351745806", oneLiner: "Doom 2: Gerch Milk DLC", characters: ["amit"], thumb: "tt-7681151183351745806.jpg" }, // Doom 2: Gerch Milk DLC
   { id: "7681011762363108622", oneLiner: "Cash Only @ Gerch Nail Salon", characters: ["amit"], thumb: "tt-7681011762363108622.jpg" }, // Cash Only @ Gerch Nail Salon
@@ -2213,7 +2213,7 @@ VIDEO_DB.tiktok = [
   { id: "7673561836314250510", oneLiner: "The Gadha Hunt Continues", characters: ["amit", "gadha"], thumb: "tt-7673561836314250510.jpg" }, // The Gadha Hunt Continues
   { id: "7673517775096122637", oneLiner: "No exceptions", characters: ["amit"], thumb: "tt-7673517775096122637.jpg" }, // No exceptions
   { id: "7673256502324497678", oneLiner: "They’re baaaaaaack😱", characters: ["amit"], thumb: "tt-7673256502324497678.jpg" }, // They’re baaaaaaack😱
-  { id: "7673173231896890637", oneLiner: "“Gadha” get away", characters: ["amit", "gadha"], thumb: "tt-7673173231896890637.jpg" }, // “Gadha” get away
+  { id: "7673173231896890637", oneLiner: "'Gadha' get away", characters: ["amit", "gadha"], thumb: "tt-7673173231896890637.jpg" }, // “Gadha” get away
   { id: "7673132511521737997", oneLiner: "Swedish meatballs never tasted so good", characters: ["amit"], thumb: "tt-7673132511521737997.jpg" }, // Swedish meatballs never tasted so good
   { id: "7672881465159339278", oneLiner: "Profits denied", characters: ["amit"], thumb: "tt-7672881465159339278.jpg" }, // Profits denied
   { id: "7672779758991707405", oneLiner: "Cow clones for sale🐮 Just don’t tell @Big Tex Wang", characters: ["amit", "bigtex"], thumb: "tt-7672779758991707405.jpg" }, // Cow clones for sale🐮 Just don’t tell @Big Tex Wang
@@ -2332,7 +2332,7 @@ VIDEO_DB.tiktok = [
   { id: "7655519988387695886", oneLiner: "The sky is NOT the limit", characters: ["amit"], thumb: "tt-7655519988387695886.jpg" }, // The sky is NOT the limit
   { id: "7655141862252055822", oneLiner: "No rest for the Ken clones", characters: ["amit", "amitsmother"], thumb: "tt-7655141862252055822.jpg" }, // No rest for the Ken clones
   { id: "7654987196448984333", oneLiner: "Insolent cow mother!", characters: ["amit", "amitjr"], thumb: "tt-7654987196448984333.jpg" }, // Insolent cow mother!
-  { id: "7654734098077994253", oneLiner: "MV: “THE GERCHVERSE” Song: “Q6 - The 6th Horizon”", characters: ["amit", "gadha"], thumb: "tt-7654734098077994253.jpg" }, // MV: “THE GERCHVERSE” Song: “Q6 - The 6th Horizon”
+  { id: "7654734098077994253", oneLiner: "MV: 'THE GERCHVERSE' Song: 'Q6 - The 6th Horizon'", characters: ["amit", "gadha"], thumb: "tt-7654734098077994253.jpg" }, // MV: “THE GERCHVERSE” Song: “Q6 - The 6th Horizon”
   { id: "7653974598031101197", oneLiner: "The Battle at Gadha Bridge", characters: ["amit"], thumb: "tt-7653974598031101197.jpg" }, // The Battle at Gadha Bridge
   { id: "7653845713599745293", oneLiner: "Laundry Day: The Saga continues @Hexa Reyes  @loganf-u  @Beatriz the Witch  @Maliceindahouse  @Tabby  @kenzie.tx", characters: ["amit"], thumb: "tt-7653845713599745293.jpg" }, // Laundry Day: The Saga continues @Hexa Reyes  @loganf-u  @Beatriz the Witch  @Maliceindahouse  @Tabby  @kenzie.tx
   { id: "7653699777103727885", oneLiner: "MMA Match", characters: ["amit", "gerchlander"], thumb: "tt-7653699777103727885.jpg" }, // MMA Match
@@ -2374,9 +2374,9 @@ VIDEO_DB.tiktok = [
   { id: "7648433572314991886", oneLiner: "Profits Above All", characters: ["amit"], thumb: "tt-7648433572314991886.jpg" }, // Profits Above All
   { id: "7648325849321590029", oneLiner: "The Milk Generals", characters: ["amit"], thumb: "tt-7648325849321590029.jpg" }, // The Milk Generals
   { id: "7648076820880919822", oneLiner: "Time to Begin", characters: ["amit"], thumb: "tt-7648076820880919822.jpg" }, // Time to Begin
-  { id: "7647960948698893599", oneLiner: "The GERCHVERSE: Banner 1 “Milk Money”", characters: ["amit"], thumb: "tt-7647960948698893599.jpg" }, // The GERCHVERSE: Banner 1 “Milk Money”
-  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"", characters: ["amit"], thumb: "tt-7647960684105436446.jpg" }, // The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"
-  { id: "7647958879250304287", oneLiner: "The GERCHVERSE: Banner 2 “The GerchVerse - Trap Mix”", characters: ["amit"], thumb: "tt-7647958879250304287.jpg" }, // The GERCHVERSE: Banner 2 “The GerchVerse - Trap Mix”
+  { id: "7647960948698893599", oneLiner: "The GERCHVERSE: Banner 1 'Milk Money'", characters: ["amit"], thumb: "tt-7647960948698893599.jpg" }, // The GERCHVERSE: Banner 1 “Milk Money”
+  { id: "7647960684105436446", oneLiner: "The GERCHVERSE: Banner 3 'The GerchVerse PunkPop"", characters: ["amit"], thumb: "tt-7647960684105436446.jpg" }, // The GERCHVERSE: Banner 3 “The GerchVerse PunkPop"
+  { id: "7647958879250304287", oneLiner: "The GERCHVERSE: Banner 2 'The GerchVerse - Trap Mix'", characters: ["amit"], thumb: "tt-7647958879250304287.jpg" }, // The GERCHVERSE: Banner 2 “The GerchVerse - Trap Mix”
   { id: "7647676503282519310", oneLiner: "Milk Blade - The 2% Sword of Destiny", characters: ["amit"], thumb: "tt-7647676503282519310.jpg" }, // Milk Blade - The 2% Sword of Destiny
   { id: "7647645754462342413", oneLiner: "Production boost", characters: ["amit"], thumb: "tt-7647645754462342413.jpg" }, // Production boost
   { id: "7647577651774770445", oneLiner: "The Audit. Pt 2", characters: ["amit"], thumb: "tt-7647577651774770445.jpg" }, // The Audit. Pt 2
@@ -2401,19 +2401,19 @@ VIDEO_DB.tiktok = [
   { id: "7645803475711970573", oneLiner: "Everyone Receives Ownership", characters: ["amit"], thumb: "tt-7645803475711970573.jpg" }, // Everyone Receives Ownership
   { id: "7645788326091394318", oneLiner: "The Employee Suggestion Box", characters: ["amit"], thumb: "tt-7645788326091394318.jpg" }, // The Employee Suggestion Box
   { id: "7645722132873366798", oneLiner: "Let the games begin! ⚽️", characters: ["amit"], thumb: "tt-7645722132873366798.jpg" }, // Let the games begin! ⚽️
-  { id: "7645521114956926221", oneLiner: "Cute JP Ver: “You insolent cow, I drink your milk! @可愛いバージョン - 『この無礼な牛め、あなたのミルク飲んでやるぅ！』Ref image from @Soencer", characters: ["amit"], thumb: "tt-7645521114956926221.jpg" }, // Cute JP Ver: “You insolent cow, I drink your milk! @可愛いバージョン - 『この無礼な牛め、あなたのミルク飲んでやるぅ！』Ref image from @Soencer
+  { id: "7645521114956926221", oneLiner: "Cute JP Ver: 'You insolent cow, I drink your milk! @可愛いバージョン - 『この無礼な牛め、あなたのミルク飲んでやるぅ！』Ref image from @Soencer", characters: ["amit"], thumb: "tt-7645521114956926221.jpg" }, // Cute JP Ver: “You insolent cow, I drink your milk! @可愛いバージョン - 『この無礼な牛め、あなたのミルク飲んでやるぅ！』Ref image from @Soencer
   { id: "7645427325068152078", oneLiner: "Bye-bye, Tentacle - The power of Gerch Milk - @Hexa Reyes @Draven Blackbird", characters: ["amit"], thumb: "tt-7645427325068152078.jpg" }, // Bye-bye, Tentacle - The power of Gerch Milk - @Hexa Reyes @Draven Blackbird
   { id: "7645393228958665998", oneLiner: "The Gerchverse Shall Return in full force", characters: ["amit"], thumb: "tt-7645393228958665998.jpg" }, // The Gerchverse Shall Return in full force
   { id: "7645359246023937294", oneLiner: "Neverending Gerch Milk Story", characters: ["amit"], thumb: "tt-7645359246023937294.jpg" }, // Neverending Gerch Milk Story
   { id: "7645358856133938445", oneLiner: "Marketing is tough work", characters: ["amit"], thumb: "tt-7645358856133938445.jpg" }, // Marketing is tough work
-  { id: "7645329059005598989", oneLiner: "Solar Eclipse - “BEGONE, INSOLENT SUN!”", characters: ["amit"], thumb: "tt-7645329059005598989.jpg" }, // Solar Eclipse - “BEGONE, INSOLENT SUN!”
+  { id: "7645329059005598989", oneLiner: "Solar Eclipse - 'BEGONE, INSOLENT SUN!'", characters: ["amit"], thumb: "tt-7645329059005598989.jpg" }, // Solar Eclipse - “BEGONE, INSOLENT SUN!”
   { id: "7645324461805210893", oneLiner: "Welcome to ‘Udderly Insolent’ Try our signature Gerch Mayo Wieners today! @Hexa Reyes @Hinata.Mi", characters: ["amit"], thumb: "tt-7645324461805210893.jpg" }, // Welcome to ‘Udderly Insolent’ Try our signature Gerch Mayo Wieners today! @Hexa Reyes @Hinata.Mi
   { id: "7645163178925493517", oneLiner: "She’s back! @Maliceindahouse @RomeyRome Malice with an ‘M’", characters: ["amit", "bigtex"], thumb: "tt-7645163178925493517.jpg" }, // She’s back! @Maliceindahouse @RomeyRome Malice with an ‘M’
   { id: "7644966131664555277", oneLiner: "The Never-Ending Rivalry: @Big Tex Wang vs Amit Gaur - Showdown through time and space", characters: ["amit"], thumb: "tt-7644966131664555277.jpg" }, // The Never-Ending Rivalry: @Big Tex Wang vs Amit Gaur - Showdown through time and space
   { id: "7644950694008474894", oneLiner: "Behold, the power of the Gerch Milk", characters: ["amit"], thumb: "tt-7644950694008474894.jpg" }, // Behold, the power of the Gerch Milk
   { id: "7644941874616175885", oneLiner: "Q5 Ritual", characters: ["amit"], thumb: "tt-7644941874616175885.jpg" }, // Q5 Ritual
   { id: "7644812670436232461", oneLiner: "The Department of Synergy", characters: ["amit"], thumb: "tt-7644812670436232461.jpg" }, // The Department of Synergy
-  { id: "7644716812994727182", oneLiner: "“YOU INSOLENT COW, I DRINK YOUR MILK” - Japanese Version", characters: ["amit"], thumb: "tt-7644716812994727182.jpg" }, // “YOU INSOLENT COW, I DRINK YOUR MILK” - Japanese Version
+  { id: "7644716812994727182", oneLiner: "'YOU INSOLENT COW, I DRINK YOUR MILK' - Japanese Version", characters: ["amit"], thumb: "tt-7644716812994727182.jpg" }, // “YOU INSOLENT COW, I DRINK YOUR MILK” - Japanese Version
   { id: "7644696350726114573", oneLiner: "ミルキーはガーチの味", characters: ["amit"], thumb: "tt-7644696350726114573.jpg" }, // ミルキーはガーチの味
   { id: "7644624142745996557", oneLiner: "Gerch Milk Revolution", characters: ["amit"], thumb: "tt-7644624142745996557.jpg" }, // Gerch Milk Revolution
   { id: "7644357772045192461", oneLiner: "Executive Insolence Buster. Close enough", characters: ["amit"], thumb: "tt-7644357772045192461.jpg" }, // Executive Insolence Buster. Close enough
@@ -2492,7 +2492,7 @@ VIDEO_DB.tiktok = [
   { id: "7638403905096781069", oneLiner: "Laundry day. @Hexa Reyes they’re waiting for you and stepbrother. 😜😜😜 @Sora’s Playhouse @Romeindahouse @Tabby", characters: ["amit"], thumb: "tt-7638403905096781069.jpg" }, // Laundry day. @Hexa Reyes they’re waiting for you and stepbrother. 😜😜😜 @Sora’s Playhouse @Romeindahouse @Tabby
   { id: "7638376263769492750", oneLiner: "Fun at the Far", characters: ["amit"], thumb: "tt-7638376263769492750.jpg" }, // Fun at the Far
   { id: "7638322492955725069", oneLiner: "Terror in the big city. @Tabby @Romeindahouse @Sora’s Playhouse", characters: ["amit", "amitsmother"], thumb: "tt-7638322492955725069.jpg" }, // Terror in the big city. @Tabby @Romeindahouse @Sora’s Playhouse
-  { id: "7638200546435829006", oneLiner: "“I DRINK YOUR MILK - PROFIT RULES ALL”", characters: ["amit"], thumb: "tt-7638200546435829006.jpg" }, // “I DRINK YOUR MILK - PROFIT RULES ALL”
+  { id: "7638200546435829006", oneLiner: "'I DRINK YOUR MILK - PROFIT RULES ALL'", characters: ["amit"], thumb: "tt-7638200546435829006.jpg" }, // “I DRINK YOUR MILK - PROFIT RULES ALL”
   { id: "7638140768875465998", oneLiner: "Unhappy Mother’s Day", characters: ["amit"], thumb: "tt-7638140768875465998.jpg" }, // Unhappy Mother’s Day
   { id: "7638092843684269325", oneLiner: "Gerch Milk or No Milk. @Gerch", characters: ["amit"], thumb: "tt-7638092843684269325.jpg" }, // Gerch Milk or No Milk. @Gerch
   { id: "7638073266728340749", oneLiner: "Witness the power. @Gerch", characters: ["amit"], thumb: "tt-7638073266728340749.jpg" }, // Witness the power. @Gerch
@@ -2539,7 +2539,7 @@ VIDEO_DB.tiktok = [
   { id: "7633914957184126222", oneLiner: "Q6 is printing again", characters: ["amit"], thumb: "tt-7633914957184126222.jpg" }, // Q6 is printing again
   { id: "7633574563019836685", oneLiner: "Oh mother, wherefore art thou so cruel?", characters: ["amit"], thumb: "tt-7633574563019836685.jpg" }, // Oh mother, wherefore art thou so cruel?
   { id: "7633470331881049358", oneLiner: "Still here", characters: ["amit"], thumb: "tt-7633470331881049358.jpg" }, // Still here
-  { id: "7633320731236961549", oneLiner: "Cloud gaming service? I guess that’s how TikTok pronounces “Sora” 😂🤷", characters: ["amit"], thumb: "tt-7633320731236961549.jpg" }, // Cloud gaming service? I guess that’s how TikTok pronounces “Sora” 😂🤷
+  { id: "7633320731236961549", oneLiner: "Cloud gaming service? I guess that’s how TikTok pronounces 'Sora' 😂🤷", characters: ["amit"], thumb: "tt-7633320731236961549.jpg" }, // Cloud gaming service? I guess that’s how TikTok pronounces “Sora” 😂🤷
   { id: "7633204093925821709", oneLiner: "Ok now I feel bad fo Ken", characters: ["amit"], thumb: "tt-7633204093925821709.jpg" }, // Ok now I feel bad fo Ken
   { id: "7633174606819413262", oneLiner: "Better! 😜", characters: ["amit"], thumb: "tt-7633174606819413262.jpg" }, // Better! 😜
   { id: "7632912299283582221", oneLiner: "Farewell, Sora. The Champion shall return", characters: ["amit"], thumb: "tt-7632912299283582221.jpg" }, // Farewell, Sora. The Champion shall return
@@ -2557,20 +2557,20 @@ VIDEO_DB.tiktok = [
   { id: "7624740935301090574", oneLiner: "Get rekt, Gadha", characters: ["amit", "amitjr"], thumb: "tt-7624740935301090574.jpg" }, // Get rekt, Gadha
   { id: "7624687255717825805", oneLiner: "Welcome…", characters: ["amit"], thumb: "tt-7624687255717825805.jpg" }, // Welcome…
   { id: "7624559454310108430", oneLiner: "The one and only divine bovine, Gadha. Remix of @crushd_pop", characters: ["amit", "bigtex"], thumb: "tt-7624559454310108430.jpg" }, // The one and only divine bovine, Gadha. Remix of @crushd_pop
-  { id: "7624056505234492685", oneLiner: "Amit Jr Q6. The pop star we didn’t deserve. Music: “Ashes in my Throat by @Fiona", characters: ["amit", "gadha"], thumb: "tt-7624056505234492685.jpg" }, // Amit Jr Q6. The pop star we didn’t deserve. Music: “Ashes in my Throat by @Fiona
+  { id: "7624056505234492685", oneLiner: "Amit Jr Q6. The pop star we didn’t deserve. Music: 'Ashes in my Throat by @Fiona", characters: ["amit", "gadha"], thumb: "tt-7624056505234492685.jpg" }, // Amit Jr Q6. The pop star we didn’t deserve. Music: “Ashes in my Throat by @Fiona
   { id: "7624041628981890318", oneLiner: "Lexi Hertz and Hannah Delvey", characters: ["amit", "hannah"], thumb: "tt-7624041628981890318.jpg" },
   { id: "7623449384587480334", oneLiner: "Kneel to the golden milk", characters: ["amit", "leon"], thumb: "tt-7623449384587480334.jpg" }, // Kneel to the golden milk
   { id: "7623448681441692941", oneLiner: "Rooster Reds", characters: ["amit", "leon"], thumb: "tt-7623448681441692941.jpg" }, // Rooster Reds
   { id: "7623438969061100814", oneLiner: "The Gadha Wars", characters: ["amit"], thumb: "tt-7623438969061100814.jpg" }, // The Gadha Wars
   { id: "7623200827775175950", oneLiner: "Lexi Hertz and Hannah Delvey @sfriends this is for you", characters: ["amit", "gadha"], thumb: "tt-7623200827775175950.jpg" }, // Lexi Hertz and Hannah Delvey @sfriends this is for you
-  { id: "7623061063713443086", oneLiner: "“Riddles at Midnight” Remix of @edmund.black0", characters: ["amit", "amitjr"], thumb: "tt-7623061063713443086.jpg" }, // “Riddles at Midnight” Remix of @edmund.black0
-  { id: "7623058071899622670", oneLiner: "“Riddle me this Love”  Remix of @edmundblack.0", characters: ["amitjr"], thumb: "tt-7623058071899622670.jpg" }, // “Riddle me this Love”  Remix of @edmundblack.0
+  { id: "7623061063713443086", oneLiner: "'Riddles at Midnight' Remix of @edmund.black0", characters: ["amit", "amitjr"], thumb: "tt-7623061063713443086.jpg" }, // “Riddles at Midnight” Remix of @edmund.black0
+  { id: "7623058071899622670", oneLiner: "'Riddle me this Love'  Remix of @edmundblack.0", characters: ["amitjr"], thumb: "tt-7623058071899622670.jpg" }, // “Riddle me this Love”  Remix of @edmundblack.0
   { id: "7622763942573591821", oneLiner: "Don’t ever count Amit out", characters: ["amitjr"], thumb: "tt-7622763942573591821.jpg" }, // Don’t ever count Amit out
   { id: "7622547471792753934", oneLiner: "Gadha’s Wrath", characters: ["amitjr"], thumb: "tt-7622547471792753934.jpg" }, // Gadha’s Wrath
   { id: "7622458422461549837", oneLiner: "Amit Jr. Q6 - Burger King: Confronting the Past", characters: ["amitjr"], thumb: "tt-7622458422461549837.jpg" }, // Amit Jr. Q6 - Burger King: Confronting the Past
-  { id: "7622385627065011470", oneLiner: "Amit Jr. Q6: “I tried to warn you (but it charted instead)”", characters: ["amitjr"], thumb: "tt-7622385627065011470.jpg" }, // Amit Jr. Q6: “I tried to warn you (but it charted instead)”
-  { id: "7622384486910627085", oneLiner: "Amit Jr. Q6. “Q6 Tour”", characters: ["amitjr"], thumb: "tt-7622384486910627085.jpg" }, // Amit Jr. Q6. “Q6 Tour”
-  { id: "7622384163680767245", oneLiner: "Amit Jr. Q6: “Insolent Farewell”", characters: ["amit"], thumb: "tt-7622384163680767245.jpg" }, // Amit Jr. Q6: “Insolent Farewell”
+  { id: "7622385627065011470", oneLiner: "Amit Jr. Q6: 'I tried to warn you (but it charted instead)'", characters: ["amitjr"], thumb: "tt-7622385627065011470.jpg" }, // Amit Jr. Q6: “I tried to warn you (but it charted instead)”
+  { id: "7622384486910627085", oneLiner: "Amit Jr. Q6. 'Q6 Tour'", characters: ["amitjr"], thumb: "tt-7622384486910627085.jpg" }, // Amit Jr. Q6. “Q6 Tour”
+  { id: "7622384163680767245", oneLiner: "Amit Jr. Q6: 'Insolent Farewell'", characters: ["amit"], thumb: "tt-7622384163680767245.jpg" }, // Amit Jr. Q6: “Insolent Farewell”
   { id: "7622383944905821453", oneLiner: "Amit Jr. Q6. Getting up and moving on", characters: ["amit", "amitjr", "amitsmother"], thumb: "tt-7622383944905821453.jpg" }, // Amit Jr. Q6. Getting up and moving on
   { id: "7622383611035077901", oneLiner: "Amit Jr. Q6: This is his story", characters: ["amitjr"], thumb: "tt-7622383611035077901.jpg" }, // Amit Jr. Q6: This is his story
   { id: "7622383462397267214", oneLiner: "Amit Jr. Q6: A story of loneliness and redemption", characters: ["amit", "gadha"], thumb: "tt-7622383462397267214.jpg" }, // Amit Jr. Q6: A story of loneliness and redemption
